@@ -1,0 +1,18 @@
+{
+  "code": "",
+  "name": "Válvula Alavanca",
+  "slug": "valvula-alavanca",
+  "category": "valvulas",
+  "subcategory": "valvulas-linha-cvf",
+  "images": [
+    "/images/products/valvula-alavanca-1.webp",
+    "/images/products/valvula-alavanca-2.webp",
+    "/images/products/valvula-alavanca-3.webp",
+    "/images/products/valvula-alavanca-4.webp",
+    "/images/products/valvula-alavanca-5.webp"
+  ],
+  "shortDescription": "Nossas Válvulas Alavanca da Linha CVF tem a função de controlar o direcionamento com uma vazão otimizada do ar comprimido para movimentar ou acionar um cilindro, um atuador ou outros equipamentos automatizados.",
+  "specsHtml": "<p><strong>Conexão:</strong> 1/4”</p><p><strong>Vias/Posições:</strong> 5/2 e 5/3</p><p><strong>Pressão de Trabalho:</strong> 8 bar</p><p><strong>Temperatura de Trabalho:</strong> 60°C</p><p><strong>Atuadores Disponíveis:</strong> Alavanca Mola, Alavanca Trava</p><p><strong>Fluído:</strong> Ar comprimido filtrado</p><p><strong>Posição Central (5/3):</strong>&nbsp;Centro Fechado, Centro Aberto Negativo</p><p><strong>Corpo:</strong> Alumínio</p><p><strong>Vedações:</strong> Buna-N</p><p><strong>Atuador:</strong>&nbsp;Por ar tipo SPOOL</p>",
+  "downloads": [],
+  "videos": []
+}

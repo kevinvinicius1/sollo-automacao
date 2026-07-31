@@ -1,0 +1,29 @@
+{
+  "code": "FCMI",
+  "name": "Cilindro MINI ISO 6432",
+  "slug": "fcmi-cilindro-mini-iso",
+  "category": "cilindros-pneumaticos",
+  "subcategory": "cilindros",
+  "images": [
+    "/images/products/fcmi-cilindro-mini-iso-1.webp",
+    "/images/products/fcmi-cilindro-mini-iso-2.webp",
+    "/images/products/fcmi-cilindro-mini-iso-3.webp",
+    "/images/products/fcmi-cilindro-mini-iso-4.webp",
+    "/images/products/fcmi-cilindro-mini-iso-5.webp",
+    "/images/products/fcmi-cilindro-mini-iso-6.webp",
+    "/images/products/fcmi-cilindro-mini-iso-7.webp",
+    "/images/products/fcmi-cilindro-mini-iso-8.webp",
+    "/images/products/fcmi-cilindro-mini-iso-9.webp",
+    "/images/products/fcmi-cilindro-mini-iso-10.webp",
+    "/images/products/fcmi-cilindro-mini-iso-11.webp",
+    "/images/products/fcmi-cilindro-mini-iso-12.webp"
+  ],
+  "shortDescription": "A nossa linha de Cilindros Mini é produzida de acordo com a norma ISO 6432.",
+  "specsHtml": "<p><strong>Diâmetros:</strong> 10, 12, 16, 20, 25, 32, 40, 50 e 63</p><p><strong>Versões Disponíveis:</strong> Simples Ação, Dupla Ação, Haste Passante e Curso Regulável no Avanço</p><p><strong>Pressão de trabalho:</strong> até 10 bar</p><p><strong>Temperatura ambiente:&nbsp;</strong> -10 ~ 60° C – Buna-N&nbsp;&nbsp;&nbsp;&nbsp; -10&nbsp; ~ 120° C – Viton</p><p><strong>Fluido:</strong> ar comprimido filtrado</p><p><strong>Haste:</strong> aço SAE 1045 cromado ou aço inoxidável</p><p><strong>Cabeçote:</strong> alumínio</p><p><strong>Vedações:</strong> Buna-N (todos) Viton (do diâmetro 16 ao 25)</p><p><strong>Camisa:</strong> aço inoxidável</p><p><strong>Êmbolo:</strong> alumínio com anel magnético</p>",
+  "downloads": [],
+  "videos": [
+    "https://www.youtube.com/watch?v=Sjpcon7G_Wo",
+    "https://www.youtube.com/watch?v=qPCvXoBIoGo",
+    "https://www.youtube.com/watch?v=_Ui0VCz71xw"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "code": "",
+  "name": "Filtro de Ar Coalescente Pós 16 bar",
+  "slug": "filtro-de-ar-coalescente-pos-16-bar",
+  "category": "preparacao-do-ar",
+  "subcategory": "preparacao-do-ar-tratamento-do-ar-comprimido",
+  "images": [
+    "/images/products/filtro-de-ar-coalescente-pos-16-bar-1.webp",
+    "/images/products/filtro-de-ar-coalescente-pos-16-bar-2.webp"
+  ],
+  "shortDescription": "Eficiência Contra Óleo e UmidadeO Filtro Coalescente da Fluir é ideal para remover aerossóis de óleo, água e partículas do ar comprimido.",
+  "specsHtml": "<table>\n\t\t\t\t<thead><tr><th><strong>Modelo</strong></th><th>DA200-15-P</th><th>DA200-20-P</th><th>DA300-25-P</th><th>DA300-40-P</th><th>DA400-40-P</th><th>DA500-50-P</th></tr></thead>\n\t\t\t\t\t\t\t\t<tbody><tr><td><strong>Rosca (BSP)</strong></td><td>1/2″</td><td>3/4″</td><td>1” </td><td>1.1/2″</td><td>1.1/2”</td><td>2”</td></tr><tr><td><strong>Vazão</strong></td><td>81 PCM</td><td>81 PCM</td><td>127 PCM</td><td>127 PCM</td><td>233 PCM</td><td>434 PCM</td></tr><tr><td><strong>Pressão Máxima</strong></td><td>16 bar</td><td>16 bar</td><td>16 bar</td><td>16 bar</td><td>16 bar</td><td>16 bar</td></tr><tr><td><strong>Temperatura de Trabalho</strong></td><td>80°C</td><td>80°C</td><td>80°C</td><td>80°C</td><td>80°C</td><td>80°C</td></tr><tr><td><strong>Precisão do Filtro</strong></td><td>1 micra</td><td>1 micra</td><td>1 micra</td><td>1 micra</td><td>1 micra</td><td>1 micra</td></tr><tr><td><strong>Grade</strong></td><td>P</td><td>P</td><td>P</td><td>P</td><td>P</td><td>P</td></tr><tr><td><strong>Elemento Filtrante</strong></td><td>ELMDA200P-15</td><td>ELMDA200P-20</td><td>ELMDA300P-25</td><td>ELMDA300P-40</td><td>ELMDA400P-40</td><td>ELMDA500P-50</td></tr></tbody>\n\t\t\t</table>",
+  "downloads": [],
+  "videos": []
+}

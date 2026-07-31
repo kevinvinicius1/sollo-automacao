@@ -1,0 +1,14 @@
+{
+  "code": "",
+  "name": "Regulador de Pressão – 30 Bar",
+  "slug": "regulador-pressao-30-preparacao-especial",
+  "category": "preparacao-do-ar",
+  "subcategory": "preparacao-do-ar-especial",
+  "images": [
+    "/images/products/regulador-pressao-30-preparacao-especial-1.webp"
+  ],
+  "shortDescription": "Nosso Regulador de Alta Pressão é indicado para redes de até 30 bar, ele pode reduzir a pressão para menos de 10 bar, pressão máxima Indicada para as automações em geral.",
+  "specsHtml": "<table>\n\t\t\t\t<thead><tr><th><strong>Modelo</strong></th><th>QTYH15</th><th>QTYH25</th></tr></thead>\n\t\t\t\t\t\t\t\t<tbody><tr><td><strong>Rosca (BSP)</strong></td><td>1/2”</td><td>1”</td></tr><tr><td><strong>Pressão de Trabalho</strong></td><td>30bar</td><td>30bar</td></tr><tr><td><strong>Pressão Máxima</strong></td><td>36bar</td><td>36bar</td></tr><tr><td><strong>Temperatura de Trabalho</strong></td><td>5° ~ 60°</td><td>5° ~ 60°</td></tr></tbody>\n\t\t\t</table>",
+  "downloads": [],
+  "videos": []
+}

@@ -1,0 +1,16 @@
+{
+  "code": "",
+  "name": "Tubos Espirais e Mangueiras",
+  "slug": "tubos-espirais-e-mangueiras",
+  "category": "conexoes",
+  "subcategory": "tubos-espirais-e-mangueiras",
+  "images": [
+    "/images/products/tubos-espirais-e-mangueiras-1.webp",
+    "/images/products/tubos-espirais-e-mangueiras-2.webp",
+    "/images/products/tubos-espirais-e-mangueiras-3.webp"
+  ],
+  "shortDescription": "",
+  "specsHtml": "<table>\n\t\t\t\t<thead><tr><th><strong>Modelo</strong></th><th>APC2000</th><th>APC4000</th></tr></thead>\n\t\t\t\t\t\t\t\t<tbody><tr><td><strong>Tamanho da Rosca (BSP)</strong></td><td>1/4″</td><td>1/2″ </td></tr><tr><td><strong>Vazão (l/min)</strong></td><td>1000</td><td>2600</td></tr><tr><td><strong>Fluído</strong></td><td>Ar Comprimido </td><td>Ar Comprimido </td></tr><tr><td><strong>Pressão</strong></td><td>0 ~ 0,8 (MPa) </td><td>0 ~ 8 (Bar) </td></tr><tr><td><strong>Pressão Máxima </strong></td><td>1,6 (MPa)</td><td>16 (Bar)</td></tr><tr><td><strong>Pressão de Regulagem</strong></td><td>0,05 ~ 1.2 (MPa) </td><td>0,5 ~ 12 (Bar) </td></tr><tr><td><strong>Temperatura (ºC) </strong></td><td>0 ~ 60</td><td>0 ~ 60</td></tr><tr><td><strong>Precisão do Filtro</strong></td><td>5 ~ 40 micras </td><td>5 ~ 40 micras</td></tr><tr><td><strong>Rosca do Manômetro</strong></td><td>1/8” </td><td>1/4” </td></tr><tr><td><strong>Modelo do Manômetro</strong></td><td>MANOMETRO16MINI</td><td>MANOMETRO16MEDIO</td></tr><tr><td><strong>Capacidade de Fluído Condensante </strong></td><td>22ml</td><td>22ml</td></tr><tr><td><strong>Vazão Nominal Mínima L/min</strong></td><td>3</td><td>6</td></tr><tr><td><strong>Material do Copo</strong></td><td>Policarbonato </td><td>Policarbonato </td></tr></tbody>\n\t\t\t</table>",
+  "downloads": [],
+  "videos": []
+}

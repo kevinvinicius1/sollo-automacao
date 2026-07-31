@@ -1,0 +1,22 @@
+{
+  "code": "",
+  "name": "Válvula Rotativa",
+  "slug": "valvula-rotativa",
+  "category": "valvulas",
+  "subcategory": "valvulas-linha-economica",
+  "images": [
+    "/images/products/valvula-rotativa-1.webp",
+    "/images/products/valvula-rotativa-2.webp",
+    "/images/products/valvula-rotativa-3.webp",
+    "/images/products/valvula-rotativa-4.webp",
+    "/images/products/valvula-rotativa-5.webp",
+    "/images/products/valvula-rotativa-6.webp",
+    "/images/products/valvula-rotativa-7.webp"
+  ],
+  "shortDescription": "Nossas Válvulas Rotativas da Linha VROT tem a função de controlar o direcionamento com uma vazão otimizada do ar comprimido para movimentar ou acionar um cilindro, um atuador ou outros equipamentos automatizados.",
+  "specsHtml": "<p><strong>Conexão:</strong> 1/8”, 1/4”, 3/8” e 1/2”</p><p><strong>Vias/Posições:</strong> 4/3</p><p><strong>Pressão de Trabalho:</strong> 10 bar</p><p><strong>Temperatura de Trabalho:</strong> 60°C</p><p><strong>Atuadores Disponíveis:</strong> Alavanca</p><p><strong>Fluído:</strong> Ar comprimido filtrado</p><p><strong>Posição Central (4/3):</strong> Centro Fechado</p><p><strong>Corpo:</strong> Alumínio</p><p><strong>Vedações:</strong> Buna-N</p><p><strong>Versões:</strong> Rosca na base ou rosca na lateral</p>",
+  "downloads": [],
+  "videos": [
+    "https://www.youtube.com/watch?v=a5WTqlgd_nI"
+  ]
+}

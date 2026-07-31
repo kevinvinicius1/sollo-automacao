@@ -1,0 +1,17 @@
+{
+  "code": "",
+  "name": "Joystick",
+  "slug": "joystick",
+  "category": "valvulas",
+  "subcategory": "valvulas-linha-economica",
+  "images": [
+    "/images/products/joystick-1.webp",
+    "/images/products/joystick-2.webp",
+    "/images/products/joystick-3.webp",
+    "/images/products/joystick-4.webp"
+  ],
+  "shortDescription": "O Joystick serve para controlar o direcionamento do ar comprimido para atuar um cilindro ou um conjunto de válvulas.  Desenvolvido para o setor rodoviário, possibilita seu manuseio direto da cabine do motorista.",
+  "specsHtml": "<p><strong>Conexão:</strong> M5″ BSP</p><p><strong>Vias/Posições:</strong> 3/2</p><p><strong>Pressão de Trabalho:</strong> 8 bar</p><p><strong>Temperatura de Trabalho:</strong> 60°C</p><p><strong>Atuadores Disponíveis:</strong> Joystick para duas ou quatro válvulas</p><p><strong>Fluído:</strong> Ar comprimido filtrado</p><p><strong>Corpo:</strong> Alumínio</p><p><strong>Vedações:</strong> Buna-N</p>",
+  "downloads": [],
+  "videos": []
+}

@@ -1,0 +1,16 @@
+{
+  "code": "",
+  "name": "Regulador de Pressão",
+  "slug": "regulador-de-pressao-intermediaria",
+  "category": "preparacao-do-ar",
+  "subcategory": "preparacao-do-ar-linha-intermediaria",
+  "images": [
+    "/images/products/regulador-de-pressao-intermediaria-1.webp",
+    "/images/products/regulador-de-pressao-intermediaria-2.webp",
+    "/images/products/regulador-de-pressao-intermediaria-3.webp"
+  ],
+  "shortDescription": "O nosso Regulador da Linha Intermediária (Robusta) é indicado para todos os segmentos de automação onde haja a necessidade de regular um grande fluxo de ar comprimido.",
+  "specsHtml": "<table>\n\t\t\t\t<thead><tr><th><strong>Modelo</strong></th><th>AR200002</th><th>AR300003</th><th>AR400004</th><th>AR400006</th><th>AR500010</th></tr></thead>\n\t\t\t\t\t\t\t\t<tbody><tr><td><strong>Rosca (BSP)</strong></td><td>1/4″</td><td>3/8” </td><td>1/2”</td><td>3/4”</td><td>1” </td></tr><tr><td><strong>Vazão (l/min)</strong></td><td>1180</td><td>2310</td><td>5700</td><td>5750</td><td>6800</td></tr><tr><td><strong>Pressão\t de Trabalho</strong></td><td>1 ~ 8bar</td><td>1 ~ 8bar</td><td>1 ~ 8bar</td><td>1 ~ 8bar</td><td>1 ~ 8bar</td></tr><tr><td><strong>Pressão Máxima</strong></td><td>10bar</td><td>10bar</td><td>10bar\n</td><td>10bar\n</td><td>10bar\n</td></tr><tr><td><strong>Rosca do Manômetro (BSP)</strong></td><td>1/8” </td><td>1/4” </td><td>1/4” </td><td>1/4” </td><td>1/4” </td></tr><tr><td><strong>Temperatura de Trabalho</strong></td><td>5° ~ 60°</td><td>5° ~ 60°</td><td>5° ~ 60°</td><td>5° ~ 60°</td><td>5° ~ 60°</td></tr><tr></tr></tbody>\n\t\t\t</table>",
+  "downloads": [],
+  "videos": []
+}

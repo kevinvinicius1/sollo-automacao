@@ -1,0 +1,15 @@
+{
+  "code": "",
+  "name": "Filtro de Ar Pré",
+  "slug": "filtro-de-ar-predeletar",
+  "category": "preparacao-do-ar",
+  "subcategory": "preparacao-do-ar-tratamento-do-ar-comprimido",
+  "images": [
+    "/images/products/filtro-de-ar-predeletar-1.webp",
+    "/images/products/filtro-de-ar-predeletar-2.webp"
+  ],
+  "shortDescription": "Proteção Inicial para seu Sistema PneumáticoO Filtro PRÉ é o primeiro nível de proteção no tratamento do ar comprimido.",
+  "specsHtml": "<table>\n\t\t\t\t<thead><tr><th><strong>Modelo</strong></th><th>WBK15-QE9</th><th>WBK20-QE9</th><th>WBK25-QE9</th><th>WBK403-QE9</th><th>WBK406-QE9</th><th>WBK50-QE9</th></tr></thead>\n\t\t\t\t\t\t\t\t<tbody><tr><td><strong>Rosca (BSP)</strong></td><td>1/2″</td><td>3/4″</td><td>1” </td><td>1.1/2″</td><td>1.1/2”</td><td>2”</td></tr><tr><td><strong>Vazão</strong></td><td>53 PCM</td><td>53 PCM</td><td>53 PCM</td><td>123  PCM</td><td>211 PCM</td><td>459 PCM</td></tr><tr><td><strong>Pressão Máxima</strong></td><td>10 bar</td><td>10 bar</td><td>10 bar</td><td>10 bar</td><td>10 bar</td><td>10 bar</td></tr><tr><td><strong>Temperatura de Trabalho</strong></td><td>80°C</td><td>80°C</td><td>80°C</td><td>80°C</td><td>80°C</td><td>80°C</td></tr><tr><td><strong>Precisão do Filtro</strong></td><td>3 micra</td><td>3 micra</td><td>3 micra</td><td>3 micra</td><td>3 micra</td><td>3 micra</td></tr><tr><td><strong>Grade</strong></td><td>Q</td><td>Q</td><td>Q</td><td>Q</td><td>Q</td><td>Q</td></tr><tr><td><strong>Elemento Filtrante</strong></td><td>ELWBKQE9-15</td><td>ELWBKQE9-20</td><td>ELWBKQE9-25</td><td>ELWBKQE9-403</td><td>ELWBKQE9-406</td><td>ELWBKQE9-50</td></tr></tbody>\n\t\t\t</table>",
+  "downloads": [],
+  "videos": []
+}

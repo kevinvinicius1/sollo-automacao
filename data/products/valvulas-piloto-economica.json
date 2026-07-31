@@ -1,0 +1,24 @@
+{
+  "code": "",
+  "name": "Válvula Piloto",
+  "slug": "valvulas-piloto-economica",
+  "category": "valvulas",
+  "subcategory": "valvulas-linha-economica",
+  "images": [
+    "/images/products/valvulas-piloto-economica-1.webp",
+    "/images/products/valvulas-piloto-economica-2.webp",
+    "/images/products/valvulas-piloto-economica-3.webp",
+    "/images/products/valvulas-piloto-economica-4.webp",
+    "/images/products/valvulas-piloto-economica-5.webp",
+    "/images/products/valvulas-piloto-economica-6.webp",
+    "/images/products/valvulas-piloto-economica-7.webp",
+    "/images/products/valvulas-piloto-economica-8.webp",
+    "/images/products/valvulas-piloto-economica-9.webp",
+    "/images/products/valvulas-piloto-economica-10.webp",
+    "/images/products/valvulas-piloto-economica-11.webp"
+  ],
+  "shortDescription": "A Válvula Piloto tem como principal característica o seu acionamento a partir de um sinal recebido por outra válvula, normalmente utilizada em válvulas com funções lógicas.",
+  "specsHtml": "<p><strong>Conexão:</strong> 1/8”, 1/4”, 3/8” e 1/2”</p><p><strong>Vias/Posições:</strong> 3/2 e 5/2</p><p><strong>Pressão de Trabalho:</strong> 8 bar</p><p><strong>Temperatura de Trabalho:</strong> 60°C</p><p><strong>Atuadores Disponíveis:</strong> Ar</p><p><strong>Fluído:</strong> Ar comprimido filtrado</p><p><strong>Posição Central:</strong> Não</p><p><strong>Corpo:</strong> Alumínio</p><p><strong>Vedações:</strong> Buna-N</p><p><strong>Atuador:</strong> Por ar tipo SPOOL</p>",
+  "downloads": [],
+  "videos": []
+}
