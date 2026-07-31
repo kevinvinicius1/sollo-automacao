@@ -47,11 +47,15 @@ export type Subcategory = z.infer<typeof subcategorySchema>;
 
 const DATA_DIR = path.join(process.cwd(), "data");
 
+// Cache em memória só no build/produção; em dev, edições em data/
+// devem aparecer sem reiniciar o servidor
+const useCache = process.env.NODE_ENV !== "development";
+
 let productsCache: Product[] | null = null;
 let categoriesCache: Category[] | null = null;
 
 export async function getCategories(): Promise<Category[]> {
-  if (categoriesCache) return categoriesCache;
+  if (useCache && categoriesCache) return categoriesCache;
   const raw = await fs.readFile(path.join(DATA_DIR, "categories.json"), "utf8");
   categoriesCache = z
     .array(categorySchema)
@@ -61,7 +65,7 @@ export async function getCategories(): Promise<Category[]> {
 }
 
 export async function getProducts(): Promise<Product[]> {
-  if (productsCache) return productsCache;
+  if (useCache && productsCache) return productsCache;
   const dir = path.join(DATA_DIR, "products");
   const files = (await fs.readdir(dir)).filter((f) => f.endsWith(".json"));
   productsCache = await Promise.all(
