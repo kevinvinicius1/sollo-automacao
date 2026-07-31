@@ -50,17 +50,17 @@ export default function Header({ searchItems }: { searchItems: SearchItem[] }) {
           </div>
         </div>
 
-        <nav aria-label="Navegação principal" className="hidden md:block">
-          <ul className="flex items-center gap-1">
+        <nav aria-label="Navegação principal" className="hidden self-stretch md:block">
+          <ul className="flex h-full items-stretch">
             {NAV_LINKS.map((link) => (
-              <li key={link.href}>
+              <li key={link.href} className="flex">
                 <Link
                   href={link.href}
                   aria-current={isActive(pathname, link.href) ? "page" : undefined}
-                  className={`rounded px-3 py-2 text-sm font-medium transition-colors ${
+                  className={`flex items-center px-4 text-sm font-medium transition-colors ${
                     isActive(pathname, link.href)
-                      ? "bg-brand-800 text-white shadow-[inset_0_-2px_0_0_var(--color-accent-300)]"
-                      : "text-brand-100 hover:bg-brand-600 hover:text-accent-100"
+                      ? "bg-accent-500 text-white"
+                      : "text-brand-100 hover:text-white"
                   }`}
                 >
                   {link.label}
@@ -76,7 +76,7 @@ export default function Header({ searchItems }: { searchItems: SearchItem[] }) {
           aria-expanded={menuOpen}
           aria-controls="mobile-menu"
           aria-label={menuOpen ? "Fechar menu" : "Abrir menu"}
-          className="ml-auto flex h-11 w-11 items-center justify-center rounded text-white hover:bg-brand-600 md:hidden"
+          className="ml-auto flex h-11 w-11 items-center justify-center text-white hover:bg-brand-600 md:hidden"
         >
           {menuOpen ? (
             <X className="h-6 w-6" aria-hidden="true" />
@@ -106,10 +106,10 @@ export default function Header({ searchItems }: { searchItems: SearchItem[] }) {
                     aria-current={
                       isActive(pathname, link.href) ? "page" : undefined
                     }
-                    className={`block rounded px-3 py-3 text-base font-medium ${
+                    className={`block px-3 py-3 text-base font-medium ${
                       isActive(pathname, link.href)
-                        ? "border-l-4 border-accent-300 bg-brand-800 text-white"
-                        : "text-brand-100 hover:bg-brand-600 hover:text-accent-100"
+                        ? "bg-accent-500 text-white"
+                        : "text-brand-100 hover:bg-brand-600 hover:text-white"
                     }`}
                   >
                     {link.label}
