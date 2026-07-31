@@ -73,7 +73,7 @@
   {
     "name": "Preparação de Ar",
     "slug": "preparacao-do-ar",
-    "image": "/images/products/diafragma-do-filtro-1.webp",
+    "image": "/images/products/conjunto-lubrefil-16-bar-1.webp",
     "order": 3,
     "subcategories": [
       {
@@ -107,11 +107,6 @@
         "image": "/images/products/trio-odontologico-1.webp"
       },
       {
-        "name": "Preparação do Ar -Peças de Reposição",
-        "slug": "preparacao-do-ar-pecas-de-reposicao",
-        "image": "/images/products/diafragma-do-filtro-1.webp"
-      },
-      {
         "name": "Purgador e Temporizador Eletrônico",
         "slug": "purgador-e-temporizador-eletronico",
         "image": "/images/products/purgador-eletronico-com-filtro-y-acoplado-2-1.webp"
@@ -119,7 +114,7 @@
       {
         "name": "Preparação do Ar",
         "slug": "preparacao-do-ar",
-        "image": "/images/products/elemenos-filtrantes-1.webp"
+        "image": "/images/products/pressostato-1.webp"
       }
     ]
   },
@@ -208,29 +203,6 @@
         "name": "Válvula de Fechamento Manual",
         "slug": "valvula-de-fechamento-manual",
         "image": "/images/products/hvff06-06-fechamento-tubo-tubo-1.webp"
-      },
-      {
-        "name": "Tubos Espirais e Mangueiras",
-        "slug": "tubos-espirais-e-mangueiras",
-        "image": "/images/products/tubos-espirais-e-mangueiras-1.webp"
-      }
-    ]
-  },
-  {
-    "name": "Rede de Ar Comprimido",
-    "slug": "rede-de-ar-comprimido",
-    "image": "/images/categories/pneumatica-geral.webp",
-    "order": 5,
-    "subcategories": [
-      {
-        "name": "Ferramentas",
-        "slug": "ferramentas",
-        "image": "/images/categories/pneumatica-geral.webp"
-      },
-      {
-        "name": "Rede de Ar Comprimido",
-        "slug": "rede-de-ar-comprimido",
-        "image": "/images/categories/pneumatica-geral.webp"
       }
     ]
   }
