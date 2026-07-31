@@ -219,18 +219,18 @@
   {
     "name": "Rede de Ar Comprimido",
     "slug": "rede-de-ar-comprimido",
-    "image": "/images/products/ferramentas-1.webp",
+    "image": "/images/categories/pneumatica-geral.webp",
     "order": 5,
     "subcategories": [
       {
         "name": "Ferramentas",
         "slug": "ferramentas",
-        "image": "/images/products/ferramentas-1.webp"
+        "image": "/images/categories/pneumatica-geral.webp"
       },
       {
         "name": "Rede de Ar Comprimido",
         "slug": "rede-de-ar-comprimido",
-        "image": "/images/products/produto-rede-de-ar-comprimido-1.webp"
+        "image": "/images/categories/pneumatica-geral.webp"
       }
     ]
   }
