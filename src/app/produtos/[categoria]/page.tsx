@@ -57,18 +57,7 @@ export default async function CategoriaPage({ params }: Props) {
           </h2>
           <p className="mx-auto mt-2 max-w-lg text-slate-600">
             Os produtos desta linha estão sendo cadastrados no catálogo.
-            Consulte disponibilidade e preço com a equipe comercial.
           </p>
-          <a
-            href={whatsappLink(
-              `Olá! Gostaria de consultar produtos da linha ${category.name}.`
-            )}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-5 inline-flex items-center gap-2 rounded bg-accent-500 px-5 py-2.5 font-semibold text-white transition-colors hover:bg-accent-600"
-          >
-            Consultar pelo WhatsApp
-          </a>
         </div>
       ) : hasSubcategories ? (
         <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
