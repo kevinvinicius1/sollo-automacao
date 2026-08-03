@@ -57,14 +57,22 @@ export default function ContatoPage() {
           </span>
         </a>
 
-        <div className="rounded border border-slate-200 bg-white p-6 shadow-sm">
+        <a
+          href={siteConfig.mapsUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group rounded border border-slate-200 bg-white p-6 shadow-sm transition-colors hover:border-accent-300"
+        >
           <div className="flex h-11 w-11 items-center justify-center rounded bg-brand-50 text-brand-700">
             <MapPin className="h-6 w-6" aria-hidden="true" />
           </div>
           <h2 className="mt-4 font-bold text-brand-700">Endereço</h2>
-          {/* PLACEHOLDER: endereço real será fornecido pelo cliente */}
           <p className="mt-1 text-sm text-slate-600">{siteConfig.address}</p>
-        </div>
+          <span className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-accent-600 group-hover:underline">
+            Ver no mapa
+            <ArrowRight className="h-4 w-4" aria-hidden="true" />
+          </span>
+        </a>
       </div>
 
       <section className="mt-10 rounded bg-brand-700 p-8 text-center text-white sm:p-10">
