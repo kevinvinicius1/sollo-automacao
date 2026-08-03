@@ -15,7 +15,13 @@ export function ImagePlaceholder({ className = "" }: { className?: string }) {
   );
 }
 
-export default function ProductCard({ product }: { product: Product }) {
+/** Subconjunto de Product que o card realmente usa (permite listas leves). */
+export type ProductCardData = Pick<
+  Product,
+  "code" | "name" | "slug" | "shortDescription" | "images"
+>;
+
+export default function ProductCard({ product }: { product: ProductCardData }) {
   return (
     <Link
       href={`/produto/${product.slug}/`}

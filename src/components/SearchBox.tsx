@@ -1,10 +1,10 @@
 "use client";
 
-import Fuse from "fuse.js";
 import { Search } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
+import { buildSearchIndex, searchProducts } from "@/lib/search";
 
 /** Item leve para a busca client-side (evita embutir o catálogo inteiro). */
 export type SearchItem = {
@@ -30,25 +30,13 @@ export default function SearchBox({
   const [active, setActive] = useState(-1);
   const rootRef = useRef<HTMLDivElement>(null);
 
-  const fuse = useMemo(
-    () =>
-      new Fuse(items, {
-        keys: [
-          { name: "code", weight: 2 },
-          { name: "name", weight: 2 },
-          { name: "shortDescription", weight: 1 },
-        ],
-        threshold: 0.35,
-        ignoreLocation: true,
-      }),
-    [items]
-  );
+  const fuse = useMemo(() => buildSearchIndex(items), [items]);
 
-  const results = useMemo(() => {
-    const q = query.trim();
-    if (q.length < 2) return [];
-    return fuse.search(q, { limit: MAX_RESULTS }).map((r) => r.item);
-  }, [fuse, query]);
+  const allResults = useMemo(
+    () => searchProducts(fuse, query),
+    [fuse, query]
+  );
+  const results = allResults.slice(0, MAX_RESULTS);
 
   // Fecha o dropdown ao clicar fora
   useEffect(() => {
@@ -61,15 +49,34 @@ export default function SearchBox({
     return () => document.removeEventListener("mousedown", onClick);
   }, []);
 
-  function go(slug: string) {
+  function reset() {
     setOpen(false);
     setQuery("");
     setActive(-1);
     onNavigate?.();
+  }
+
+  function go(slug: string) {
+    reset();
     router.push(`/produto/${slug}/`);
   }
 
+  /** Enter sem item selecionado abre a página de resultados. */
+  function goToSearchPage() {
+    const q = query.trim();
+    if (q.length < 2) return;
+    reset();
+    router.push(`/busca/?q=${encodeURIComponent(q)}`);
+  }
+
   function onKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      const target = active >= 0 ? results[active] : undefined;
+      if (target) go(target.slug);
+      else goToSearchPage();
+      return;
+    }
     if (!open || results.length === 0) {
       if (e.key === "Escape") setOpen(false);
       return;
@@ -80,10 +87,6 @@ export default function SearchBox({
     } else if (e.key === "ArrowUp") {
       e.preventDefault();
       setActive((a) => (a <= 0 ? results.length - 1 : a - 1));
-    } else if (e.key === "Enter") {
-      e.preventDefault();
-      const target = results[active >= 0 ? active : 0];
-      if (target) go(target.slug);
     } else if (e.key === "Escape") {
       setOpen(false);
       setActive(-1);
@@ -156,6 +159,22 @@ export default function SearchBox({
               </Link>
             </li>
           ))}
+          {allResults.length > 0 && (
+            <li className="border-t border-slate-100">
+              <Link
+                href={`/busca/?q=${encodeURIComponent(query.trim())}`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  goToSearchPage();
+                }}
+                className="block px-4 py-2.5 text-sm font-semibold text-accent-600"
+              >
+                {allResults.length === 1
+                  ? "Ver página de resultados"
+                  : `Ver todos os ${allResults.length} resultados`}
+              </Link>
+            </li>
+          )}
         </ul>
       )}
     </div>
