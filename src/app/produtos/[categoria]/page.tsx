@@ -3,8 +3,9 @@ import { notFound } from "next/navigation";
 import Breadcrumb from "@/components/Breadcrumb";
 import CategoryCard from "@/components/CategoryCard";
 import ProductCard from "@/components/ProductCard";
+import ProductLinesStrip from "@/components/ProductLinesStrip";
 import { getCategories, getCategoryBySlug, getProducts } from "@/lib/catalog";
-import { whatsappLink } from "../../../../site.config";
+import { isWipCategory, whatsappLink } from "../../../../site.config";
 
 type Props = { params: Promise<{ categoria: string }> };
 
@@ -28,10 +29,12 @@ export default async function CategoriaPage({ params }: Props) {
   const category = await getCategoryBySlug(categoria);
   if (!category) notFound();
 
-  const hasSubcategories = category.subcategories.length > 0;
-  const products = hasSubcategories
-    ? []
-    : (await getProducts()).filter((p) => p.category === category.slug);
+  const wip = isWipCategory(category.slug);
+  const hasSubcategories = !wip && category.subcategories.length > 0;
+  const products =
+    wip || hasSubcategories
+      ? []
+      : (await getProducts()).filter((p) => p.category === category.slug);
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
@@ -47,7 +50,27 @@ export default async function CategoriaPage({ params }: Props) {
       </h1>
       <div className="mt-3 h-1 w-14 bg-accent-500" aria-hidden="true" />
 
-      {hasSubcategories ? (
+      {wip ? (
+        <div className="mt-8 rounded border border-slate-200 bg-white p-8 text-center">
+          <h2 className="text-xl font-bold text-brand-700">
+            Trabalho em andamento
+          </h2>
+          <p className="mx-auto mt-2 max-w-lg text-slate-600">
+            Os produtos desta linha estão sendo cadastrados no catálogo.
+            Consulte disponibilidade e preço com a equipe comercial.
+          </p>
+          <a
+            href={whatsappLink(
+              `Olá! Gostaria de consultar produtos da linha ${category.name}.`
+            )}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-5 inline-flex items-center gap-2 rounded bg-accent-500 px-5 py-2.5 font-semibold text-white transition-colors hover:bg-accent-600"
+          >
+            Consultar pelo WhatsApp
+          </a>
+        </div>
+      ) : hasSubcategories ? (
         <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {category.subcategories.map((sub) => (
             <CategoryCard
@@ -82,6 +105,8 @@ export default async function CategoriaPage({ params }: Props) {
           </a>
         </div>
       )}
+
+      <ProductLinesStrip />
     </div>
   );
 }

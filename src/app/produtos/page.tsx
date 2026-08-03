@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Breadcrumb from "@/components/Breadcrumb";
 import CategoryCard from "@/components/CategoryCard";
 import { getCategories } from "@/lib/catalog";
+import { isWipCategory } from "../../../site.config";
 
 export const metadata: Metadata = {
   title: "Produtos",
@@ -29,6 +30,7 @@ export default async function ProdutosPage() {
             name={cat.name}
             href={`/produtos/${cat.slug}/`}
             image={cat.image}
+            wip={isWipCategory(cat.slug)}
           />
         ))}
       </div>

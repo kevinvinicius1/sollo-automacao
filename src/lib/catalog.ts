@@ -1,6 +1,7 @@
 import { promises as fs } from "fs";
 import path from "path";
 import { z } from "zod";
+import { featuredProducts, isWipCategory } from "../../site.config";
 
 /** Schema de um produto em data/products/<slug>.json */
 export const productSchema = z.object({
@@ -68,12 +69,16 @@ export async function getProducts(): Promise<Product[]> {
   if (useCache && productsCache) return productsCache;
   const dir = path.join(DATA_DIR, "products");
   const files = (await fs.readdir(dir)).filter((f) => f.endsWith(".json"));
-  productsCache = await Promise.all(
+  const parsed = await Promise.all(
     files.map(async (f) =>
       productSchema.parse(JSON.parse(await fs.readFile(path.join(dir, f), "utf8")))
     )
   );
-  productsCache.sort((a, b) => a.name.localeCompare(b.name, "pt-BR"));
+  // Linhas em prévia (site.config.ts) ficam fora do build: sem página de
+  // produto, fora da busca, dos relacionados, das contagens e do sitemap.
+  productsCache = parsed
+    .filter((p) => !isWipCategory(p.category))
+    .sort((a, b) => a.name.localeCompare(b.name, "pt-BR"));
   return productsCache;
 }
 
@@ -92,4 +97,12 @@ export async function getProductsBySubcategory(
   return (await getProducts()).filter(
     (p) => p.category === category && p.subcategory === subcategory
   );
+}
+
+/** Produtos da vitrine da home, na ordem de site.config.ts. */
+export async function getFeaturedProducts(): Promise<Product[]> {
+  const products = await getProducts();
+  return featuredProducts
+    .map((slug) => products.find((p) => p.slug === slug))
+    .filter((p): p is Product => p !== undefined);
 }

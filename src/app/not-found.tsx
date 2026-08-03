@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ProductLinesStrip from "@/components/ProductLinesStrip";
 
 export default function NotFound() {
   return (
@@ -24,6 +25,9 @@ export default function NotFound() {
         >
           Página inicial
         </Link>
+      </div>
+      <div className="w-full text-left">
+        <ProductLinesStrip />
       </div>
     </div>
   );

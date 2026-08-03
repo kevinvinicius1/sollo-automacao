@@ -8,11 +8,14 @@ export default function CategoryCard({
   href,
   image,
   description,
+  wip = false,
 }: {
   name: string;
   href: string;
   image?: string;
   description?: string;
+  /** Linha em prévia: badge "Trabalho em andamento" no lugar do CTA. */
+  wip?: boolean;
 }) {
   return (
     <Link
@@ -20,6 +23,11 @@ export default function CategoryCard({
       className="group flex flex-col overflow-hidden rounded border border-slate-200 bg-white shadow-sm transition-colors hover:border-accent-300"
     >
       <div className="relative aspect-[4/3] w-full overflow-hidden bg-slate-100">
+        {wip && (
+          <span className="absolute left-2 top-2 z-10 rounded bg-slate-800 px-2 py-0.5 text-xs font-semibold text-white">
+            Trabalho em andamento
+          </span>
+        )}
         {image ? (
           <Image
             src={image}
@@ -44,10 +52,16 @@ export default function CategoryCard({
         {description && (
           <p className="line-clamp-2 text-sm text-slate-500">{description}</p>
         )}
-        <span className="mt-auto inline-flex items-center gap-1 pt-2 text-sm font-semibold text-accent-600 group-hover:underline">
-          Ver produtos
-          <ArrowRight className="h-4 w-4" aria-hidden="true" />
-        </span>
+        {wip ? (
+          <span className="mt-auto pt-2 text-sm font-medium text-slate-500">
+            Linha em atualização
+          </span>
+        ) : (
+          <span className="mt-auto inline-flex items-center gap-1 pt-2 text-sm font-semibold text-accent-600 group-hover:underline">
+            Ver produtos
+            <ArrowRight className="h-4 w-4" aria-hidden="true" />
+          </span>
+        )}
       </div>
     </Link>
   );

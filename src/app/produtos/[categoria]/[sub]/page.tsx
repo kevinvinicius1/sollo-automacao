@@ -2,20 +2,24 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Breadcrumb from "@/components/Breadcrumb";
 import ProductCard from "@/components/ProductCard";
+import ProductLinesStrip from "@/components/ProductLinesStrip";
 import {
   getCategories,
   getCategoryBySlug,
   getProductsBySubcategory,
 } from "@/lib/catalog";
-import { whatsappLink } from "../../../../../site.config";
+import { isWipCategory, whatsappLink } from "../../../../../site.config";
 
 type Props = { params: Promise<{ categoria: string; sub: string }> };
 
 export async function generateStaticParams() {
   const categories = await getCategories();
-  return categories.flatMap((c) =>
-    c.subcategories.map((s) => ({ categoria: c.slug, sub: s.slug }))
-  );
+  // Linhas em prévia não geram páginas de subcategoria
+  return categories
+    .filter((c) => !isWipCategory(c.slug))
+    .flatMap((c) =>
+      c.subcategories.map((s) => ({ categoria: c.slug, sub: s.slug }))
+    );
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -76,6 +80,8 @@ export default async function SubcategoriaPage({ params }: Props) {
           </a>
         </div>
       )}
+
+      <ProductLinesStrip />
     </div>
   );
 }

@@ -1,23 +1,25 @@
-import { ChevronRight, Mail, MessageCircle } from "lucide-react";
+import { Mail, MessageCircle } from "lucide-react";
 import Link from "next/link";
 import CategoryCard from "@/components/CategoryCard";
-import { getCategories, getProducts } from "@/lib/catalog";
-import { siteConfig, whatsappLink } from "../../site.config";
+import ProductCard from "@/components/ProductCard";
+import { getCategories, getFeaturedProducts, getProducts } from "@/lib/catalog";
+import { isWipCategory, siteConfig, whatsappLink } from "../../site.config";
 
 export default async function HomePage() {
   const categories = await getCategories();
   const products = await getProducts();
+  const featured = await getFeaturedProducts();
 
   return (
     <>
-      {/* Hero: tese concreta + acesso direto às linhas do catálogo */}
+      {/* Hero full-width */}
       <section className="bg-brand-800 text-white">
-        <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-16 sm:px-6 lg:grid-cols-[1fr_20rem] lg:py-20">
-          <div>
+        <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:py-24">
+          <div className="max-w-3xl">
             <p className="text-sm font-semibold uppercase tracking-widest text-accent-300">
               Componentes pneumáticos industriais
             </p>
-            <h1 className="mt-3 max-w-2xl text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl">
+            <h1 className="mt-3 text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl">
               Cilindros, válvulas e preparação de ar para manutenção e OEM
             </h1>
             <p className="mt-5 max-w-xl leading-relaxed text-brand-100">
@@ -42,50 +44,24 @@ export default async function HomePage() {
               </Link>
             </div>
           </div>
-
-          {/* Acesso direto às linhas — conteúdo real, não decoração */}
-          <nav
-            aria-label="Linhas de produto"
-            className="rounded bg-brand-900 p-6"
-          >
-            <p className="text-xs font-semibold uppercase tracking-widest text-brand-300">
-              Linhas de produto
-            </p>
-            <ul className="mt-3 divide-y divide-brand-800">
-              {categories.map((cat) => (
-                <li key={cat.slug}>
-                  <Link
-                    href={`/produtos/${cat.slug}/`}
-                    className="group flex items-center justify-between gap-2 py-3 text-sm font-medium text-brand-100 transition-colors hover:text-white"
-                  >
-                    {cat.name}
-                    <ChevronRight
-                      className="h-4 w-4 shrink-0 text-accent-300 transition-transform group-hover:translate-x-0.5"
-                      aria-hidden="true"
-                    />
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
         </div>
       </section>
 
-      {/* Categorias */}
+      {/* Vitrine de linhas de produto */}
       <section
-        aria-labelledby="categorias-heading"
+        aria-labelledby="linhas-heading"
         className="mx-auto max-w-6xl px-4 py-16 sm:px-6"
       >
         <h2
-          id="categorias-heading"
+          id="linhas-heading"
           className="text-2xl font-bold tracking-tight text-brand-700 sm:text-3xl"
         >
-          Catálogo por linha
+          Linha de Produtos
         </h2>
         <div className="mt-3 h-1 w-14 bg-accent-500" aria-hidden="true" />
         <p className="mt-3 max-w-2xl text-slate-600">
           {products.length > 0
-            ? `${products.length} ${products.length === 1 ? "produto" : "produtos"} com especificações técnicas completas, organizados em ${categories.length} linhas.`
+            ? `${products.length} ${products.length === 1 ? "produto" : "produtos"} com especificações técnicas completas, organizados por linha.`
             : "Produtos com especificações técnicas completas, organizados por linha."}
         </p>
         <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
@@ -95,16 +71,37 @@ export default async function HomePage() {
               name={cat.name}
               href={`/produtos/${cat.slug}/`}
               image={cat.image}
+              wip={isWipCategory(cat.slug)}
             />
           ))}
         </div>
       </section>
 
+      {/* Produtos em destaque */}
+      {featured.length > 0 && (
+        <section
+          aria-labelledby="destaques-heading"
+          className="border-y border-slate-200 bg-white"
+        >
+          <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+            <h2
+              id="destaques-heading"
+              className="text-2xl font-bold tracking-tight text-brand-700 sm:text-3xl"
+            >
+              Produtos em destaque
+            </h2>
+            <div className="mt-3 h-1 w-14 bg-accent-500" aria-hidden="true" />
+            <div className="mt-8 grid grid-cols-2 gap-4 sm:gap-5 md:grid-cols-4">
+              {featured.map((p) => (
+                <ProductCard key={p.slug} product={p} />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Como pedir orçamento — sequência real do fluxo de compra */}
-      <section
-        aria-labelledby="como-comprar-heading"
-        className="border-y border-slate-200 bg-white"
-      >
+      <section aria-labelledby="como-comprar-heading">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
           <div className="grid gap-10 md:grid-cols-2">
             <div>

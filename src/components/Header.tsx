@@ -35,11 +35,13 @@ export default function Header({ searchItems }: { searchItems: SearchItem[] }) {
         {/* Logo texto — trocar por logotipo quando o cliente fornecer a marca */}
         <Link
           href="/"
-          className="shrink-0 text-lg font-bold tracking-tight sm:text-xl"
+          className="flex shrink-0 flex-col leading-tight"
           aria-label={`${siteConfig.name} — página inicial`}
         >
-          {siteConfig.name.split(" ")[0]}{" "}
-          <span className="font-light text-brand-200">
+          <span className="text-lg font-bold tracking-tight sm:text-xl">
+            {siteConfig.name.split(" ")[0]}
+          </span>
+          <span className="whitespace-nowrap text-[11px] font-light uppercase tracking-widest text-brand-200 sm:text-xs">
             {siteConfig.name.split(" ").slice(1).join(" ")}
           </span>
         </Link>

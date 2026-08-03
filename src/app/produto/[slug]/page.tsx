@@ -1,9 +1,11 @@
-import { MessageCircle } from "lucide-react";
+import { ArrowLeft, MessageCircle } from "lucide-react";
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import Breadcrumb, { type Crumb } from "@/components/Breadcrumb";
 import ProductCard from "@/components/ProductCard";
 import ProductGallery from "@/components/ProductGallery";
+import ProductLinesStrip from "@/components/ProductLinesStrip";
 import SpecsTable from "@/components/SpecsTable";
 import {
   getCategoryBySlug,
@@ -108,7 +110,20 @@ export default async function ProdutoPage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <Breadcrumb items={crumbs} />
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <Breadcrumb items={crumbs} />
+        <Link
+          href={
+            category && subcategory
+              ? `/produtos/${category.slug}/${subcategory.slug}/`
+              : "/produtos/"
+          }
+          className="inline-flex items-center gap-1.5 text-sm font-semibold text-brand-700 hover:text-brand-500"
+        >
+          <ArrowLeft className="h-4 w-4" aria-hidden="true" />
+          Voltar
+        </Link>
+      </div>
 
       <div className="mt-6 grid gap-10 lg:grid-cols-2">
         <ProductGallery images={product.images} name={product.name} />
@@ -192,6 +207,8 @@ export default async function ProdutoPage({ params }: Props) {
           </div>
         </section>
       )}
+
+      <ProductLinesStrip />
     </div>
   );
 }

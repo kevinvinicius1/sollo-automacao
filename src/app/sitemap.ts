@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getCategories, getProducts } from "@/lib/catalog";
-import { siteConfig } from "../../site.config";
+import { isWipCategory, siteConfig } from "../../site.config";
 
 // Necessário para output: 'export'
 export const dynamic = "force-static";
@@ -22,11 +22,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: "weekly" as const,
       priority: 0.8,
     },
-    ...c.subcategories.map((s) => ({
-      url: `${base}/produtos/${c.slug}/${s.slug}/`,
-      changeFrequency: "weekly" as const,
-      priority: 0.7,
-    })),
+    // Subcategorias de linhas em prévia não têm página
+    ...(isWipCategory(c.slug)
+      ? []
+      : c.subcategories.map((s) => ({
+          url: `${base}/produtos/${c.slug}/${s.slug}/`,
+          changeFrequency: "weekly" as const,
+          priority: 0.7,
+        }))),
   ]);
 
   const productRoutes: MetadataRoute.Sitemap = products.map((p) => ({
