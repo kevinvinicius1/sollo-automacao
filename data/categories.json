@@ -1,8 +1,8 @@
 [
   {
-    "name": "Cilindros Pneumáticos",
+    "name": "Cilindros",
     "slug": "cilindros-pneumaticos",
-    "image": "/images/products/sensor-bks81-1.webp",
+    "image": "/images/products/fct-cilindro-tirantado-iso-1.webp",
     "order": 1,
     "subcategories": [
       {
@@ -18,7 +18,7 @@
       {
         "name": "Sensores Eletromagnéticos",
         "slug": "sensores-eletromagneticos",
-        "image": "/images/products/sensor-bks81-1.webp"
+        "image": "/images/products/sensor-cs1f2m-1.webp"
       }
     ]
   },
