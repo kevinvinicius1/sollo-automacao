@@ -2,12 +2,11 @@ import { Mail, MessageCircle } from "lucide-react";
 import Link from "next/link";
 import CategoryCard from "@/components/CategoryCard";
 import ProductCard from "@/components/ProductCard";
-import { getCategories, getFeaturedProducts, getProducts } from "@/lib/catalog";
+import { getCategories, getFeaturedProducts } from "@/lib/catalog";
 import { isWipCategory, siteConfig, whatsappLink } from "../../site.config";
 
 export default async function HomePage() {
   const categories = await getCategories();
-  const products = await getProducts();
   const featured = await getFeaturedProducts();
 
   return (
@@ -59,11 +58,6 @@ export default async function HomePage() {
           Linha de Produtos
         </h2>
         <div className="mt-3 h-1 w-14 bg-accent-500" aria-hidden="true" />
-        <p className="mt-3 max-w-2xl text-slate-600">
-          {products.length > 0
-            ? `${products.length} ${products.length === 1 ? "produto" : "produtos"} com especificações técnicas completas, organizados por linha.`
-            : "Produtos com especificações técnicas completas, organizados por linha."}
-        </p>
         <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {categories.map((cat) => (
             <CategoryCard
