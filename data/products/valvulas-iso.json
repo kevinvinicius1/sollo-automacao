@@ -3,7 +3,7 @@
   "name": "Válvulas ISO",
   "slug": "valvulas-iso",
   "category": "valvulas",
-  "subcategory": "valvulas",
+  "subcategory": "valvulas-iso",
   "images": [
     "/images/products/valvulas-iso-1.webp",
     "/images/products/valvulas-iso-2.webp",
@@ -19,5 +19,5 @@
   "specsHtml": "<p><strong>Conexão:</strong> 1/4”, 3/8”</p><p><strong>Vias/Posições:</strong> 5/2 e 5/3</p><p><strong>Pressão de Trabalho</strong>: 8 bar</p><p><strong>Temperatura de Trabalho:</strong> 60°C</p><p><strong>Atuadores Disponíveis:</strong> Simples Solenoide, Duplo Solenoide</p><p><strong>Fluído:</strong> Ar comprimido filtrado</p><p><strong>Posição Central (5/3):</strong> Centro Fechado e Centro Aberto Negativo</p><p><strong>Corpo:</strong> Alumínio</p><p><strong>Vedações</strong>: Buna-N</p>",
   "downloads": [],
   "videos": [],
-  "order": 2
+  "order": 1
 }
