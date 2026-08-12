@@ -1,6 +1,7 @@
 "use client";
 
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -32,18 +33,20 @@ export default function Header({ searchItems }: { searchItems: SearchItem[] }) {
       {/* Filete bordô de identidade no topo */}
       <div className="h-1 bg-accent-500" aria-hidden="true" />
       <div className="mx-auto flex h-16 max-w-6xl items-center gap-4 px-4 sm:px-6">
-        {/* Logo texto — trocar por logotipo quando o cliente fornecer a marca */}
         <Link
           href="/"
-          className="flex shrink-0 flex-col leading-tight"
+          className="flex shrink-0 items-center"
           aria-label={`${siteConfig.name} — página inicial`}
         >
-          <span className="text-lg font-bold tracking-tight sm:text-xl">
-            {siteConfig.name.split(" ")[0]}
-          </span>
-          <span className="whitespace-nowrap text-[11px] font-light uppercase tracking-widest text-brand-200 sm:text-xs">
-            {siteConfig.name.split(" ").slice(1).join(" ")}
-          </span>
+          <Image
+            src="/images/brand/logo-dark.png"
+            alt={siteConfig.name}
+            width={495}
+            height={144}
+            unoptimized
+            priority
+            className="h-10 w-auto sm:h-11"
+          />
         </Link>
 
         <div className="hidden min-w-0 flex-1 justify-center md:flex">

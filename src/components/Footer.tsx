@@ -1,4 +1,5 @@
 import { Mail, MapPin, MessageCircle } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { siteConfig, whatsappLink } from "../../site.config";
 
@@ -7,8 +8,15 @@ export default function Footer() {
     <footer className="border-t-4 border-accent-500 bg-brand-900 text-brand-100">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 sm:px-6 md:grid-cols-3">
         <div>
-          <p className="text-lg font-bold text-white">{siteConfig.name}</p>
-          <p className="mt-1 text-sm text-brand-200">{siteConfig.tagline}</p>
+          <Image
+            src="/images/brand/logo-dark.png"
+            alt={siteConfig.name}
+            width={495}
+            height={144}
+            unoptimized
+            className="h-10 w-auto"
+          />
+          <p className="mt-3 text-sm text-brand-200">{siteConfig.tagline}</p>
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-brand-200">
             {siteConfig.description}
           </p>
