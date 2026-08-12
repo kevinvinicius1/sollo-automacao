@@ -8,17 +8,17 @@
       {
         "name": "Cilindros Pneumáticos",
         "slug": "cilindros",
-        "image": "/images/products/fcmk-cilindro-perfil-mickey-mouse-iso-1.webp"
+        "image": "/images/products/capa-cilindros.webp"
       },
       {
         "name": "Acessórios para Cilindros",
         "slug": "acessorios-para-cilindros",
-        "image": "/images/products/ponteira-garfo-1.webp"
+        "image": "/images/products/capa-acessorios-para-cilindros.webp"
       },
       {
         "name": "Sensores Eletromagnéticos",
         "slug": "sensores-eletromagneticos",
-        "image": "/images/products/sensor-cs1f2m-1.webp"
+        "image": "/images/products/capa-sensores-eletromagneticos.webp"
       }
     ]
   },
@@ -31,17 +31,17 @@
       {
         "name": "Conexões Instantâneas Tubo em Polegadas",
         "slug": "conexoes-instantaneas-tubo-em-polegadas",
-        "image": "/images/products/pmm-uniao-para-painel-1.webp"
+        "image": "/images/products/capa-conexoes-instantaneas-tubo-em-polegadas.webp"
       },
       {
         "name": "Válvulas de Fechamento Manual",
         "slug": "valvula-de-fechamento-manual",
-        "image": "/images/products/hvff06-06-fechamento-tubo-tubo-1.webp"
+        "image": "/images/products/capa-valvula-de-fechamento-manual.webp"
       },
       {
         "name": "Conexões Instantâneas Rosca NPT",
         "slug": "conexoes-instantaneas-rosca-npt",
-        "image": "/images/products/pat-distribuidor-multiplo-2x2-1.webp"
+        "image": "/images/products/capa-conexoes-instantaneas-rosca-npt.webp"
       },
       {
         "name": "Válvulas de Controle de Fluxo",
@@ -51,52 +51,52 @@
       {
         "name": "Emendas com Redução",
         "slug": "emendas-com-reducao",
-        "image": "/images/products/pg-uniao-reducao-1.webp"
+        "image": "/images/products/capa-emendas-com-reducao.webp"
       },
       {
         "name": "Conexões Instantâneas Rosca BSP",
         "slug": "conexoes-instantaneas-rosca-bsp",
-        "image": "/images/products/poc-g-conector-macho-sextavado-interno-1.webp"
+        "image": "/images/products/capa-conexoes-instantaneas-rosca-bsp.webp"
       },
       {
         "name": "Emendas",
         "slug": "emendas",
-        "image": "/images/products/pk-distribuidor-multiplo-1.webp"
+        "image": "/images/products/capa-emendas.webp"
       },
       {
         "name": "Conexões Instantâneas Compactas",
         "slug": "conexoes-instantaneas-compactas",
-        "image": "/images/products/pst-c-tee-macho-lateral-1.webp"
+        "image": "/images/products/capa-conexoes-instantaneas-compactas.webp"
       },
       {
         "name": "Conexões em Latão Rosca BSP",
         "slug": "conexoes-em-latao-rosca-bsp",
-        "image": "/images/products/sp-01-tampao-sextavado-interno-1.webp"
+        "image": "/images/products/capa-conexoes-em-latao-rosca-bsp.webp"
       },
       {
         "name": "Conexões Instantâneas Metálica",
         "slug": "conexoes-instantaneas-metalica-rosca-bsp",
-        "image": "/images/products/mpgj-plug-redutor-1.webp"
+        "image": "/images/products/capa-conexoes-instantaneas-metalica-rosca-bsp.webp"
       },
       {
         "name": "Conexões Dois Toques",
         "slug": "conexao-dois-toques",
-        "image": "/images/products/bpsu-conexao-2-toques-uniao-1.webp"
+        "image": "/images/products/capa-conexao-dois-toques.webp"
       },
       {
         "name": "Conexões para Painel",
         "slug": "conexao-para-painel",
-        "image": "/images/products/pmm-uniao-para-painel-copia-1.webp"
+        "image": "/images/products/capa-conexao-para-painel.webp"
       },
       {
         "name": "Conexões Inox",
         "slug": "conexoes-inox",
-        "image": "/images/products/ss-put-tee-uniao-inox-1.webp"
+        "image": "/images/products/capa-conexoes-inox.webp"
       },
       {
         "name": "Pistola de Ar para Limpeza",
         "slug": "pistolas-de-ar-para-limpeza",
-        "image": "/images/products/pistola-de-ar-para-limpeza-1.webp"
+        "image": "/images/products/capa-pistolas-de-ar-para-limpeza.webp"
       },
       {
         "name": "Tubos e Espirais",
@@ -106,7 +106,7 @@
       {
         "name": "Silenciador de Escape",
         "slug": "silenciador-de-escape",
-        "image": "/images/products/silenciador-escape-1.webp"
+        "image": "/images/products/capa-silenciador-de-escape.webp"
       }
     ]
   },
@@ -119,27 +119,27 @@
       {
         "name": "Válvulas Linha Econômica",
         "slug": "valvulas-linha-economica",
-        "image": "/images/products/joystick-copia-1.webp"
+        "image": "/images/products/capa-valvulas-linha-economica.webp"
       },
       {
         "name": "Válvulas Auxiliares",
         "slug": "valvulas-auxiliares",
-        "image": "/images/products/elemento-ou-copia-1.webp"
+        "image": "/images/products/capa-valvulas-auxiliares.webp"
       },
       {
         "name": "Válvulas Linha CVF",
         "slug": "valvulas-linha-cvf",
-        "image": "/images/products/valvulas-botao-2-2-1.webp"
+        "image": "/images/products/capa-valvulas-linha-cvf.webp"
       },
       {
         "name": "Válvulas de Processos Industriais",
         "slug": "valvulas-industriais",
-        "image": "/images/products/valvula-angular-latao-zfa-1.webp"
+        "image": "/images/products/capa-valvulas-industriais.webp"
       },
       {
         "name": "Válvulas Linha VF",
         "slug": "valvulas-linha-zf",
-        "image": "/images/products/valvulas-vf-1.webp"
+        "image": "/images/products/capa-valvulas-linha-zf.webp"
       },
       {
         "name": "Válvulas Alta Ciclagem",
@@ -167,47 +167,47 @@
       {
         "name": "Linha Econômica",
         "slug": "preparacao-do-ar-linha-economica",
-        "image": "/images/products/lubrificador-economica-1.webp"
+        "image": "/images/products/capa-preparacao-do-ar-linha-economica.webp"
       },
       {
         "name": "Linha Odontológica",
         "slug": "preparacao-do-ar-trio-odontologico",
-        "image": "/images/products/trio-odontologico-1.webp"
+        "image": "/images/products/capa-preparacao-do-ar-trio-odontologico.webp"
       },
       {
         "name": "Linha Intermediária (Robusta)",
         "slug": "preparacao-do-ar-linha-intermediaria",
-        "image": "/images/products/lubrificador-intermediaria-1.webp"
+        "image": "/images/products/capa-preparacao-do-ar-linha-intermediaria.webp"
       },
       {
         "name": "Purgador Automático e Eletrônico",
         "slug": "purgador-e-temporizador-eletronico",
-        "image": "/images/products/purgador-eletronico-com-filtro-y-acoplado-2-1.webp"
+        "image": "/images/products/capa-purgador-e-temporizador-eletronico.webp"
       },
       {
         "name": "Linha Especial",
         "slug": "preparacao-do-ar-especial",
-        "image": "/images/products/filtro-alta-pressao-preparacao-especial-1.webp"
+        "image": "/images/products/capa-preparacao-do-ar-especial.webp"
       },
       {
         "name": "Tratamento do Ar Comprimido",
         "slug": "preparacao-do-ar-tratamento-do-ar-comprimido",
-        "image": "/images/products/linha-samf-1.webp"
+        "image": "/images/products/capa-preparacao-do-ar-tratamento-do-ar-comprimido.webp"
       },
       {
         "name": "Linha 16 bar",
         "slug": "preparacao-do-ar-linha-16-bar",
-        "image": "/images/products/filtro-regulador-16-bar-1.webp"
+        "image": "/images/products/capa-preparacao-do-ar-linha-16-bar.webp"
       },
       {
         "name": "Pressostato",
         "slug": "preparacao-do-ar",
-        "image": "/images/products/pressostato-1.webp"
+        "image": "/images/products/capa-preparacao-do-ar.webp"
       },
       {
         "name": "Registro Esfera",
         "slug": "registro-esfera",
-        "image": "/images/products/registro-esfera-alavanca-curta-mini-1.webp"
+        "image": "/images/products/capa-registro-esfera.webp"
       }
     ]
   }
