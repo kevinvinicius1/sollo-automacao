@@ -19,7 +19,7 @@ export default async function HomePage() {
               Componentes pneumáticos industriais
             </p>
             <h1 className="mt-3 text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl">
-              Cilindros, válvulas e preparação de ar para manutenção e OEM
+              Cilindros, válvulas e preparação de ar para a sua indústria
             </h1>
             <p className="mt-5 max-w-xl leading-relaxed text-brand-100">
               Catálogo técnico com especificações e códigos de série. Encontre
