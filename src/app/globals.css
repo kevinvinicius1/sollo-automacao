@@ -5,17 +5,17 @@
   --font-sans: var(--font-archivo), ui-sans-serif, system-ui, -apple-system,
     "Segoe UI", Roboto, sans-serif;
 
-  /* Azul institucional Sollo Automação Industrial (base #2d2ba8) */
-  --color-brand-50: #eef1fc;
-  --color-brand-100: #dde2f9;
-  --color-brand-200: #bcc4f2;
-  --color-brand-300: #93a0e9;
-  --color-brand-400: #6672db;
-  --color-brand-500: #4a4ecf;
-  --color-brand-600: #3a38bd;
-  --color-brand-700: #2d2ba8;
-  --color-brand-800: #232184;
-  --color-brand-900: #1a1963;
+  /* Azul institucional Sollo Automação Industrial (base #262494) */
+  --color-brand-50: #edf0fb;
+  --color-brand-100: #dbe0f8;
+  --color-brand-200: #b8c1f0;
+  --color-brand-300: #8d99e5;
+  --color-brand-400: #5f68d3;
+  --color-brand-500: #4345c2;
+  --color-brand-600: #3231ab;
+  --color-brand-700: #262494;
+  --color-brand-800: #1e1c74;
+  --color-brand-900: #161553;
 
   /* Vinho/bordô de apoio (CTAs, destaques) */
   --color-accent-100: #f7e3e8;
