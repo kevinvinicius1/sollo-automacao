@@ -35,7 +35,7 @@ export function whatsappLink(message?: string): string {
  * build (páginas, busca, sitemap). Os JSONs em data/ não são afetados.
  * Para publicar uma linha, basta removê-la desta lista.
  */
-export const wipCategories: string[] = ["preparacao-do-ar", "conexoes"];
+export const wipCategories: string[] = [];
 
 export function isWipCategory(slug: string): boolean {
   return wipCategories.includes(slug);
