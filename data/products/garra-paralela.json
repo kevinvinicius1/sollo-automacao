@@ -10,5 +10,6 @@
   "shortDescription": "As nossas Garras Paralelas executam movimentos que simulam a abertura e fechamento de pinças.  São utilizadas em projetos que necessitam manipulação e transporte de peças durante os processos de fabricação.",
   "specsHtml": "<p><strong>Conexões:</strong> M5</p><p><strong>Tipo:</strong> &nbsp;Dupla Ação e Normal Aberta</p><p><strong>Diâmetros:</strong> 16 e 25mm</p><p><strong>Pressão de Trabalho:</strong> 8 bar</p><p><strong>Temperatura de Trabalho:</strong> 60°C</p><p><strong>Fluído:</strong> Ar comprimido filtrado</p><p><strong>Corpo:</strong> Alumínio</p><p><strong>Garras:</strong> Angular</p>",
   "downloads": [],
-  "videos": []
+  "videos": [],
+  "order": 6
 }

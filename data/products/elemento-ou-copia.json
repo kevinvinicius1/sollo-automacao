@@ -10,5 +10,6 @@
   "shortDescription": "As Válvulas Elemento “OU” da Fluir têm como finalidade o direcionamento do ar comprimido conforme necessidade, usada como seletora de circuitos ela é composta de duas entradas e uma saída, onde sempre que o ar entrar por uma dessas entradas a outra será fechada imediatamente, se…",
   "specsHtml": "<p><strong>Conexão:</strong> 1/8” e 1/4”</p><p><strong>Pressão de Trabalho:</strong> 10 bar</p><p><strong>Temperatura de Trabalho:</strong> 60°C</p><p><strong>Fluído:</strong> Ar comprimido filtrado</p><p><strong>Corpo:</strong> Alumínio</p>",
   "downloads": [],
-  "videos": []
+  "videos": [],
+  "order": 1
 }

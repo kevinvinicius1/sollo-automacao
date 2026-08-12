@@ -10,5 +10,6 @@
   "shortDescription": "A nossa Válvula de Retenção, permite a passagem do ar somente em um sentido, fechando passagem para que não haja fluxo no sentido oposto.",
   "specsHtml": "<p>Conexão: 1/8”, 1/4”, 3/8”, 1/2”, 3/4”, 1”, 1.1/4”, 1.1/2” e 2”</p><p>Pressão de Trabalho: 8 bar</p><p>Temperatura de Trabalho: 60°C</p><p>Corpo: Alumínio</p>",
   "downloads": [],
-  "videos": []
+  "videos": [],
+  "order": 8
 }

@@ -10,5 +10,6 @@
   "shortDescription": "O Pressostato é utilizado como um liga/desliga em compressores e sistemas de armazenamento de ar e água.  Tem duas faixas de pressão, uma de pressão máxima onde desliga o contato elétrico, outra de diferencial, onde determina quando o contato elétrico deve ser ligado novamente.",
   "specsHtml": "<table>\n\t\t\t\t<thead><tr><th><strong>Modelo</strong></th><th>HLP506</th><th>HLP110</th><th>HLP516</th></tr></thead>\n\t\t\t\t\t\t\t\t<tbody><tr><td><strong>Rosca (BSP)</strong></td><td>1/4″</td><td>1/4″</td><td>1/4″</td></tr><tr><td><strong>Faixa de Pressão</strong></td><td>-0.7 ~ 6bar</td><td>1 ~ 10bar</td><td>5 ~ 16bar</td></tr><tr><td><strong>Diferencial</strong></td><td>0.6 ~ 4Bar</td><td>1 ~ 3Bar</td><td>1 ~ 4Bar</td></tr></tbody>\n\t\t\t</table>",
   "downloads": [],
-  "videos": []
+  "videos": [],
+  "order": 1
 }

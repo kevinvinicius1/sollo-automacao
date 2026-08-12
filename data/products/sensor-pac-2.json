@@ -10,5 +10,6 @@
   "shortDescription": "Suporte de fixação de Sensor para cilindros.",
   "specsHtml": "<p><strong>Tipo:</strong> Dispositivo de fixação de sensores.</p><p><strong>Material:</strong> Aço Carbono Niquelado</p><p><strong>Diâmetros:</strong> 32, 40, 50, 63, 80 e 100mm</p><p><strong>Aplicação em Sensores:</strong> Modelos CS1F2M e CS100</p><p><strong>Montagem:</strong> Cilindros Tirantados</p>",
   "downloads": [],
-  "videos": []
+  "videos": [],
+  "order": 10
 }

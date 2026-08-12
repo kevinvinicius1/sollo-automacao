@@ -11,5 +11,6 @@
   "shortDescription": "O Filtro Separador de Condensados é utilizado para retirar a água proveniente da condensação do ar comprimido na sua rede e assim diminuir a umidade dele tornando-o próprio para aplicações mais exigentes.",
   "specsHtml": "<p><strong>Modelo: </strong>DMW50010AC</p><p><strong>Rosca BSP:</strong> 1”&nbsp;</p><p><strong>Vazão(I/min):</strong> 4000</p><p><strong>Pressão de Trabalho:</strong> 1 ~ 9bar</p><p><strong>Pressão(máx.):</strong> 15bar</p><p><strong>Temperatura:</strong> 5° ~ 60°</p><p><strong>Precisão do Filtro:</strong> Eliminação de condensado superior à 99 %</p><p><strong>Material do Copo:</strong> Metal acoplado com visor policarbonato</p>",
   "downloads": [],
-  "videos": []
+  "videos": [],
+  "order": 4
 }

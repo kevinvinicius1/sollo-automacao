@@ -16,5 +16,6 @@
   "shortDescription": "A Válvula Rolete tem como finalidade atuar o cilindro sem que a válvula principal seja pressionada novamente, normalmente utilizada como fim de curso.",
   "specsHtml": "<p>Conexão: M5, 1/8”, 1/4″</p><p>Vias/Posições: 3/2 5/2</p><p>Pressão de Trabalho: 8bar</p><p>Pressão Mínima de Pilotagem: 8 bar</p><p>Temperatura de Trabalho: 60°C</p><p>Atuadores Disponíveis: Rolete Mola e Gatilho Mola</p><p>Fluído: Ar comprimido filtrado</p><p>Posição Central: Não</p><p>Corpo: Alumínio</p><p>Vedações: Buna-N</p><p>Atuador: Rolete e Gatilho</p>",
   "downloads": [],
-  "videos": []
+  "videos": [],
+  "order": 10
 }

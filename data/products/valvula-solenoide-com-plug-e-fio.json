@@ -15,5 +15,6 @@
   "shortDescription": "O acionamento é feito por meio de um solenoide que permite ou bloqueia o fluxo de ar através de um sinal elétrico – funcionando como um interruptor liga/desliga.",
   "specsHtml": "<p><strong>Conexão: </strong>1/8″ e 1/4″</p><p><strong>Vias/Posições:</strong> 5/2 e 5/3</p><p><strong>Pressão de Trabalho:</strong> 8 bar</p><p><strong>Temperatura de Trabalho:</strong> 60°C</p><p><strong>Atuadores Disponíveis:</strong> Simples Solenoide, Duplo Solenoide</p><p><strong>Fluído:</strong> Ar comprimido filtrado</p><p><strong>Posição Central (5/3):</strong> Centro Fechado</p><p><strong>Corpo:</strong> Alumínio</p><p><strong>Vedações:</strong> Buna-N</p>",
   "downloads": [],
-  "videos": []
+  "videos": [],
+  "order": 2
 }

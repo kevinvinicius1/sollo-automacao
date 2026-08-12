@@ -10,5 +10,6 @@
   "shortDescription": "Suporte para fixação de Sensor Eletromagnético.",
   "specsHtml": "<p><strong>Tipo:</strong> Dispositivo de fixação de sensores.</p><p><strong>Material:</strong> Alumínio</p><p><strong>Diâmetros:</strong> 32, 40, 50, 63, 80, 100, 125, 160 e 200mm</p><p><strong>Aplicação em Sensores:</strong> Modelos CS1F2M e CS100</p><p><strong>Montagem:</strong> Cilindros perfil Mickey Mouse</p>",
   "downloads": [],
-  "videos": []
+  "videos": [],
+  "order": 11
 }

@@ -12,5 +12,6 @@
   "shortDescription": "O nosso Filtro da Linha Intermediária (Robusta) é indicado para todos os segmentos de automação onde haja a necessidade de filtrar um grande fluxo de ar comprimido.",
   "specsHtml": "<table>\n\t\t\t\t<thead><tr><th><strong>Modelo</strong></th><th>AF200002</th><th>AF300003</th><th>AF400004</th><th>AF400006</th><th>AF500010</th></tr></thead>\n\t\t\t\t\t\t\t\t<tbody><tr><td><strong>Rosca (BSP)</strong></td><td>1/4″</td><td>3/8” </td><td>1/2”</td><td>3/4”</td><td>1″</td></tr><tr><td><strong>Vazão (l/min)</strong></td><td>1280</td><td>2390</td><td>5800</td><td>5870</td><td>7700</td></tr><tr><td><strong>Pressão\t de Trabalho</strong></td><td>1 ~ 8bar</td><td>1 ~ 8bar</td><td>1 ~ 8bar</td><td>1 ~ 8bar</td><td>1 ~ 8bar</td></tr><tr><td><strong>Pressão Máxima</strong></td><td>10bar</td><td>10bar</td><td>10bar\n</td><td>10bar\n</td><td>10bar\n</td></tr><tr></tr><tr><td><strong>Temperatura de Trabalho</strong></td><td>5° ~ 60°</td><td>5° ~ 60°</td><td>5° ~ 60°</td><td>5° ~ 60°</td><td>5° ~ 60°</td></tr><tr><td><strong>Precisão do Filtro</strong></td><td>5 micra</td><td>5 micra</td><td>5 micra</td><td>5 micra</td><td>5 micra</td></tr><tr><td><strong>Material do Copo</strong></td><td>Policarbonato</td><td>Policarbonato (Proteção de Alumínio)</td><td>Policarbonato (Proteção de Alumínio)\n</td><td>Policarbonato (Proteção de Alumínio)\n</td><td>Policarbonato (Proteção de Alumínio)\n</td></tr></tbody>\n\t\t\t</table>",
   "downloads": [],
-  "videos": []
+  "videos": [],
+  "order": 2
 }

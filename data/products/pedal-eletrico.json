@@ -10,5 +10,6 @@
   "shortDescription": "O Pedal Elétrico atua como um interruptor, permitindo ao operador controlar o acionamento de equipamentos e processos de forma segura e eficaz através de um suave contato do pé com a superfície do pedal.",
   "specsHtml": "<p><strong>Conexão:</strong> Dois fios</p><p><strong>Carga Admissível:</strong> 10A</p><p><strong>Corrente:</strong> 12 a 220 volts</p><p><strong>Versão:</strong> Simples Sinal</p>",
   "downloads": [],
-  "videos": []
+  "videos": [],
+  "order": 12
 }

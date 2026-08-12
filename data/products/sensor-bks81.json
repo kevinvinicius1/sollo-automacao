@@ -10,5 +10,6 @@
   "shortDescription": "Suporte de fixação de Sensor para cilindros Mini ISO.",
   "specsHtml": "<p><strong>Tipo:</strong> Dispositivo de fixação de sensores.</p><p><strong>Material:</strong> Aço inox</p><p><strong>Aplicação:</strong> Cilindros Mini ISO</p><p><strong>Diâmetros:</strong> 10, 12, 16, 20, 25, 32, 40, 50 e 63mm</p>",
   "downloads": [],
-  "videos": []
+  "videos": [],
+  "order": 1
 }

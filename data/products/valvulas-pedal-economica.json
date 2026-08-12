@@ -16,5 +16,6 @@
   "shortDescription": "Nossas Válvulas Pedal tem a função de controlar o direcionamento com uma vazão otimizada do ar comprimido para movimentar ou acionar um cilindro, um atuador ou outros equipamentos automatizados.",
   "specsHtml": "<p><strong>Conexão:</strong> 1/4”</p><p><strong>Vias/Posições:</strong> 3/2, 4/2 e 5/2</p><p><strong>Pressão de Trabalho:</strong> 8 bar</p><p><strong>Temperatura de Trabalho:</strong> 60°C</p><p><strong>Atuadores Disponíveis:</strong> Pedal mola e Pedal trava</p><p><strong>Fluído:</strong> Ar comprimido filtrado</p><p><strong>Posição Central:</strong> Não</p><p><strong>Corpo:</strong> Alumínio</p><p><strong>Vedações:</strong> Buna-N</p><p><strong>Atuador:</strong> Pedal</p><p><strong>Versões:</strong> Com e sem proteção</p>",
   "downloads": [],
-  "videos": []
+  "videos": [],
+  "order": 11
 }

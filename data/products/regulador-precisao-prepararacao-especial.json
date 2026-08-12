@@ -10,5 +10,6 @@
   "shortDescription": "O nosso Regulador de Pressão de Precisão é indicado para todas as automações que necessitem de regulagem fina, entre 0 a 8 bar com precisão na regulagem.  Fornecido na versão de 1/4″.",
   "specsHtml": "<p><strong>Modelo:</strong> TIR200002</p><p><strong>Rosca BSP:</strong> 1/4”</p><p><strong>Vazão(I/min):</strong> 900</p><p><strong>Pressão de Trabalho:</strong> 0,2 ~ 8bar</p><p><strong>Pressão Máxima:</strong> 8bar</p><p><strong>Rosca do Manômetro BSP:&nbsp;</strong> 1/8”&nbsp;</p><p><strong>Temperatura de Trabalho:</strong> 5° ~ 60°</p>",
   "downloads": [],
-  "videos": []
+  "videos": [],
+  "order": 3
 }

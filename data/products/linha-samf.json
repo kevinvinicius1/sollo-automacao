@@ -10,5 +10,6 @@
   "shortDescription": "O Filtro de Carvão Ativado é utilizado para eliminar odores e vapores de óleo contidos no ar comprimido tornando-o mais puro e próprio para as necessidades mais exigentes da indústria.",
   "specsHtml": "<table>\n\t\t\t\t<thead><tr><th><strong>Modelo</strong></th><th>SAMF250</th><th>SAMF350</th><th>SAMF450</th><th>SAMF550</th></tr></thead>\n\t\t\t\t\t\t\t\t<tbody><tr><td><strong>Rosca (BSP)</strong></td><td>1/4” </td><td>1/2” </td><td>3/4” </td><td>1” </td></tr><tr><td><strong>Vazão (l/min)</strong></td><td>500</td><td>1100</td><td>2100</td><td>4000</td></tr><tr><td><strong>Pressão\t de Trabalho</strong></td><td>1 ~ 10bar</td><td>1 ~ 10bar</td><td>1 ~ 10bar</td><td>1 ~ 10bar</td></tr><tr><td><strong>Pressão Máxima</strong></td><td>15bar</td><td>15bar</td><td>15bar</td><td>15bar</td></tr><tr><td><strong>Temperatura de Trabalho</strong></td><td>5° ~ 60°</td><td>5° ~ 60°</td><td>5° ~ 60°</td><td>5° ~ 60°</td></tr><tr><td><strong>Precisão do Filtro</strong></td><td>Carvão Ativado</td><td>Carvão Ativado</td><td>Carvão Ativado</td><td>Carvão Ativado</td></tr><tr><td><strong>Material do Copo</strong></td><td>Policarbonato (Proteção de Alumínio)</td><td>Policarbonato (Proteção de Alumínio)</td><td>Policarbonato (Proteção de Alumínio)</td><td>Policarbonato (Proteção de Alumínio)</td></tr></tbody>\n\t\t\t</table>",
   "downloads": [],
-  "videos": []
+  "videos": [],
+  "order": 1
 }

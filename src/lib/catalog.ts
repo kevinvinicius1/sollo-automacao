@@ -24,6 +24,8 @@ export const productSchema = z.object({
   downloads: z.array(z.object({ label: z.string(), file: z.string() })),
   /** URLs de vídeos (YouTube) */
   videos: z.array(z.string()).default([]),
+  /** Posição do produto na listagem da sublinha (espelha o site da Fluir) */
+  order: z.number().optional(),
 });
 
 export type Product = z.infer<typeof productSchema>;
@@ -94,9 +96,14 @@ export async function getProductsBySubcategory(
   category: string,
   subcategory: string
 ): Promise<Product[]> {
-  return (await getProducts()).filter(
-    (p) => p.category === category && p.subcategory === subcategory
-  );
+  return (await getProducts())
+    .filter((p) => p.category === category && p.subcategory === subcategory)
+    .sort(
+      (a, b) =>
+        (a.order ?? Number.MAX_SAFE_INTEGER) -
+          (b.order ?? Number.MAX_SAFE_INTEGER) ||
+        a.name.localeCompare(b.name, "pt-BR")
+    );
 }
 
 /** Produtos da vitrine da home, na ordem de site.config.ts. */

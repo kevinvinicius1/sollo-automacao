@@ -10,5 +10,6 @@
   "shortDescription": "O Sensor Magnético é um componente extremamente importante em um projeto de automação onde haja a necessidade de precisão e segurança, pois torna possível que o embolo seja detectado de forma exata através do seu campo magnético, o que possibilita que essa informação seja enviad…",
   "specsHtml": "<p><strong>Tensão de Trabalho:</strong> 5 ~ 120 (AC/DC)</p><p><strong>Posição do Contato:</strong> Normal aberto</p><p><strong>Classe de Operação:</strong> IP67</p><p><strong>Indicador:</strong> LED</p><p><strong>Cabo:</strong> 2 MTS</p>",
   "downloads": [],
-  "videos": []
+  "videos": [],
+  "order": 8
 }

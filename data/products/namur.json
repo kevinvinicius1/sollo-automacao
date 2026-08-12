@@ -12,5 +12,6 @@
   "shortDescription": "As Válvulas Namur tem a função de controlar o direcionamento com uma vazão otimizada do ar comprimido para o acionamento de atuadores rotativos em válvulas de processo.  O seu acionamento se dá a a partir de um solenoide que age liberando o fluxo de passagem do ar através de cor…",
   "specsHtml": "<p>Conexão: 1/4”</p><p>Vias/Posições: 5/2</p><p>Pressão de Trabalho: 8 bar</p><p>Temperatura de Trabalho: 60°C</p><p>Atuadores Disponíveis: Simples Solenoide e Duplo Solenoide</p><p>Fluído: Ar comprimido filtrado</p><p>Posição Central: Não</p><p>Corpo: Alumínio</p><p>Vedações: Buna-N</p><p>Atuador: Por ar tipo SPOOL</p>",
   "downloads": [],
-  "videos": []
+  "videos": [],
+  "order": 7
 }

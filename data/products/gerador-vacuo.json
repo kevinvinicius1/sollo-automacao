@@ -10,5 +10,6 @@
   "shortDescription": "Construídas para gerar vácuo utilizando o fluxo do ar comprimido.  Fornecidas em várias bitolas, para se adequar a cada tipo de automatização.",
   "specsHtml": "<p>Conexão: 1/8”, 1/4” e 3/8”</p><p>Pressão de Trabalho: 8 bar</p><p>Temperatura de Trabalho: 60°C</p><p>Fluído: Ar comprimido filtrado</p><p>Corpo: Alumínio</p>",
   "downloads": [],
-  "videos": []
+  "videos": [],
+  "order": 5
 }

@@ -11,5 +11,6 @@
   "shortDescription": "O Filtro Coalescente Submicrônico é utilizado quando houver a necessidade um ar comprimido de pureza maior, pois sua filtragem de alta eficiência deixa o ar próprio para utilização em projetos mais exigentes.",
   "specsHtml": "<p><strong>Modelo: DMD50010AC</strong></p><p><strong>Rosca BSP:</strong> 1”&nbsp;</p><p><strong>Vazão(I/min):</strong> 4000</p><p><strong>Pressão de Trabalho:</strong> 1 ~ 9bar</p><p><strong>Pressão(máx.):</strong> 15bar</p><p><strong>Temperatura:</strong> 5° ~ 60°</p><p><strong>Precisão do Filtro:</strong> 0,01 micra (Coalescente)</p><p><strong>Material do Copo:</strong> Metal acoplado com visor policarbonato</p>",
   "downloads": [],
-  "videos": []
+  "videos": [],
+  "order": 5
 }

@@ -11,5 +11,6 @@
   "shortDescription": "Proteção Inicial para seu Sistema PneumáticoO Filtro PRÉ é o primeiro nível de proteção no tratamento do ar comprimido.",
   "specsHtml": "<table>\n\t\t\t\t<thead><tr><th><strong>Modelo</strong></th><th>DA200-15-Q</th><th>DA200-20-Q</th><th>DA300-25-Q</th><th>DA300-40-Q</th><th>DA400-40-Q</th><th>DA500-50-Q</th></tr></thead>\n\t\t\t\t\t\t\t\t<tbody><tr><td><strong>Rosca (BSP)</strong></td><td>1/2″</td><td>3/4″</td><td>1” </td><td>1.1/2″</td><td>1.1/2”</td><td>2”</td></tr><tr><td><strong>Vazão</strong></td><td>81 PCM</td><td>81 PCM</td><td>127 PCM</td><td>127 PCM</td><td>233 PCM</td><td>434 PCM</td></tr><tr><td><strong>Pressão Máxima</strong></td><td>16 bar</td><td>16 bar</td><td>16 bar</td><td>16 bar</td><td>16 bar</td><td>16 bar</td></tr><tr><td><strong>Temperatura de Trabalho</strong></td><td>80°C</td><td>80°C</td><td>80°C</td><td>80°C</td><td>80°C</td><td>80°C</td></tr><tr><td><strong>Precisão do Filtro</strong></td><td>3 micra</td><td>3 micra</td><td>3 micra</td><td>3 micra</td><td>3 micra</td><td>3 micra</td></tr><tr><td><strong>Grade</strong></td><td>Q</td><td>Q</td><td>Q</td><td>Q</td><td>Q</td><td>Q</td></tr><tr><td><strong>Elemento Filtrante</strong></td><td>ELMDA200Q-15</td><td>ELMDA200Q-20</td><td>ELMDA300Q-25</td><td>ELMDA300Q-40</td><td>ELMDA400Q-40</td><td>ELMDA500Q-50</td></tr></tbody>\n\t\t\t</table>",
   "downloads": [],
-  "videos": []
+  "videos": [],
+  "order": 10
 }
