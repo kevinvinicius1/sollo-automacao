@@ -1,7 +1,6 @@
 import { ArrowRight, Mail, MapPin, MessageCircle } from "lucide-react";
 import type { Metadata } from "next";
 import Breadcrumb from "@/components/Breadcrumb";
-import ProductLinesStrip from "@/components/ProductLinesStrip";
 import { siteConfig, whatsappLink } from "../../../site.config";
 
 export const metadata: Metadata = {
@@ -94,7 +93,6 @@ export default function ContatoPage() {
         </a>
       </section>
 
-      <ProductLinesStrip />
     </div>
   );
 }

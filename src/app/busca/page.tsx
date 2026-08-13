@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import Breadcrumb from "@/components/Breadcrumb";
-import ProductLinesStrip from "@/components/ProductLinesStrip";
 import SearchResults from "@/components/SearchResults";
 import { getProducts } from "@/lib/catalog";
 
@@ -34,7 +33,6 @@ export default async function BuscaPage() {
         <SearchResults items={items} />
       </Suspense>
 
-      <ProductLinesStrip />
     </div>
   );
 }

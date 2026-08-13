@@ -4,7 +4,6 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Breadcrumb, { type Crumb } from "@/components/Breadcrumb";
 import ProductGallery from "@/components/ProductGallery";
-import ProductLinesStrip from "@/components/ProductLinesStrip";
 import ProductVariants from "@/components/ProductVariants";
 import SpecsTable from "@/components/SpecsTable";
 import {
@@ -204,7 +203,6 @@ export default async function ProdutoPage({ params }: Props) {
 
         <ProductVariants images={product.images} name={product.name} />
 
-        <ProductLinesStrip />
       </div>
     </>
   );
