@@ -1,7 +1,6 @@
 import { ArrowRight, Image as ImageIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import PhotoReveal from "@/components/PhotoReveal";
 import type { Product } from "@/lib/catalog";
 
 /** Placeholder cinza com ícone quando o produto não tem imagens. */
@@ -29,7 +28,6 @@ export default function ProductCard({ product }: { product: ProductCardData }) {
       className="group flex flex-col overflow-hidden rounded border border-slate-200 bg-white shadow-sm transition-colors hover:border-accent-300"
     >
       <div className="relative aspect-square w-full overflow-hidden bg-white">
-        {product.images.length > 0 && <PhotoReveal />}
         {product.images.length > 0 ? (
           <Image
             src={product.images[0]}
