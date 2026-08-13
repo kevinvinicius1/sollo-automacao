@@ -47,7 +47,19 @@ export default async function CategoriaPage({ params }: Props) {
           { label: category.name },
         ]}
       />
-      <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
+      {category.heroImage && (
+        <Image
+          src={category.heroImage}
+          alt={`Produtos da linha ${category.name}`}
+          width={1080}
+          height={400}
+          unoptimized
+          priority
+          className="mt-4 h-auto w-full rounded"
+        />
+      )}
+
+      <div className="mt-6 flex flex-wrap items-center justify-between gap-3">
         <h1 className="text-3xl font-bold tracking-tight text-brand-700">
           {category.name}
         </h1>
@@ -60,18 +72,6 @@ export default async function CategoriaPage({ params }: Props) {
         </Link>
       </div>
       <div className="mt-3 h-1 w-14 bg-accent-500" aria-hidden="true" />
-
-      {category.heroImage && (
-        <Image
-          src={category.heroImage}
-          alt={`Produtos da linha ${category.name}`}
-          width={1080}
-          height={400}
-          unoptimized
-          priority
-          className="mt-6 h-auto w-full rounded"
-        />
-      )}
 
       {wip ? (
         <div className="mt-8 rounded border border-slate-200 bg-white p-8 text-center">

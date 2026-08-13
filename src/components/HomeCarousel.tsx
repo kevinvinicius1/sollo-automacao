@@ -13,7 +13,10 @@ export interface HomeCarouselSlide {
   image: string;
 }
 
-/** Carrossel de banners das linhas de produto, exibido no hero da home. */
+/**
+ * Carrossel de banners das linhas de produto, exibido no hero da home.
+ * Preenche a altura do contêiner pai (a moldura diagonal define o recorte).
+ */
 export default function HomeCarousel({
   slides,
 }: {
@@ -49,38 +52,43 @@ export default function HomeCarousel({
   if (slides.length === 0) return null;
 
   return (
-    <div aria-roledescription="carousel" aria-label="Linhas de produtos">
-      <div className="relative">
-        <div ref={emblaRef} className="overflow-hidden rounded bg-white">
-          <div className="flex">
-            {slides.map((slide, i) => (
-              <div
-                key={slide.href}
-                className="min-w-0 flex-[0_0_100%]"
-                aria-roledescription="slide"
-                aria-label={`${i + 1} de ${slides.length}`}
-              >
-                <Link href={slide.href} className="block">
-                  <Image
-                    src={slide.image}
-                    alt={`Linha ${slide.name}`}
-                    width={1080}
-                    height={400}
-                    unoptimized
-                    priority={i === 0}
-                    draggable={false}
-                    className="h-auto w-full"
-                  />
-                </Link>
-              </div>
-            ))}
-          </div>
+    <div
+      className="relative h-full"
+      aria-roledescription="carousel"
+      aria-label="Linhas de produtos"
+    >
+      <div ref={emblaRef} className="h-full overflow-hidden">
+        <div className="flex h-full">
+          {slides.map((slide, i) => (
+            <div
+              key={slide.href}
+              className="relative min-w-0 flex-[0_0_100%]"
+              aria-roledescription="slide"
+              aria-label={`${i + 1} de ${slides.length}`}
+            >
+              <Link href={slide.href} className="block h-full">
+                <Image
+                  src={slide.image}
+                  alt={`Linha ${slide.name}`}
+                  fill
+                  unoptimized
+                  priority={i === 0}
+                  draggable={false}
+                  className="object-cover"
+                />
+              </Link>
+            </div>
+          ))}
         </div>
+      </div>
+
+      {/* No mobile a navegação é por arrasto; as setas só aparecem de sm pra cima */}
+      <div className="absolute bottom-3 right-3 hidden gap-2 sm:flex">
         <button
           type="button"
           onClick={scrollPrev}
           aria-label="Slide anterior"
-          className="absolute left-3 top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded bg-brand-700 text-white transition-colors hover:bg-brand-600"
+          className="flex h-9 w-9 items-center justify-center rounded bg-brand-700 text-white transition-colors hover:bg-brand-600"
         >
           <ChevronLeft className="h-5 w-5" aria-hidden="true" />
         </button>
@@ -88,12 +96,13 @@ export default function HomeCarousel({
           type="button"
           onClick={scrollNext}
           aria-label="Próximo slide"
-          className="absolute right-3 top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded bg-brand-700 text-white transition-colors hover:bg-brand-600"
+          className="flex h-9 w-9 items-center justify-center rounded bg-brand-700 text-white transition-colors hover:bg-brand-600"
         >
           <ChevronRight className="h-5 w-5" aria-hidden="true" />
         </button>
       </div>
-      <div className="mt-4 flex justify-center gap-2.5">
+
+      <div className="absolute bottom-4 left-1/2 flex -translate-x-1/2 gap-2.5">
         {slides.map((slide, i) => (
           <button
             key={slide.href}
@@ -102,7 +111,9 @@ export default function HomeCarousel({
             aria-label={`Ir para o slide ${i + 1} — ${slide.name}`}
             aria-current={i === selected ? "true" : undefined}
             className={`h-2.5 w-2.5 rounded-full transition-colors ${
-              i === selected ? "bg-white" : "bg-brand-400 hover:bg-brand-300"
+              i === selected
+                ? "bg-accent-500"
+                : "bg-slate-400 hover:bg-slate-500"
             }`}
           />
         ))}
