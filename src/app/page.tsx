@@ -1,13 +1,11 @@
 import { Mail, MessageCircle } from "lucide-react";
 import Link from "next/link";
 import CategoryCard from "@/components/CategoryCard";
-import ProductCard from "@/components/ProductCard";
-import { getCategories, getFeaturedProducts } from "@/lib/catalog";
+import { getCategories } from "@/lib/catalog";
 import { isWipCategory, siteConfig, whatsappLink } from "../../site.config";
 
 export default async function HomePage() {
   const categories = await getCategories();
-  const featured = await getFeaturedProducts();
 
   return (
     <>
@@ -70,29 +68,6 @@ export default async function HomePage() {
           ))}
         </div>
       </section>
-
-      {/* Produtos em destaque */}
-      {featured.length > 0 && (
-        <section
-          aria-labelledby="destaques-heading"
-          className="border-y border-slate-200 bg-white"
-        >
-          <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
-            <h2
-              id="destaques-heading"
-              className="text-2xl font-bold tracking-tight text-brand-700 sm:text-3xl"
-            >
-              Produtos em destaque
-            </h2>
-            <div className="mt-3 h-1 w-14 bg-accent-500" aria-hidden="true" />
-            <div className="mt-8 grid grid-cols-2 gap-4 sm:gap-5 md:grid-cols-4">
-              {featured.map((p) => (
-                <ProductCard key={p.slug} product={p} />
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
 
       {/* Como pedir orçamento — sequência real do fluxo de compra */}
       <section aria-labelledby="como-comprar-heading">

@@ -1,7 +1,7 @@
 import { promises as fs } from "fs";
 import path from "path";
 import { z } from "zod";
-import { featuredProducts, isWipCategory } from "../../site.config";
+import { isWipCategory } from "../../site.config";
 
 /** Schema de um produto em data/products/<slug>.json */
 export const productSchema = z.object({
@@ -104,12 +104,4 @@ export async function getProductsBySubcategory(
           (b.order ?? Number.MAX_SAFE_INTEGER) ||
         a.name.localeCompare(b.name, "pt-BR")
     );
-}
-
-/** Produtos da vitrine da home, na ordem de site.config.ts. */
-export async function getFeaturedProducts(): Promise<Product[]> {
-  const products = await getProducts();
-  return featuredProducts
-    .map((slug) => products.find((p) => p.slug === slug))
-    .filter((p): p is Product => p !== undefined);
 }

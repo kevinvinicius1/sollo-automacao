@@ -40,15 +40,3 @@ export const wipCategories: string[] = [];
 export function isWipCategory(slug: string): boolean {
   return wipCategories.includes(slug);
 }
-
-/** Slugs exibidos na vitrine "Produtos em destaque" da home. */
-export const featuredProducts: string[] = [
-  "fcmk-cilindro-perfil-mickey-mouse-iso",
-  "valvulas-iso",
-  "registro-esfera-alavanca-curta-mini",
-  "sensor-bks81",
-  "valvula-angular-latao-zfa",
-  "valvulas-vf",
-  "ponteira-garfo",
-  "valvulas-botao-2-2",
-];
