@@ -3,7 +3,8 @@
     "name": "Cilindros",
     "slug": "cilindros-pneumaticos",
     "image": "/images/products/fct-cilindro-tirantado-iso-1.webp",
-    "order": 1,
+    "heroImage": "/images/categorias/topo-cilindros-pneumaticos.webp",
+    "order": 2,
     "subcategories": [
       {
         "name": "Cilindros Pneumáticos",
@@ -26,7 +27,8 @@
     "name": "Conexões, Silenciadores e Tubos",
     "slug": "conexoes",
     "image": "/images/products/tubos-e-espirais-1.webp",
-    "order": 4,
+    "heroImage": "/images/categorias/topo-conexoes.webp",
+    "order": 5,
     "subcategories": [
       {
         "name": "Conexões Instantâneas Tubo em Polegadas",
@@ -114,7 +116,8 @@
     "name": "Válvulas",
     "slug": "valvulas",
     "image": "/images/products/valvulas-botao-2-2-1.webp",
-    "order": 2,
+    "heroImage": "/images/categorias/topo-valvulas.webp",
+    "order": 3,
     "subcategories": [
       {
         "name": "Válvulas Linha Econômica",
@@ -162,7 +165,8 @@
     "name": "Preparação de Ar",
     "slug": "preparacao-do-ar",
     "image": "/images/products/conjunto-lubrefil-16-bar-1.webp",
-    "order": 3,
+    "heroImage": "/images/categorias/topo-preparacao-do-ar.webp",
+    "order": 4,
     "subcategories": [
       {
         "name": "Linha Econômica",
@@ -210,5 +214,11 @@
         "image": "/images/products/capa-registro-esfera.webp"
       }
     ]
+  },
+  {
+    "name": "Linha Gefran",
+    "slug": "linha-gefran",
+    "order": 1,
+    "subcategories": []
   }
 ]

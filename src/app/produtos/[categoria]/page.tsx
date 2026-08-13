@@ -1,5 +1,6 @@
 import { ArrowLeft } from "lucide-react";
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Breadcrumb from "@/components/Breadcrumb";
@@ -59,6 +60,18 @@ export default async function CategoriaPage({ params }: Props) {
         </Link>
       </div>
       <div className="mt-3 h-1 w-14 bg-accent-500" aria-hidden="true" />
+
+      {category.heroImage && (
+        <Image
+          src={category.heroImage}
+          alt={`Produtos da linha ${category.name}`}
+          width={1080}
+          height={400}
+          unoptimized
+          priority
+          className="mt-6 h-auto w-full rounded"
+        />
+      )}
 
       {wip ? (
         <div className="mt-8 rounded border border-slate-200 bg-white p-8 text-center">

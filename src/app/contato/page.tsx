@@ -1,6 +1,7 @@
-import { ArrowRight, Mail, MapPin, MessageCircle } from "lucide-react";
+import { ArrowRight, Mail, MapPin, Phone } from "lucide-react";
 import type { Metadata } from "next";
 import Breadcrumb from "@/components/Breadcrumb";
+import WhatsAppIcon from "@/components/WhatsAppIcon";
 import { siteConfig, whatsappLink } from "../../../site.config";
 
 export const metadata: Metadata = {
@@ -21,7 +22,7 @@ export default function ContatoPage() {
         mais rápido é o WhatsApp.
       </p>
 
-      <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         <a
           href={whatsappLink("Olá! Gostaria de solicitar um orçamento.")}
           target="_blank"
@@ -29,12 +30,29 @@ export default function ContatoPage() {
           className="group rounded border border-slate-200 bg-white p-6 shadow-sm transition-colors hover:border-accent-300"
         >
           <div className="flex h-11 w-11 items-center justify-center rounded bg-brand-50 text-brand-700">
-            <MessageCircle className="h-6 w-6" aria-hidden="true" />
+            <WhatsAppIcon className="h-6 w-6" />
           </div>
           <h2 className="mt-4 font-bold text-brand-700">WhatsApp</h2>
-          <p className="mt-1 text-sm text-slate-600">{siteConfig.phone}</p>
+          <p className="mt-1 text-sm text-slate-600">
+            {siteConfig.whatsappPhone}
+          </p>
           <span className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-accent-600 group-hover:underline">
             Iniciar conversa
+            <ArrowRight className="h-4 w-4" aria-hidden="true" />
+          </span>
+        </a>
+
+        <a
+          href={`tel:+55${siteConfig.phone.replace(/\D/g, "")}`}
+          className="group rounded border border-slate-200 bg-white p-6 shadow-sm transition-colors hover:border-accent-300"
+        >
+          <div className="flex h-11 w-11 items-center justify-center rounded bg-brand-50 text-brand-700">
+            <Phone className="h-6 w-6" aria-hidden="true" />
+          </div>
+          <h2 className="mt-4 font-bold text-brand-700">Telefone</h2>
+          <p className="mt-1 text-sm text-slate-600">{siteConfig.phone}</p>
+          <span className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-accent-600 group-hover:underline">
+            Ligar agora
             <ArrowRight className="h-4 w-4" aria-hidden="true" />
           </span>
         </a>
@@ -88,7 +106,7 @@ export default function ContatoPage() {
           rel="noopener noreferrer"
           className="mt-6 inline-flex items-center gap-2 rounded bg-accent-500 px-6 py-3 font-semibold text-white transition-colors hover:bg-accent-600"
         >
-          <MessageCircle className="h-5 w-5" aria-hidden="true" />
+          <WhatsAppIcon className="h-5 w-5" />
           Chamar no WhatsApp
         </a>
       </section>

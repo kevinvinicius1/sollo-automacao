@@ -40,6 +40,8 @@ for (const cat of categories) {
   }
   if (cat.image && !(await exists(path.join(ROOT, "public", cat.image))))
     errors.push(`imagem da categoria ${cat.slug} não existe: ${cat.image}`);
+  if (cat.heroImage && !(await exists(path.join(ROOT, "public", cat.heroImage))))
+    errors.push(`banner da categoria ${cat.slug} não existe: ${cat.heroImage}`);
 }
 
 const productsDir = path.join(ROOT, "data/products");

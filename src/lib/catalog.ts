@@ -41,6 +41,8 @@ export const categorySchema = z.object({
   name: z.string(),
   slug: z.string(),
   image: z.string().optional(),
+  /** Banner de topo da página da linha (também roda no carrossel da home) */
+  heroImage: z.string().optional(),
   order: z.number(),
   subcategories: z.array(subcategorySchema),
 });

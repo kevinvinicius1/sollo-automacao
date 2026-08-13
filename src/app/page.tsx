@@ -1,36 +1,38 @@
-import { Mail, MessageCircle } from "lucide-react";
+import { Mail } from "lucide-react";
 import Link from "next/link";
 import CategoryCard from "@/components/CategoryCard";
+import HomeCarousel from "@/components/HomeCarousel";
+import WhatsAppIcon from "@/components/WhatsAppIcon";
 import { getCategories } from "@/lib/catalog";
 import { isWipCategory, siteConfig, whatsappLink } from "../../site.config";
 
 export default async function HomePage() {
   const categories = await getCategories();
+  const heroSlides = categories
+    .filter((cat) => cat.heroImage && !isWipCategory(cat.slug))
+    .map((cat) => ({
+      name: cat.name,
+      href: `/produtos/${cat.slug}/`,
+      image: cat.heroImage!,
+    }));
 
   return (
     <>
-      {/* Hero full-width */}
+      {/* Hero full-width: título + CTAs e carrossel das linhas */}
       <section className="bg-brand-800 text-white">
-        <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:py-24">
-          <div className="max-w-3xl">
-            <p className="text-sm font-semibold uppercase tracking-widest text-accent-300">
-              Componentes pneumáticos industriais
-            </p>
-            <h1 className="mt-3 text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl">
+        <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:py-12">
+          <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
+            <h1 className="max-w-2xl text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
               Cilindros, válvulas e preparação de ar para a sua indústria
             </h1>
-            <p className="mt-5 max-w-xl leading-relaxed text-brand-100">
-              Catálogo técnico com especificações e códigos de série. Encontre
-              o item, envie o código pelo WhatsApp e receba preço e prazo.
-            </p>
-            <div className="mt-8 flex flex-wrap gap-3">
+            <div className="flex flex-wrap gap-3">
               <a
                 href={whatsappLink("Olá! Gostaria de solicitar um orçamento.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded bg-accent-500 px-6 py-3 font-semibold text-white transition-colors hover:bg-accent-600"
               >
-                <MessageCircle className="h-5 w-5" aria-hidden="true" />
+                <WhatsAppIcon className="h-5 w-5" />
                 Pedir orçamento no WhatsApp
               </a>
               <Link
@@ -40,6 +42,9 @@ export default async function HomePage() {
                 Ver o catálogo
               </Link>
             </div>
+          </div>
+          <div className="mt-8">
+            <HomeCarousel slides={heroSlides} />
           </div>
         </div>
       </section>
@@ -159,8 +164,8 @@ export default async function HomePage() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded bg-accent-500 px-6 py-3 font-semibold text-white transition-colors hover:bg-accent-600"
             >
-              <MessageCircle className="h-5 w-5" aria-hidden="true" />
-              WhatsApp: {siteConfig.phone}
+              <WhatsAppIcon className="h-5 w-5" />
+              WhatsApp: {siteConfig.whatsappPhone}
             </a>
             <a
               href={`mailto:${siteConfig.email}`}

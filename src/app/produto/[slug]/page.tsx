@@ -1,4 +1,4 @@
-import { ArrowLeft, MessageCircle } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -6,6 +6,7 @@ import Breadcrumb, { type Crumb } from "@/components/Breadcrumb";
 import ProductGallery from "@/components/ProductGallery";
 import ProductVariants from "@/components/ProductVariants";
 import SpecsTable from "@/components/SpecsTable";
+import WhatsAppIcon from "@/components/WhatsAppIcon";
 import {
   getCategoryBySlug,
   getProductBySlug,
@@ -156,7 +157,7 @@ export default async function ProdutoPage({ params }: Props) {
               rel="noopener noreferrer"
               className="mt-8 inline-flex w-full items-center justify-center gap-3 rounded bg-accent-500 px-6 py-4 text-lg font-semibold text-white transition-colors hover:bg-accent-600 sm:w-auto"
             >
-              <MessageCircle className="h-6 w-6" aria-hidden="true" />
+              <WhatsAppIcon className="h-6 w-6" />
               Solicitar orçamento pelo WhatsApp
             </a>
             <p className="mt-3 text-sm text-slate-500">
