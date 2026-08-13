@@ -32,7 +32,7 @@ export default function Header({ searchItems }: { searchItems: SearchItem[] }) {
     <header className="sticky top-0 z-40 border-b border-brand-800 bg-brand-700 text-white shadow-md">
       {/* Filete bordô de identidade no topo */}
       <div className="h-1 bg-accent-500" aria-hidden="true" />
-      <div className="mx-auto flex h-16 max-w-6xl items-center gap-4 px-4 sm:px-6">
+      <div className="mx-auto flex h-20 max-w-6xl items-center gap-4 px-4 sm:px-6 md:h-24">
         <Link
           href="/"
           className="flex shrink-0 items-center"
@@ -45,7 +45,7 @@ export default function Header({ searchItems }: { searchItems: SearchItem[] }) {
             height={144}
             unoptimized
             priority
-            className="h-10 w-auto sm:h-11"
+            className="h-14 w-auto sm:h-16 md:h-[4.5rem]"
           />
         </Link>
 

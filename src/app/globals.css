@@ -26,6 +26,9 @@
   --color-accent-700: #641427;
 }
 
+/* Dispositivos com mouse/trackpad — onde faz sentido revelar no hover */
+@custom-variant can-hover (@media (hover: hover));
+
 /* Foco visível consistente para navegação por teclado */
 :where(a, button, input, select, textarea, summary):focus-visible {
   outline: 2px solid var(--color-brand-500);

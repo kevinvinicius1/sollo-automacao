@@ -1,6 +1,7 @@
 import { ArrowRight, Wrench } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import PhotoReveal from "@/components/PhotoReveal";
 
 /** Card usado para categorias e subcategorias. */
 export default function CategoryCard({
@@ -28,6 +29,7 @@ export default function CategoryCard({
             Trabalho em andamento
           </span>
         )}
+        {image && <PhotoReveal />}
         {image ? (
           <Image
             src={image}
