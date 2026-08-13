@@ -10,11 +10,7 @@ export default async function HomePage() {
   const categories = await getCategories();
   const heroSlides = categories
     .filter((cat) => cat.heroImage && !isWipCategory(cat.slug))
-    .map((cat) => ({
-      name: cat.name,
-      href: `/produtos/${cat.slug}/`,
-      image: cat.heroImage!,
-    }));
+    .map((cat) => ({ name: cat.name, image: cat.heroImage! }));
 
   return (
     <>

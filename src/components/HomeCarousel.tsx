@@ -3,12 +3,10 @@
 import Autoplay from "embla-carousel-autoplay";
 import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
-import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 
 export interface HomeCarouselSlide {
   name: string;
-  href: string;
   image: string;
 }
 
@@ -58,22 +56,20 @@ export default function HomeCarousel({
         <div className="flex h-full">
           {slides.map((slide, i) => (
             <div
-              key={slide.href}
+              key={slide.image}
               className="relative min-w-0 flex-[0_0_100%]"
               aria-roledescription="slide"
               aria-label={`${i + 1} de ${slides.length}`}
             >
-              <Link href={slide.href} className="block h-full">
-                <Image
-                  src={slide.image}
-                  alt={`Linha ${slide.name}`}
-                  fill
-                  unoptimized
-                  priority={i === 0}
-                  draggable={false}
-                  className="object-cover"
-                />
-              </Link>
+              <Image
+                src={slide.image}
+                alt={`Linha ${slide.name}`}
+                fill
+                unoptimized
+                priority={i === 0}
+                draggable={false}
+                className="object-cover"
+              />
             </div>
           ))}
         </div>
@@ -82,7 +78,7 @@ export default function HomeCarousel({
       <div className="absolute bottom-4 left-1/2 flex -translate-x-1/2 gap-2.5">
         {slides.map((slide, i) => (
           <button
-            key={slide.href}
+            key={slide.image}
             type="button"
             onClick={() => scrollTo(i)}
             aria-label={`Ir para o slide ${i + 1} — ${slide.name}`}
