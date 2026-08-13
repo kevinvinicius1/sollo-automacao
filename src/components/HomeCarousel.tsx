@@ -2,7 +2,6 @@
 
 import Autoplay from "embla-carousel-autoplay";
 import useEmblaCarousel from "embla-carousel-react";
-import { ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
@@ -42,8 +41,6 @@ export default function HomeCarousel({
     };
   }, [emblaApi]);
 
-  const scrollPrev = useCallback(() => emblaApi?.scrollPrev(), [emblaApi]);
-  const scrollNext = useCallback(() => emblaApi?.scrollNext(), [emblaApi]);
   const scrollTo = useCallback(
     (index: number) => emblaApi?.scrollTo(index),
     [emblaApi]
@@ -80,26 +77,6 @@ export default function HomeCarousel({
             </div>
           ))}
         </div>
-      </div>
-
-      {/* No mobile a navegação é por arrasto; as setas só aparecem de sm pra cima */}
-      <div className="absolute bottom-3 right-3 hidden gap-2 sm:flex">
-        <button
-          type="button"
-          onClick={scrollPrev}
-          aria-label="Slide anterior"
-          className="flex h-9 w-9 items-center justify-center rounded bg-brand-700 text-white transition-colors hover:bg-brand-600"
-        >
-          <ChevronLeft className="h-5 w-5" aria-hidden="true" />
-        </button>
-        <button
-          type="button"
-          onClick={scrollNext}
-          aria-label="Próximo slide"
-          className="flex h-9 w-9 items-center justify-center rounded bg-brand-700 text-white transition-colors hover:bg-brand-600"
-        >
-          <ChevronRight className="h-5 w-5" aria-hidden="true" />
-        </button>
       </div>
 
       <div className="absolute bottom-4 left-1/2 flex -translate-x-1/2 gap-2.5">
