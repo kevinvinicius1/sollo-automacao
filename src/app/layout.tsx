@@ -2,7 +2,6 @@ import type { Metadata, Viewport } from "next";
 import { Archivo } from "next/font/google";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import WhatsAppButton from "@/components/WhatsAppButton";
 import { getProducts } from "@/lib/catalog";
 import { siteConfig } from "../../site.config";
 import "./globals.css";
@@ -63,7 +62,6 @@ export default async function RootLayout({
           {children}
         </main>
         <Footer />
-        <WhatsAppButton />
       </body>
     </html>
   );
