@@ -48,9 +48,9 @@ export default function ProductCard({ product }: { product: ProductCardData }) {
             {product.code}
           </span>
         )}
-        <h3 className="line-clamp-3 text-sm font-semibold leading-snug text-brand-700 group-hover:text-brand-500">
+        <h2 className="line-clamp-3 text-sm font-semibold leading-snug text-brand-700 group-hover:text-brand-500">
           {product.name}
-        </h3>
+        </h2>
         <p className="mt-1 line-clamp-2 text-xs leading-relaxed text-slate-500">
           {product.shortDescription}
         </p>

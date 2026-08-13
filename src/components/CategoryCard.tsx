@@ -48,9 +48,9 @@ export default function CategoryCard({
         )}
       </div>
       <div className="flex flex-1 flex-col gap-1 p-4">
-        <h3 className="text-base font-bold text-brand-700 group-hover:text-brand-500">
+        <h2 className="text-base font-bold text-brand-700 group-hover:text-brand-500">
           {name}
-        </h3>
+        </h2>
         {description && (
           <p className="line-clamp-2 text-sm text-slate-500">{description}</p>
         )}

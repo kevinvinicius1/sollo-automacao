@@ -118,8 +118,10 @@ export default function SearchBox({
           }}
           onFocus={() => setOpen(true)}
           onKeyDown={onKeyDown}
+          role="combobox"
           aria-expanded={showDropdown}
-          aria-controls="site-search-results"
+          aria-autocomplete="list"
+          aria-controls={showDropdown ? "site-search-results" : undefined}
           className="w-full rounded border border-slate-300 bg-white py-2 pl-9 pr-4 text-sm text-slate-900 placeholder:text-slate-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/30"
         />
       </div>
