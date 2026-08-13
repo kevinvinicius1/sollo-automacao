@@ -1,8 +1,9 @@
+import { ArrowLeft } from "lucide-react";
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import Breadcrumb from "@/components/Breadcrumb";
 import ProductCard from "@/components/ProductCard";
-import ProductLinesStrip from "@/components/ProductLinesStrip";
 import {
   getCategories,
   getCategoryBySlug,
@@ -51,9 +52,18 @@ export default async function SubcategoriaPage({ params }: Props) {
           { label: subcategory.name },
         ]}
       />
-      <h1 className="mt-4 text-3xl font-bold tracking-tight text-brand-700">
-        {subcategory.name}
-      </h1>
+      <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
+        <h1 className="text-3xl font-bold tracking-tight text-brand-700">
+          {subcategory.name}
+        </h1>
+        <Link
+          href={`/produtos/${category.slug}/`}
+          className="inline-flex items-center gap-1.5 text-sm font-semibold text-accent-600 hover:underline"
+        >
+          <ArrowLeft className="h-4 w-4" aria-hidden="true" />
+          Voltar
+        </Link>
+      </div>
       <div className="mt-3 h-1 w-14 bg-accent-500" aria-hidden="true" />
 
       {products.length > 0 ? (
@@ -80,8 +90,6 @@ export default async function SubcategoriaPage({ params }: Props) {
           </a>
         </div>
       )}
-
-      <ProductLinesStrip />
     </div>
   );
 }
