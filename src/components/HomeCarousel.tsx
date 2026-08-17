@@ -12,7 +12,8 @@ export interface HomeCarouselSlide {
 
 /**
  * Carrossel de banners das linhas de produto, exibido no hero da home.
- * Preenche a altura do contêiner pai (a moldura diagonal define o recorte).
+ * Preenche a altura do contêiner pai, que tem a mesma proporção dos banners
+ * (object-contain garante que a imagem apareça inteira, sem corte).
  */
 export default function HomeCarousel({
   slides,
@@ -68,7 +69,7 @@ export default function HomeCarousel({
                 unoptimized
                 priority={i === 0}
                 draggable={false}
-                className="object-cover"
+                className="object-contain"
               />
             </div>
           ))}

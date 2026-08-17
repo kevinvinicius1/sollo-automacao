@@ -1,5 +1,4 @@
 import { Mail } from "lucide-react";
-import Link from "next/link";
 import CategoryCard from "@/components/CategoryCard";
 import HomeCarousel from "@/components/HomeCarousel";
 import WhatsAppIcon from "@/components/WhatsAppIcon";
@@ -14,42 +13,16 @@ export default async function HomePage() {
 
   return (
     <>
-      {/* Hero full-width: título + CTAs à esquerda, carrossel em corte diagonal */}
+      {/* Hero: título sobre o carrossel, exibido na proporção original dos
+          banners (27:10) para não haver corte nem distorção da imagem. */}
       <section className="bg-brand-800 text-white">
         <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 md:py-12">
-          <div className="grid items-center gap-8 md:grid-cols-[2fr_3fr] md:gap-0">
-            <div className="md:pr-2">
-              <h1 className="text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
-                Cilindros, válvulas e preparação de ar para a sua indústria
-              </h1>
-              <div className="mt-8 flex flex-wrap gap-3">
-                <a
-                  href={whatsappLink("Olá! Gostaria de solicitar um orçamento.")}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 rounded bg-accent-500 px-6 py-3 font-semibold text-white transition-colors hover:bg-accent-600"
-                >
-                  <WhatsAppIcon className="h-5 w-5" />
-                  Pedir orçamento no WhatsApp
-                </a>
-                <Link
-                  href="/produtos/"
-                  className="inline-flex items-center gap-2 rounded bg-white px-6 py-3 font-semibold text-brand-800 transition-colors hover:bg-brand-50"
-                >
-                  Ver o catálogo
-                </Link>
-              </div>
-            </div>
-            <div className="relative">
-              {/* Filete bordô acompanhando a diagonal do recorte */}
-              <div
-                aria-hidden="true"
-                className="absolute inset-0 hidden bg-accent-500 md:block md:[clip-path:polygon(0.5%_0,100%_0,100%_100%,13.5%_100%)]"
-              />
-              <div className="relative aspect-[27/10] overflow-hidden rounded md:aspect-auto md:h-[400px] md:rounded-none md:[clip-path:polygon(2%_0,100%_0,100%_100%,15%_100%)]">
-                <HomeCarousel slides={heroSlides} />
-              </div>
-            </div>
+          <h1 className="max-w-3xl text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
+            Cilindros, válvulas e preparação de ar para a sua indústria
+          </h1>
+          <div className="mt-4 h-1 w-14 bg-accent-500" aria-hidden="true" />
+          <div className="mt-8 aspect-[27/10] overflow-hidden rounded bg-white">
+            <HomeCarousel slides={heroSlides} />
           </div>
         </div>
       </section>

@@ -45,7 +45,7 @@ export default function SearchResults({ items }: { items: ProductCardData[] }) {
             id="busca-page-input"
             type="search"
             autoComplete="off"
-            placeholder="Buscar produto ou código…"
+            placeholder="Buscar produto…"
             value={input}
             onChange={(e) => setInput(e.target.value)}
             className="w-full rounded border border-slate-300 bg-white py-2.5 pl-9 pr-4 text-sm text-slate-900 placeholder:text-slate-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/30"

@@ -78,13 +78,14 @@ export default function Footer() {
             <ul className="mt-3 space-y-2 text-sm">
               <li>
                 <a
-                  href={whatsappLink()}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href={`tel:+55${siteConfig.whatsappPhone.replace(/\D/g, "")}`}
                   className="inline-flex items-center gap-2 hover:text-white hover:underline"
                 >
-                  <WhatsAppIcon className="h-4 w-4 shrink-0 text-accent-300" />
-                  WhatsApp: {siteConfig.whatsappPhone}
+                  <Phone
+                    className="h-4 w-4 shrink-0 text-accent-300"
+                    aria-hidden="true"
+                  />
+                  Telefone: {siteConfig.whatsappPhone}
                 </a>
               </li>
               <li>

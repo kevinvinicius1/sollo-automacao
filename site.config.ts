@@ -14,7 +14,7 @@ export const siteConfig = {
   /** Telefone fixo. */
   phone: "(34) 3306-5000",
   email: "sollo@solloautomacao.com",
-  address: "Rua Aurora, 95 — Nossa Senhora das Graças, Uberlândia/MG, CEP 38402-168",
+  address: "Rua Aurora, 95 — Nossa Sra. das Graças, Uberlândia/MG, CEP 38402-168",
   mapsUrl:
     "https://www.google.com/maps/place/Sollo+Automa%C3%A7%C3%A3o+Industrial+Ltda+-+Stara+Automa%C3%A7%C3%A3o/data=!4m2!3m1!1s0x0:0x8795f7fac61a9254",
   /** Domínio final do site (usado em metadata/sitemap). */

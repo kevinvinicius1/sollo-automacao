@@ -109,7 +109,7 @@ export default function SearchBox({
           id="site-search"
           type="search"
           autoComplete="off"
-          placeholder="Buscar produto ou código…"
+          placeholder="Buscar produto…"
           value={query}
           onChange={(e) => {
             setQuery(e.target.value);
