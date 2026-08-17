@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import Breadcrumb from "@/components/Breadcrumb";
 import PageTitleBar from "@/components/PageTitleBar";
 import ProductCard from "@/components/ProductCard";
 import {
@@ -43,19 +42,14 @@ export default async function SubcategoriaPage({ params }: Props) {
 
   return (
     <>
-      <div className="mx-auto max-w-6xl px-4 pt-8 pb-6 sm:px-6">
-        <Breadcrumb
-          items={[
-            { label: "Home", href: "/" },
-            { label: "Produtos", href: "/produtos/" },
-            { label: category.name, href: `/produtos/${category.slug}/` },
-            { label: subcategory.name },
-          ]}
-        />
-      </div>
-
       <PageTitleBar
         title={subcategory.name}
+        crumbs={[
+          { label: "Home", href: "/" },
+          { label: "Produtos", href: "/produtos/" },
+          { label: category.name, href: `/produtos/${category.slug}/` },
+          { label: subcategory.name },
+        ]}
         backHref={`/produtos/${category.slug}/`}
       />
 

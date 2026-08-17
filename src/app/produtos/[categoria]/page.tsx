@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import Breadcrumb from "@/components/Breadcrumb";
 import CategoryCard from "@/components/CategoryCard";
 import PageTitleBar from "@/components/PageTitleBar";
 import ProductCard from "@/components/ProductCard";
@@ -39,15 +38,8 @@ export default async function CategoriaPage({ params }: Props) {
 
   return (
     <>
-      <div className="mx-auto max-w-6xl px-4 pt-8 pb-6 sm:px-6">
-        <Breadcrumb
-          items={[
-            { label: "Home", href: "/" },
-            { label: "Produtos", href: "/produtos/" },
-            { label: category.name },
-          ]}
-        />
-        {category.heroImage && (
+      {category.heroImage && (
+        <div className="mx-auto max-w-6xl px-4 pt-8 pb-6 sm:px-6">
           <Image
             src={category.heroImage}
             alt={`Produtos da linha ${category.name}`}
@@ -55,12 +47,20 @@ export default async function CategoriaPage({ params }: Props) {
             height={400}
             unoptimized
             priority
-            className="mt-4 h-auto w-full rounded"
+            className="h-auto w-full rounded"
           />
-        )}
-      </div>
+        </div>
+      )}
 
-      <PageTitleBar title={category.name} backHref="/produtos/" />
+      <PageTitleBar
+        title={category.name}
+        crumbs={[
+          { label: "Home", href: "/" },
+          { label: "Produtos", href: "/produtos/" },
+          { label: category.name },
+        ]}
+        backHref="/produtos/"
+      />
 
       <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
         {wip ? (

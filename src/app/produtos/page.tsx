@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Breadcrumb from "@/components/Breadcrumb";
 import CategoryCard from "@/components/CategoryCard";
 import PageTitleBar from "@/components/PageTitleBar";
 import { getCategories } from "@/lib/catalog";
@@ -16,13 +15,10 @@ export default async function ProdutosPage() {
 
   return (
     <>
-      <div className="mx-auto max-w-6xl px-4 pt-8 pb-6 sm:px-6">
-        <Breadcrumb
-          items={[{ label: "Home", href: "/" }, { label: "Produtos" }]}
-        />
-      </div>
-
-      <PageTitleBar title="Produtos" />
+      <PageTitleBar
+        title="Produtos"
+        crumbs={[{ label: "Home", href: "/" }, { label: "Produtos" }]}
+      />
 
       <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
         <p className="max-w-2xl text-slate-600">
