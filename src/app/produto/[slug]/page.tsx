@@ -25,9 +25,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const product = await getProductBySlug(slug);
   if (!product) return {};
-  const title = product.code
-    ? `${product.code} — ${product.name}`
-    : product.name;
+  // O nome já começa pelo código em todo produto que tem um.
+  const title = product.name;
   return {
     title,
     description: product.shortDescription,
@@ -92,7 +91,7 @@ export default async function ProdutoPage({ params }: Props) {
     name: product.name,
     ...(product.code && { sku: product.code }),
     description: product.shortDescription,
-    brand: { "@type": "Brand", name: "Fluir Automação" },
+    ...(category && { brand: { "@type": "Brand", name: category.brand } }),
     ...(product.images.length > 0 && {
       image: product.images.map((img) => `${siteConfig.url}${img}`),
     }),

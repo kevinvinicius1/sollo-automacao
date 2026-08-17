@@ -40,6 +40,8 @@ export const subcategorySchema = z.object({
 export const categorySchema = z.object({
   name: z.string(),
   slug: z.string(),
+  /** Fabricante da linha (marca no JSON-LD dos produtos) */
+  brand: z.string(),
   image: z.string().optional(),
   /** Banner de topo da página da linha (também roda no carrossel da home) */
   heroImage: z.string().optional(),
