@@ -1,0 +1,17 @@
+{
+  "code": "GQ",
+  "name": "GQ – Relé de estado sólido monofásico, até 90A",
+  "slug": "gq-rele-de-estado-solido-monofasico-ate-90a",
+  "category": "reles-e-modulos-de-potencia",
+  "subcategory": "reles-de-estado-solido",
+  "images": [
+    "/images/products/gq-rele-de-estado-solido-monofasico-ate-90a-1.webp",
+    "/images/products/gq-rele-de-estado-solido-monofasico-ate-90a-2.webp",
+    "/images/products/gq-rele-de-estado-solido-monofasico-ate-90a-3.webp"
+  ],
+  "shortDescription": "O relé zero crossing com saída dupla antiparalela do SCR é o relé de estado sólido mais utilizado nas aplicações industriais. De fato, ele pode ser utilizado para cargas resistivas, indutivas ou de capacidade.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Relé de estado sólido para corrente alternada</li><li>Comutação no ponto zero</li><li>Tecnologia de acoplamento cobre/semicondutor</li></ul>\n<h3>Visão geral</h3>\n<p>O relé zero crossing com saída dupla antiparalela do SCR é o relé de estado sólido mais utilizado nas aplicações industriais.</p>\n<p>De fato, ele pode ser utilizado para cargas resistivas, indutivas ou de capacidade.</p>\n<p>O relé “zero crossing” é energizado quando a tensão atinge o ponto zero e é desenergizado quando a corrente atinge o ponto zero, conforme o sinal de controle no circuito de entrada.</p>\n<p>Este relé foi desenvolvido para atender aplicações transitórias de alto valor. Quando o relé tem de manter altas correntes por um longo período, é necessário garantir uma dissipação adequada e uma conexão elétrica adequada entre os terminais de relé e a carga.</p>\n<p>Os dissipadores de calor, conectores do tipo plug-in, varistores, fusíveis, termostatos, adesivo termocondutor, estão disponíveis, conforme acessórios.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 7
+}

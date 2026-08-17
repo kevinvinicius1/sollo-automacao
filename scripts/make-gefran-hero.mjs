@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Gera o banner de topo da linha Gefran de controladores e indicadores.
+ * Gera os banners de topo das linhas Gefran.
  *
  * As páginas de linha da Gefran não têm imagem de topo — só as fotos dos
  * produtos —, então o banner é montado a partir das próprias fotos, na mesma
@@ -8,7 +8,8 @@
  *
  * As fotos são estúdio sobre branco: `trim` corta a moldura branca e o blend
  * `multiply` faz o branco restante sumir no fundo claro, preservando a sombra
- * natural de cada peça.
+ * natural de cada peça. As alturas abaixo são um alvo: se a fila não couber
+ * na largura, todas encolhem na mesma proporção, mantendo a hierarquia.
  *
  * Rodar: node scripts/make-gefran-hero.mjs
  */
@@ -20,30 +21,40 @@ import sharp from "sharp";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const PRODUCTS = path.join(ROOT, "public", "images", "products");
-const DEST = path.join(
-  ROOT,
-  "public",
-  "images",
-  "categorias",
-  "topo-controladores-e-indicadores.webp"
-);
+const CATEGORIAS = path.join(ROOT, "public", "images", "categorias");
 
 const WIDTH = 1080;
 const HEIGHT = 400;
 const BACKGROUND = { r: 238, g: 242, b: 246 };
 const BASELINE = 340; // as peças são alinhadas pela base, não centralizadas
 const MARGIN = 30;
+const VAO_MIN = 18;
 
 /**
- * Os instrumentos são quase quadrados, então uma fila longa numa faixa 27:10
- * deixaria as peças pequenas demais: quatro peças é o que enche a altura.
- * A seleção cobre as duas sublinhas — três controladores e um indicador.
+ * Um banner por linha, com a seleção de peças. Os instrumentos de painel são
+ * quase quadrados e só quatro enchem a altura; os módulos de potência são
+ * mais estreitos e comportam cinco.
  */
-const ITENS = [
-  { file: "3850t-controlador-programador-e-registrador-de-ate-16-loops-pid-1.webp", height: 225 },
-  { file: "1850-controlador-pid-de-circuito-duplo-1-4-din-1.webp", height: 260 },
-  { file: "1650-controlador-pid-de-circuito-duplo-1-8-din-1.webp", height: 270 },
-  { file: "40tb-indicador-unidade-de-alarme-para-entradas-de-temperatura-e-1.webp", height: 235 },
+const BANNERS = [
+  {
+    slug: "controladores-e-indicadores",
+    itens: [
+      { file: "3850t-controlador-e-registrador-de-ate-16-loops-pid-1.webp", height: 225 },
+      { file: "1850-controlador-pid-de-circuito-duplo-1-4-din-1.webp", height: 260 },
+      { file: "1650-controlador-pid-de-circuito-duplo-1-8-din-1.webp", height: 270 },
+      { file: "40tb-indicador-unidade-de-alarme-de-temperatura-e-pressao-1.webp", height: 235 },
+    ],
+  },
+  {
+    slug: "reles-e-modulos-de-potencia",
+    itens: [
+      { file: "gpc-controlador-de-potencia-avancado-ate-600-a-1.webp", height: 250 },
+      { file: "gtf-controlador-de-potencia-monofasico-ate-250a-1.webp", height: 285 },
+      { file: "gfx4-controlador-de-potencia-4-circuitos-pid-ate-80-kw-1.webp", height: 230 },
+      { file: "grm-h-controlador-de-potencia-compacto-com-dissipador-ate-120-a-1.webp", height: 265 },
+      { file: "grs-h-rele-de-estado-solido-monofasico-com-dissipador-ate-120-a-1.webp", height: 240 },
+    ],
+  },
 ];
 
 async function recortar({ file, height }) {
@@ -56,21 +67,16 @@ async function recortar({ file, height }) {
   return { buf, width, height };
 }
 
-const VAO_MIN = 18;
-
-async function main() {
-  // Mede as peças na altura pedida e, se a fila não couber, reduz todas na
-  // mesma proporção — preservando a hierarquia de tamanho entre elas.
+async function montar({ slug, itens }) {
   let pecas = [];
-  for (const item of ITENS) pecas.push(await recortar(item));
+  for (const item of itens) pecas.push(await recortar(item));
 
   const util = WIDTH - MARGIN * 2 - VAO_MIN * (pecas.length - 1);
   const larguraCrua = pecas.reduce((s, p) => s + p.width, 0);
   if (larguraCrua > util) {
     const escala = util / larguraCrua;
-    console.log(`  reduzindo as peças em ${((1 - escala) * 100).toFixed(0)}%`);
     pecas = [];
-    for (const item of ITENS) {
+    for (const item of itens) {
       pecas.push(await recortar({ ...item, height: Math.round(item.height * escala) }));
     }
   }
@@ -90,15 +96,23 @@ async function main() {
     return layer;
   });
 
-  await fs.mkdir(path.dirname(DEST), { recursive: true });
+  const dest = path.join(CATEGORIAS, `topo-${slug}.webp`);
+  await fs.mkdir(CATEGORIAS, { recursive: true });
   await sharp({
     create: { width: WIDTH, height: HEIGHT, channels: 3, background: BACKGROUND },
   })
     .composite(camadas)
     .webp({ quality: 88 })
-    .toFile(DEST);
+    .toFile(dest);
 
-  console.log(`${path.relative(ROOT, DEST)} — ${WIDTH}x${HEIGHT}, ${pecas.length} peças`);
+  console.log(
+    `${path.relative(ROOT, dest)} — ${WIDTH}x${HEIGHT}, ${pecas.length} peças` +
+      ` (altura máx. ${Math.max(...pecas.map((p) => p.height))}px)`
+  );
+}
+
+async function main() {
+  for (const banner of BANNERS) await montar(banner);
 }
 
 main().catch((e) => {

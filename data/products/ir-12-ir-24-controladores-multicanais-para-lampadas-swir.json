@@ -1,0 +1,17 @@
+{
+  "code": "IR-12/IR-24",
+  "name": "IR-12/IR-24 – Controladores multicanais para lâmpadas SWIR",
+  "slug": "ir-12-ir-24-controladores-multicanais-para-lampadas-swir",
+  "category": "reles-e-modulos-de-potencia",
+  "subcategory": "modulos-de-potencia",
+  "images": [
+    "/images/products/ir-12-ir-24-controladores-multicanais-para-lampadas-swir-1.webp",
+    "/images/products/ir-12-ir-24-controladores-multicanais-para-lampadas-swir-2.webp",
+    "/images/products/ir-12-ir-24-controladores-multicanais-para-lampadas-swir-3.webp"
+  ],
+  "shortDescription": "Os potentes e compactos controladores de potência multicanais IR12 e IR24 são a solução ideal para sistemas de aquecimento que utilizam qualquer tipo de lâmpadas infravermelhas. Seguindo uma filosofia “tudo em um”, todos os elementos necessários para o controle completo de grupo…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>12 e 24 canais independentes de 9 A</li><li>Controle de passagem por zero rápida, meio ciclo único e ângulo de fase</li><li>Fusíveis extra-rápidos integrados</li></ul>\n<h3>Visão geral</h3>\n<p>Os potentes e compactos controladores de potência multicanais IR12 e IR24 são a solução ideal para sistemas de aquecimento que utilizam qualquer tipo de lâmpadas infravermelhas.</p>\n<p>Seguindo uma filosofia “tudo em um”, todos os elementos necessários para o controle completo de grupos de lâmpadas infravermelhas (para potência total de até 60 kW) estão contidos em um invólucro metálico robusto e compacto, montado na parede.</p>\n<p>Existem vários modelos: o IR-24, com 24 saídas de controle independentes, e o IR-12, com 12 saídas, ambos com opções de comunicação Modbus RTU ou Profinet Fieldbus.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 6
+}

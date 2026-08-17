@@ -1,0 +1,17 @@
+{
+  "code": "GFX OP",
+  "name": "GFX OP – Terminal do operador para a série GEFLEX",
+  "slug": "gfx-op-terminal-do-operador-para-a-serie-geflex",
+  "category": "reles-e-modulos-de-potencia",
+  "subcategory": "modulos-de-potencia",
+  "images": [
+    "/images/products/gfx-op-terminal-do-operador-para-a-serie-geflex-1.webp",
+    "/images/products/gfx-op-terminal-do-operador-para-a-serie-geflex-2.webp",
+    "/images/products/gfx-op-terminal-do-operador-para-a-serie-geflex-3.webp"
+  ],
+  "shortDescription": "Terminal para a configuração e diagnóstico de toda a série Geflex. Ele é composto de uma membrana Lexan (garantindo uma proteção frontal IP65).",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Controlador</li><li>Relé de estado sólido de 30, 60, 80 kW</li><li>Transformadores de corrente (um ou quatro)</li></ul>\n<h3>Visão geral</h3>\n<p>Terminal para a configuração e diagnóstico de toda a série Geflex.</p>\n<p>Ele é composto de uma membrana Lexan (garantindo uma proteção frontal IP65).</p>\n<p>Três displays de 4 dígitos, dois dos quais para exibir variáveis (variável do processo PV, setpoint SP) e um display de 2 dígitos para identificar o nó do Geflex.</p>\n<p>Há seis teclas de função para acessar os menus do software e efetuar as configurações.</p>\n<p>Quatorze LEDs: seis para o diagnóstico do status de saída e oito para o instrumento de status.</p>\n<p>Ele é fornecido com uma memória embutida capaz de salvar a configuração completa de cada Geflex, até dez unidades.</p>\n<p>Esta característica torna-o particularmente adequado para a manutenção da unidade fabril, uma vez que as unidades Geflex podem ser configuradas diretamente no local e os dados podem ser armazenados em um PC.</p>\n<p>Ademais, a operação contrária também está disponível: download de dados do PC para um terminal GFX_OP, operação na unidade fabril e configuração das unidades Geflex.</p>\n<p>Duas versões estão disponíveis: montagem na parte traseira da placa: o terminal pode ser instalado diretamente no dissipador de calor Geflex ou em um trilho DIN; montagem na parte dianteira da placa: o terminal pode ser fixado diretamente na placa de controle da unidade fabril.</p>\n<p>Nos dois casos, o terminal não necessita de qualquer fonte de alimentação externa, uma vez que esta é diretamente fornecida pelo Geflex.</p>\n<p>Uma fonte de alimentação completa de 24VCC e um kit de cabo de conexão são fornecidos para o uso com um PC.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 11
+}

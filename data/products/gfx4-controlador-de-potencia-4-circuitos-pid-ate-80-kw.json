@@ -1,0 +1,17 @@
+{
+  "code": "GFX4",
+  "name": "GFX4 – Controlador de potência 4 circuitos PID até 80 kW",
+  "slug": "gfx4-controlador-de-potencia-4-circuitos-pid-ate-80-kw",
+  "category": "reles-e-modulos-de-potencia",
+  "subcategory": "modulos-de-potencia",
+  "images": [
+    "/images/products/gfx4-controlador-de-potencia-4-circuitos-pid-ate-80-kw-1.webp",
+    "/images/products/gfx4-controlador-de-potencia-4-circuitos-pid-ate-80-kw-2.webp",
+    "/images/products/gfx4-controlador-de-potencia-4-circuitos-pid-ate-80-kw-3.webp"
+  ],
+  "shortDescription": "O GFX4 é um controlador de quatro malhas independentes, desenvolvido para gerenciar a potência elétrica. O GFX4 é uma unidade compacta ligando diferentes elementos tecnológicos como: controlador relé de estado sólido transformadores de corrente porta-fusíveis (opcional) O result…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Controlador</li><li>Relé de estado sólido de 30, 60, 80 kW</li><li>Transformadores de corrente (um ou quatro)</li></ul>\n<h3>Visão geral</h3>\n<p>O GFX4 é um controlador de quatro malhas independentes, desenvolvido para gerenciar a potência elétrica.</p>\n<p>O GFX4 é uma unidade compacta ligando diferentes elementos tecnológicos como:</p>\n<ul>\n<li>controlador</li>\n<li>relé de estado sólido</li>\n<li>transformadores de corrente</li>\n<li>porta-fusíveis (opcional)</li>\n</ul>\n<p>O resultado final poupa recursos em termos de espaço e cabeamento.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 4
+}

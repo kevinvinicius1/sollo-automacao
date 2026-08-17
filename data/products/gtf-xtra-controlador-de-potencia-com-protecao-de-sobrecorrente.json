@@ -1,0 +1,15 @@
+{
+  "code": "GTF Xtra",
+  "name": "GTF Xtra – Controlador de potência com proteção de sobrecorrente",
+  "slug": "gtf-xtra-controlador-de-potencia-com-protecao-de-sobrecorrente",
+  "category": "reles-e-modulos-de-potencia",
+  "subcategory": "modulos-de-potencia",
+  "images": [
+    "/images/products/gtf-xtra-controlador-de-potencia-com-protecao-de-sobrecorrente-1.webp"
+  ],
+  "shortDescription": "O controlador de potência GTF-Xtra reúne, em um mesmo equipamento, a unidade de potência de estado sólido monofásica, bifásica ou trifásica e o controlador, somados à proteção integrada contra falhas por sobrecorrente. Essa proteção dispensa os fusíveis extrarrápidos, reduzindo…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Indicado para uma ampla gama de aplicações, incluindo fornos de tratamento térmico, processos de sinterização de materiais em alta temperatura e produção de vidro e cerâmica</li><li>A proteção integrada contra sobrecorrente protege todo o processo de aquecimento e o sistema</li><li>Projetado para sistemas de aquecimento monofásicos ou trifásicos com Super Kanthal™ e carboneto de silício</li></ul>\n<h3>Visão geral</h3>\n<p>O controlador de potência GTF-Xtra reúne, em um mesmo equipamento, a unidade de potência de estado sólido monofásica, bifásica ou trifásica e o controlador, somados à proteção integrada contra falhas por sobrecorrente.</p>\n<p>Essa proteção dispensa os fusíveis extrarrápidos, reduzindo as paradas de máquina e o custo de reposição dos fusíveis queimados. Ela monitora a corrente de carga instantaneamente, corta a alimentação quando a carga atinge um limite pré-ajustado e isola os dispositivos de chaveamento de potência.</p>\n<p>Em aplicações sujeitas a curtos-circuitos intermitentes e sobrecargas, o GTF-Xtra pode ser programado para restabelecer a alimentação automaticamente assim que a falha for eliminada, evitando a parada completa do processo e mantendo a produção.</p>\n<p>A alimentação também pode ser restabelecida manualmente, local ou remotamente.</p>\n<p>No restabelecimento da corrente é aplicada uma rampa de soft-start, que evita danos ao sistema caso a falha não tenha sido efetivamente eliminada.</p>\n<p>O GTF-Xtra é compacto, modular e otimizado para controlar praticamente qualquer sistema de aquecimento resistivo, em uma ampla gama de aplicações industriais.</p>\n<p>Os recursos são configurados por um software para PC, com configuração guiada e intuitiva.</p>\n<p>O GTF-Xtra sempre oferece conexão serial RS485 com protocolo Modbus RTU, para controlar correntes, tensões, potências, status de carga e status do dispositivo a partir do terminal do supervisor (IHM) ou do CLP.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 16
+}

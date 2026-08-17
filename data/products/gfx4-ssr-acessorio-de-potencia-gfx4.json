@@ -1,0 +1,15 @@
+{
+  "code": "GFX4-SSR",
+  "name": "GFX4-SSR – Acessório de potência GFX4",
+  "slug": "gfx4-ssr-acessorio-de-potencia-gfx4",
+  "category": "reles-e-modulos-de-potencia",
+  "subcategory": "modulos-de-potencia",
+  "images": [
+    "/images/products/gfx4-ssr-acessorio-de-potencia-gfx4-1.webp"
+  ],
+  "shortDescription": "Unidade controladora de potência com quatro SSR e dissipador de calor para o uso somente em substituição ao GFX4. POTÊNCIA A potência é controlada com um princípio de chaveamento de zero crossing, SCR duplo em antiparalelo, com intervalo cíclico proporcional configurável.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Relé de estado sólido de 30, 60 e 80 kW</li><li>Transformadores de corrente (um ou quatro)</li><li>Porta-fusíveis (opcional)</li></ul>\n<h3>Visão geral</h3>\n<p>Unidade controladora de potência com quatro SSR e dissipador de calor para o uso somente em substituição ao GFX4.</p>\n<p>POTÊNCIA<br>\nA potência é controlada com um princípio de chaveamento de zero crossing, SCR duplo em antiparalelo, com intervalo cíclico proporcional configurável. Estão disponíveis diferentes conexões de carga: monofásica, bifásica e trifásica.</p>\n<p>FUSÍVEIS (OPCIONAL)<br>\nOs fusíveis podem ser adquiridos no modelo GFX4 30KW e 60kW. Graças a isso, é possível poupar tempo, o cabeamento é simplificado e as dimensões no painel são reduzidas.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 12
+}

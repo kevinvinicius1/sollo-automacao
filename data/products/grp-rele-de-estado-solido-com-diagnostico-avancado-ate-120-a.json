@@ -1,0 +1,17 @@
+{
+  "code": "GRP",
+  "name": "GRP – Relé de estado sólido com diagnóstico avançado, até 120 A",
+  "slug": "grp-rele-de-estado-solido-com-diagnostico-avancado-ate-120-a",
+  "category": "reles-e-modulos-de-potencia",
+  "subcategory": "reles-de-estado-solido",
+  "images": [
+    "/images/products/grp-rele-de-estado-solido-com-diagnostico-avancado-ate-120-a-1.webp",
+    "/images/products/grp-rele-de-estado-solido-com-diagnostico-avancado-ate-120-a-2.webp",
+    "/images/products/grp-rele-de-estado-solido-com-diagnostico-avancado-ate-120-a-3.webp"
+  ],
+  "shortDescription": "A capacidade de oferecer soluções de controle personalizadas permite atender rapidamente às mais diversas necessidades de automação. Para isso, a série GRP oferece uma ampla gama de SSRs extremamente compactos, com uma estrutura básica robusta, mas escalável em termos de intensi…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixa de corrente de 15 A a 120 A</li><li>Dimensões ultrafinas</li><li>Comunicação IO-Link</li></ul>\n<h3>Visão geral</h3>\n<p>A capacidade de oferecer soluções de controle personalizadas permite atender rapidamente às mais diversas necessidades de automação. Para isso, a série GRP oferece uma ampla gama de SSRs extremamente compactos, com uma estrutura básica robusta, mas escalável em termos de intensidade de corrente (de 15 A a 120 A), tipo de controle e recursos de configuração.</p>\n<p><strong>Controle</strong></p>\n<p>Um controle preciso do processo é a condição essencial para alcançar uma produção constante e de alta qualidade. Para atingir esse objetivo, é necessário gerenciar da melhor maneira possível os diferentes tipos de aquecedores industriais, desde resistências lineares até lâmpadas infravermelhas. Para isso, a nova série de SSRs oferece uma série de funcionalidades de controle (ZC/ /BF/HSC/PA/Softstart) totalmente configuráveis para se adaptar às diversas necessidades.</p>\n<p><strong>Diagnósticos</strong></p>\n<p>Prevenir possíveis anomalias permite limitar ou eliminar paradas prejudiciais e perdas de produção. A série GRP inclui funções dedicadas, como o alarme HB para interrupção parcial da carga com precisão de 1/8 da carga total, curto-circuito do SCR, superaquecimento e falha de energia.</p>\n<p><strong>Comunicação IO-Link</strong></p>\n<p>A digitalização da fábrica está alcançando sua fronteira final: o nível de campo da pirâmide de automação. Nesse nível, o IO-Link está se consolidando como a forma de comunicação mais adequada para acessar facilmente dispositivos como sensores e atuadores. Nessa perspectiva, a série GRP foi desenvolvida para ser integrada a essa arquitetura de automação.</p>\n<p><strong>Configuração NFC</strong></p>\n<p>Comissionamento, manutenção e diagnósticos rápidos, de forma simples e segura, agora fazem parte das capacidades de dispositivos como o SSR. Tudo isso graças à tecnologia NFC, que permite ampliar a interface do usuário utilizando um smartphone ou tablet comum como configurador inteligente. Graças a uma interface gráfica intuitiva, a configuração e os diagnósticos são particularmente fáceis.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 5
+}

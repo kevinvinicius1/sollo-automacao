@@ -1,0 +1,17 @@
+{
+  "code": "GFX Multifunções",
+  "name": "GFX Multifunções – Controlador de potência PID até 15 A",
+  "slug": "gfx-multifuncoes-controlador-de-potencia-pid-ate-15-a",
+  "category": "reles-e-modulos-de-potencia",
+  "subcategory": "modulos-de-potencia",
+  "images": [
+    "/images/products/gfx-multifuncoes-controlador-de-potencia-pid-ate-15-a-1.webp",
+    "/images/products/gfx-multifuncoes-controlador-de-potencia-pid-ate-15-a-2.webp",
+    "/images/products/gfx-multifuncoes-controlador-de-potencia-pid-ate-15-a-3.webp"
+  ],
+  "shortDescription": "Instrumento de fundo de painel extremamente flexível e compacto. Consiste de uma “base” contendo o controlador microprocessado PID que conta com um módulo funcional como: relé de estado sólido 5/10/15 Amp, saída dupla contínua, relé duplo, relé único.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Proteção: IP20</li><li>Entrada universal de temperatura, precisão de 0,2%</li><li>Entrada digital configurável</li></ul>\n<h3>Visão geral</h3>\n<p>Instrumento de fundo de painel extremamente flexível e compacto.</p>\n<p>Consiste de uma “base” contendo o controlador microprocessado PID que conta com um módulo funcional como: relé de estado sólido 5/10/15 Amp, saída dupla contínua, relé duplo, relé único.</p>\n<p>Utilizado, principalmente, para aquecimento de canais de extrusão a quente, injeção e em todas as configurações em multizonas.</p>\n<p>Ademais, graças ao uso de fieldbuses populares, o Geflex_Multifunção pode ser integrado em várias arquiteturas.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 9
+}

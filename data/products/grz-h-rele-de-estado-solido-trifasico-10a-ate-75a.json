@@ -1,0 +1,17 @@
+{
+  "code": "GRZ-H",
+  "name": "GRZ-H – Relé de estado sólido trifásico, 10A até 75A",
+  "slug": "grz-h-rele-de-estado-solido-trifasico-10a-ate-75a",
+  "category": "reles-e-modulos-de-potencia",
+  "subcategory": "reles-de-estado-solido",
+  "images": [
+    "/images/products/grz-h-rele-de-estado-solido-trifasico-10a-ate-75a-1.webp",
+    "/images/products/grz-h-rele-de-estado-solido-trifasico-10a-ate-75a-2.webp",
+    "/images/products/grz-h-rele-de-estado-solido-trifasico-10a-ate-75a-3.webp"
+  ],
+  "shortDescription": "A série GRZ-H é um relé de estado sólido trifásico que controla resistências elétricas em processos de aquecimento industrial. O design compacto é ideal para painéis elétricos com espaço limitado.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Chaveamento zero crossing (ZC)</li><li>Proteção contra sobretemperatura</li><li>Design compacto</li></ul>\n<h3>Visão geral</h3>\n<p>A série GRZ-H é um relé de estado sólido trifásico que controla resistências elétricas em processos de aquecimento industrial. O design compacto é ideal para painéis elétricos com espaço limitado.</p>\n<p>Controle de aquecimento elétrico</p>\n<p>A faixa de corrente para a série GRZ-H é de 10A a 75A, e este controlador possui um eficiente chaveamento por zero crossing (ZC).</p>\n<p>Controle de carga de duas ou três fases controladas</p>\n<p>A série GRZ-H está configurada para controlar duas ou três fases de um circuito de aquecimento. Embora o controle em três fases sejam comumente usadas, a opção de duas fases controladas gera menos calor no painel elétrico.</p>\n<p>Diagnóstico</p>\n<p>A série GRZ-H monitora e previne falhas do sistema e reduz o risco de tempo de parada no processo e desperdício de material. Para melhorar o tempo de atividade, este controlador possui um alarme de sobretemperatura do retificador controlado por silício (SCR), monitora a tensão da linha quanto à falhas, possui proteção contra falta de fase e rompimento de cargas são monitoradas e exibidas claramente para os usuários.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 3
+}

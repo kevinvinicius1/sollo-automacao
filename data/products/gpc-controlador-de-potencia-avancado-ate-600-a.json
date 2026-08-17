@@ -1,0 +1,19 @@
+{
+  "code": "GPC",
+  "name": "GPC – Controlador de potência avançado, até 600 A",
+  "slug": "gpc-controlador-de-potencia-avancado-ate-600-a",
+  "category": "reles-e-modulos-de-potencia",
+  "subcategory": "modulos-de-potencia",
+  "images": [
+    "/images/products/gpc-controlador-de-potencia-avancado-ate-600-a-1.webp",
+    "/images/products/gpc-controlador-de-potencia-avancado-ate-600-a-2.webp",
+    "/images/products/gpc-controlador-de-potencia-avancado-ate-600-a-3.webp",
+    "/images/products/gpc-controlador-de-potencia-avancado-ate-600-a-4.webp",
+    "/images/products/gpc-controlador-de-potencia-avancado-ate-600-a-5.webp"
+  ],
+  "shortDescription": "Para um controle preciso dos processos de aquecimento elétrico industrial, são necessários SCRs robustos, compactos e rápidos, capazes de operar com todos os tipos de cargas (resistência linear, MoSi₂, SiC, SWIR, grafite, transformadores), além de oferecerem diagnósticos simples…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Corrente nominal de 40 A a 600 A</li><li>Tensão nominal: 480 Vca, 600 Vca ou 690 Vca</li><li>Monofásico, bifásico e trifásico</li></ul>\n<h3>Visão geral</h3>\n<p>Para um controle preciso dos processos de aquecimento elétrico industrial, são necessários SCRs robustos, compactos e rápidos, capazes de operar com todos os tipos de cargas (resistência linear, MoSi₂, SiC, SWIR, grafite, transformadores), além de oferecerem diagnósticos simples e imediatos. A linha de controladores de potência GPC, com faixas de 40 a 600 A, oferece soluções e tecnologias para proporcionar os melhores recursos, capazes de lidar até mesmo com as aplicações de processos térmicos mais críticas.</p>\n<p>Flexibilidade – Para atender a qualquer requisito de controle, desde resistores lineares até transformadores simétricos e assimétricos, estão disponíveis funções tecnológicas dedicadas e totalmente configuráveis.</p>\n<p>Manutenção – A prevenção de possíveis falhas permite limitar ou eliminar paradas perigosas de máquinas e interrupções na produção. Os controladores de potência GPC integram recursos de diagnóstico capazes de fornecer ao sistema de controle principal informações úteis para antecipar falhas prováveis.</p>\n<p>Conectividade – Nos processos de produção modernos, cada vez mais dispositivos de controle precisam ser integrados às redes de automação industrial. Essa exigência é atendida pelos controladores de potência GPC, graças à disponibilidade dos protocolos de comunicação mais recentes.</p>\n<p>Modula I/O – Está disponível uma ampla gama de sinais digitais e analógicos, totalmente configuráveis, para diferentes usos, a fim de dar suporte às funções de controle de potência. Entre elas, a retransmissão de valores de comando, a aquisição de variáveis de processo, o status de alarme ou a operação manual.</p>\n<p>Compacto – Foi dada especial atenção ao tamanho do produto, o que o torna o mais compacto do mercado, garantindo seu uso mesmo em instalações extremamente limitadas.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 2
+}

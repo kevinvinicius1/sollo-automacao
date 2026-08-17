@@ -1,0 +1,17 @@
+{
+  "code": "GRM-H",
+  "name": "GRM-H – Controlador de potência compacto com dissipador, até 120 A",
+  "slug": "grm-h-controlador-de-potencia-compacto-com-dissipador-ate-120-a",
+  "category": "reles-e-modulos-de-potencia",
+  "subcategory": "modulos-de-potencia",
+  "images": [
+    "/images/products/grm-h-controlador-de-potencia-compacto-com-dissipador-ate-120-a-1.webp",
+    "/images/products/grm-h-controlador-de-potencia-compacto-com-dissipador-ate-120-a-2.webp",
+    "/images/products/grm-h-controlador-de-potencia-compacto-com-dissipador-ate-120-a-3.webp"
+  ],
+  "shortDescription": "A necessidade dos fabricantes e usuários de instalações de tratamento térmico é manter um controle preciso e constante do processo, com o objetivo de obter uma qualidade constante da produção e, ao mesmo tempo, otimizar o consumo de energia. Os recursos dos controladores de potê…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Tamanho compacto de 10 A a 120 A</li><li>Tensão de carga: 480 V, 600 Vca</li><li>Comunicação digital via IO-Link e Modbus RTU</li></ul>\n<h3>Visão geral</h3>\n<p><strong>Visão geral</strong></p>\n<p>A necessidade dos fabricantes e usuários de instalações de tratamento térmico é manter um controle preciso e constante do processo, com o objetivo de obter uma qualidade constante da produção e, ao mesmo tempo, otimizar o consumo de energia.</p>\n<p>Os recursos dos controladores de potência da série GRM-H garantem um gerenciamento eficiente do aquecimento, mesmo no caso de cargas elétricas complexas, que exigem recursos especiais, como no caso de lâmpadas infravermelhas ou elementos de aquecimento de carboneto de silício.</p>\n<p><strong>Controle</strong></p>\n<p>A disponibilidade de vários modos de aquecimento configuráveis (ZC, BF, FT, HSC, PA), combinada com recursos que garantem o fornecimento estável de energia à carga — como a compensação por flutuações na tensão da rede elétrica ou pelo envelhecimento dos elementos de aquecimento —, permite um gerenciamento eficiente da temperatura, resultando na otimização energética do processo.</p>\n<p><strong>Protocolos de comunicação digital</strong></p>\n<p>A digitalização industrial está agora alcançando sua fronteira final: o nível de campo da automação industrial. Ao selecionar um controlador de potência GRM-H com os protocolos de comunicação IO-Link ou Modbus RTU, os usuários têm acesso a dados valiosos do processo para manutenção preditiva e para o uso de aprendizado de máquina em suas instalações.</p>\n<p><strong>Configuração por NFC</strong></p>\n<p>Comissionamento simples e seguro, manutenção e diagnóstico rápidos são requisitos atuais para dispositivos como os controladores de potência. A série GRM-H, graças à tecnologia NFC, possibilita ampliar a interação com o usuário utilizando smartphones ou tablets comuns como configuradores inteligentes. Graças a uma interface gráfica e intuitiva, a configuração e o diagnóstico são particularmente intuitivos.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 3
+}

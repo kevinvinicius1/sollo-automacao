@@ -1,0 +1,17 @@
+{
+  "code": "GFX",
+  "name": "GFX – Controlador de potência PID até 120 A",
+  "slug": "gfx-controlador-de-potencia-pid-ate-120-a",
+  "category": "reles-e-modulos-de-potencia",
+  "subcategory": "modulos-de-potencia",
+  "images": [
+    "/images/products/gfx-controlador-de-potencia-pid-ate-120-a-1.webp",
+    "/images/products/gfx-controlador-de-potencia-pid-ate-120-a-2.webp",
+    "/images/products/gfx-controlador-de-potencia-pid-ate-120-a-3.webp"
+  ],
+  "shortDescription": "Um sistema inovador e integrado para controlar a potência e temperatura, desenvolvido para processos de aquecimento elétrico industrial. A arquitetura do sistema é otimizada para o controle de temperatura multizonas.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>SSR (Relé de Estado Sólido) com comutação no ponto zero</li><li>Tensão nominal: 480 Vca rms, 50-50 Hz</li><li>Corrente nominal (AC1): 25 A, 40 A, 60 A, 90 A, 120 A</li></ul>\n<h3>Visão geral</h3>\n<p>Um sistema inovador e integrado para controlar a potência e temperatura, desenvolvido para processos de aquecimento elétrico industrial.</p>\n<p>A arquitetura do sistema é otimizada para o controle de temperatura multizonas.</p>\n<p>la é formada por uma unidade de controle, exemplo, o controlador microprocessado PID acrescido do dispositivo de controle de carga (AT e VT), bem como de um módulo de potência (SSR) com dissipador de calor de alumínio.</p>\n<p>O sistema é compacto e fácil de instalar e usar.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 10
+}

@@ -21,8 +21,21 @@
   {
     "name": "Relés | Módulos de Potência - GEFRAN",
     "slug": "reles-e-modulos-de-potencia",
+    "image": "/images/products/gpc-controlador-de-potencia-avancado-ate-600-a-1.webp",
+    "heroImage": "/images/categorias/topo-reles-e-modulos-de-potencia.webp",
     "order": 2,
-    "subcategories": []
+    "subcategories": [
+      {
+        "name": "Módulos de Potência",
+        "slug": "modulos-de-potencia",
+        "image": "/images/products/gtf-controlador-de-potencia-monofasico-ate-250a-1.webp"
+      },
+      {
+        "name": "Relés de Estado Sólido",
+        "slug": "reles-de-estado-solido",
+        "image": "/images/products/grs-h-rele-de-estado-solido-monofasico-com-dissipador-ate-120-a-1.webp"
+      }
+    ]
   },
   {
     "name": "Transdutores de Posição - GEFRAN",

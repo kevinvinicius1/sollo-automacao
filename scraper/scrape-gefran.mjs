@@ -39,6 +39,7 @@ import {
   saveImage,
   slugifyMax,
 } from "./gefran-lib.mjs";
+import { OVERRIDES } from "./gefran-overrides.mjs";
 
 /**
  * Cada entrada mapeia uma sublinha da Gefran para uma subcategoria nossa.
@@ -56,36 +57,21 @@ const LINHAS = [
     subcategory: "indicadores-e-unidades-de-alarme",
     gefran: "/produtos/controladores-e-indicadores/indicadores-e-unidades-de-alarme/",
   },
+  {
+    category: "reles-e-modulos-de-potencia",
+    subcategory: "modulos-de-potencia",
+    gefran: "/produtos/controle-de-potencia/modulos-de-potencia/",
+  },
+  {
+    category: "reles-e-modulos-de-potencia",
+    subcategory: "reles-de-estado-solido",
+    gefran:
+      "/produtos/controle-de-potencia/reles-de-estado-solido-com-sem-dissipador-de-calor/",
+  },
 ];
 
 /** Software de configuração — fica fora do catálogo de produtos. */
 const SKIP_TITLES = new Set(["GF_eXpress"]);
-
-/**
- * Ajustes sobre o que a Gefran publica, aplicados na origem:
- *
- * - tradução dos trechos que ficaram em inglês no site pt-BR;
- * - encurtamento dos subtítulos longos. Alguns passam de 100 caracteres e
- *   estouram a faixa de título da página de produto, dimensionada para ~60.
- *   Sai do nome só o que é detalhe de interface ou de mostrador, que segue
- *   no resumo e nas especificações; o subtítulo é a base do nome e do slug.
- */
-const OVERRIDES = {
-  "3850T": { subTitle: "Controlador e registrador de até 16 loops PID" },
-  "2850T": { subTitle: "Programador e registrador de até 8 loops PID" },
-  "40TB": { subTitle: "Indicador/Unidade de alarme de temperatura e pressão" },
-  "40B48": { subTitle: "Indicador/Unidade de alarme de força, pressão e posição" },
-  "40B96": { subTitle: "Indicador/Unidade de alarme de força, pressão e posição" },
-  "40A48-96": { subTitle: "Indicador/Unidade de alarme de tensão e corrente" },
-  "4A48-96": { subTitle: "Indicador/Unidade de alarme de tensão e corrente" },
-  "4T96": { subTitle: "Indicador" },
-  "400-401": {
-    mainFeatures:
-      "<p>Entrada universal configurável pelo painel frontal</p>\n" +
-      "<p>Precisão melhor que 0,2% f.e. em condição nominal</p>\n" +
-      "<p>Indicação do desvio por gráfico de barras</p>",
-  },
-};
 
 /* ------------------------------------------------------------------ passos */
 
@@ -104,7 +90,10 @@ function resumo(overviewHtml, subTitle) {
     .filter((bloco) => !/^<strong>[^<]*<\/strong>$/.test(bloco));
   const texto = htmlToText(paragrafos.join(" "));
   const resumido = firstSentences(texto);
-  return resumido.length >= 40 ? resumido : subTitle;
+  if (resumido.length >= 40) return resumido;
+  // Grupos de acessórios têm overview curta e nenhum subtítulo: nesses a
+  // overview é o único texto disponível.
+  return subTitle || resumido;
 }
 
 /** Lista de produtos de uma sublinha, na ordem exata em que o front renderiza. */
@@ -127,10 +116,14 @@ async function montarProduto(uri, linha, order) {
   const produto = data?.result?.pageContext?.product;
   if (!produto) throw new Error(`sem pageContext.product em ${uri}`);
 
-  const acf = { ...produto.acf, ...(OVERRIDES[produto.title] ?? {}) };
-  const code = produto.title.trim();
+  const ajustes = OVERRIDES[produto.title] ?? {};
+  const acf = { ...produto.acf, ...ajustes };
+  // Grupos de acessórios não são modelos: recebem título em português e
+  // `code: ""`, para o card não exibir um selo com uma frase inteira.
+  const titulo = (ajustes.title ?? produto.title).trim();
+  const code = (ajustes.code ?? titulo).trim();
   const subTitle = (acf.subTitle ?? "").trim();
-  const name = subTitle ? `${code} – ${subTitle}` : code;
+  const name = subTitle ? `${titulo} – ${subTitle}` : titulo;
   const slug = slugifyMax(name);
 
   const features = paragraphsToList(acf.mainFeatures);

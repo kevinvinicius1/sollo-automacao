@@ -1,0 +1,17 @@
+{
+  "code": "GSLM",
+  "name": "GSLM – Gerenciador inteligente de cargas elétricas",
+  "slug": "gslm-gerenciador-inteligente-de-cargas-eletricas",
+  "category": "reles-e-modulos-de-potencia",
+  "subcategory": "modulos-de-potencia",
+  "images": [
+    "/images/products/gslm-gerenciador-inteligente-de-cargas-eletricas-1.webp",
+    "/images/products/gslm-gerenciador-inteligente-de-cargas-eletricas-2.webp",
+    "/images/products/gslm-gerenciador-inteligente-de-cargas-eletricas-3.webp"
+  ],
+  "shortDescription": "Em processos que utilizam aquecimento elétrico multizona ou sistemas com diferentes fornos elétricos de tratamento térmico, a demanda simultânea de energia pelos diversos sistemas de controle pode causar altos picos de consumo que excedam os limites de fornecimento, o que poderi…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Gerenciamento de cargas elétricas resistivas</li><li>Compatível com as séries de controladores de potência GPC e GFW (até 64 unidades)</li><li>Limitação total do pico de potência</li></ul>\n<h3>Visão geral</h3>\n<p>Em processos que utilizam aquecimento elétrico multizona ou sistemas com diferentes fornos elétricos de tratamento térmico, a demanda simultânea de energia pelos diversos sistemas de controle pode causar altos picos de consumo que excedam os limites de fornecimento, o que poderia resultar em um aumento no custo da energia ou acionar disjuntores de proteção, com consequentes paradas na produção, especialmente se o sistema operar próximo ao limite da potência elétrica disponível.</p>\n<p>Nesses processos, o GSLM (Gefran Smart Load Manager), um dispositivo industrial compacto e robusto, por meio de uma série de algoritmos tecnológicos, gerencia a distribuição de potência entre as diversas cargas, a fim de obter um consumo energético global equilibrado que minimize os picos de potência. O resultado é um aumento na eficiência energética da planta, com a consequente redução nos custos de produção.</p>\n<p><strong>Principais aplicações</strong></p>\n<p>Fornos e instalações de tratamento térmico</p>\n<p>Instalações de vidro float</p>\n<p>Instalações de endurecimento químico</p>\n<p>Fornos de curvatura de vidro</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 8
+}
