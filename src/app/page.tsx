@@ -1,6 +1,7 @@
 import { Mail } from "lucide-react";
 import CategoryCard from "@/components/CategoryCard";
 import HomeCarousel from "@/components/HomeCarousel";
+import PageTitleBar from "@/components/PageTitleBar";
 import WhatsAppIcon from "@/components/WhatsAppIcon";
 import { getCategories } from "@/lib/catalog";
 import { isWipCategory, siteConfig, whatsappLink } from "../../site.config";
@@ -14,7 +15,9 @@ export default async function HomePage() {
   return (
     <>
       {/* Hero: título sobre o carrossel, exibido na proporção original dos
-          banners (27:10) para não haver corte nem distorção da imagem. */}
+          banners (27:10) para não haver corte nem distorção da imagem. A
+          faixa segue direto na vitrine de linhas, fechada pelo filete bordô
+          da PageTitleBar. */}
       <section className="bg-brand-800 text-white">
         <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 md:py-12">
           <h1 className="max-w-3xl text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
@@ -28,27 +31,20 @@ export default async function HomePage() {
       </section>
 
       {/* Vitrine de linhas de produto */}
-      <section
-        aria-labelledby="linhas-heading"
-        className="mx-auto max-w-6xl px-4 py-16 sm:px-6"
-      >
-        <h2
-          id="linhas-heading"
-          className="text-2xl font-bold tracking-tight text-brand-700 sm:text-3xl"
-        >
-          Linha de Produtos
-        </h2>
-        <div className="mt-3 h-1 w-14 bg-accent-500" aria-hidden="true" />
-        <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
-          {categories.map((cat) => (
-            <CategoryCard
-              key={cat.slug}
-              name={cat.name}
-              href={`/produtos/${cat.slug}/`}
-              image={cat.image}
-              wip={isWipCategory(cat.slug)}
-            />
-          ))}
+      <section aria-labelledby="linhas-heading">
+        <PageTitleBar title="Linha de Produtos" as="h2" id="linhas-heading" />
+        <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            {categories.map((cat) => (
+              <CategoryCard
+                key={cat.slug}
+                name={cat.name}
+                href={`/produtos/${cat.slug}/`}
+                image={cat.image}
+                wip={isWipCategory(cat.slug)}
+              />
+            ))}
+          </div>
         </div>
       </section>
 
