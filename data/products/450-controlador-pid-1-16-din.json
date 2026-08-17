@@ -1,0 +1,15 @@
+{
+  "code": "450",
+  "name": "450 – Controlador PID, 1/16 DIN",
+  "slug": "450-controlador-pid-1-16-din",
+  "category": "controladores-e-indicadores",
+  "subcategory": "controladores-e-programadores",
+  "images": [
+    "/images/products/450-controlador-pid-1-16-din-1.webp"
+  ],
+  "shortDescription": "O controlador de temperatura da série 450, com dimensões de 48×48 mm (1/16 DIN), oferece simplicidade de uso e alta qualidade de controle. A entrada dos sensores de temperatura é “universal” e configurável para termopares dos tipos J, K, R, S, T, B, E e N, bem como para termômet…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Entrada universal configurável no painel frontal</li><li>Precisão superior a 0,2% da escala em condições nominais</li><li>Saída de controle: relé, lógica</li></ul>\n<h3>Visão geral</h3>\n<p>O controlador de temperatura da série 450, com dimensões de 48×48 mm (1/16 DIN), oferece simplicidade de uso e alta qualidade de controle. A entrada dos sensores de temperatura é “universal” e configurável para termopares dos tipos J, K, R, S, T, B, E e N, bem como para termômetros de resistência Rt100 de 3 fios.</p>\n<p>A interface do usuário possui um display duplo completo com LEDs verdes, 4 teclas e dois LEDs vermelhos para sinalizar saídas ativas.</p>\n<p>A membrana Lexan® no painel frontal garante um nível de proteção IP65 para esses produtos. As saídas do controlador, livremente configuráveis como saída de controle e saída de alarme, estão disponíveis em uma versão com relé de 5 A/250 VCA ou em uma versão com sinal lógico para acionar relés de estado sólido.</p>\n<p>A velocidade de leitura do sinal de entrada (120 ms) e o algoritmo de controle PID testado, com funções de autoajuste e ajuste automático de parâmetros, garantem um controle preciso e estável, mesmo para sistemas de aquecimento rápidos e descontínuos.</p>\n<p>Os modelos da Série 450 são configurados de fábrica para atender à maioria das aplicações de aquecimento industrial (entrada para sonda J, configuração PID a quente, tempo de ciclo de 10 segundos) e podem ser modificados a qualquer momento pelo teclado ou por meio de um PC, com alguns parâmetros agrupados em menus intuitivos.</p>\n<p>Está disponível um kit de programação para PC, composto por um cabo e um programa de fácil uso para Windows com páginas de assistente, osciloscópio para análise de processos, salvamento de receitas de parâmetros e capacidade de redefinir os parâmetros de fábrica.</p>\n<p>Um código de proteção de software configurável (protegido por senha) permite limitar o acesso aos parâmetros internos em vários níveis, até a proteção total.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 14
+}

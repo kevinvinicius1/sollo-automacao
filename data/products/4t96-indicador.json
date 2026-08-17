@@ -1,0 +1,15 @@
+{
+  "code": "4T96",
+  "name": "4T96 – Indicador",
+  "slug": "4t96-indicador",
+  "category": "controladores-e-indicadores",
+  "subcategory": "indicadores-e-unidades-de-alarme",
+  "images": [
+    "/images/products/4t96-indicador-1.webp"
+  ],
+  "shortDescription": "Indicador microprocessado baseado no formato 96×48 (1/8 DIN), fabricado por meio de tecnologia de montagem sobre superfície (SMT). O instrumento conta com uma placa frontal de membrana Lexan (garantida pela proteção IP65), que conta com 3 teclas e um display de 3/4 dígitos.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Entrada configurável no painel frontal</li><li>Protegida por um código pessoal</li><li>Configurável por meio de uma conexão serial</li></ul>\n<h3>Visão geral</h3>\n<p>Indicador microprocessado baseado no formato 96×48 (1/8 DIN), fabricado por meio de tecnologia de montagem sobre superfície (SMT).</p>\n<p>O instrumento conta com uma placa frontal de membrana Lexan (garantida pela proteção IP65), que conta com 3 teclas e um display de 3/4 dígitos.</p>\n<p>O sinal de entrada pode ser selecionado a partir de uma ampla variedade de sensores:</p>\n<ul>\n<li>Termopares do tipo J, K, R, S, T, B, E, N, L GOST, U, G, D, C</li>\n<li>Termorresistências Pt100, JPt100; 2 / 3 fios</li>\n<li>Termistores PTC e NTC</li>\n<li>Entradas lineares de 0 a 60/12 a 60mV, 0 a 20/4 a 20mA, 0 a 10/2 a 10/0 a 5/1 a 5/0 to 1/0, 2 a 1V</li>\n</ul>\n<p>A seleção é efetuada com o uso das teclas na placa frontal e com o contato correto de entrada.</p>\n<p>Não é necessário shunt ou adaptador externo.</p>\n<p>A programação do instrumento é facilitada por meio do agrupamento dos parâmetros nos blocos de função e por meio de um menu simplificado de inserção de dados.</p>\n<p>A configuração pode ser ainda mais simplificada com o uso de um kit de programação de PC formado por um cabo de conexão e um programa com menu de orientação que é executado no Windows (consulte a planilha de dados, sob o código GF_eXpress).</p>\n<p>É possível utilizar um código pessoal de proteção (proteção por senha) do software, configurável, para restringir os níveis de edição e exibição dos parâmetros de configuração.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 9
+}

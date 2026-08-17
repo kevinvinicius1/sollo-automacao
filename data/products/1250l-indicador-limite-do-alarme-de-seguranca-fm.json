@@ -1,0 +1,16 @@
+{
+  "code": "1250L",
+  "name": "1250L – Indicador/Limite do alarme de segurança (FM)",
+  "slug": "1250l-indicador-limite-do-alarme-de-seguranca-fm",
+  "category": "controladores-e-indicadores",
+  "subcategory": "indicadores-e-unidades-de-alarme",
+  "images": [
+    "/images/products/1250l-indicador-limite-do-alarme-de-seguranca-fm-1.webp",
+    "/images/products/1250l-indicador-limite-do-alarme-de-seguranca-fm-2.webp"
+  ],
+  "shortDescription": "O Indicador 1250 L é utilizado para limitar o superaquecimento em processos industriais. Em caso de alarme, o instrumento mantém registradas as condições de falha até que seja reinicializado pelo operador.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Botão frontal dedicado para reinicialização do alarme</li><li>Contagem de acionamentos do alarme de alta temperatura</li><li>Totalização do tempo de acionamentos do alarme de alta temperatura</li></ul>\n<h3>Visão geral</h3>\n<p>O Indicador 1250 L é utilizado para limitar o superaquecimento em processos industriais.</p>\n<p>Em caso de alarme, o instrumento mantém registradas as condições de falha até que seja reinicializado pelo operador. A reinicialização pode ser realizada pelo operador por meio da tecla frontal (R vermelha), da entrada digital (opcional) ou da linha serial (opcional).</p>\n<p>Como recurso adicional, o instrumento conta o número de vezes que o limite de alarme é excedido e o tempo total em que o alarme permanece ativo.</p>\n<p>Essas informações podem ajudar a avaliar a deterioração do forno e a planejar os trabalhos de manutenção.</p>\n<p>Os visores exibem os valores do processo, além de mensagens rolantes multilíngues para diagnósticos e alarmes.</p>\n<p>O modelo 1250 L inclui uma barra segmentada que exibe graficamente o desvio de temperatura em relação ao limite de alarme.</p>\n<p>A configuração e a operação do aparelho são feitas por meio das teclas frontais.</p>\n<p>As teclas possuem LEDs de dupla função que indicam quando são pressionadas. Os LEDs fornecem feedback sobre a tecla pressionada e também orientação sobre as operações permitidas.</p>\n<p>O comissionamento inicial é simplificado por prompts de texto de configuração guiados que abrangem os parâmetros básicos comumente usados, acompanhados por mensagens de ajuda em linha.</p>\n<p>Com o software GF_eXpress e um PC, é possível programar a configuração avançada, criar receitas e atualizar o firmware</p>\n<p>sem precisar ligar o instrumento à alimentação.</p>\n<p>Graças à função Smart Configurator, você obtém a configuração necessária respondendo a algumas perguntas simples. Os parâmetros iniciais podem ser sempre redefinidos, tanto pelo teclado quanto pelo software GF_eXpress.</p>\n<p>Os dispositivos oferecem diagnóstico completo (conexão quebrada ou incorreta do sensor), contagem de operações e limites de alarme configuráveis (úteis para programar a manutenção preventiva). Um medidor de disparos e um temporizador de reinicialização da memória de alarmes estão disponíveis</p>\n<p>para o alarme 1.</p>\n<p>A manutenção do sistema no qual o dispositivo está instalado é facilitada pela possibilidade de substituir o instrumento a qualquer momento, simplesmente removendo-o do painel frontal.</p>\n<p>Não são necessárias etapas adicionais.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 2
+}

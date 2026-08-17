@@ -1,0 +1,15 @@
+{
+  "code": "400-401",
+  "name": "400-401 – Controlador PID, 1/16 DIN",
+  "slug": "400-401-controlador-pid-1-16-din",
+  "category": "controladores-e-indicadores",
+  "subcategory": "controladores-e-programadores",
+  "images": [
+    "/images/products/400-401-controlador-pid-1-16-din-1.webp"
+  ],
+  "shortDescription": "Controlador microprocessado no formato 48x48mm (1/16 DIN) fabricado usando a tecnologia SMT. Os instrumentos oferecem uma interface completa com o operador, protegida por uma membrana de Lexan® que assegura proteção classe IP65 ao frontal.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Entrada universal configurável pelo painel frontal</li><li>Precisão melhor que 0,2% f.e. em condição nominal</li><li>Indicação do desvio por gráfico de barras</li></ul>\n<h3>Visão geral</h3>\n<p>Controlador microprocessado no formato 48x48mm (1/16 DIN) fabricado usando a tecnologia SMT.</p>\n<p>Os instrumentos oferecem uma interface completa com o operador, protegida por uma membrana de Lexan® que assegura proteção classe IP65 ao frontal.</p>\n<p>Os controladores têm 4 teclas, displays de 4 dígitos, 2 LEDs indicadores no modelo 400, 3 LEDs indicadores no modelo 401 e mais 3 LEDs formando um gráfico de barras.</p>\n<p>A entrada principal para a variável de processo é universal e oferece a possibilidade de conectar muitos tipos de sensores de entrada:</p>\n<ul>\n<li>Termopares tipo J, K, R, S, T, B, E, N</li>\n<li>Termoresistência PT100 a 3 fios</li>\n<li>Termistor PTC</li>\n<li>Sinais lineares de 0 a 60mV, 12 a 60mV, 0 a 20mA, 4 a 20mA, 0 a 10V e 2 a 10V</li>\n</ul>\n<p>O tipo de entrada é selecionado pelas teclas do frontal e não é requerido nenhum shunt externo ou adaptador.</p>\n<p>O Modelo 401 pode ter uma entrada auxiliar para um transformador de corrente de 50mAac para monitorar a corrente de carga. Também é possível ajustar um ponto de alarme relacionado à entrada do transformador de corrente para conferir eventual mau funcionamento da carga.</p>\n<p>Os instrumentos têm 2 saídas por relés (3 no modelo 401) (5A/250Vac, cosj =1) ou saídas estáticas (10Vdc/30mA) com Aquecimento, Resfriamento ou Aquecimento/Resfriamento não sobre-postos ou funções de alarme.</p>\n<p>Todos os procedimentos de programação dos instrumentos são facilitados pelo agrupamento dos parâmetros em blocos de função (CFG para os parâmetros de controle, Inp para as entrada, Out para as saídas, etc.) e pela possibilidade de selecionar um menu simplificado para entrar nos parâmetros mais freqüentemente usados.</p>\n<p>Para simplificar a configuração ainda mais, é disponível um kit de programação para PC que inclui um programa de configuração orientado por menus para Windows e o cabo necessário para conectar o instrumento.</p>\n<p>Um código configurável de proteção pessoal por software (senha de proteção) pode ser usado para restringir os níveis de edição e exibição dos parâmetros de configuração.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 19
+}

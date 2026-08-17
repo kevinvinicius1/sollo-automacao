@@ -1,0 +1,15 @@
+{
+  "code": "4T48",
+  "name": "4T48 – Indicador",
+  "slug": "4t48-indicador",
+  "category": "controladores-e-indicadores",
+  "subcategory": "indicadores-e-unidades-de-alarme",
+  "images": [
+    "/images/products/4t48-indicador-1.webp"
+  ],
+  "shortDescription": "Os instrumentos 48 têm 3 dígitos indicadores + sinal e dimensões do frontal de 48x48mm (1/16 DIN); os instrumentos 96 têm 3.1/2 dígitos indicadores + sinal digital e dimensões frontais de 96x48mm (1/8 DIN). Fabricados com tecnologia de montagem sobre superfície (SMT), os indicad…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Entrada configurável no painel frontal</li><li>Protegida por um código pessoal</li><li>Configurável por meio de uma conexão serial</li></ul>\n<h3>Visão geral</h3>\n<p>Os instrumentos 48 têm 3 dígitos indicadores + sinal e dimensões do frontal de 48x48mm (1/16 DIN); os instrumentos 96 têm 3.1/2 dígitos indicadores + sinal digital e dimensões frontais de 96x48mm (1/8 DIN).</p>\n<p>Fabricados com tecnologia de montagem sobre superfície (SMT), os indicadores 48 / 96 otimizam elegantemente a relação entre baixo custo e alta versatilidade, robustez e confiabilidade.</p>\n<p>Há 4 versões principais de acordo com o tipo de entrada:</p>\n<ul>\n<li>termopar ou termômetro de resistência</li>\n<li>tensão ou corrente DC</li>\n<li>tensão ou corrente AC</li>\n<li>entrada para corrente AC com contato de saída de 5A comandado por chave no frontal (*)</li>\n</ul>\n<p>(*) esta chave não pode ser usada para ligar e desligar a unidade.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 8
+}

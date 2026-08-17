@@ -1,0 +1,16 @@
+{
+  "code": "GFXTermo4",
+  "name": "GFXTermo4 – Controlador PID 4 circuitos para trilho DIN",
+  "slug": "gfxtermo4-controlador-pid-4-circuitos-para-trilho-din",
+  "category": "controladores-e-indicadores",
+  "subcategory": "controladores-e-programadores",
+  "images": [
+    "/images/products/gfxtermo4-controlador-pid-4-circuitos-para-trilho-din-1.webp",
+    "/images/products/gfxtermo4-controlador-pid-4-circuitos-para-trilho-din-2.webp"
+  ],
+  "shortDescription": "GFXTERMO4 é um sistema de controle multizonas que controla quatro zonas de processo, em um modo completamente independente. A configuração de recursos de E/S é bastante rápida e flexível graças a uma ferramenta de programação que orienta o usuário na seleção de parâmetros.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>4 entradas universais de processo</li><li>4 PIDs independentes para aquecimento/resfriamento</li><li>4 saídas principais</li></ul>\n<h3>Visão geral</h3>\n<p>GFXTERMO4 é um sistema de controle multizonas que controla quatro zonas de processo, em um modo completamente independente. A configuração de recursos de E/S é bastante rápida e flexível graças a uma ferramenta de programação que orienta o usuário na seleção de parâmetros. Cada circuito conta com:</p>\n<ul>\n<li>Entrada de processo</li>\n<li>Entrada para CTs externos ou CT /entrada linear</li>\n<li>Saída de controle</li>\n<li>Saída de resfriamento</li>\n</ul>\n<p>Outras E/S auxiliares:</p>\n<ul>\n<li>Duas entradas digitais</li>\n<li>Duas saídas de relés</li>\n</ul>\n<p>O uso de duas portas independentes em série oferece capacidade eficiente de comunicação. As duas portas em série são definidas da seguinte forma:</p>\n<ul>\n<li>“local bus” para criar uma rede GFXTERMO4 e conectá-la a um painel do operador ou PC industrial. Utiliza o protocolo Modbus RTU e atinge uma velocidade de 115 Kbps.</li>\n<li>“field bus” para integração com arquiteturas que já estão em uso nos field buses industriais como: Profibus DP, CANopen, DeviceNet, Modbus RTU, Ethernet Modbus TCP.</li>\n</ul>\n<p>É um módulo “inteligente” que permite ao usuário criar controles completamente independentes e confiáveis. O dispositivo é instalado em trilho DIN com dois parafusos M4.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "code": "1250",
+  "name": "1250 – Controlador PID, 1/8 DIN",
+  "slug": "1250-controlador-pid-1-8-din",
+  "category": "controladores-e-indicadores",
+  "subcategory": "controladores-e-programadores",
+  "images": [
+    "/images/products/1250-controlador-pid-1-8-din-1.webp"
+  ],
+  "shortDescription": "Grande tela LCD com personalização das cores atribuídas aos indicadores PV, SV e F, da cor do painel frontal de plástico e do logotipo. Exibição gráfica da potência, corrente de saída ou posição da válvula.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Interface do operador com grande tela LCD, personalizável, com opções de cores</li><li>Mensagens de diagnóstico com rolagem, configuráveis, no idioma selecionado</li><li>Configuração fácil e guiada, com possibilidade de copiar/colar parâmetros mesmo com o equipamento desligado</li></ul>\n<h3>Visão geral</h3>\n<p>Grande tela LCD com personalização das cores atribuídas aos indicadores PV, SV e F, da cor do painel frontal de plástico e do logotipo.</p>\n<p>Exibição gráfica da potência, corrente de saída ou posição da válvula.</p>\n<p>Exibição alfanumérica rolante de 25 mensagens (32 letras cada), totalmente configurável e salvável, em três idiomas.</p>\n<p>Graças à seleção de idioma e às mensagens rolantes claras para diagnósticos, alarmes e estado do processo, o controlador se comunica no idioma do usuário.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 8
+}

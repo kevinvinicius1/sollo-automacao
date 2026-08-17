@@ -1,10 +1,47 @@
 [
   {
+    "name": "Controladores | Indicadores - GEFRAN",
+    "slug": "controladores-e-indicadores",
+    "image": "/images/products/1850-controlador-pid-de-circuito-duplo-1-4-din-1.webp",
+    "heroImage": "/images/categorias/topo-controladores-e-indicadores.webp",
+    "order": 1,
+    "subcategories": [
+      {
+        "name": "Controladores e Programadores",
+        "slug": "controladores-e-programadores",
+        "image": "/images/products/3850t-controlador-programador-e-registrador-de-ate-16-loops-pid-1.webp"
+      },
+      {
+        "name": "Indicadores e Unidades de Alarme",
+        "slug": "indicadores-e-unidades-de-alarme",
+        "image": "/images/products/40tb-indicador-unidade-de-alarme-para-entradas-de-temperatura-e-1.webp"
+      }
+    ]
+  },
+  {
+    "name": "Relés | Módulos de Potência - GEFRAN",
+    "slug": "reles-e-modulos-de-potencia",
+    "order": 2,
+    "subcategories": []
+  },
+  {
+    "name": "Transdutores de Posição - GEFRAN",
+    "slug": "transdutores-de-posicao",
+    "order": 3,
+    "subcategories": []
+  },
+  {
+    "name": "Sensores de Pressão | Melt - GEFRAN",
+    "slug": "sensores-de-pressao-melt",
+    "order": 4,
+    "subcategories": []
+  },
+  {
     "name": "Cilindros",
     "slug": "cilindros-pneumaticos",
     "image": "/images/products/fct-cilindro-tirantado-iso-1.webp",
     "heroImage": "/images/categorias/topo-cilindros-pneumaticos.webp",
-    "order": 2,
+    "order": 5,
     "subcategories": [
       {
         "name": "Cilindros Pneumáticos",
@@ -24,11 +61,114 @@
     ]
   },
   {
+    "name": "Válvulas",
+    "slug": "valvulas",
+    "image": "/images/products/valvulas-botao-2-2-1.webp",
+    "heroImage": "/images/categorias/topo-valvulas.webp",
+    "order": 6,
+    "subcategories": [
+      {
+        "name": "Válvulas Linha Econômica",
+        "slug": "valvulas-linha-economica",
+        "image": "/images/products/capa-valvulas-linha-economica.webp"
+      },
+      {
+        "name": "Válvulas Auxiliares",
+        "slug": "valvulas-auxiliares",
+        "image": "/images/products/capa-valvulas-auxiliares.webp"
+      },
+      {
+        "name": "Válvulas Linha CVF",
+        "slug": "valvulas-linha-cvf",
+        "image": "/images/products/capa-valvulas-linha-cvf.webp"
+      },
+      {
+        "name": "Válvulas de Processos Industriais",
+        "slug": "valvulas-industriais",
+        "image": "/images/products/capa-valvulas-industriais.webp"
+      },
+      {
+        "name": "Válvulas Linha VF",
+        "slug": "valvulas-linha-zf",
+        "image": "/images/products/capa-valvulas-linha-zf.webp"
+      },
+      {
+        "name": "Válvulas Alta Ciclagem",
+        "slug": "valvulas-alta-ciclagem",
+        "image": "/images/products/valvula-alta-ciclagem-1.webp"
+      },
+      {
+        "name": "Válvulas ISO",
+        "slug": "valvulas-iso",
+        "image": "/images/products/valvulas-iso-1.webp"
+      },
+      {
+        "name": "Válvula SY",
+        "slug": "valvulas-sy",
+        "image": "/images/products/valvula-solenoide-com-plug-din-1.webp"
+      }
+    ]
+  },
+  {
+    "name": "Preparação de Ar",
+    "slug": "preparacao-do-ar",
+    "image": "/images/products/conjunto-lubrefil-16-bar-1.webp",
+    "heroImage": "/images/categorias/topo-preparacao-do-ar.webp",
+    "order": 7,
+    "subcategories": [
+      {
+        "name": "Linha Econômica",
+        "slug": "preparacao-do-ar-linha-economica",
+        "image": "/images/products/capa-preparacao-do-ar-linha-economica.webp"
+      },
+      {
+        "name": "Linha Odontológica",
+        "slug": "preparacao-do-ar-trio-odontologico",
+        "image": "/images/products/capa-preparacao-do-ar-trio-odontologico.webp"
+      },
+      {
+        "name": "Linha Intermediária (Robusta)",
+        "slug": "preparacao-do-ar-linha-intermediaria",
+        "image": "/images/products/capa-preparacao-do-ar-linha-intermediaria.webp"
+      },
+      {
+        "name": "Purgador Automático e Eletrônico",
+        "slug": "purgador-e-temporizador-eletronico",
+        "image": "/images/products/capa-purgador-e-temporizador-eletronico.webp"
+      },
+      {
+        "name": "Linha Especial",
+        "slug": "preparacao-do-ar-especial",
+        "image": "/images/products/capa-preparacao-do-ar-especial.webp"
+      },
+      {
+        "name": "Tratamento do Ar Comprimido",
+        "slug": "preparacao-do-ar-tratamento-do-ar-comprimido",
+        "image": "/images/products/capa-preparacao-do-ar-tratamento-do-ar-comprimido.webp"
+      },
+      {
+        "name": "Linha 16 bar",
+        "slug": "preparacao-do-ar-linha-16-bar",
+        "image": "/images/products/capa-preparacao-do-ar-linha-16-bar.webp"
+      },
+      {
+        "name": "Pressostato",
+        "slug": "preparacao-do-ar",
+        "image": "/images/products/capa-preparacao-do-ar.webp"
+      },
+      {
+        "name": "Registro Esfera",
+        "slug": "registro-esfera",
+        "image": "/images/products/capa-registro-esfera.webp"
+      }
+    ]
+  },
+  {
     "name": "Conexões, Silenciadores e Tubos",
     "slug": "conexoes",
     "image": "/images/products/tubos-e-espirais-1.webp",
     "heroImage": "/images/categorias/topo-conexoes.webp",
-    "order": 5,
+    "order": 8,
     "subcategories": [
       {
         "name": "Conexões Instantâneas Tubo em Polegadas",
@@ -111,114 +251,5 @@
         "image": "/images/products/capa-silenciador-de-escape.webp"
       }
     ]
-  },
-  {
-    "name": "Válvulas",
-    "slug": "valvulas",
-    "image": "/images/products/valvulas-botao-2-2-1.webp",
-    "heroImage": "/images/categorias/topo-valvulas.webp",
-    "order": 3,
-    "subcategories": [
-      {
-        "name": "Válvulas Linha Econômica",
-        "slug": "valvulas-linha-economica",
-        "image": "/images/products/capa-valvulas-linha-economica.webp"
-      },
-      {
-        "name": "Válvulas Auxiliares",
-        "slug": "valvulas-auxiliares",
-        "image": "/images/products/capa-valvulas-auxiliares.webp"
-      },
-      {
-        "name": "Válvulas Linha CVF",
-        "slug": "valvulas-linha-cvf",
-        "image": "/images/products/capa-valvulas-linha-cvf.webp"
-      },
-      {
-        "name": "Válvulas de Processos Industriais",
-        "slug": "valvulas-industriais",
-        "image": "/images/products/capa-valvulas-industriais.webp"
-      },
-      {
-        "name": "Válvulas Linha VF",
-        "slug": "valvulas-linha-zf",
-        "image": "/images/products/capa-valvulas-linha-zf.webp"
-      },
-      {
-        "name": "Válvulas Alta Ciclagem",
-        "slug": "valvulas-alta-ciclagem",
-        "image": "/images/products/valvula-alta-ciclagem-1.webp"
-      },
-      {
-        "name": "Válvulas ISO",
-        "slug": "valvulas-iso",
-        "image": "/images/products/valvulas-iso-1.webp"
-      },
-      {
-        "name": "Válvula SY",
-        "slug": "valvulas-sy",
-        "image": "/images/products/valvula-solenoide-com-plug-din-1.webp"
-      }
-    ]
-  },
-  {
-    "name": "Preparação de Ar",
-    "slug": "preparacao-do-ar",
-    "image": "/images/products/conjunto-lubrefil-16-bar-1.webp",
-    "heroImage": "/images/categorias/topo-preparacao-do-ar.webp",
-    "order": 4,
-    "subcategories": [
-      {
-        "name": "Linha Econômica",
-        "slug": "preparacao-do-ar-linha-economica",
-        "image": "/images/products/capa-preparacao-do-ar-linha-economica.webp"
-      },
-      {
-        "name": "Linha Odontológica",
-        "slug": "preparacao-do-ar-trio-odontologico",
-        "image": "/images/products/capa-preparacao-do-ar-trio-odontologico.webp"
-      },
-      {
-        "name": "Linha Intermediária (Robusta)",
-        "slug": "preparacao-do-ar-linha-intermediaria",
-        "image": "/images/products/capa-preparacao-do-ar-linha-intermediaria.webp"
-      },
-      {
-        "name": "Purgador Automático e Eletrônico",
-        "slug": "purgador-e-temporizador-eletronico",
-        "image": "/images/products/capa-purgador-e-temporizador-eletronico.webp"
-      },
-      {
-        "name": "Linha Especial",
-        "slug": "preparacao-do-ar-especial",
-        "image": "/images/products/capa-preparacao-do-ar-especial.webp"
-      },
-      {
-        "name": "Tratamento do Ar Comprimido",
-        "slug": "preparacao-do-ar-tratamento-do-ar-comprimido",
-        "image": "/images/products/capa-preparacao-do-ar-tratamento-do-ar-comprimido.webp"
-      },
-      {
-        "name": "Linha 16 bar",
-        "slug": "preparacao-do-ar-linha-16-bar",
-        "image": "/images/products/capa-preparacao-do-ar-linha-16-bar.webp"
-      },
-      {
-        "name": "Pressostato",
-        "slug": "preparacao-do-ar",
-        "image": "/images/products/capa-preparacao-do-ar.webp"
-      },
-      {
-        "name": "Registro Esfera",
-        "slug": "registro-esfera",
-        "image": "/images/products/capa-registro-esfera.webp"
-      }
-    ]
-  },
-  {
-    "name": "Linha Gefran",
-    "slug": "linha-gefran",
-    "order": 1,
-    "subcategories": []
   }
 ]

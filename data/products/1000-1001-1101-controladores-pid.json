@@ -1,0 +1,15 @@
+{
+  "code": "1000-1001-1101",
+  "name": "1000-1001-1101 – Controladores PID",
+  "slug": "1000-1001-1101-controladores-pid",
+  "category": "controladores-e-indicadores",
+  "subcategory": "controladores-e-programadores",
+  "images": [
+    "/images/products/1000-1001-1101-controladores-pid-1.webp"
+  ],
+  "shortDescription": "Controlador microprocessado no formato 48x96mm (1/8 DIN) para o modelo 1000 e 1001 e formato 96x96mm (1/4 DIN) para os modelos 1101 fabricado usando a tecnologia de montagem em superfície (SMT). Os controladores da família 1000 oferecem interface completa com o operador, com fro…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Entradas para termopares e termômetros de resistência totalmente configuráveis no painel frontal</li><li>Função de desvio no sinal de entrada</li><li>Saída principal por relé, mA ou lógica</li></ul>\n<h3>Visão geral</h3>\n<p>Controlador microprocessado no formato 48x96mm (1/8 DIN) para o modelo 1000 e 1001 e formato 96x96mm (1/4 DIN) para os modelos 1101 fabricado usando a tecnologia de montagem em superfície (SMT).<br>\nOs controladores da família 1000 oferecem interface completa com o operador, com frontal em membrana Lexan. Grau de proteção classe IP54. O frontal tem 3 teclas, dois displays de LEDs verdes com 3 (1000) ou 4 (1001 e 1101) dígitos, indicadores com LEDs vermelhos para as 3 saídas de alarme por relés e um LED verde para a saída de controle principal.<br>\nA entrada principal para a variável de controle é universal e fornece a possibilidade de conectar diferentes tipos de sinal:</p>\n<ul>\n<li>Termopares tipo J, K, N, S, R, T</li>\n<li>Termoresistência Pt100 de 3 fios</li>\n<li>Entradas lineares: 0 a 50mV, 10 a 50mV definíveis pelas teclas, 2 a 10V, 0 a 10V, 0 a 20mA, 4 a 20mA com shunt externo</li>\n</ul>\n<p>É disponível uma entrada analógica auxiliar para um transformador de corrente.<br>\nOs instrumentos têm dupla saída de controle que pode ser por relés (5A/250Vac, cosj =1) e lógica (24Vdc, máx.20mA) e até um máximo de 3 saídas a relé (3A, 250Vac). Alternativamente, a saída de controle pode ser analógica (0 a 20mA, 4 a 20mA ou 0 a 10V e 2 a 10V).<br>\nA porta opcional de comunicações pode ser um loop de corrente, RS232 ou RS485 com protocolo GEFRAN (Cencal) e velocidade máxima de 9600 baud (RS485).<br>\nA programação do instrumento é simplificada pelo grupamento dos parâmetros em blocos funcionais arranjados conforme a maior complexidade requerida.<br>\nO acesso para os parâmetros de configuração é protegido por um jumper de hardware e podem-se usar diferentes valores de um código de proteção usado para restringir o número de parâmetros que podem ser exibidos e modificados pelo usuário.</p>\n<p>&nbsp;</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 16
+}

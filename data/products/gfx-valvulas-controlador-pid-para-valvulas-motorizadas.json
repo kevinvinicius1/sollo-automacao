@@ -1,0 +1,15 @@
+{
+  "code": "GFX Válvulas",
+  "name": "GFX Válvulas – Controlador PID para válvulas motorizadas",
+  "slug": "gfx-valvulas-controlador-pid-para-valvulas-motorizadas",
+  "category": "controladores-e-indicadores",
+  "subcategory": "controladores-e-programadores",
+  "images": [
+    "/images/products/gfx-valvulas-controlador-pid-para-valvulas-motorizadas-1.webp"
+  ],
+  "shortDescription": "Instrumento microprocessado de fundo de painel para válvulas motorizadas de 3 vias. A entrada principal para a variável a ser ajustada é universal e oferece a possibilidade de conexão com vários tipos de sinais: termopares, termoresistências, termistores, entradas lineares e pot…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Proteção: IP20</li><li>Entrada universal de temperatura, precisão de 0,2%</li><li>Entrada digital configurável</li></ul>\n<h3>Visão geral</h3>\n<p>Instrumento microprocessado de fundo de painel para válvulas motorizadas de 3 vias.</p>\n<p>A entrada principal para a variável a ser ajustada é universal e oferece a possibilidade de conexão com vários tipos de sinais: termopares, termoresistências, termistores, entradas lineares e potenciômetro, todos com possibilidade de linearização adaptada.</p>\n<p>Uma segunda entrada analógica auxiliar isolada está disponível, com funções completamente configuráveis para sinais lineares ou entrada para potenciômetro para posição da válvula.</p>\n<p>Parâmetros específicos estão presentes para o controle da válvula, como tempo de explosão do atuador, tempo mínimo de movimentação, setpoint de acionamento de movimento e zona morta.</p>\n<p>Também é possível selecionar o tipo de função, com ou sem potenciômetro, com o algoritmo PID ou PD.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 17
+}

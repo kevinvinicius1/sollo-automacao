@@ -1,0 +1,15 @@
+{
+  "code": "1550",
+  "name": "1550 – Controlador PID programável, 1/8 DIN",
+  "slug": "1550-controlador-pid-programavel-1-8-din",
+  "category": "controladores-e-indicadores",
+  "subcategory": "controladores-e-programadores",
+  "images": [
+    "/images/products/1550-controlador-pid-programavel-1-8-din-1.webp"
+  ],
+  "shortDescription": "O 1550 oferece controle preciso e consistente para uma ampla gama de aplicações industriais. Este controlador PID de loop único possui um grande display LCD multicolorido, facilitando a leitura, e a configuração do controlador é intuitiva e de fácil utilização.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Malha única</li><li>Retransmissão analógica</li><li>Fonte auxiliar para transmissores</li></ul>\n<h3>Visão geral</h3>\n<p>O 1550 oferece controle preciso e consistente para uma ampla gama de aplicações industriais. Este controlador PID de loop único possui um grande display LCD multicolorido, facilitando a leitura, e a configuração do controlador é intuitiva e de fácil utilização. Ele é programado em vários idiomas para que as informações de operação e as mensagens de diagnóstico possam ser configuradas no idioma de sua escolha, o controlador é possuí lógica sequencial, permitindo que funções de rotina sejam integradas em um único dispositivo.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 5
+}

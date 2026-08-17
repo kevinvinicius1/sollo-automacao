@@ -1,0 +1,15 @@
+{
+  "code": "40B48",
+  "name": "40B48 – Indicador/Unidade de alarme para entradas de força, pressão e posição",
+  "slug": "40b48-indicador-unidade-de-alarme-para-entradas-de-forca-pressao-e",
+  "category": "controladores-e-indicadores",
+  "subcategory": "indicadores-e-unidades-de-alarme",
+  "images": [
+    "/images/products/40b48-indicador-unidade-de-alarme-para-entradas-de-forca-pressao-e-1.webp"
+  ],
+  "shortDescription": "Indicador microprocessado disponível nos formatos 48x48mm (1/16 DIN) e 96x48mm (1/8 DIN) fabricado em tecnologia de montagem sobre superfície (SMT). Os instrumentos tem frontal em membrana de Lexan (que lhe assegura proteção classe IP65) com 3 teclas, display de 3 dígitos para o…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Entrada para extensômetro ou potenciômetro — configurável pelo painel frontal</li><li>Verificação da alimentação do sensor</li><li>Fácil de calibrar com seleção automática da faixa de sensibilidade</li></ul>\n<h3>Visão geral</h3>\n<p>Indicador microprocessado disponível nos formatos 48x48mm (1/16 DIN) e 96x48mm (1/8 DIN) fabricado em tecnologia de montagem sobre superfície (SMT).</p>\n<p>Os instrumentos tem frontal em membrana de Lexan (que lhe assegura proteção classe IP65) com 3 teclas, display de 3 dígitos para o formato 48x48mm ou display de 3 / 4 dígitos para o formato 96x48mm. e 3 LED’s indicadores dos estados da saída.</p>\n<p>O sinal de entrada pode ser selecionado dentre uma ampla gama de sensores:</p>\n<ul>\n<li>Potenciômetro (mínimo 100 Ohms)</li>\n<li>Célula de carga com ajuste automático da sensibilidade entre 1,5 e 3,3mV/V</li>\n<li>Strain-gauge sensor de pressão</li>\n</ul>\n<p>A seleção é feita usando-se as teclas do frontal. É disponível uma entrada digital (24Vdc/4mA) para reset, hold, flash, manuseio do pico ou destravamento.</p>\n<p>Os instrumentos têm, no máximo, 3 saídas que podem ser relés mecânicos (5A/250V) ou saídas lógicas (0 a 11Vdc). É disponível uma saída de 4 a 20mA (max. 150 Ohms) para retransmissão do sinal medido na entrada.</p>\n<p>A saída de retransmissão, a entrada digital e a terceira saída são alternativas no formato 48x48mm. Todas estas opções são simultaneamente disponíveis no formato 96x48mm.</p>\n<p>Finalmente, pode ser instalado um triac (como alternativa às duas outras saídas de relé) que pode alimentar cargas resistivas até, no máximo 2,5A a 220V.</p>\n<p>A programação do instrumento é facilitada agrupando-se os parâmetros em blocos de funções (CFG para alarme de histerese, Inp para as entradas, Out para as saídas…) e por um menu simplificado de entrada de dados.</p>\n<p>A configuração pode ser ainda mais simplificada usando-se um kit de programação para PC composto de um cabo de conexão e um programa orientado por menus que roda debaixo de Windows.</p>\n<p>Pode ser usado um código de proteção pessoal por software (proteção por senha) para restringir os níveis de edição e exibição dos parâmetros de configuração.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 10
+}

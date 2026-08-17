@@ -1,0 +1,15 @@
+{
+  "code": "4T72",
+  "name": "4T72 – Indicador",
+  "slug": "4t72-indicador",
+  "category": "controladores-e-indicadores",
+  "subcategory": "indicadores-e-unidades-de-alarme",
+  "images": [
+    "/images/products/4t72-indicador-1.webp"
+  ],
+  "shortDescription": "Indicador microprocessado fabricado no formato 72x36mm em tecnologia de montagem sobre superfície (SMT). Os instrumentos tem frontal em membrana de Lexan (que lhe assegura proteção classe IP65) com 3 teclas, display de 2, 3 / 4 dígitos.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Entrada configurável no painel frontal</li><li>Protegida por um código pessoal</li><li>Configurável por meio de uma conexão serial</li></ul>\n<h3>Visão geral</h3>\n<p>Indicador microprocessado fabricado no formato 72x36mm em tecnologia de montagem sobre superfície (SMT).</p>\n<p>Os instrumentos tem frontal em membrana de Lexan (que lhe assegura proteção classe IP65) com 3 teclas, display de 2, 3 / 4 dígitos.</p>\n<p>O sinal de entrada pode ser selecionado dentre uma ampla gama de sensores:</p>\n<ul>\n<li>Termopares dos tipos: J, K, R, S, T, B, E, N, L GOST, U, G, D, C</li>\n<li>Termômetros de resistência Pt100, Pt100J (Pt100J (padrão japonês) de 2 e 3 fios</li>\n<li>Termistores PTC e NTC</li>\n<li>Entradas lineares de 0 a 60/12 a 60mV, 0 a 20/4 a 20mA, 0 a 10/2 a 10/0 a 5/1 a 5/0 a 1/0, 2 a 1V</li>\n</ul>\n<p>A seleção é feita usando-se as teclas do frontal e contatos de entrada corretos.</p>\n<p>Não é necessário shunt ou adaptador externo.</p>\n<p>A programação do instrumento é facilitada agrupando-se os parâmetros em blocos de função e por um menu simplificado de entrada de dados.</p>\n<p>A configuração pode ser ainda mais simplificada usando-se um kit de programação para PC composto de um cabo de conexão e um programa orientado por menus que roda debaixo de Windows.</p>\n<p>Pode ser usado um código de proteção pessoal por software (proteção por senha) para restringir os níveis de edição e exibição dos parâmetros de configuração.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 7
+}

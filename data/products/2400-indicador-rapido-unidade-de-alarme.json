@@ -1,0 +1,16 @@
+{
+  "code": "2400",
+  "name": "2400 – Indicador rápido/Unidade de alarme",
+  "slug": "2400-indicador-rapido-unidade-de-alarme",
+  "category": "controladores-e-indicadores",
+  "subcategory": "indicadores-e-unidades-de-alarme",
+  "images": [
+    "/images/products/2400-indicador-rapido-unidade-de-alarme-1.webp",
+    "/images/products/2400-indicador-rapido-unidade-de-alarme-2.webp"
+  ],
+  "shortDescription": "Display microprocessado rápido/unidade de alarme, formato 96 x 48 (1/8 DIN). Construído com tecnologia (SMT) para uma interface do operador extremamente completa, com nível de proteção IP54 (IP65 na proteção frontal).",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Entrada dupla configurável para extensômetro / potenciômetro / sinal linear / TC / RTD</li><li>Duas entradas analógicas auxiliares</li><li>Medição diferencial</li></ul>\n<h3>Visão geral</h3>\n<p>Display microprocessado rápido/unidade de alarme, formato 96 x 48 (1/8 DIN).</p>\n<p>Construído com tecnologia (SMT) para uma interface do operador extremamente completa, com nível de proteção IP54 (IP65 na proteção frontal).</p>\n<p>O painel frontal conta com um teclado de 6 teclas e um display LED de 5 dígitos de parâmetros e variáveis de processo.</p>\n<p>O instrumento é adequado para a aquisição de sinais com velocidade de alta variação.</p>\n<p>Ele conta com duas entradas analógicas para várias aplicações, incluindo medições diferenciais.</p>\n<p>As entradas são configuráveis a partir do teclado e aceitam sinais lineares padrão (e sinais linearizados), assim como sinais a partir de sondas de pressão, células de carga, potenciômetros, TC, RTD.</p>\n<p>Há duas entradas analógicas adicionais para sinais lineares e duas entradas digitais para funções como reset de travamento de alarme, reset de travamento de pico, verificação de calibração, seleção de setpoint de espera e de alarme.</p>\n<p>As saídas (até 4) são de relé ou lógicas e são configuráveis.</p>\n<p>O instrumento gerencia funções como armazenamento de pico máximo, pico mínimo, valores de pico a pico. Está disponível um opcional, a saída analógica opticamente isolada para retransmissão de valor de entrada ou de valores de pico.</p>\n<p><strong>Alarmes</strong><br>\n4 (10) setpoints completamente configuráveis.<br>\nFunção “fail-safe” [proteção contra falha] selecionável.<br>\nExpansão MD8 para substituir saídas 3 e 4, com setpoints 8 adicionais.</p>\n<p><strong>Comunicação digital</strong><br>\nO instrumento oferece uma interface serial opcional RS485 2/4 fios / RS232 com protocolo MODBUS RTU para acesso aos parâmetros do instrumento ou a opção Profibus DP (slave).</p>\n<p><strong>Configuração</strong><br>\nO procedimento de programação é facilitado por meio da estrutura de menu, com vários níveis de configuração para a busca de dados simples e rápida.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 5
+}

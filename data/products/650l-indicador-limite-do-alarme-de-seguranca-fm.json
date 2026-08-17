@@ -1,0 +1,16 @@
+{
+  "code": "650L",
+  "name": "650L – Indicador/Limite do alarme de segurança (FM)",
+  "slug": "650l-indicador-limite-do-alarme-de-seguranca-fm",
+  "category": "controladores-e-indicadores",
+  "subcategory": "indicadores-e-unidades-de-alarme",
+  "images": [
+    "/images/products/650l-indicador-limite-do-alarme-de-seguranca-fm-1.webp",
+    "/images/products/650l-indicador-limite-do-alarme-de-seguranca-fm-2.webp"
+  ],
+  "shortDescription": "Os indicadores da série Gefran 650L foram projetados para interromper a saída caso o limite de segurança de um processo industrial seja excedido. Quando ocorre um evento de excedimento de limite, ele permanece bloqueado até ser reinicializado por uma ação de confirmação do opera…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Saídas de relé, lógicas e opcionais</li><li>Comunicação serial RS485 no protocolo Modbus RTU</li><li>Caixa de fácil troca para substituição simples</li></ul>\n<h3>Visão geral</h3>\n<p>Os indicadores da série Gefran 650L foram projetados para interromper a saída caso o limite de segurança de um processo industrial seja excedido.</p>\n<p>Quando ocorre um evento de excedimento de limite, ele permanece bloqueado até ser reinicializado por uma ação de confirmação do operador.</p>\n<p>Essa reinicialização pode ser realizada pelo operador por meio da tecla específica (R vermelha) no painel frontal, de uma entrada digital (opcional) ou da linha serial (opcional).</p>\n<p>Os visores exibem os valores do processo, além de mensagens rolantes multilíngues para diagnósticos e alarmes.</p>\n<p>A operação de configuração local é realizada com as teclas do painel frontal. As teclas que podem ser pressionadas são destacadas pelos LEDs associados acima de cada uma delas.</p>\n<p>A fácil colocação em serviço é realizada por meio de uma configuração simplificada e guiada para programação manual sem intervenção, com apenas alguns parâmetros necessários, acompanhados por mensagens de ajuda intuitivas no visor.</p>\n<p>Usando o software GF_eXpress com um cabo de programação e um PC, é possível programar a configuração avançada, criar receitas e atualizar o firmware sem precisar ligar o instrumento.</p>\n<p>Graças à função Smart Configurator, é possível criar a receita inicial de parâmetros necessária respondendo a algumas perguntas simples. Os parâmetros podem ser redefinidos a qualquer momento, seja pelo teclado ou pelo software GF_eXpress.</p>\n<p>O dispositivo oferece diagnóstico completo para um sensor com defeito ou conectado incorretamente e possui contadores de operação com limites de alarme configuráveis, úteis para programar a manutenção preventiva. Um contador de disparos e um temporizador de reinicialização da memória de alarme estão disponíveis para o alarme 1. Essas informações podem ajudar a avaliar a deterioração do forno e planejar os trabalhos de manutenção.</p>\n<p>A manutenção do sistema no qual o dispositivo está instalado é facilitada pela possibilidade de substituir o instrumento a qualquer momento, simplesmente removendo-o do gabinete. Não são necessárias etapas adicionais.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 1
+}
