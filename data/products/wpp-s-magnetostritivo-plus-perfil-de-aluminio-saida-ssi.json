@@ -1,0 +1,17 @@
+{
+  "code": "WPP-S",
+  "name": "WPP-S – Magnetostritivo plus, perfil de alumínio, saída SSI",
+  "slug": "wpp-s-magnetostritivo-plus-perfil-de-aluminio-saida-ssi",
+  "category": "transdutores-de-posicao",
+  "subcategory": "magnetostritivos",
+  "images": [
+    "/images/products/wpp-s-magnetostritivo-plus-perfil-de-aluminio-saida-ssi-1.webp",
+    "/images/products/wpp-s-magnetostritivo-plus-perfil-de-aluminio-saida-ssi-2.webp",
+    "/images/products/wpp-s-magnetostritivo-plus-perfil-de-aluminio-saida-ssi-3.webp"
+  ],
+  "shortDescription": "Transdutor de posição linear sem contato com tecnologia magnetostritiva HYPERWAVE, com interface de saída digital RS422-SSI. A ausência de contato elétrico no cursor elimina todo o desgaste e garante vida útil praticamente ilimitada.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Estrutura mecânica otimizada</li><li>Cursos de 50 a 2.500 mm</li><li>Instalação rápida por meio de suportes de aço</li></ul>\n<h3>Visão geral</h3>\n<p>Transdutor de posição linear sem contato com tecnologia magnetostritiva HYPERWAVE, com interface de saída digital RS422-SSI. A ausência de contato elétrico no cursor elimina todo o desgaste e garante vida útil praticamente ilimitada. Alto desempenho em termos de proteção ambiental IP e imunidade EMC.</p>\n<p>Alta precisão de medição no que diz respeito à não linearidade, repetibilidade e histerese. Alta resistência a vibrações e choques mecânicos para uso em ambientes industriais adversos.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 4
+}

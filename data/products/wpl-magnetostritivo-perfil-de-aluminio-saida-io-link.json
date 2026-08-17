@@ -1,0 +1,17 @@
+{
+  "code": "WPL",
+  "name": "WPL – Magnetostritivo, perfil de alumínio, saída IO-Link",
+  "slug": "wpl-magnetostritivo-perfil-de-aluminio-saida-io-link",
+  "category": "transdutores-de-posicao",
+  "subcategory": "magnetostritivos",
+  "images": [
+    "/images/products/wpl-magnetostritivo-perfil-de-aluminio-saida-io-link-1.webp",
+    "/images/products/wpl-magnetostritivo-perfil-de-aluminio-saida-io-link-2.webp",
+    "/images/products/wpl-magnetostritivo-perfil-de-aluminio-saida-io-link-3.webp"
+  ],
+  "shortDescription": "Transdutor de posição linear sem contato com tecnologia magnetostritiva HYPERWAVE. A ausência de contato elétrico no cursor elimina todo o desgaste e garante vida útil praticamente ilimitada.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Estrutura mecânica otimizada</li><li>Cursos de 50 a 4.000 mm</li><li>Medição de posição e velocidade (opcional)</li></ul>\n<h3>Visão geral</h3>\n<p>Transdutor de posição linear sem contato com tecnologia magnetostritiva HYPERWAVE. A ausência de contato elétrico no cursor elimina todo o desgaste e garante vida útil praticamente ilimitada. Alta precisão da medição em relação à não linearidade, repetibilidade e histerese. Alta resistência a vibrações e choques mecânicos, ampla faixa de temperatura de operação. Alto desempenho em termos de proteção ambiental IP e imunidade EMC, para uso em ambientes industriais adversos.</p>\n<p>A série WPL com interface digital IO-Link V 1.1 é um dispositivo “inteligente” projetado especificamente para atender às demandas do mundo da “Indústria 4.0”. Além das variáveis de processo (posição/velocidade), o sensor fornece informações auxiliares acíclicas (diagnósticos/estatísticas), o que promove o gerenciamento ideal da máquina. O WPL também possui funções de ajuste e configuração para facilitar a instalação no processo.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 8
+}

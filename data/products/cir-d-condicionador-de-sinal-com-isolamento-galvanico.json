@@ -1,0 +1,15 @@
+{
+  "code": "CIR-D",
+  "name": "CIR-D – Condicionador de sinal com isolamento galvânico",
+  "slug": "cir-d-condicionador-de-sinal-com-isolamento-galvanico",
+  "category": "transdutores-de-posicao",
+  "subcategory": "celulas-de-carga-e-forca",
+  "images": [
+    "/images/products/cir-d-condicionador-de-sinal-com-isolamento-galvanico-1.webp"
+  ],
+  "shortDescription": "Isolação galvânica entre a fonte de alimentação e o amplificador >500Vdc Erro de linearidade <0,02% FSO (saída de fim de escala) Saída de corrente com 3-fios Baixa deriva térmica: < 0,01% FSO/°C Alimentação do transdutor em 10Vdc",
+  "specsHtml": "<h3>Visão geral</h3>\n<ul>\n<li>Isolação galvânica entre a fonte de alimentação e o amplificador &gt;500Vdc</li>\n<li>Erro de linearidade &lt;0,02% FSO (saída de fim de escala)</li>\n<li>Saída de corrente com 3-fios</li>\n<li>Baixa deriva térmica: &lt; 0,01% FSO/°C</li>\n<li>Alimentação do transdutor em 10Vdc</li>\n</ul>",
+  "downloads": [],
+  "videos": [],
+  "order": 7
+}

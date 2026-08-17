@@ -1,0 +1,17 @@
+{
+  "code": "PA1",
+  "name": "PA1 – Potenciômetro com haste",
+  "slug": "pa1-potenciometro-com-haste",
+  "category": "transdutores-de-posicao",
+  "subcategory": "potenciometros",
+  "images": [
+    "/images/products/pa1-potenciometro-com-haste-1.webp",
+    "/images/products/pa1-potenciometro-com-haste-2.webp",
+    "/images/products/pa1-potenciometro-com-haste-3.webp"
+  ],
+  "shortDescription": "Curso de 25 a 150 mm · Articulação mecânica com junta de compensação de folga, rosca M4 · Linearidade independente de até ± 0,05%",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Curso de 25 a 150 mm</li><li>Articulação mecânica com junta de compensação de folga, rosca M4</li><li>Linearidade independente de até ± 0,05%</li></ul>",
+  "downloads": [],
+  "videos": [],
+  "order": 4
+}

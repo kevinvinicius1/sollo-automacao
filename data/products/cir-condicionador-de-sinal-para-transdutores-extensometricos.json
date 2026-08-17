@@ -1,0 +1,15 @@
+{
+  "code": "CIR",
+  "name": "CIR – Condicionador de sinal para transdutores extensométricos",
+  "slug": "cir-condicionador-de-sinal-para-transdutores-extensometricos",
+  "category": "transdutores-de-posicao",
+  "subcategory": "celulas-de-carga-e-forca",
+  "images": [
+    "/images/products/cir-condicionador-de-sinal-para-transdutores-extensometricos-1.webp"
+  ],
+  "shortDescription": "Erro de linearidade <0,02% FSO <0,02%FSO> Saída em tensão ou corrente Baixa deriva térmica: <0,01% FSO/°C Dimensões compactas",
+  "specsHtml": "<h3>Visão geral</h3>\n<ul>\n<li>Erro de linearidade &lt;0,02% FSO &lt;0,02%FSO&gt;</li>\n<li>Saída em tensão ou corrente</li>\n<li>Baixa deriva térmica: &lt;0,01% FSO/°C</li>\n<li>Dimensões compactas</li>\n</ul>",
+  "downloads": [],
+  "videos": [],
+  "order": 5
+}

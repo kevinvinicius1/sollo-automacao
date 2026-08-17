@@ -1,0 +1,17 @@
+{
+  "code": "TH",
+  "name": "TH – Transdutor de força",
+  "slug": "th-transdutor-de-forca",
+  "category": "transdutores-de-posicao",
+  "subcategory": "celulas-de-carga-e-forca",
+  "images": [
+    "/images/products/th-transdutor-de-forca-1.webp",
+    "/images/products/th-transdutor-de-forca-2.webp",
+    "/images/products/th-transdutor-de-forca-3.webp"
+  ],
+  "shortDescription": "Os transdutores de força da série TH são ideais para sistemas que medem tensão ou força de compressão em aplicações industriais em que a precisão e a confiabilidade são importantes, até mesmo em ambientes adversos. A disposição dos oito (8) strain gauges das pontes de medição us…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixa de medição: de 10 a 100 kN</li><li>Classe de precisão: 0,2%</li><li>Construção inteiramente em aço inoxidável</li></ul>\n<h3>Visão geral</h3>\n<p>Os transdutores de força da série TH são ideais para sistemas que medem tensão ou força de compressão em aplicações industriais em que a precisão e a confiabilidade são importantes, até mesmo em ambientes adversos.</p>\n<p>A disposição dos oito (8) strain gauges das pontes de medição usam a deformação produzida pela força de cisalhamento da carga aplicada.</p>\n<p>Assim é possível construir transdutores de força precisos, mas ao mesmo tempo robustos e insensíveis às cargas laterais.</p>\n<p>O transdutor é usinado a partir de um bloco sólido de aço inoxidável e não tem nenhuma solda ou junta.</p>\n<p>O circuito elétrico é protegido por placas seladas de aço inoxidável.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 15
+}

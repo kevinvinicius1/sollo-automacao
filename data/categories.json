@@ -40,8 +40,46 @@
   {
     "name": "Transdutores de Posição - GEFRAN",
     "slug": "transdutores-de-posicao",
+    "image": "/images/products/rk-5-magnetostritivo-haste-flange-saida-analogica-1.webp",
+    "heroImage": "/images/categorias/topo-transdutores-de-posicao.webp",
     "order": 3,
-    "subcategories": []
+    "subcategories": [
+      {
+        "name": "Magnetostritivos",
+        "slug": "magnetostritivos",
+        "image": "/images/products/wpa-a-magnetostritivo-avancado-perfil-de-aluminio-saida-analogica-1.webp"
+      },
+      {
+        "name": "Linear Twiist",
+        "slug": "linear-twiist",
+        "image": "/images/products/lm-c-sensor-twiist-sem-contato-multivariavel-saida-canopen-1.webp"
+      },
+      {
+        "name": "Potenciômetros",
+        "slug": "potenciometros",
+        "image": "/images/products/lt-potenciometro-com-haste-1.webp"
+      },
+      {
+        "name": "Angulares",
+        "slug": "angulares",
+        "image": "/images/products/gra-sensor-rotativo-de-volta-unica-por-efeito-hall-com-eixo-1.webp"
+      },
+      {
+        "name": "Inclinação",
+        "slug": "inclinacao",
+        "image": "/images/products/git-inclinometro-avancado-de-eixo-simples-ou-duplo-xy-360-1.webp"
+      },
+      {
+        "name": "Posição por Cabo",
+        "slug": "posicao-por-cabo",
+        "image": "/images/products/gsf-transdutor-de-posicao-a-cabo-potenciometro-a-cabo-1.webp"
+      },
+      {
+        "name": "Células de Carga e Força",
+        "slug": "celulas-de-carga-e-forca",
+        "image": "/images/products/sh-celula-de-carga-de-perfil-padrao-1.webp"
+      }
+    ]
   },
   {
     "name": "Sensores de Pressão | Melt - GEFRAN",

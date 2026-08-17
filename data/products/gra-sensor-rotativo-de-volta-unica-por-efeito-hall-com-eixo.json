@@ -1,0 +1,17 @@
+{
+  "code": "GRA",
+  "name": "GRA – Sensor rotativo de volta única por efeito Hall, com eixo",
+  "slug": "gra-sensor-rotativo-de-volta-unica-por-efeito-hall-com-eixo",
+  "category": "transdutores-de-posicao",
+  "subcategory": "angulares",
+  "images": [
+    "/images/products/gra-sensor-rotativo-de-volta-unica-por-efeito-hall-com-eixo-1.webp",
+    "/images/products/gra-sensor-rotativo-de-volta-unica-por-efeito-hall-com-eixo-2.webp",
+    "/images/products/gra-sensor-rotativo-de-volta-unica-por-efeito-hall-com-eixo-3.webp"
+  ],
+  "shortDescription": "Sensor rotativo para faixas de medição de até 360°, com capacidade de programar versões analógicas em incrementos de ±15°. Tecnologia Hall sem contato para vida útil quase infinita do sensor, devido à ausência de desgaste no elemento sensor.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Linearidade  ± 0,5% FS</li><li>Vibrações 20 g - 10 Hz … 2.000 Hz IEC 60068-2-6</li><li>Tensão de alimentação +5 Vcc; +9…+36 Vcc</li></ul>\n<h3>Visão geral</h3>\n<p>Sensor rotativo para faixas de medição de até 360°, com capacidade de programar versões analógicas em incrementos de ±15°.</p>\n<p>Tecnologia Hall sem contato para vida útil quase infinita do sensor, devido à ausência de desgaste no elemento sensor.</p>\n<p>Várias configurações facilitam a instalação do produto em veículos.</p>\n<p>Alto nível de proteção IP, resistência a choques e vibrações e alta compatibilidade eletromagnética tornam esses produtos adequados para diversas aplicações em sistemas hidráulicos móveis.</p>\n<p>Desenvolvido para garantir uma solução robusta e de alto desempenho para aplicações como máquinas agrícolas, máquinas de construção e equipamentos de manuseio de materiais.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 2
+}

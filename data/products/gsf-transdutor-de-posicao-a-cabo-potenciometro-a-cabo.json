@@ -1,0 +1,17 @@
+{
+  "code": "GSF",
+  "name": "GSF – Transdutor de posição a cabo (potenciômetro a cabo)",
+  "slug": "gsf-transdutor-de-posicao-a-cabo-potenciometro-a-cabo",
+  "category": "transdutores-de-posicao",
+  "subcategory": "posicao-por-cabo",
+  "images": [
+    "/images/products/gsf-transdutor-de-posicao-a-cabo-potenciometro-a-cabo-1.webp",
+    "/images/products/gsf-transdutor-de-posicao-a-cabo-potenciometro-a-cabo-2.webp",
+    "/images/products/gsf-transdutor-de-posicao-a-cabo-potenciometro-a-cabo-3.webp"
+  ],
+  "shortDescription": "Transdutor linear com tecnologia de potenciômetro de fio. Excelente repetibilidade, alto grau de proteção IP, resistência a choques e vibrações e alta compatibilidade eletromagnética tornam este transdutor adequado para aplicações hidráulicas móveis.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Repetibilidade ± 0,1% FS</li><li>Temperatura de operação -40 °C...+85 °C</li><li>IP67 com conector fêmea (ver acessórios)</li></ul>\n<h3>Visão geral</h3>\n<p>Transdutor linear com tecnologia de potenciômetro de fio.</p>\n<p>Excelente repetibilidade, alto grau de proteção IP, resistência a choques e vibrações e alta compatibilidade eletromagnética tornam este transdutor adequado para aplicações hidráulicas móveis.</p>\n<p>Desenvolvido para garantir uma solução robusta e de alto desempenho para aplicações como veículos agrícolas, máquinas de terraplenagem e equipamentos de içamento.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 2
+}

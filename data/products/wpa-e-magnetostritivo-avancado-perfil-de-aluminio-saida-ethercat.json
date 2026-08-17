@@ -1,0 +1,17 @@
+{
+  "code": "WPA-E",
+  "name": "WPA-E – Magnetostritivo avançado, perfil de alumínio, saída Ethercat",
+  "slug": "wpa-e-magnetostritivo-avancado-perfil-de-aluminio-saida-ethercat",
+  "category": "transdutores-de-posicao",
+  "subcategory": "magnetostritivos",
+  "images": [
+    "/images/products/wpa-e-magnetostritivo-avancado-perfil-de-aluminio-saida-ethercat-1.webp",
+    "/images/products/wpa-e-magnetostritivo-avancado-perfil-de-aluminio-saida-ethercat-2.webp",
+    "/images/products/wpa-e-magnetostritivo-avancado-perfil-de-aluminio-saida-ethercat-3.webp"
+  ],
+  "shortDescription": "Transdutor de posição linear sem contato com tecnologia magnetostritiva HYPERWAVE; a ausência de contato elétrico no cursor elimina problemas de desgaste e consumo, garantindo uma vida útil quase ilimitada. Alto desempenho de medição com referência à não linearidade, repetibilid…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Cursos de 50 a 4000mm</li><li>Medição de posição e velocidade, máx 16 cursores magnéticos</li><li>Perfil de alumínio, montage rápida por suportes de aço</li></ul>\n<h3>Visão geral</h3>\n<p>Transdutor de posição linear sem contato com tecnologia magnetostritiva HYPERWAVE; a ausência de contato elétrico no cursor elimina problemas de desgaste e consumo, garantindo uma vida útil quase ilimitada.</p>\n<p>Alto desempenho de medição com referência à não linearidade, repetibilidade e histerese.</p>\n<p>Alta resistência a vibrações, choques mecânicos, ampla faixa de temperatura de trabalho.</p>\n<p>Alta proteção contra agentes externos e imunidade a ruídos EMC.</p>\n<p>A interface EtherCAT é a tecnologia Ethernet industrial mais rápida*.</p>\n<p>Não há necessidade de hardware dedicado, distâncias de até 100 m, operação “on-the-fly”, ou seja, dados e alarmes são transferidos em tempo real.</p>\n<p>O sensor pode operar no modo “”free-run”” ou “”síncrono””; no modo “”Relógios Distribuídos (DC)”” em comunicação síncrona oferece um tempo de ciclo mínimo de 250µs</p>\n<p>*fonte EterCAT.org”</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 7
+}

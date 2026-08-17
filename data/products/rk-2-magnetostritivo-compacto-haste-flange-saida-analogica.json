@@ -1,0 +1,17 @@
+{
+  "code": "RK-2",
+  "name": "RK-2 – Magnetostritivo compacto, haste flange, saída analógica",
+  "slug": "rk-2-magnetostritivo-compacto-haste-flange-saida-analogica",
+  "category": "transdutores-de-posicao",
+  "subcategory": "magnetostritivos",
+  "images": [
+    "/images/products/rk-2-magnetostritivo-compacto-haste-flange-saida-analogica-1.webp",
+    "/images/products/rk-2-magnetostritivo-compacto-haste-flange-saida-analogica-2.webp",
+    "/images/products/rk-2-magnetostritivo-compacto-haste-flange-saida-analogica-3.webp"
+  ],
+  "shortDescription": "Transdutor de posição linear, sem contato, com tecnologia magnetoestritiva: a ausência de contato elétrico no cursor elimina problemas de desgaste e consumo e garante vida útil praticamente ilimitada. A conexão por flange e de tamanho pequeno torna a série RK-2 ideal para aplica…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Transdutor absoluto</li><li>Curso: 50 a 2.500 mm</li><li>Saída digital RS422 Partida/Parada (RK-2 S)</li></ul>\n<h3>Visão geral</h3>\n<p>Transdutor de posição linear, sem contato, com tecnologia magnetoestritiva: a ausência de contato elétrico no cursor elimina problemas de desgaste e consumo e garante vida útil praticamente ilimitada.</p>\n<p>A conexão por flange e de tamanho pequeno torna a série RK-2 ideal para aplicações que exigem a instalação completamente interna no cilindro hidráulico.</p>\n<p>As dimensões gerais do sensor estão entre as menores disponíveis no mercado.</p>\n<p>Para o sinal de interface, é possível escolher entre a interface Partida/Parada (que permite o uso de múltiplos cursores) e uma interface analógica que oferece o deslocamento de um único cursor (disponível em várias faixas de medida em tensão ou corrente)</p>\n<p>A excelente linearidade, repetibilidade, resistência a vibrações mecânicas e a choques completa o panorama das especificações do produto.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 19
+}

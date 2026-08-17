@@ -1,0 +1,17 @@
+{
+  "code": "PMA",
+  "name": "PMA – Potenciômetro autoportante",
+  "slug": "pma-potenciometro-autoportante",
+  "category": "transdutores-de-posicao",
+  "subcategory": "potenciometros",
+  "images": [
+    "/images/products/pma-potenciometro-autoportante-1.webp",
+    "/images/products/pma-potenciometro-autoportante-2.webp",
+    "/images/products/pma-potenciometro-autoportante-3.webp"
+  ],
+  "shortDescription": "Curso de 50 a 1.000 mm · Deslocamento magnético do cursor · Fixação mecânica e deslocamento com alinhamento automático em duas articulações esféricas",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Curso de 50 a 1.000 mm</li><li>Deslocamento magnético do cursor</li><li>Fixação mecânica e deslocamento com alinhamento automático em duas articulações esféricas</li></ul>",
+  "downloads": [],
+  "videos": [],
+  "order": 15
+}

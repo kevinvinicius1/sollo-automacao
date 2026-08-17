@@ -1,0 +1,17 @@
+{
+  "code": "CM",
+  "name": "CM – Célula de carga de tamanho padrão",
+  "slug": "cm-celula-de-carga-de-tamanho-padrao",
+  "category": "transdutores-de-posicao",
+  "subcategory": "celulas-de-carga-e-forca",
+  "images": [
+    "/images/products/cm-celula-de-carga-de-tamanho-padrao-1.webp",
+    "/images/products/cm-celula-de-carga-de-tamanho-padrao-2.webp",
+    "/images/products/cm-celula-de-carga-de-tamanho-padrao-3.webp"
+  ],
+  "shortDescription": "A série CM de células de carga é formada por transdutores strain gauge usados para medir cargas em aplicações estáticas e dinâmicas, compressão, com alta precisão. A série CM é usinada de um único bloco de metal, de forma que o elemento sensor primário, as montagens e a carcaça…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixa de medição: de 100 a 50.000 kg</li><li>Classe de precisão: 0,2%</li><li>Construção totalmente em aço inoxidável</li></ul>\n<h3>Visão geral</h3>\n<p>A série CM de células de carga é formada por transdutores strain gauge usados para medir cargas em aplicações estáticas e dinâmicas, compressão, com alta precisão.</p>\n<p>A série CM é usinada de um único bloco de metal, de forma que o elemento sensor primário, as montagens e a carcaça não têm nenhuma solda, o que permite obter menores dimensões e um aumento do grau de proteção.</p>\n<p>A configuração do ponto de medida, com 8 strain gauges, reduz erros causados por aplicação imperfeita das carga.</p>\n<p>Aplicações típicas de células de carga conectadas em paralelo são: silos, grandes plataformas de pesagem.</p>\n<p>A construção em aço inoxidável é adequada para uso em ambientes agressivos das indústrias químicas e petroquímicas.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 11
+}

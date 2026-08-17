@@ -1,0 +1,17 @@
+{
+  "code": "DLC",
+  "name": "DLC – Célula de carga de diafragma, sem amplificador",
+  "slug": "dlc-celula-de-carga-de-diafragma-sem-amplificador",
+  "category": "transdutores-de-posicao",
+  "subcategory": "celulas-de-carga-e-forca",
+  "images": [
+    "/images/products/dlc-celula-de-carga-de-diafragma-sem-amplificador-1.webp",
+    "/images/products/dlc-celula-de-carga-de-diafragma-sem-amplificador-2.webp",
+    "/images/products/dlc-celula-de-carga-de-diafragma-sem-amplificador-3.webp"
+  ],
+  "shortDescription": "Célula de carga com diafragma tipo “pancake”, projetada para uso em máquinas de moldagem por injeção totalmente elétricas. O design de corpo plano permite fácil integração na unidade de injeção sem aumentar o comprimento da máquina.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Design de corpo plano</li><li>Boa linearidade</li><li>Projetado para integração na máquina</li></ul>\n<h3>Visão geral</h3>\n<p>Célula de carga com diafragma tipo “pancake”, projetada para uso em máquinas de moldagem por injeção totalmente elétricas.</p>\n<p>O design de corpo plano permite fácil integração na unidade de injeção sem aumentar o comprimento da máquina.</p>\n<p>Disponível com saída padronizada em mV/V ou com um módulo EEPROM para permitir uma saída mais alta em mV/V, proporcionando melhor relação sinal/ruído (para uso com amplificador VDA especial).</p>\n<p>Aço de alta qualidade para ciclos ilimitados; amplificador opcional necessário.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 1
+}

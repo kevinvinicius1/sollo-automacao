@@ -1,0 +1,17 @@
+{
+  "code": "WRA-S",
+  "name": "WRA-S – Magnetostritivo avançado, haste roscada, saída SSI",
+  "slug": "wra-s-magnetostritivo-avancado-haste-roscada-saida-ssi",
+  "category": "transdutores-de-posicao",
+  "subcategory": "magnetostritivos",
+  "images": [
+    "/images/products/wra-s-magnetostritivo-avancado-haste-roscada-saida-ssi-1.webp",
+    "/images/products/wra-s-magnetostritivo-avancado-haste-roscada-saida-ssi-2.webp",
+    "/images/products/wra-s-magnetostritivo-avancado-haste-roscada-saida-ssi-3.webp"
+  ],
+  "shortDescription": "Transdutor de posição linear sem contato com tecnologia magnetostritiva HYPERWAVE e interface digital RS422-SSI. Fechamento da carcaça com anel de porca removível para permitir a substituição de todo o sistema eletrônico e do elemento sensor.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Estrutura mecânica otimizada</li><li>Cursos de 50 a 4.000 mm</li><li>Ampla variedade de conectores para a conexão elétrica</li></ul>\n<h3>Visão geral</h3>\n<p>Transdutor de posição linear sem contato com tecnologia magnetostritiva HYPERWAVE e interface digital RS422-SSI. Fechamento da carcaça com anel de porca removível para permitir a substituição de todo o sistema eletrônico e do elemento sensor.</p>\n<p>A ausência de contato elétrico no cursor elimina todo o desgaste e garante vida útil praticamente ilimitada. Alta precisão da medição no que diz respeito à não linearidade, repetibilidade e histerese. Alta resistência a vibrações e choques mecânicos para uso em ambientes industriais adversos.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 13
+}

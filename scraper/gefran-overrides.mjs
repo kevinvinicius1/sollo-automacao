@@ -215,8 +215,201 @@ const relesDeEstadoSolido = {
   },
 };
 
+/* --------------------------- sensores de posição ------------------------ */
+
+/**
+ * Os magnetostritivos seguem um padrão de subtítulo que a Gefran escreve de
+ * forma irregular ("sem contacto Plus", "Plus Sem contacto", "avançado sem
+ * contacto", "Rosca da haste") e em português de Portugal ("contacto").
+ * Todos são normalizados para `Magnetostritivo <série>, <formato>, saída
+ * <interface>`, o que também resolve o tamanho: os originais passam de 85
+ * caracteres. O "sem contato" sai do nome — é da própria tecnologia e se
+ * repete em todos — e o material da haste (AISI 316) fica nas especificações.
+ */
+const magnetostritivo = (serie, formato, saida) =>
+  `Magnetostritivo${serie ? " " + serie : ""}, ${formato}, saída ${saida}`;
+
+const PERFIL = "perfil de alumínio";
+const ROSCADA = "haste roscada";
+const FLANGE = "haste flange";
+
+const sensoresDePosicao = {
+  "WPG-A": { subTitle: magnetostritivo("geral", PERFIL, "analógica") },
+  "WPP-A": { subTitle: magnetostritivo("plus", PERFIL, "analógica") },
+  "WPA-A": { subTitle: magnetostritivo("avançado", PERFIL, "analógica") },
+  "WPP-S": { subTitle: magnetostritivo("plus", PERFIL, "SSI") },
+  "WPA-S": { subTitle: magnetostritivo("avançado", PERFIL, "SSI") },
+  "WPA-F": { subTitle: magnetostritivo("avançado", PERFIL, "Profinet") },
+  "WPA-E": { subTitle: magnetostritivo("avançado", PERFIL, "Ethercat") },
+  WPL: { subTitle: magnetostritivo("", PERFIL, "IO-Link") },
+  "WRG-A": { subTitle: magnetostritivo("geral", ROSCADA, "analógica") },
+  "WRA-A": { subTitle: magnetostritivo("avançado", ROSCADA, "analógica") },
+  "WRP-A": { subTitle: magnetostritivo("plus", ROSCADA, "analógica") },
+  "WRP-S": { subTitle: magnetostritivo("plus", ROSCADA, "SSI") },
+  "WRA-F": { subTitle: magnetostritivo("avançado", ROSCADA, "Profinet") },
+  "WRA-E": { subTitle: magnetostritivo("avançado", ROSCADA, "Ethercat") },
+  "RK-2": {
+    subTitle: magnetostritivo("compacto", FLANGE, "analógica"),
+    mainFeatures:
+      "<p>Transdutor absoluto</p>\n" +
+      "<p>Curso: 50 a 2.500 mm</p>\n" +
+      "<p>Saída digital RS422 Partida/Parada (RK-2 S)</p>",
+  },
+  "RK-4": {
+    subTitle: magnetostritivo("compacto", ROSCADA, "analógica"),
+    mainFeatures:
+      "<p>Transdutor absoluto</p>\n" +
+      "<p>Curso: 50 a 2.500 mm</p>\n" +
+      "<p>Saída analógica direta (RK-4 N/K/E)</p>",
+  },
+
+  // O WRA-S é publicado em inglês; o texto abaixo parte do WRA-A, irmão de
+  // mesma haste já publicado em português, trocando a interface.
+  "WRA-S": {
+    subTitle: magnetostritivo("avançado", ROSCADA, "SSI"),
+    overview:
+      "<p>Transdutor de posição linear sem contato com tecnologia " +
+      "magnetostritiva HYPERWAVE e interface digital RS422-SSI. Fechamento da " +
+      "carcaça com anel de porca removível para permitir a substituição de " +
+      "todo o sistema eletrônico e do elemento sensor.</p>\n" +
+      "<p>A ausência de contato elétrico no cursor elimina todo o desgaste e " +
+      "garante vida útil praticamente ilimitada. Alta precisão da medição no " +
+      "que diz respeito à não linearidade, repetibilidade e histerese. Alta " +
+      "resistência a vibrações e choques mecânicos para uso em ambientes " +
+      "industriais adversos.</p>",
+  },
+
+  // RK-5 e RK-5 C também vêm em inglês. A tradução segue o vocabulário já
+  // usado nos textos em português do RK-2 e do RK-4.
+  "RK-5": {
+    subTitle: magnetostritivo("", FLANGE, "analógica"),
+    overview:
+      "<p>Transdutor de posição linear com a tecnologia magnetostritiva ONDA, " +
+      "desenvolvida pela Gefran para longa vida útil. A ausência de contato " +
+      "elétrico no cursor elimina o desgaste e garante vida útil praticamente " +
+      "ilimitada.</p>\n" +
+      "<p>A tecnologia ONDA, patenteada pela Gefran, resulta em uma estrutura " +
+      "compacta e modular, de instalação simples. O RK-5 é um transdutor de " +
+      "posição magnetostritivo com conexão por flange, instalado inteiramente " +
+      "dentro de cilindros hidráulicos.</p>\n" +
+      "<p>Seu projeto exclusivo, somado a uma ampla gama de configurações de " +
+      "cursor, garante instalação fácil e total compatibilidade com as " +
+      "especificações dos fabricantes de cilindros.</p>\n" +
+      "<p>A temperatura de trabalho de -40 a +105 °C, as pressões de trabalho " +
+      "de até 350 bar e a alta resistência a vibrações (25 g) e choques " +
+      "(100 g) dão ao sensor a robustez indispensável ao uso pesado, como na " +
+      "hidráulica móvel.</p>\n" +
+      "<p>Alto desempenho de medição em linearidade, histerese e " +
+      "repetibilidade. O sinal é analógico nos modelos com saída em corrente " +
+      "ou tensão.</p>",
+  },
+  "RK-5 C": {
+    subTitle: magnetostritivo("", FLANGE, "CANopen"),
+    overview:
+      "<p>Transdutor de posição linear com a tecnologia magnetostritiva ONDA, " +
+      "desenvolvida pela Gefran para longa vida útil. A ausência de contato " +
+      "elétrico no cursor elimina o desgaste e garante vida útil praticamente " +
+      "ilimitada.</p>\n" +
+      "<p>A tecnologia ONDA, patenteada pela Gefran, resulta em uma estrutura " +
+      "compacta e modular, de instalação simples. O RK-5 é um transdutor de " +
+      "posição magnetostritivo com conexão por flange, instalado inteiramente " +
+      "dentro de cilindros hidráulicos.</p>\n" +
+      "<p>Seu projeto exclusivo, somado a uma ampla gama de configurações de " +
+      "cursor, garante instalação fácil e total compatibilidade com as " +
+      "especificações dos fabricantes de cilindros.</p>\n" +
+      "<p>A temperatura de trabalho de -40 a +105 °C, as pressões de trabalho " +
+      "de até 350 bar e a alta resistência a vibrações (25 g) e choques " +
+      "(100 g) dão ao sensor a robustez indispensável ao uso pesado, como na " +
+      "hidráulica móvel.</p>\n" +
+      "<p>Alto desempenho de medição em linearidade, histerese e " +
+      "repetibilidade.</p>\n" +
+      "<p>O sistema de comunicação em barramento CAN permite uma transmissão " +
+      "rápida e segura. A implementação do protocolo CANopen DS-301 e do " +
+      "Device Profile DS-406 possibilita integrar o transdutor ao sistema de " +
+      "controle e automação de forma rápida e simples.</p>",
+  },
+
+  // A Gefran publica estes dois só com a foto: nem descrição, nem
+  // características. A frase abaixo é o subtítulo deles ("Acessórios por
+  // encomenda") escrito por extenso, para o card não ficar sem texto.
+  "RK-5 – acessórios": {
+    title: "Acessórios RK-5",
+    code: "",
+    subTitle: "",
+    overview: "<p>Acessórios sob encomenda para a série RK-5.</p>",
+  },
+  "IK4 – RK2 – RK4": {
+    title: "Acessórios IK4, RK-2 e RK-4",
+    code: "",
+    subTitle: "",
+    overview: "<p>Acessórios sob encomenda para as séries IK4, RK-2 e RK-4.</p>",
+  },
+
+  // Linear Twiist, inclinômetros e sensores angulares: subtítulos em inglês.
+  "LM-C": { subTitle: "Sensor TWIIST sem contato, multivariável, saída CANopen" },
+  "LM-L": { subTitle: "Sensor TWIIST sem contato, multivariável, saída IO-Link" },
+  "LS-A": { subTitle: "Sensor TWIIST sem contato, saída analógica" },
+  GIG: { subTitle: "Inclinômetro geral de eixo simples ou duplo (XY/360°)" },
+  GIB: { subTitle: "Sensor de inclinação básico, eixo simples ou duplo (XY/360°)" },
+  GIT: { subTitle: "Inclinômetro avançado de eixo simples ou duplo (XY/360°)" },
+  GRA: { subTitle: "Sensor rotativo de volta única por efeito Hall, com eixo" },
+  GRN: { subTitle: "Sensor rotativo de volta única por efeito Hall, sem eixo" },
+  "GR3P": { subTitle: "Sensor rotativo por efeito Hall com conector AMP Superseal" },
+
+  // Sensores a cabo: a faixa de medição já está no nome do modelo, então sai
+  // do subtítulo — os originais passam de 140 caracteres.
+  GSF: { subTitle: "Transdutor de posição a cabo (potenciômetro a cabo)" },
+  "GSH-S 1.8-8.3 m": { subTitle: "Sensor a cabo para posição linear" },
+  "GSH-S 10-12.5m": { subTitle: "Sensor a cabo para posição linear" },
+  "GSH-A 1.8-8.3 m": { subTitle: "Sensor a cabo para posição linear e inclinação" },
+  "GSH-A 10-12.5m": { subTitle: "Sensor a cabo para posição linear e inclinação" },
+
+  // Células de carga
+  DLC: { subTitle: "Célula de carga de diafragma, sem amplificador" },
+  DLCA: { subTitle: "Célula de carga de diafragma, com amplificador" },
+
+  /*
+   * Potenciômetros. A Gefran publica a maior parte desta sublinha só com um
+   * subtítulo solto ("Com haste", "Sem haste", "Apalpador") e sem descrição
+   * nenhuma, o que deixaria o card sem dizer o que o produto é. O tipo passa
+   * a abrir o subtítulo, como a própria Gefran já faz no LT67
+   * ("Potenciômetro com haste - Proteção IP67").
+   */
+  LT: { subTitle: "Potenciômetro com haste" },
+  PA1: { subTitle: "Potenciômetro com haste" },
+  PK: { subTitle: "Potenciômetro sem haste" },
+  PC: { subTitle: "Potenciômetro autoportante com corpo cilíndrico" },
+  PY1: { subTitle: "Potenciômetro apalpador" },
+  PY2: { subTitle: "Potenciômetro apalpador com ponta de esfera" },
+  PY3: { subTitle: "Potenciômetro apalpador com ponta de rolamento" },
+  PZ12: { subTitle: "Potenciômetro de corpo cilíndrico 1/2 polegada" },
+  PZ34: { subTitle: "Potenciômetro de corpo cilíndrico 3/4 polegada" },
+  LT67: { subTitle: "Potenciômetro com haste, proteção IP67" },
+  PC67: { subTitle: "Potenciômetro autoportante com corpo cilíndrico, IP67" },
+  "PZ67-S": { subTitle: "Potenciômetro com suportes de proteção IP67" },
+  "PZ67-A": { subTitle: "Potenciômetro com autoalinhamento, proteção IP67" },
+  PME: { subTitle: "Potenciômetro para cilindros pneumáticos" },
+  PMA: { subTitle: "Potenciômetro autoportante" },
+  PMI: { subTitle: "Potenciômetro patenteado para cilindros hidráulicos" },
+  "PMI-SL": { subTitle: "Potenciômetro de 12,7 mm para cilindros hidráulicos" },
+  "PMI-SLE": { subTitle: "Potenciômetro com saída analógica, cilindros hidráulicos" },
+  IC: { subTitle: "Potenciômetro para cilindros hidráulicos" },
+  PS: { subTitle: "Potenciômetro rotativo com montagem servo" },
+  PR65: { subTitle: "Potenciômetro rotativo industrial estanque" },
+
+  /*
+   * Estes quatro não são sensores, e sim condicionadores de sinal — o
+   * subtítulo original ("Para transdutores lineares") não diz o que são.
+   */
+  PCIR: { subTitle: "Condicionador de sinal para transdutores lineares ou rotativos" },
+  "PCIR101-102": { subTitle: "Condicionador de sinal para transdutores lineares" },
+  CIR: { subTitle: "Condicionador de sinal para transdutores extensométricos" },
+  "CIR-D": { subTitle: "Condicionador de sinal com isolamento galvânico" },
+};
+
 export const OVERRIDES = {
   ...controladoresEIndicadores,
   ...modulosDePotencia,
   ...relesDeEstadoSolido,
+  ...sensoresDePosicao,
 };

@@ -1,0 +1,17 @@
+{
+  "code": "CT",
+  "name": "CT – Transdutor de força toroidal",
+  "slug": "ct-transdutor-de-forca-toroidal",
+  "category": "transdutores-de-posicao",
+  "subcategory": "celulas-de-carga-e-forca",
+  "images": [
+    "/images/products/ct-transdutor-de-forca-toroidal-1.webp",
+    "/images/products/ct-transdutor-de-forca-toroidal-2.webp",
+    "/images/products/ct-transdutor-de-forca-toroidal-3.webp"
+  ],
+  "shortDescription": "Os transdutores de força da série CT foram especialmente projetados para uso em aplicações de processamento de polímeros que exigem a medida da força de reação produzida pela pressão de extrusão sobre a caixa de engrenagens ao longo do eixo do parafuso. Eles servem para medir um…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixa de medição: de 100 a 3.000 kN</li><li>Classe de precisão: 0,5%</li><li>Elemento elástico em aço inoxidável</li></ul>\n<h3>Visão geral</h3>\n<p>Os transdutores de força da série CT foram especialmente projetados para uso em aplicações de processamento de polímeros que exigem a medida da força de reação produzida pela pressão de extrusão sobre a caixa de engrenagens ao longo do eixo do parafuso.</p>\n<p>Eles servem para medir uma força cujo valor é indicativo da pressão de extrusão sobre a área do parafuso.</p>\n<p>Os transdutores de força da série CT também podem ser usados em outras aplicações onde é necessário medir forças em cabos ou colunas, bem como em qualquer aplicação onde a geometria exige uma célula de carga de forma toroidal.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 3
+}

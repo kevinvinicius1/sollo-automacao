@@ -1,0 +1,17 @@
+{
+  "code": "LS-A",
+  "name": "LS-A – Sensor TWIIST sem contato, saída analógica",
+  "slug": "ls-a-sensor-twiist-sem-contato-saida-analogica",
+  "category": "transdutores-de-posicao",
+  "subcategory": "linear-twiist",
+  "images": [
+    "/images/products/ls-a-sensor-twiist-sem-contato-saida-analogica-1.webp",
+    "/images/products/ls-a-sensor-twiist-sem-contato-saida-analogica-2.webp",
+    "/images/products/ls-a-sensor-twiist-sem-contato-saida-analogica-3.webp"
+  ],
+  "shortDescription": "Transdutor de posição linear sem contato com tecnologia patenteada TWIIST para maior vida útil. A ausência de contato no elemento sensor permite obter um sensor totalmente vedado, robusto e compacto.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Cursos de 50 a 1.000 mm</li><li>Medição: posição</li><li>Saídas: raciométrica, tensão e corrente</li></ul>\n<h3>Visão geral</h3>\n<p>Transdutor de posição linear sem contato com tecnologia patenteada TWIIST para maior vida útil. A ausência de contato no elemento sensor permite obter um sensor totalmente vedado, robusto e compacto.</p>\n<p>O alto desempenho em termos de robustez, estabilidade térmica e imunidade EMC torna a série LS-A adequada para uso tanto em ambientes industriais quanto em aplicações hidráulicas móveis.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 3
+}

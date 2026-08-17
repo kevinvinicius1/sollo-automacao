@@ -1,0 +1,17 @@
+{
+  "code": "SH",
+  "name": "SH – Célula de carga de perfil padrão",
+  "slug": "sh-celula-de-carga-de-perfil-padrao",
+  "category": "transdutores-de-posicao",
+  "subcategory": "celulas-de-carga-e-forca",
+  "images": [
+    "/images/products/sh-celula-de-carga-de-perfil-padrao-1.webp",
+    "/images/products/sh-celula-de-carga-de-perfil-padrao-2.webp",
+    "/images/products/sh-celula-de-carga-de-perfil-padrao-3.webp"
+  ],
+  "shortDescription": "O princípio de medida das células de carga da série SH o cisalhamento, ela mede a deformação pela carga aplicada. O resultado é um transdutor extremamente rígido tanto para a carga medida como para cargas laterais ou transversais que têm pouco efeito sobre o mesmo.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixa de medição: de 500 a 10.000 kg</li><li>Classe de precisão: D1 (OIML IR60)</li><li>Construção inteiramente em aço inoxidável</li></ul>\n<h3>Visão geral</h3>\n<p>O princípio de medida das células de carga da série SH o cisalhamento, ela mede a deformação pela carga aplicada.</p>\n<p>O resultado é um transdutor extremamente rígido tanto para a carga medida como para cargas laterais ou transversais que têm pouco efeito sobre o mesmo.</p>\n<p>O alto grau de precisão, bom nível de compensação térmica e classe de proteção tornam as celulas de carga modelo SH segura para utilização nas condições mais severas.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "code": "PCIR",
+  "name": "PCIR – Condicionador de sinal para transdutores lineares ou rotativos",
+  "slug": "pcir-condicionador-de-sinal-para-transdutores-lineares-ou-rotativos",
+  "category": "transdutores-de-posicao",
+  "subcategory": "potenciometros",
+  "images": [
+    "/images/products/pcir-condicionador-de-sinal-para-transdutores-lineares-ou-rotativos-1.webp"
+  ],
+  "shortDescription": "Os condicionadores de sinal PCIR foram projetados para permitir que o usuário adapte a impedância de saída de transdutores de deslocamento lineares ou rotativos em plástico condutor para sistemas de aquisição de dados ou PLC, de forma a não alterar a linearidade do próprio trans…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Entrada de alta impedância &gt;100 Mohm</li><li>Tensão de saída 0...10 V</li><li>Erro de linearidade &lt; 0,02% da escala total de saída</li></ul>\n<h3>Visão geral</h3>\n<p>Os condicionadores de sinal PCIR foram projetados para permitir que o usuário adapte a impedância de saída de transdutores de deslocamento lineares ou rotativos em plástico condutor para sistemas de aquisição de dados ou PLC, de forma a não alterar a linearidade do próprio transdutor.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 23
+}

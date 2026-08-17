@@ -1,0 +1,17 @@
+{
+  "code": "RK-5",
+  "name": "RK-5 – Magnetostritivo, haste flange, saída analógica",
+  "slug": "rk-5-magnetostritivo-haste-flange-saida-analogica",
+  "category": "transdutores-de-posicao",
+  "subcategory": "magnetostritivos",
+  "images": [
+    "/images/products/rk-5-magnetostritivo-haste-flange-saida-analogica-1.webp",
+    "/images/products/rk-5-magnetostritivo-haste-flange-saida-analogica-2.webp",
+    "/images/products/rk-5-magnetostritivo-haste-flange-saida-analogica-3.webp"
+  ],
+  "shortDescription": "Transdutor de posição linear com a tecnologia magnetostritiva ONDA, desenvolvida pela Gefran para longa vida útil. A ausência de contato elétrico no cursor elimina o desgaste e garante vida útil praticamente ilimitada.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Transdutor absoluto</li><li>Curso: 50 a 2.500 mm</li><li>Saída analógica direta (RK-5 N/K/E)</li></ul>\n<h3>Visão geral</h3>\n<p>Transdutor de posição linear com a tecnologia magnetostritiva ONDA, desenvolvida pela Gefran para longa vida útil. A ausência de contato elétrico no cursor elimina o desgaste e garante vida útil praticamente ilimitada.</p>\n<p>A tecnologia ONDA, patenteada pela Gefran, resulta em uma estrutura compacta e modular, de instalação simples. O RK-5 é um transdutor de posição magnetostritivo com conexão por flange, instalado inteiramente dentro de cilindros hidráulicos.</p>\n<p>Seu projeto exclusivo, somado a uma ampla gama de configurações de cursor, garante instalação fácil e total compatibilidade com as especificações dos fabricantes de cilindros.</p>\n<p>A temperatura de trabalho de -40 a +105 °C, as pressões de trabalho de até 350 bar e a alta resistência a vibrações (25 g) e choques (100 g) dão ao sensor a robustez indispensável ao uso pesado, como na hidráulica móvel.</p>\n<p>Alto desempenho de medição em linearidade, histerese e repetibilidade. O sinal é analógico nos modelos com saída em corrente ou tensão.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 16
+}

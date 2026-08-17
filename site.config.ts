@@ -39,7 +39,6 @@ export function whatsappLink(message?: string): string {
  * Para publicar uma linha, basta removê-la desta lista.
  */
 export const wipCategories: string[] = [
-  "transdutores-de-posicao",
   "sensores-de-pressao-melt",
 ];
 

@@ -1,0 +1,17 @@
+{
+  "code": "LM-L",
+  "name": "LM-L – Sensor TWIIST sem contato, multivariável, saída IO-Link",
+  "slug": "lm-l-sensor-twiist-sem-contato-multivariavel-saida-io-link",
+  "category": "transdutores-de-posicao",
+  "subcategory": "linear-twiist",
+  "images": [
+    "/images/products/lm-l-sensor-twiist-sem-contato-multivariavel-saida-io-link-1.webp",
+    "/images/products/lm-l-sensor-twiist-sem-contato-multivariavel-saida-io-link-2.webp",
+    "/images/products/lm-l-sensor-twiist-sem-contato-multivariavel-saida-io-link-3.webp"
+  ],
+  "shortDescription": "Transdutor de posição linear sem contato com tecnologia patenteada TWIIST para maior vida útil. A ausência de contato no elemento sensor permite obter um sensor totalmente vedado, robusto e compacto.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Cursos de 100 a 1.000 mm</li><li>Medição: posição, velocidade, inclinação triaxial, aceleração e vibração, temperatura dos componentes eletrônicos</li><li>Saída IO-Link</li></ul>\n<h3>Visão geral</h3>\n<p>Transdutor de posição linear sem contato com tecnologia patenteada TWIIST para maior vida útil. A ausência de contato no elemento sensor permite obter um sensor totalmente vedado, robusto e compacto.</p>\n<p>O alto desempenho em termos de robustez, estabilidade térmica e imunidade EMC torna a série LM-L adequada para uso tanto em ambientes industriais quanto em aplicações hidráulicas móveis. A possibilidade de medir variáveis adicionais além da posição (velocidade, inclinação triaxial, aceleração e vibração, temperatura dos componentes eletrônicos), combinada com o protocolo IO-Link, permite aproveitar as vantagens da Indústria 4.0 em termos de manutenção preventiva de produtos e processos.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 2
+}

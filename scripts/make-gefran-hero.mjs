@@ -55,6 +55,17 @@ const BANNERS = [
       { file: "grs-h-rele-de-estado-solido-monofasico-com-dissipador-ate-120-a-1.webp", height: 240 },
     ],
   },
+  {
+    // Os transdutores de posição são alongados e consomem muita largura:
+    // com quatro peças a fila encolheria e sobraria altura vazia, então
+    // aqui são três — uma linear, uma de força e uma rotativa.
+    slug: "transdutores-de-posicao",
+    itens: [
+      { file: "wpa-a-magnetostritivo-avancado-perfil-de-aluminio-saida-analogica-1.webp", height: 190 },
+      { file: "sh-celula-de-carga-de-perfil-padrao-1.webp", height: 230 },
+      { file: "gra-sensor-rotativo-de-volta-unica-por-efeito-hall-com-eixo-1.webp", height: 300 },
+    ],
+  },
 ];
 
 async function recortar({ file, height }) {

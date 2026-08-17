@@ -1,0 +1,17 @@
+{
+  "code": "WRG-A",
+  "name": "WRG-A – Magnetostritivo geral, haste roscada, saída analógica",
+  "slug": "wrg-a-magnetostritivo-geral-haste-roscada-saida-analogica",
+  "category": "transdutores-de-posicao",
+  "subcategory": "magnetostritivos",
+  "images": [
+    "/images/products/wrg-a-magnetostritivo-geral-haste-roscada-saida-analogica-1.webp",
+    "/images/products/wrg-a-magnetostritivo-geral-haste-roscada-saida-analogica-2.webp",
+    "/images/products/wrg-a-magnetostritivo-geral-haste-roscada-saida-analogica-3.webp"
+  ],
+  "shortDescription": "Transdutor de posição linear sem contato com tecnologia magnetostritiva. A ausência de contato elétrico no cursor elimina todo o desgaste e garante vida útil praticamente ilimitada.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Tecnologia magnetostritiva</li><li>Cursos de 50 a 1.500 mm</li><li>Estrutura mecânica otimizada</li></ul>\n<h3>Visão geral</h3>\n<p>Transdutor de posição linear sem contato com tecnologia magnetostritiva.</p>\n<p>A ausência de contato elétrico no cursor elimina todo o desgaste e garante vida útil praticamente ilimitada.</p>\n<p>A interface analógica, disponível com diferentes faixas de tensão ou em corrente, com saída direta e reversa, garante maior flexibilidade de instalação e adaptação a sistemas já existentes.</p>\n<p>Alta precisão da medição em relação à não linearidade, repetibilidade e histerese. Alta resistência a vibrações e choques mecânicos para uso em ambientes industriais adversos.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 9
+}

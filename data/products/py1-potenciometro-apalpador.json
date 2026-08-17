@@ -1,0 +1,17 @@
+{
+  "code": "PY1",
+  "name": "PY1 – Potenciômetro apalpador",
+  "slug": "py1-potenciometro-apalpador",
+  "category": "transdutores-de-posicao",
+  "subcategory": "potenciometros",
+  "images": [
+    "/images/products/py1-potenciometro-apalpador-1.webp",
+    "/images/products/py1-potenciometro-apalpador-2.webp",
+    "/images/products/py1-potenciometro-apalpador-3.webp"
+  ],
+  "shortDescription": "Curso de 25 a 150 mm · Articulação mecânica com junta de compensação de folga, rosca M4 · Linearidade independente de até ± 0,05%",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Curso de 25 a 150 mm</li><li>Articulação mecânica com junta de compensação de folga, rosca M4</li><li>Linearidade independente de até ± 0,05%</li></ul>",
+  "downloads": [],
+  "videos": [],
+  "order": 5
+}

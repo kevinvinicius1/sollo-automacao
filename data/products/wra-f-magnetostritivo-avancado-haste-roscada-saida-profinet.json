@@ -1,0 +1,18 @@
+{
+  "code": "WRA-F",
+  "name": "WRA-F – Magnetostritivo avançado, haste roscada, saída Profinet",
+  "slug": "wra-f-magnetostritivo-avancado-haste-roscada-saida-profinet",
+  "category": "transdutores-de-posicao",
+  "subcategory": "magnetostritivos",
+  "images": [
+    "/images/products/wra-f-magnetostritivo-avancado-haste-roscada-saida-profinet-1.webp",
+    "/images/products/wra-f-magnetostritivo-avancado-haste-roscada-saida-profinet-2.webp",
+    "/images/products/wra-f-magnetostritivo-avancado-haste-roscada-saida-profinet-3.webp",
+    "/images/products/wra-f-magnetostritivo-avancado-haste-roscada-saida-profinet-4.webp"
+  ],
+  "shortDescription": "A série WRA-F, com interface Ethernet padrão PROFINET IO (IEEE 802.3), é um transdutor de posição linear sem contato com tecnologia magnetostritiva HYPERWAVE. A ausência de contato elétrico no cursor elimina os problemas de desgaste e abrasão das peças móveis, garantindo uma vid…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Cursos de 50 a 4.000 mm</li><li>Medição de posição e velocidade</li><li>Montagem rápida por meio de suportes de aço</li></ul>\n<h3>Visão geral</h3>\n<p>A série WRA-F, com interface Ethernet padrão PROFINET IO (IEEE 802.3), é um transdutor de posição linear sem contato com tecnologia magnetostritiva HYPERWAVE. A ausência de contato elétrico no cursor elimina os problemas de desgaste e abrasão das peças móveis, garantindo uma vida útil praticamente ilimitada. A alta precisão da leitura de medição, no que diz respeito à não linearidade, repetibilidade e histerese, torna este transdutor de posição absoluto o produto ideal na maioria das aplicações industriais para a determinação em tempo real da posição e da velocidade de deslocamento. A alta resistência a vibrações, choques mecânicos e a ampla faixa de temperatura de operação tornam este produto imune mesmo em ambientes onde há um estresse mecânico particularmente intenso.</p>\n<p>A excelente proteção contra agentes externos e a imunidade a perturbações EMC, de acordo com as normas industriais mais rigorosas, tornam este transdutor de posição uma excelente solução para uso mesmo em ambientes industriais adversos.</p>\n<p>A série HYPERWAVE com fieldbus em PROFINET RTE é um dispositivo que pode ser definido como “inteligente”, graças à flexibilidade da estrutura de configuração por meio de arquivos GSDML. Os dados de processo de posição/velocidade e os alarmes são enviados em tempo real, enquanto, sob demanda, também são disponibilizadas informações auxiliares, tais como: horas de operação efetiva, temperatura real e o pico máximo detectado, coerência do sistema de alimentação elétrica, presença da quantidade de cursores predefinidos e uma série de alarmes específicos da comunicação PROFINET, fazendo com que a série HYPERWAVE PROFINET atenda aos de gerenciamento de dados, inclusive para fins estatísticos e de manutenção preventiva.</p>\n<p>O WRA-F está disponível nas versões RT (Tempo Real) e RT (Tempo Real Isócrono), ambas com o perfil Geral, gerenciando simultaneamente a posição de 16 cursores de anel flutuante independentes ou um único cursor de anel com o perfil padrão do Encoder (vr. 4.2).</p>\n<p>A certificação PI do consórcio Profibus – Profinet também atesta a qualidade do firmware nos mais rigorosos testes de imunidade e segurança.</p>\n<p>O Profinet IRT oferece comunicação sincronizada com um tempo de ciclo mínimo de 250 μs.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 14
+}

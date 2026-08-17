@@ -1,0 +1,17 @@
+{
+  "code": "GSH-S 1.8-8.3 m",
+  "name": "GSH-S 1.8-8.3 m – Sensor a cabo para posição linear",
+  "slug": "gsh-s-1-8-8-3-m-sensor-a-cabo-para-posicao-linear",
+  "category": "transdutores-de-posicao",
+  "subcategory": "posicao-por-cabo",
+  "images": [
+    "/images/products/gsh-s-1-8-8-3-m-sensor-a-cabo-para-posicao-linear-1.webp",
+    "/images/products/gsh-s-1-8-8-3-m-sensor-a-cabo-para-posicao-linear-2.webp",
+    "/images/products/gsh-s-1-8-8-3-m-sensor-a-cabo-para-posicao-linear-3.webp"
+  ],
+  "shortDescription": "O sensor a cabo GSH-S é um dispositivo compacto e robusto projetado para medição de posição linear em máquinas móveis e equipamentos off-road. Baseado em tecnologia de efeito Hall sem contato, garante desempenho de medição estável, alta repetibilidade e confiabilidade a longo pr…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Certificados SIL2 / PL d para segurança funcional</li><li>Cursos de 1,8 a 8,3 m</li><li>Saídas analógicas e digitais (CANopen / CANopen Safety)</li></ul>\n<h3>Visão geral</h3>\n<p>O sensor a cabo GSH-S é um dispositivo compacto e robusto projetado para medição de posição linear em máquinas móveis e equipamentos off-road. Baseado em tecnologia de efeito Hall sem contato, garante desempenho de medição estável, alta repetibilidade e confiabilidade a longo prazo sem desgaste do elemento de medição.</p>\n<p>O sensor permite medição de posição linear de 1,8 a 8,3 m e pode ser facilmente integrado mesmo em instalações com espaço limitado. As aplicações típicas incluem estabilizadores, lanças telescópicas e sistemas de elevação.</p>\n<p>Projetado para operar em ambientes severos, o GSH-S resiste a choques, vibrações e condições EMC exigentes típicas de equipamentos off-road. Está disponível com saídas analógicas e digitais, incluindo CANopen e CANopen Safety, permitindo integração flexível em sistemas de controle modernos.</p>\n<p>O GSH-S está disponível com <strong>arquiteturas certificadas para segurança funcional até SIL2 (EN IEC 62061, IEC/EN 61508) e Performance Level d – PL d (EN ISO 13849-1 Categoria 2)</strong>, suportando aplicações relacionadas à segurança em máquinas móveis.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 1
+}

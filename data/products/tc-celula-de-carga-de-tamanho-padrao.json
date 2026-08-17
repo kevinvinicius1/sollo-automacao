@@ -1,0 +1,17 @@
+{
+  "code": "TC",
+  "name": "TC – Célula de carga de tamanho padrão",
+  "slug": "tc-celula-de-carga-de-tamanho-padrao",
+  "category": "transdutores-de-posicao",
+  "subcategory": "celulas-de-carga-e-forca",
+  "images": [
+    "/images/products/tc-celula-de-carga-de-tamanho-padrao-1.webp",
+    "/images/products/tc-celula-de-carga-de-tamanho-padrao-2.webp",
+    "/images/products/tc-celula-de-carga-de-tamanho-padrao-3.webp"
+  ],
+  "shortDescription": "A série TC de células de carga é formada por transdutores strain gauge usados para medir cargas em aplicações estáticas e dinâmicas, tração e compressão, com alta precisão (incluindo pesagens industriais, laboratórios de testes, automação, etc). A série TC é usinada de um único…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixa de medição: de 100 a 20.000 kg</li><li>Classe de precisão: 0,2%</li><li>Construção inteiramente em aço inoxidável</li></ul>\n<h3>Visão geral</h3>\n<p>A série TC de células de carga é formada por transdutores strain gauge usados para medir cargas em aplicações estáticas e dinâmicas, tração e compressão, com alta precisão (incluindo pesagens industriais, laboratórios de testes, automação, etc).</p>\n<p>A série TC é usinada de um único bloco de metal, de forma que o elemento sensor primário, as montagens e o corpo não têm nenhuma solda, o que permite obter menores dimensões e um aumento do grau de proteção.</p>\n<p>A configuração do ponto de medida, com 8 strain gauges, reduz erros causados por aplicação imperfeita da carga.</p>\n<p>Aplicações típicas de células de carga conectadas em paralelo são: silos, tremonhas, grandes plataformas de pesagem e, com acessórios adequados, cargas suspensas.</p>\n<p>A construção em aço inoxidável é adequada para uso em ambientes agressivos das indústrias químicas e petroquímicas.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 12
+}

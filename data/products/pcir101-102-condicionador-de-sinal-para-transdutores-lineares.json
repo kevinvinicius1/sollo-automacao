@@ -1,0 +1,15 @@
+{
+  "code": "PCIR101-102",
+  "name": "PCIR101-102 – Condicionador de sinal para transdutores lineares",
+  "slug": "pcir101-102-condicionador-de-sinal-para-transdutores-lineares",
+  "category": "transdutores-de-posicao",
+  "subcategory": "potenciometros",
+  "images": [
+    "/images/products/pcir101-102-condicionador-de-sinal-para-transdutores-lineares-1.webp"
+  ],
+  "shortDescription": "Este condicionador de sinal com saída de 0 a 10Vdc (PCIR101) ou 4 a 20mA (PCIR102) para transdutores de deslocamento são fabricados em um único circuito de tecnologia de montagem sobre superfície (SMD) com componentes eletrônicos de alta estabilidade que permitem excelente linea…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Módulo de interface integrado no conector</li><li>Saída padrão 0...10 Vcc (PCIR 101)</li><li>Saída padrão 4...20 mA (PCIR 102)</li></ul>\n<h3>Visão geral</h3>\n<p>Este condicionador de sinal com saída de 0 a 10Vdc (PCIR101) ou 4 a 20mA (PCIR102) para transdutores de deslocamento são fabricados em um único circuito de tecnologia de montagem sobre superfície (SMD) com componentes eletrônicos de alta estabilidade que permitem excelente linearidade e estabilidade térmica.</p>\n<p>O circuito está integrado em um conector de 4 pólos com possibilidade de ajuste dos trimmers de zero e span.</p>\n<p>É possível girar a parte interna do conector em passos de 90º, permitindo a instalação do condicionador no transdutor em quatro direções diferentes.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 22
+}

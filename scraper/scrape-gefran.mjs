@@ -68,6 +68,43 @@ const LINHAS = [
     gefran:
       "/produtos/controle-de-potencia/reles-de-estado-solido-com-sem-dissipador-de-calor/",
   },
+  // Sensores de posição é uma categoria-pai na Gefran, com seis sublinhas;
+  // a sétima vem de Sensores de deformação e força, por decisão do cliente.
+  {
+    category: "transdutores-de-posicao",
+    subcategory: "magnetostritivos",
+    gefran: "/produtos/sensores-de-posicao/magnetostritivos/",
+  },
+  {
+    category: "transdutores-de-posicao",
+    subcategory: "linear-twiist",
+    gefran: "/produtos/sensores-de-posicao/linear-twiist/",
+  },
+  {
+    category: "transdutores-de-posicao",
+    subcategory: "potenciometros",
+    gefran: "/produtos/sensores-de-posicao/potenciometros/",
+  },
+  {
+    category: "transdutores-de-posicao",
+    subcategory: "angulares",
+    gefran: "/produtos/sensores-de-posicao/angulares/",
+  },
+  {
+    category: "transdutores-de-posicao",
+    subcategory: "inclinacao",
+    gefran: "/produtos/sensores-de-posicao/inclinacao/",
+  },
+  {
+    category: "transdutores-de-posicao",
+    subcategory: "posicao-por-cabo",
+    gefran: "/produtos/sensores-de-posicao/posicao-por-cabo/",
+  },
+  {
+    category: "transdutores-de-posicao",
+    subcategory: "celulas-de-carga-e-forca",
+    gefran: "/produtos/sensores-de-deformacao-e-forca/forca/",
+  },
 ];
 
 /** Software de configuração — fica fora do catálogo de produtos. */
@@ -75,25 +112,46 @@ const SKIP_TITLES = new Set(["GF_eXpress"]);
 
 /* ------------------------------------------------------------------ passos */
 
+const MIN_RESUMO = 40;
+
 /**
- * Resumo do card e da meta description. A `overview` é dividida em blocos
- * iniciados por um parágrafo inteiramente em negrito ("Interface do
- * operador", "Controle"…), que são títulos e não descrevem o produto — daí
- * pular os parágrafos totalmente em negrito e resumir o primeiro texto
- * corrido. Sem overview aproveitável, cai no subtítulo.
+ * A `overview` é dividida em blocos iniciados por um parágrafo inteiramente
+ * em negrito ("Interface do operador", "Controle"…), que são títulos e não
+ * descrevem o produto — daí pular os parágrafos totalmente em negrito e
+ * resumir o primeiro texto corrido.
  */
-function resumo(overviewHtml, subTitle) {
+function resumoDaOverview(overviewHtml) {
   const paragrafos = overviewHtml
     .split(/<\/p>/)
     .map((bloco) => bloco.replace(/^\s*<p>/, "").trim())
     .filter(Boolean)
     .filter((bloco) => !/^<strong>[^<]*<\/strong>$/.test(bloco));
-  const texto = htmlToText(paragrafos.join(" "));
-  const resumido = firstSentences(texto);
-  if (resumido.length >= 40) return resumido;
-  // Grupos de acessórios têm overview curta e nenhum subtítulo: nesses a
-  // overview é o único texto disponível.
-  return subTitle || resumido;
+  return firstSentences(htmlToText(paragrafos.join(" ")));
+}
+
+/** Itens de uma lista encadeados em uma linha só, para servir de resumo. */
+function resumoDaLista(listaHtml, maxLen = 280) {
+  const itens = (listaHtml.match(/<li>([\s\S]*?)<\/li>/g) ?? [])
+    .map((li) => htmlToText(li))
+    .filter(Boolean);
+  const texto = itens.join(" · ");
+  return texto.length > maxLen
+    ? texto.slice(0, maxLen - 1).trimEnd() + "…"
+    : texto;
+}
+
+/**
+ * Resumo do card e da meta description, na ordem em que o texto costuma
+ * existir: descrição longa, características principais e, por último, o
+ * subtítulo. A Gefran publica boa parte dos potenciômetros sem descrição
+ * nenhuma; sem o segundo passo, o card repetiria o próprio título.
+ */
+function resumo(overviewHtml, featuresHtml, subTitle) {
+  const daOverview = resumoDaOverview(overviewHtml);
+  if (daOverview.length >= MIN_RESUMO) return daOverview;
+  const daLista = resumoDaLista(featuresHtml);
+  if (daLista.length >= MIN_RESUMO) return daLista;
+  return subTitle || daOverview || daLista;
 }
 
 /** Lista de produtos de uma sublinha, na ordem exata em que o front renderiza. */
@@ -152,7 +210,7 @@ async function montarProduto(uri, linha, order) {
     category: linha.category,
     subcategory: linha.subcategory,
     images,
-    shortDescription: resumo(overview, subTitle),
+    shortDescription: resumo(overview, features, subTitle),
     specsHtml,
     // Sem downloads de nenhum tipo (decisão do cliente).
     downloads: [],

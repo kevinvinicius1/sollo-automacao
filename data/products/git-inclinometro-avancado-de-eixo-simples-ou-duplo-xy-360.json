@@ -1,0 +1,17 @@
+{
+  "code": "GIT",
+  "name": "GIT – Inclinômetro avançado de eixo simples ou duplo (XY/360°)",
+  "slug": "git-inclinometro-avancado-de-eixo-simples-ou-duplo-xy-360",
+  "category": "transdutores-de-posicao",
+  "subcategory": "inclinacao",
+  "images": [
+    "/images/products/git-inclinometro-avancado-de-eixo-simples-ou-duplo-xy-360-1.webp",
+    "/images/products/git-inclinometro-avancado-de-eixo-simples-ou-duplo-xy-360-2.webp",
+    "/images/products/git-inclinometro-avancado-de-eixo-simples-ou-duplo-xy-360-3.webp"
+  ],
+  "shortDescription": "Inclinômetro TOP com tecnologia MEMS. Desempenho de ponta, alta classificação IP, resistência a choques e vibrações e alta compatibilidade eletromagnética tornam este sensor adequado para aplicações em sistemas hidráulicos móveis.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Sinal de saída: RATIOMETRICO, CANopen, analógico</li><li>Linearidade:  ± 0,15% FS</li><li>Saída com conector M12 (IP67); saída com cabo (IP X9K)</li></ul>\n<h3>Visão geral</h3>\n<p>Inclinômetro TOP com tecnologia MEMS.</p>\n<p>Desempenho de ponta, alta classificação IP, resistência a choques e vibrações e alta compatibilidade eletromagnética tornam este sensor adequado para aplicações em sistemas hidráulicos móveis.</p>\n<p>Desenvolvido para garantir uma solução robusta e de alto desempenho para aplicações como veículos agrícolas, máquinas de terraplenagem e equipamentos de içamento.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 3
+}

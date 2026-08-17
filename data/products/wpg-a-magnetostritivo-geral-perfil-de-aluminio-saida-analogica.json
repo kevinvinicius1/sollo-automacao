@@ -1,0 +1,17 @@
+{
+  "code": "WPG-A",
+  "name": "WPG-A – Magnetostritivo geral, perfil de alumínio, saída analógica",
+  "slug": "wpg-a-magnetostritivo-geral-perfil-de-aluminio-saida-analogica",
+  "category": "transdutores-de-posicao",
+  "subcategory": "magnetostritivos",
+  "images": [
+    "/images/products/wpg-a-magnetostritivo-geral-perfil-de-aluminio-saida-analogica-1.webp",
+    "/images/products/wpg-a-magnetostritivo-geral-perfil-de-aluminio-saida-analogica-2.webp",
+    "/images/products/wpg-a-magnetostritivo-geral-perfil-de-aluminio-saida-analogica-3.webp"
+  ],
+  "shortDescription": "Transdutor de posição linear sem contato com tecnologia magnetostritiva para maior vida útil. A ausência de contato elétrico no cursor elimina todo desgaste e garante vida útil praticamente ilimitada.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Cursos de 50 a 1.500 mm</li><li>Cursor magnético deslizante ou flutuante</li><li>Saída analógica direta e reversa para deslocamento</li></ul>\n<h3>Visão geral</h3>\n<p>Transdutor de posição linear sem contato com tecnologia magnetostritiva para maior vida útil. A ausência de contato elétrico no cursor elimina todo desgaste e garante vida útil praticamente ilimitada.</p>\n<p>Sinal direto e reverso para ampla flexibilidade de uso. O alto desempenho em termos de imunidade EMC torna a série WPG adequada para uso em ambientes industriais com presença de interferências eletromagnéticas.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 1
+}
