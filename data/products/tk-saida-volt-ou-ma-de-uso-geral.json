@@ -1,0 +1,17 @@
+{
+  "code": "TK",
+  "name": "TK – Saída Volt ou mA de uso geral",
+  "slug": "tk-saida-volt-ou-ma-de-uso-geral",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "industrial",
+  "images": [
+    "/images/products/tk-saida-volt-ou-ma-de-uso-geral-1.webp",
+    "/images/products/tk-saida-volt-ou-ma-de-uso-geral-2.webp",
+    "/images/products/tk-saida-volt-ou-ma-de-uso-geral-3.webp"
+  ],
+  "shortDescription": "Os transmissores TK são baseados em uma película espessa no elemento sensível de aço inoxidável. Graças aos componentes eletrônicos altamente estáveis, estes transmissores podem ser utilizados em aplicações que exigem transmissão de sinal de longa distância ou em sistemas de con…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixas de: 0...3 a 0...500 bar e faixas de -1...+1 a -1...+10 bar (0...50 psi a 0...7500 psi e -15...+15 psi a -15...+100 psi)</li><li>Sinal de saída: 4...20 mA (2 fios) / 0,1...5,1 Vcc / 0,1...10,1 Vcc / 0...5 Vcc / 0...10 Vcc / 1...5 Vcc / 1...10 Vcc</li><li>Índice de proteção: IP65 / IP67</li></ul>\n<h3>Visão geral</h3>\n<p>Os transmissores TK são baseados em uma película espessa no elemento sensível de aço inoxidável.</p>\n<p>Graças aos componentes eletrônicos altamente estáveis, estes transmissores podem ser utilizados em aplicações que exigem transmissão de sinal de longa distância ou em sistemas de controle inteligente.</p>\n<p>Os transmissores TK são desenvolvidos, principalmente, para medir a pressão em circuitos a óleo, ar e hidráulicos.</p>\n<p>Eles também podem ser utilizados nos campos de medição técnica e de processo.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 13
+}

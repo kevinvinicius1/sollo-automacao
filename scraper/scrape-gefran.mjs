@@ -105,6 +105,16 @@ const LINHAS = [
     subcategory: "celulas-de-carga-e-forca",
     gefran: "/produtos/sensores-de-deformacao-e-forca/forca/",
   },
+  {
+    category: "sensores-de-pressao-melt",
+    subcategory: "industrial",
+    gefran: "/produtos/sensores-de-pressao/industrial/",
+  },
+  {
+    category: "sensores-de-pressao-melt",
+    subcategory: "melt-alta-temperatura",
+    gefran: "/produtos/sensores-de-pressao/melt-temperatura-alta/",
+  },
 ];
 
 /** Software de configuração — fica fora do catálogo de produtos. */
@@ -174,7 +184,13 @@ async function montarProduto(uri, linha, order) {
   const produto = data?.result?.pageContext?.product;
   if (!produto) throw new Error(`sem pageContext.product em ${uri}`);
 
-  const ajustes = OVERRIDES[produto.title] ?? {};
+  // A chave dos ajustes é o título, mas há títulos repetidos entre sublinhas
+  // (o "CT" é um kit de limpeza no Melt e um transdutor de força em outra),
+  // então "<subcategoria>/<título>" tem precedência sobre o título sozinho.
+  const ajustes =
+    OVERRIDES[`${linha.subcategory}/${produto.title}`] ??
+    OVERRIDES[produto.title] ??
+    {};
   const acf = { ...produto.acf, ...ajustes };
   // Grupos de acessórios não são modelos: recebem título em português e
   // `code: ""`, para o card não exibir um selo com uma frase inteira.

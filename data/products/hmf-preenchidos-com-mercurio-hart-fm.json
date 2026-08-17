@@ -1,0 +1,17 @@
+{
+  "code": "HMF",
+  "name": "HMF – Preenchidos com mercúrio - HART – FM",
+  "slug": "hmf-preenchidos-com-mercurio-hart-fm",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/hmf-preenchidos-com-mercurio-hart-fm-1.webp",
+    "/images/products/hmf-preenchidos-com-mercurio-hart-fm-2.webp",
+    "/images/products/hmf-preenchidos-com-mercurio-hart-fm-3.webp"
+  ],
+  "shortDescription": "A série HMF da Gefran é composta por transmissores de pressão com protocolo de comunicação HART, destinados ao uso em ambientes de alta temperatura com presença de atmosfera explosiva. A principal característica desta série é a capacidade de medir a temperatura do meio até 400 °…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixas de pressão: 0-17 a 0-1000 bar/0-250 a 15.000 psi</li><li>Princípio de medição extensométrico</li><li>Precisão:  ±0,25% FS (H);  ±0,5% FS (M)</li></ul>\n<h3>Visão geral</h3>\n<p>A série HMF da Gefran é composta por transmissores de pressão com protocolo de comunicação HART, destinados ao uso em ambientes de alta temperatura com presença de atmosfera explosiva.</p>\n<p>A principal característica desta série é a capacidade de medir a temperatura do meio até 400 °C.</p>\n<p>O princípio construtivo baseia-se na transmissão hidráulica da pressão.</p>\n<p>O sistema preenchido com fluido garante a estabilidade da temperatura. A medida física é transformada em medida elétrica por meio da tecnologia de extensômetro.</p>\n<p>Os transmissores foram projetados e fabricados de acordo com as normas FM, com os seguintes tipos de proteção e características:</p>\n<p>– À prova de explosão (XP) para Classe I, Divisão 1, Grupos A, B, C e D</p>\n<p>– À prova de poeira (DIP) para Classes II, III, Divisão 1, Grupos E, F e G</p>\n<p>– Áreas internas e externas classificadas como perigosas: Tipo 4X, IP67</p>\n<p>– Temperatura ambiente nominal de T5 Ta = -20 °C a +85 °C, T6 Ta = -20 °C a +60 °C</p>\n<p>&nbsp;</p>\n<p>The transmitters have been designed and manufactured according to FM standards with the following types of protection and features:</p>\n<p>– Explosion-proof (XP) for Class I, Division 1, Groups A, B, C and D</p>\n<p>– Dust proof (DIP) for Classes II, III, Division 1, Groups E, F and G</p>\n<p>– Indoor and outdoor areas classified as hazardous: Type 4X, IP67</p>\n<p>– Rated ambient temperature of T5 Ta = -20°C to +85°C, T6 Ta = -20°C to +60°C</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 23
+}

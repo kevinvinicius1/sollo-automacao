@@ -1,0 +1,17 @@
+{
+  "code": "TSA",
+  "name": "TSA – Saídas Volt ou mA de pressão baixa relativa e absoluta",
+  "slug": "tsa-saidas-volt-ou-ma-de-pressao-baixa-relativa-e-absoluta",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "industrial",
+  "images": [
+    "/images/products/tsa-saidas-volt-ou-ma-de-pressao-baixa-relativa-e-absoluta-1.webp",
+    "/images/products/tsa-saidas-volt-ou-ma-de-pressao-baixa-relativa-e-absoluta-2.webp",
+    "/images/products/tsa-saidas-volt-ou-ma-de-pressao-baixa-relativa-e-absoluta-3.webp"
+  ],
+  "shortDescription": "Os transmissores da série TSA estão baseados no elemento sensível, piezorresistivo, de silicone, na configuração de ponte Wheatstone. Graças aos componentes eletrônicos altamente estáveis, estes transmissores podem ser utilizados em aplicações que exigem transmissão de sinal de…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixas: de 0...0,05 bar a 0...60 bar (0...1 a 0...1000 psi)</li><li>Gama completa de saídas em tensão e corrente</li><li>Grau de proteção: IP65/IP67</li></ul>\n<h3>Visão geral</h3>\n<p>Os transmissores da série TSA estão baseados no elemento sensível, piezorresistivo, de silicone, na configuração de ponte Wheatstone.</p>\n<p>Graças aos componentes eletrônicos altamente estáveis, estes transmissores podem ser utilizados em aplicações que exigem transmissão de sinal de longa distância ou em sistemas de controle inteligente.</p>\n<p>Os transmissores de pressão TSA foram desenvolvidos, principalmente, para medição da pressão na refrigeração industrial e no condicionamento de ar, compressor e bombas.</p>\n<p>Eles também são utilizados para o monitoramento e controle em máquinas automáticas e para aplicações industriais para fins gerais.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 21
+}

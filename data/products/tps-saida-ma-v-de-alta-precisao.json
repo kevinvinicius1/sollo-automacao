@@ -1,0 +1,17 @@
+{
+  "code": "TPS",
+  "name": "TPS – Saída mA/V de alta precisão",
+  "slug": "tps-saida-ma-v-de-alta-precisao",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "industrial",
+  "images": [
+    "/images/products/tps-saida-ma-v-de-alta-precisao-1.webp",
+    "/images/products/tps-saida-ma-v-de-alta-precisao-2.webp",
+    "/images/products/tps-saida-ma-v-de-alta-precisao-3.webp"
+  ],
+  "shortDescription": "Os transdutores da série TPS são baseados no extensômetro acoplado em tecnologia de aço inoxidável. Este transdutor é adequado para todas as aplicações onde, além da robustez e da confiança, é necessária uma alta precisão.",
+  "specsHtml": "<h3>Visão geral</h3>\n<p>Os transdutores da série TPS são baseados no extensômetro acoplado em tecnologia de aço inoxidável.</p>\n<p><strong>Uma estrutura mecânica inovadora torna o transdutor completamente insensível à fixação durante a instalação.</strong></p>\n<p>Este transdutor é adequado para todas as aplicações onde, além da robustez e da confiança, é necessária uma alta precisão.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 15
+}

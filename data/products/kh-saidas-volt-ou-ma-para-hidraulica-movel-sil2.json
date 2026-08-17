@@ -1,0 +1,17 @@
+{
+  "code": "KH",
+  "name": "KH – Saídas Volt ou mA para hidráulica móvel, SIL2",
+  "slug": "kh-saidas-volt-ou-ma-para-hidraulica-movel-sil2",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "industrial",
+  "images": [
+    "/images/products/kh-saidas-volt-ou-ma-para-hidraulica-movel-sil2-1.webp",
+    "/images/products/kh-saidas-volt-ou-ma-para-hidraulica-movel-sil2-2.webp",
+    "/images/products/kh-saidas-volt-ou-ma-para-hidraulica-movel-sil2-3.webp"
+  ],
+  "shortDescription": "Os transmissores KH são baseados em um elemento de película sensível depositado no diafragma de aço inoxidável. Graças aos componentes eletrônicos mais modernos SMD e à construção compacta toda em aço inoxidável, estes produtos são extremamente robustos e confiáveis, com certifi…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixas: de 4 a 1.000 bar</li><li>Sinal de saída nominal: 0...10 Vcc (3 fios) / 4...20 mA (2 fios)</li><li>0,5...4,5 V ratiométrico</li><li>Tamanho compacto</li></ul>\n<h3>Visão geral</h3>\n<p>Os transmissores KH são baseados em um elemento de película sensível depositado no diafragma de aço inoxidável.</p>\n<p>Graças aos componentes eletrônicos mais modernos SMD e à construção compacta toda em aço inoxidável, estes produtos são extremamente robustos e confiáveis, com certificação SIL2 fornecida como padrão.</p>\n<p>Os transmissores KH são adequados para todas as aplicações industriais, especialmente na área hidráulica (prensas, bombas, power packs, fluid power, etc.) em condições hostis, geralmente com alto nível de choque, vibração e picos de pressão e temperatura, como é típico do ambiente de máquinas móveis.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 20
+}

@@ -1,0 +1,17 @@
+{
+  "code": "KE PLc",
+  "name": "KE PLc – Nível de desempenho 'c' - Saída 4...20mA",
+  "slug": "ke-plc-nivel-de-desempenho-c-saida-4-20ma",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/ke-plc-nivel-de-desempenho-c-saida-4-20ma-1.webp",
+    "/images/products/ke-plc-nivel-de-desempenho-c-saida-4-20ma-2.webp",
+    "/images/products/ke-plc-nivel-de-desempenho-c-saida-4-20ma-3.webp"
+  ],
+  "shortDescription": "A série KE de nível de desempenho “C” é formada por sensores de pressão para o uso em aplicações para alta temperatura, onde as temperaturas de processo podem atingir 538°C (1000°F), como os polímeros fabricados em altas temperaturas. A série K utiliza os princípios e a construç…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Nível de desempenho “c”</li><li>Faixas de pressão: 0-35 a 0-1000 bar / 0-500 a 0-15000 psi</li><li>Precisão: &lt; ±0,25% FS (H); &lt; ±0,5% FS (M)</li></ul>\n<h3>Visão geral</h3>\n<p>A série KE de nível de desempenho “C” é formada por sensores de pressão para o uso em aplicações para alta temperatura, onde as temperaturas de processo podem atingir 538°C (1000°F), como os polímeros fabricados em altas temperaturas.</p>\n<p>A série K utiliza os princípios e a construção padrão de pressão para alta temperatura com fluido de enchimento de tecnologia extensiométrica strain gauge.</p>\n<p>Uma mistura de sódio-potássio (ou seja, NaK), praticamente incomprimível é utilizada para a transmissão de pressão.</p>\n<p>A FDA reconhece NaK como uma substância segura (GRAS).</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 29
+}

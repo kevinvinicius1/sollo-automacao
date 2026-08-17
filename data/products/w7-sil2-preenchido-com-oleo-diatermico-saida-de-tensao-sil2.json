@@ -1,0 +1,17 @@
+{
+  "code": "W7 SIL2",
+  "name": "W7 SIL2 – Preenchido com óleo diatérmico - Saída de tensão - SIL2",
+  "slug": "w7-sil2-preenchido-com-oleo-diatermico-saida-de-tensao-sil2",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/w7-sil2-preenchido-com-oleo-diatermico-saida-de-tensao-sil2-1.webp",
+    "/images/products/w7-sil2-preenchido-com-oleo-diatermico-saida-de-tensao-sil2-2.webp",
+    "/images/products/w7-sil2-preenchido-com-oleo-diatermico-saida-de-tensao-sil2-3.webp"
+  ],
+  "shortDescription": "A série W7 da Gefran é composta por transmissores de pressão para uso em ambientes de alta temperatura. A principal característica dessa série é a capacidade de medir a temperatura do meio até 315 °C.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixas de pressão: 0-35 a 0-1000 bar / 0-500 a 0-15000 psi</li><li>Precisão:  ±0,25% FS (H);  ±0,5% FS (M)</li><li>Sistema preenchido com fluido para estabilidade de temperatura</li></ul>\n<h3>Visão geral</h3>\n<p>A série W7 da Gefran é composta por transmissores de pressão para uso em ambientes de alta temperatura. A principal característica dessa série é a capacidade de medir a temperatura do meio até 315 °C. O princípio de construção baseia-se na transmissão hidráulica da pressão. O sistema preenchido com fluido garante a estabilidade da temperatura. A grandeza física é transformada em uma medida elétrica por meio da tecnologia de extensômetro de filme espesso. A versão com certificação SIL2 torna o produto adequado para uso em aplicações de segurança funcional, particularmente em plantas de processo para a produção de polímeros, onde esse é um requisito essencial.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 15
+}

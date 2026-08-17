@@ -1,0 +1,17 @@
+{
+  "code": "I7 PLc",
+  "name": "I7 PLc – Conformidade com o Nível de Desempenho “C”",
+  "slug": "i7-plc-conformidade-com-o-nivel-de-desempenho-c",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/i7-plc-conformidade-com-o-nivel-de-desempenho-c-1.webp",
+    "/images/products/i7-plc-conformidade-com-o-nivel-de-desempenho-c-2.webp",
+    "/images/products/i7-plc-conformidade-com-o-nivel-de-desempenho-c-3.webp"
+  ],
+  "shortDescription": "A série “IMPACT” da Gefran é composta por transmissores de pressão, sem fluido de transmissão, para uso em ambientes de alta temperatura (350 °C). A pressão do meio é transferida diretamente para o elemento sensível de silício por meio de um diafragma espesso.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixas de pressão: 0-10 a 0-1000 bar / 0-150 a 0-15000 psi</li><li>Precisão: &lt; ±0,25% FS (H); &lt; ±0,5% FS (M)</li></ul>\n<h3>Visão geral</h3>\n<p>A série “IMPACT” da Gefran é composta por transmissores de pressão, sem fluido de transmissão, para uso em ambientes de alta temperatura (350 °C).</p>\n<p>A pressão do meio é transferida diretamente para o elemento sensível de silício por meio de um diafragma espesso. A deformação é transduzida por uma estrutura de silício microfabricada (MEMS).</p>\n<p>O princípio de funcionamento é piezorresistivo.</p>\n<p>“IMPACT” é a série exclusiva da Gefran de sensores de pressão para altas temperaturas que utilizam o princípio piezorresistivo.</p>\n<p>A principal característica dos sensores “IMPACT” é que eles não contêm nenhum fluido de transmissão.</p>\n<p>O elemento sensível, posicionado diretamente atrás da membrana de contato, é fabricado em silício por meio de técnicas de microfabricação.</p>\n<p>A microestrutura inclui a membrana de medição e os piezoresistores.</p>\n<p>A deflexão mínima exigida pelo elemento sensível permite o uso de uma mecânica muito robusta.</p>\n<p>A membrana de contato do processo pode ser até 15 vezes mais espessa do que a membrana utilizada em sensores de fusão tradicionais.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 39
+}

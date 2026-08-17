@@ -1,0 +1,17 @@
+{
+  "code": "WD",
+  "name": "WD – Saída digital CAN OPEN DP404",
+  "slug": "wd-saida-digital-can-open-dp404",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/wd-saida-digital-can-open-dp404-1.webp",
+    "/images/products/wd-saida-digital-can-open-dp404-2.webp",
+    "/images/products/wd-saida-digital-can-open-dp404-3.webp"
+  ],
+  "shortDescription": "A série WD da Gefran é formada por transmissores de pressão para o uso em um ambiente de temperatura elevada. A característica principal desta série é a capacidade de efetuar a leitura na membrana até 315°C.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Sinal de saída digital com o protocolo de comunicação DP404 CAN OPEN</li><li>Frequência de transmissão (taxa de transmissão): 10 Kbaud a 1 Mbaud (padrão: 500 Kbaud)</li><li>Seleção da taxa de transmissão e dos IDs dos nós por software/hardware</li></ul>\n<h3>Visão geral</h3>\n<p>A série WD da Gefran é formada por transmissores de pressão para o uso em um ambiente de temperatura elevada.</p>\n<p>A característica principal desta série é a capacidade de efetuar a leitura na membrana até 315°C.</p>\n<p>O princípio construtivo está baseado na transmissão hidráulica da pressão.</p>\n<p>O sistema enchido por fluido garante a estabilidade da temperatura.</p>\n<p>A medida física é transformada em uma medida elétrica por meio da tecnologia strain gauge.</p>\n<p>&nbsp;</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 48
+}

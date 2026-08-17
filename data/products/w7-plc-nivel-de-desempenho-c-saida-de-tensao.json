@@ -1,0 +1,17 @@
+{
+  "code": "W7 PLc",
+  "name": "W7 PLc – Nível de desempenho 'c' - Saída de tensão",
+  "slug": "w7-plc-nivel-de-desempenho-c-saida-de-tensao",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/w7-plc-nivel-de-desempenho-c-saida-de-tensao-1.webp",
+    "/images/products/w7-plc-nivel-de-desempenho-c-saida-de-tensao-2.webp",
+    "/images/products/w7-plc-nivel-de-desempenho-c-saida-de-tensao-3.webp"
+  ],
+  "shortDescription": "A série W7 de Nível de Desempenho ‘c’ é composta por sensores de pressão para uso em aplicações de alta temperatura, nas quais as temperaturas do processo podem atingir 315 °C (600 °F), como, por exemplo, polímeros de alta temperatura projetados para fins específicos. A série W…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Nível de desempenho PL ‘c’</li><li>Faixas de pressão: 0-35 a 0-1000 bar / 0-500 a 0-15000 psi</li><li>Precisão:  ±0,25% FSO (H);  ±0,5% FSO (M)</li></ul>\n<h3>Visão geral</h3>\n<p>A série W7 de Nível de Desempenho ‘c’ é composta por sensores de pressão para uso em aplicações de alta temperatura, nas quais as temperaturas do processo podem atingir 315 °C (600 °F), como, por exemplo, polímeros de alta temperatura projetados para fins específicos.</p>\n<p>A série W utiliza princípios e construção padrão de pressão de fusão; a tecnologia de detecção de deformação é baseada em extensômetro de folha colada.</p>\n<p>Uma mistura quase incompressível (óleo diatérmico) é utilizada para a transmissão de pressão.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 41
+}

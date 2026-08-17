@@ -1,0 +1,17 @@
+{
+  "code": "KS",
+  "name": "KS – Saídas Volt ou mA SIL2 de tamanho compacto",
+  "slug": "ks-saidas-volt-ou-ma-sil2-de-tamanho-compacto",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "industrial",
+  "images": [
+    "/images/products/ks-saidas-volt-ou-ma-sil2-de-tamanho-compacto-1.webp",
+    "/images/products/ks-saidas-volt-ou-ma-sil2-de-tamanho-compacto-2.webp",
+    "/images/products/ks-saidas-volt-ou-ma-sil2-de-tamanho-compacto-3.webp"
+  ],
+  "shortDescription": "Os transmissores KS são baseados em um elemento de película sensível depositado no diafragma de aço inoxidável. Graças aos componentes eletrônicos mais modernos SMD e à construção compacta toda em aço inoxidável, estes produtos são extremamente robustos e confiáveis, com certifi…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixas: de 1 a 1.000 bar</li><li>Sinal de saída nominal: 0...10 Vcc (3 fios) / 4...20 mA (2 fios)</li><li>Tamanho compacto</li></ul>\n<h3>Visão geral</h3>\n<p>Os transmissores KS são baseados em um elemento de película sensível depositado no diafragma de aço inoxidável.</p>\n<p>Graças aos componentes eletrônicos mais modernos SMD e à construção compacta toda em aço inoxidável, estes produtos são extremamente robustos e confiáveis, com certificação SIL2 fornecida como padrão.</p>\n<p>Os transmissores KS são adequados para todas as aplicações industriais, especialmente na área hidráulica (prensas, bombas, fluid power, etc.) em condições hostis geralmente com alto nível de colisão, vibração, bem como com picos de pressão e temperatura.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 5
+}

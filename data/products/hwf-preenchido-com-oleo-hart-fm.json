@@ -1,0 +1,15 @@
+{
+  "code": "HWF",
+  "name": "HWF – Preenchido com óleo - HART – FM",
+  "slug": "hwf-preenchido-com-oleo-hart-fm",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/hwf-preenchido-com-oleo-hart-fm-1.webp"
+  ],
+  "shortDescription": "A série HWF da Gefran é composta por transmissores de pressão com protocolo de comunicação HART para uso em ambientes de alta temperatura com presença de atmosfera explosiva. A principal característica desta série é a capacidade de medir a temperatura do meio até 315 °C.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixas de pressão: de 0-35 a 0-1000 bar / de 0-500 a 0-15000 psi</li><li>Precisão:  ±0,25% FS (H);  ±0,5% FS (M)</li><li>Aprovação FM para atmosferas potencialmente explosivas</li></ul>\n<h3>Visão geral</h3>\n<p>A série HWF da Gefran é composta por transmissores de pressão com protocolo de comunicação HART para uso em ambientes de alta temperatura com presença de atmosfera explosiva.</p>\n<p>A principal característica desta série é a capacidade de medir a temperatura do meio até 315 °C.</p>\n<p>O princípio de construção baseia-se na transmissão hidráulica da pressão.</p>\n<p>O sistema preenchido com fluido garante a estabilidade da temperatura. A medida física é transformada em medida elétrica por meio da tecnologia de extensômetros.</p>\n<p>Os transmissores foram projetados e fabricados de acordo com as normas FM, com os seguintes tipos de proteção e características:</p>\n<p>– À prova de explosão (XP) para Classe I, Divisão 1, Grupos A, B, C e D</p>\n<p>– À prova de ignição por poeira (DIP) para Classes II, III, Divisão 1, Grupos E, F e G</p>\n<p>– Áreas internas e externas classificadas como perigosas: Tipo 4X, IP67</p>\n<p>– Temperatura ambiente nominal de T5 Ta = -20 °C a +85 °C, T6 Ta = -20 °C a +60 °C</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 22
+}

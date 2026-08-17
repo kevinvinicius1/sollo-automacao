@@ -1,0 +1,17 @@
+{
+  "code": "I3",
+  "name": "I3 – Saída mV/V",
+  "slug": "i3-saida-mv-v",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/i3-saida-mv-v-1.webp",
+    "/images/products/i3-saida-mv-v-2.webp",
+    "/images/products/i3-saida-mv-v-3.webp"
+  ],
+  "shortDescription": "A série “IMPACT” da Gefran é formada por transmissores de pressão, sem fluido de transmissão, para o uso em um ambiente de alta temperatura (350°C). A pressão média é diretamente transferida para o elemento sensível de silicone, por meio de uma membrana densa.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixas de pressão: 0-10 a 0-1000 bar / 0-150 a 0-15000 psi</li><li>Precisão: &lt; ±0,25% FS (H); &lt; ±0,5% FS (M)\nRosca padrão 1/2-20UNF, M18x1,5; outras versões sob consulta</li></ul>\n<h3>Visão geral</h3>\n<p>A série “IMPACT” da Gefran é formada por transmissores de pressão, sem fluido de transmissão, para o uso em um ambiente de alta temperatura (350°C).</p>\n<p>A pressão média é diretamente transferida para o elemento sensível de silicone, por meio de uma membrana densa.</p>\n<p>O esforço é transmitido por meio de uma estrutura de silicone micro-trabalhada (MEMS).</p>\n<p>O princípio operacional é piezorresistivo. O “IMPACT” é uma série exclusiva da Gefran de sensores de pressão para alta temperatura que utiliza o princípio piezorresistivo.</p>\n<p>A característica principal dos sensores “IMPACT” é que eles não contêm qualquer fluido de transmissão.</p>\n<p>O elemento sensível, diretamente posicionado atrás da membrana de contato, é produzido em silicone por meio de técnicas de microprocessamento.</p>\n<p>A microestrutura inclui a membrana de medição e os piezorresistores.</p>\n<p>A deflexão mínima exigida pelo elemento sensível torna possível o uso em componentes mecânicos bastante robustos.</p>\n<p>A membrana de contato do processo pode ser até 15 vezes mais densa que a membrana usada nos sensores tradicionais de pressão para alta temperatura.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 43
+}

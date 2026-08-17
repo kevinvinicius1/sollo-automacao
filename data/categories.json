@@ -84,8 +84,21 @@
   {
     "name": "Sensores de Pressão | Melt - GEFRAN",
     "slug": "sensores-de-pressao-melt",
+    "image": "/images/products/km-transdutores-de-pressao-ultracompactos-1.webp",
+    "heroImage": "/images/categorias/topo-sensores-de-pressao-melt.webp",
     "order": 4,
-    "subcategories": []
+    "subcategories": [
+      {
+        "name": "Industrial",
+        "slug": "industrial",
+        "image": "/images/products/ks-saidas-volt-ou-ma-sil2-de-tamanho-compacto-1.webp"
+      },
+      {
+        "name": "Melt — Alta Temperatura",
+        "slug": "melt-alta-temperatura",
+        "image": "/images/products/me-saida-4-20ma-1.webp"
+      }
+    ]
   },
   {
     "name": "Cilindros",

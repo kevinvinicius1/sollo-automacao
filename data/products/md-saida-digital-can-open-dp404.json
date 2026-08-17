@@ -1,0 +1,17 @@
+{
+  "code": "MD",
+  "name": "MD – Saída digital CAN OPEN DP404",
+  "slug": "md-saida-digital-can-open-dp404",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/md-saida-digital-can-open-dp404-1.webp",
+    "/images/products/md-saida-digital-can-open-dp404-2.webp",
+    "/images/products/md-saida-digital-can-open-dp404-3.webp"
+  ],
+  "shortDescription": "A série MD da Gefran é composta por transmissores de pressão para utilização em ambientes com altas temperaturas. Foi especificamente concebida para a medição de pressão de fusão e está disponível apenas para ser utilizada em instalações fixas de grande dimensão, em ferramentas…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Sinal de saída digital com protocolo de comunicação CAN OPEN DP404</li><li>Frequência de transmissão (taxa de Baud): 10 Kbaud a 1 Mbaud (padrão: 500 Kbaud)</li><li>Seleção por software/hardware da taxa de transmissão e dos nós de identificação</li></ul>\n<h3>Visão geral</h3>\n<p>A série MD da Gefran é composta por transmissores de pressão para utilização em ambientes com altas temperaturas. Foi especificamente concebida para a medição de pressão de fusão e está disponível apenas para ser utilizada em instalações fixas de grande dimensão, em ferramentas industriais fixas de grandes dimensões, normalmente extrusoras, ou para equipamentos B2B de laboratório para fins de investigação e desenvolvimento, de acordo com a Diretiva 2011/65/UE europeia consultar a nota informativa sobre a RoHS II.</p>\n<p>&nbsp;</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 49
+}

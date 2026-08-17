@@ -1,0 +1,17 @@
+{
+  "code": "MX",
+  "name": "MX – Atex - Saída 4...20mA",
+  "slug": "mx-atex-saida-4-20ma",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/mx-atex-saida-4-20ma-1.webp",
+    "/images/products/mx-atex-saida-4-20ma-2.webp",
+    "/images/products/mx-atex-saida-4-20ma-3.webp"
+  ],
+  "shortDescription": "A série MX da Gefran é composta por transmissores de pressão para utilização em ambientes com altas temperaturas. Foi especificamente concebida para a medição de pressão de fusão e está disponível apenas para ser utilizada em instalações fixas de grande dimensão, em ferramentas…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixas de pressão: 0-17 a 0-2000 bar / 0-250 a 0-30000 psi</li><li>Princípio de medição extensométrico com ponte de Wheatstone</li><li>Precisão: &lt;±0,25 % FS (H); &lt;±0,5 % FS (M)</li></ul>\n<h3>Visão geral</h3>\n<p>A série MX da Gefran é composta por transmissores de pressão para utilização em ambientes com altas temperaturas.</p>\n<p>Foi especificamente concebida para a medição de pressão de fusão e está disponível apenas para ser utilizada em instalações fixas de grande dimensão, em ferramentas industriais fixas de grandes dimensões, normalmente extrusoras, ou para equipamentos B2B de laboratório para fins de investigação e desenvolvimento, de acordo com a Diretiva 2011/65/UE europeia consultar a nota informativa sobre a RoHS II.</p>\n<p>A característica principal desta série é a capacidade de efetuar a leitura na membrana até 400°C.</p>\n<p>O princípio construtivo está baseado na transmissão hidráulica da pressão.</p>\n<p>O sistema enchido por fluido garante a estabilidade da temperatura.</p>\n<p>A medida física é transformada em uma medida elétrica por meio da tecnologia strain gauge.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 34
+}

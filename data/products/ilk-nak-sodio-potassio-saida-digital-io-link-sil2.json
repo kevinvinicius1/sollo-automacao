@@ -1,0 +1,17 @@
+{
+  "code": "ILK",
+  "name": "ILK – NAK sódio-potássio - Saída digital IO-Link - SIL2",
+  "slug": "ilk-nak-sodio-potassio-saida-digital-io-link-sil2",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/ilk-nak-sodio-potassio-saida-digital-io-link-sil2-1.webp",
+    "/images/products/ilk-nak-sodio-potassio-saida-digital-io-link-sil2-2.webp",
+    "/images/products/ilk-nak-sodio-potassio-saida-digital-io-link-sil2-3.webp"
+  ],
+  "shortDescription": "A série ILK Performance Level ‘d’/SIL2 da Gefran é composta por transmissores de pressão para uso em ambientes de alta temperatura com interface de saída digital IO-Link. O princípio construtivo baseia-se na transmissão hidráulica da pressão.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixas de pressão: de 0 a 35 a 0 a 1.000 bar / de 0 a 500 a 0 a 15.000 psi</li><li>Precisão:  ±0,25% FS (H);  ±0,5% FS (M)</li><li>Roscas padrão 1/2-20UNF, M18x1,5</li></ul>\n<h3>Visão geral</h3>\n<p>A série ILK Performance Level ‘d’/SIL2 da Gefran é composta por transmissores de pressão para uso em ambientes de alta temperatura com interface de saída digital IO-Link.</p>\n<p>O princípio construtivo baseia-se na transmissão hidráulica da pressão.</p>\n<p>Esta nova série ILK com interface “IO-Link” é um dispositivo inteligente projetado especificamente para atender aos requisitos do ambiente “Indústria 4.0”, com informações auxiliares adequadas para evitar paradas de máquina e, graças à solução “sem mercúrio”, pode suportar temperaturas de processo de até 538 °C.</p>\n<p>Além disso, com as certificações PLd e SIL2, a série ILK é</p>\n<p>a melhor solução para aplicações de “Segurança Funcional”.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 10
+}

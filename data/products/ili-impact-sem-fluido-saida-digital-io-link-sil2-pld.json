@@ -1,0 +1,17 @@
+{
+  "code": "ILI",
+  "name": "ILI – IMPACT sem fluido - Saída digital IO-Link - SIL2 - PLd",
+  "slug": "ili-impact-sem-fluido-saida-digital-io-link-sil2-pld",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/ili-impact-sem-fluido-saida-digital-io-link-sil2-pld-1.webp",
+    "/images/products/ili-impact-sem-fluido-saida-digital-io-link-sil2-pld-2.webp",
+    "/images/products/ili-impact-sem-fluido-saida-digital-io-link-sil2-pld-3.webp"
+  ],
+  "shortDescription": "A série “IMPACT” da Gefran é composta por transmissores de pressão sem fluido de transmissão, destinados ao uso em ambientes de alta temperatura (350 °C). A pressão do meio é transferida diretamente para o elemento sensível de silício por meio de um diafragma espesso.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>IMPACT Fluid Free - Saída digital IO-Link - SIL2 - PLd</li><li>Nível de desempenho “d” e conformidade com SIL2</li><li>Precisão:  ±0,25% FS (H);  ±0,5% FS (M)  Faixas de pressão: 0-10 a 0-1000 bar / 0-150 a 0-15000 psi</li></ul>\n<h3>Visão geral</h3>\n<p>A série “IMPACT” da Gefran é composta por transmissores de pressão sem fluido de transmissão, destinados ao uso em ambientes de alta temperatura (350 °C).</p>\n<p>A pressão do meio é transferida diretamente para o elemento sensível de silício por meio de um diafragma espesso. A deformação é transduzida por uma estrutura de silício microfabricada (MEMS) e o princípio de funcionamento é piezorresistivo.</p>\n<p>Esta nova série “ILI” com saída digital “IO-Link” é um dispositivo inteligente projetado especificamente para atender aos requisitos do ambiente “Indústria 4.0”, com informações auxiliares adequadas para evitar paradas de máquina.</p>\n<p>A principal característica dos sensores “IMPACT” é que eles não contêm nenhum fluido de transmissão.</p>\n<p>A deflexão mínima exigida pelo elemento sensível permite o uso de uma mecânica muito robusta.</p>\n<p>A membrana de contato com o processo pode ser até 15 vezes mais espessa do que a membrana utilizada em sensores de fusão tradicionais.</p>\n<p>Adequado para aplicações de segurança funcional graças às certificações PLd e</p>\n<p>SIL2.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 17
+}

@@ -1,0 +1,17 @@
+{
+  "code": "KHC",
+  "name": "KHC – Saída digital CANopen para hidráulica móvel",
+  "slug": "khc-saida-digital-canopen-para-hidraulica-movel",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "industrial",
+  "images": [
+    "/images/products/khc-saida-digital-canopen-para-hidraulica-movel-1.webp",
+    "/images/products/khc-saida-digital-canopen-para-hidraulica-movel-2.webp",
+    "/images/products/khc-saida-digital-canopen-para-hidraulica-movel-3.webp"
+  ],
+  "shortDescription": "Os transmissores de pressão KHC são baseados em um elemento de película sensível depositado no diafragma de aço inoxidável. Graças aos componentes eletrônicos mais modernos SMD e à construção compacta toda em aço inoxidável, estes produtos são extremamente robustos e confiáveis,…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Saída digital J1939 e CANopen</li><li>Construção toda em aço inoxidável</li><li>Faixas de pressão até 1.000 bar</li></ul>\n<h3>Visão geral</h3>\n<p>Os transmissores de pressão KHC são baseados em um elemento de película sensível depositado no diafragma de aço inoxidável.</p>\n<p>Graças aos componentes eletrônicos mais modernos SMD e à construção compacta toda em aço inoxidável, estes produtos são extremamente robustos e confiáveis, especialmente indicados para aplicações de hidráulica móvel.</p>\n<p>A série KHC combina alta precisão com estabilidade térmica, resistência a condições ambientais extremas e saída digital CAN com os protocolos típicos da hidráulica móvel. Foi desenvolvida para garantir uma solução robusta e de alto desempenho em aplicações como máquinas agrícolas, máquinas de construção e equipamentos de movimentação de materiais.</p>\n<p>Além da medição de pressão, o sinal digital também traz os dados de temperatura do dispositivo.</p>\n<p>O instrumento é entregue pré-configurado e pronto para uso. Também são possíveis configurações personalizadas, especificadas no pedido ou programáveis pelo usuário.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 19
+}

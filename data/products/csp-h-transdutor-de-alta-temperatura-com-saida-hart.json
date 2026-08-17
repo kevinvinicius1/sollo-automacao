@@ -1,0 +1,17 @@
+{
+  "code": "CSP-H",
+  "name": "CSP-H – Transdutor de alta temperatura com saída HART",
+  "slug": "csp-h-transdutor-de-alta-temperatura-com-saida-hart",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/csp-h-transdutor-de-alta-temperatura-com-saida-hart-1.webp",
+    "/images/products/csp-h-transdutor-de-alta-temperatura-com-saida-hart-2.webp",
+    "/images/products/csp-h-transdutor-de-alta-temperatura-com-saida-hart-3.webp"
+  ],
+  "shortDescription": "Os sensores de fusão da série CSP-H da Gefran são transmissores de pressão concebidos para utilização em ambientes de alta temperatura. A caraterística principal é que pode ler a pressão do meio até temperaturas de 600 °C (1112 °F).",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Concebido para aplicações CSP</li><li>Saída digital: Protocolo Hart</li><li>Intervalos de pressão de: 0-20 a 0-1000 bar / 0-300 a 0-15000 psi</li><li>Temperatura máxima do processo: 600°C (1112°F)</li></ul>\n<h3>Visão geral</h3>\n<p>Os sensores de fusão da série CSP-H da Gefran são transmissores de pressão concebidos para utilização em ambientes de alta temperatura.<br>\nA caraterística principal é que pode ler a pressão do meio até temperaturas de 600 °C (1112 °F). O princípio de construção baseia-se na transmissão hidráulica da pressão; o esforço mecânico é transferido através de um líquido de transmissão incompressível (NaK – Sódio/Potássio).<br>\nA tecnologia extensiométrica de película espessa permite transduzir a grandeza física pressão num sinal elétrico. O CSP-H é adequado para aplicações onde se torna necessário compensar a deriva térmica do sinal provocada pela variação da temperatura do processo, em particular nas instalações CSP e TES.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 4
+}

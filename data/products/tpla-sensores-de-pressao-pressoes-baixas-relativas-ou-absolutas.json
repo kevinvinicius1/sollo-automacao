@@ -1,0 +1,17 @@
+{
+  "code": "TPLA",
+  "name": "TPLA – Sensores de pressão - Pressões baixas relativas ou absolutas",
+  "slug": "tpla-sensores-de-pressao-pressoes-baixas-relativas-ou-absolutas",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "industrial",
+  "images": [
+    "/images/products/tpla-sensores-de-pressao-pressoes-baixas-relativas-ou-absolutas-1.webp",
+    "/images/products/tpla-sensores-de-pressao-pressoes-baixas-relativas-ou-absolutas-2.webp",
+    "/images/products/tpla-sensores-de-pressao-pressoes-baixas-relativas-ou-absolutas-3.webp"
+  ],
+  "shortDescription": "Os transmissores TPLA utilizam um elemento sensor piezoresistivo de silício, projetado para oferecer alta sensibilidade e estabilidade a longo prazo, mesmo em faixas de pressão muito baixas. Sua precisão os torna ideais para aplicações em embalagens de alimentos e produtos farma…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Tecnologia piezoresistiva</li><li>Baixa pressão</li><li>Relativa e absoluta</li></ul>\n<h3>Visão geral</h3>\n<p>Os transmissores TPLA utilizam um elemento sensor piezoresistivo de silício, projetado para oferecer alta sensibilidade e estabilidade a longo prazo, mesmo em faixas de pressão muito baixas. Sua precisão os torna ideais para aplicações em embalagens de alimentos e produtos farmacêuticos, impressoras industriais, sistemas de dosagem e moldagem por extrusão e sopro, bem como em qualquer processo industrial que exija medição precisa em baixa pressão.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 1
+}

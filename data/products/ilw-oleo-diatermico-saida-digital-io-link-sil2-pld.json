@@ -1,0 +1,17 @@
+{
+  "code": "ILW",
+  "name": "ILW – Óleo diatérmico - Saída digital IO-Link - SIL2 - PLd",
+  "slug": "ilw-oleo-diatermico-saida-digital-io-link-sil2-pld",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/ilw-oleo-diatermico-saida-digital-io-link-sil2-pld-1.webp",
+    "/images/products/ilw-oleo-diatermico-saida-digital-io-link-sil2-pld-2.webp",
+    "/images/products/ilw-oleo-diatermico-saida-digital-io-link-sil2-pld-3.webp"
+  ],
+  "shortDescription": "Faixas de pressão de: 0-35 a 0-1000 bar / 0-500 a 0-15.000 psi Precisão: < ±0,25% FS (H); < ±0,5% FS (M) Roscas padrão 1/2-20UNF, M18x1,5 Diafragma corrugado 17-7 PH com revestimento GTP+ O enchimento com óleo atende aos requisitos da FDA CFR 178.3620 e CFR 172.878 Saída digital…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixas de pressão: de 0-35 a 0-1000 bar / de 0-500 a 0-15000 psi</li><li>Precisão:  ±0,25% FS (H);  ±0,5% FS (M)</li><li>Roscas padrão 1/2-20UNF, M18x1,5</li></ul>\n<h3>Visão geral</h3>\n<ul>\n<li>\n<p>Faixas de pressão de: 0-35 a 0-1000 bar / 0-500 a 0-15.000 psi</p>\n</li>\n<li>\n<p>Precisão: &lt; ±0,25% FS (H); &lt; ±0,5% FS (M)</p>\n</li>\n<li>\n<p>Roscas padrão 1/2-20UNF, M18x1,5</p>\n</li>\n<li>\n<p>Diafragma corrugado 17-7 PH com revestimento GTP+</p>\n</li>\n<li>\n<p>O enchimento com óleo atende aos requisitos da FDA CFR 178.3620 e CFR 172.878</p>\n</li>\n<li>\n<p>Saída digital IO-Link, pronta para a “Indústria 4.0”Faixa de medição: 3:1Aprovações PLd e SIL2 para segurança funcional</p>\n</li>\n<li>\n<p>Função de zeragem automática</p>\n</li>\n<li>\n<p>Informações auxiliares via protocolo IO-Link</p>\n</li>\n</ul>",
+  "downloads": [],
+  "videos": [],
+  "order": 13
+}

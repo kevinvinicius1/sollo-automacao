@@ -1,0 +1,17 @@
+{
+  "code": "ILM",
+  "name": "ILM – Preenchido com mercúrio - Saída digital IO-Link - SIL2",
+  "slug": "ilm-preenchido-com-mercurio-saida-digital-io-link-sil2",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/ilm-preenchido-com-mercurio-saida-digital-io-link-sil2-1.webp",
+    "/images/products/ilm-preenchido-com-mercurio-saida-digital-io-link-sil2-2.webp",
+    "/images/products/ilm-preenchido-com-mercurio-saida-digital-io-link-sil2-3.webp"
+  ],
+  "shortDescription": "A série ILM com Nível de Desempenho ‘d’/SIL2 da Gefran é composta por transmissores de pressão para uso em ambientes de alta temperatura com interface de saída digital IO-Link. O princípio construtivo baseia-se na transmissão hidráulica da pressão.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixas de pressão: de 0-17 a 0-2000 bar / de 0-250 a 0-30000 psi</li><li>Precisão: &lt; ±0,25% FS (H); &lt; ±0,5% FS (M) Roscas padrão 1/2-20UNF, M18x1,5</li></ul>\n<h3>Visão geral</h3>\n<p>A série ILM com Nível de Desempenho ‘d’/SIL2 da Gefran é composta por transmissores de pressão para uso em ambientes de alta temperatura com interface de saída digital IO-Link.</p>\n<p>O princípio construtivo baseia-se na transmissão hidráulica da pressão.</p>\n<p>Esta nova série ILM com interface “IO-Link” é um dispositivo inteligente projetado especificamente para atender aos requisitos do ambiente “Indústria 4.0”, com informações auxiliares adequadas para evitar paradas de máquina.</p>\n<p>A principal característica desta série é a capacidade de medir a temperatura do meio até 400 °C (750 °F).</p>\n<p>Além disso, com as certificações PLd e SIL2, a série ILM é a melhor solução para aplicações de “Segurança Funcional”.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 6
+}

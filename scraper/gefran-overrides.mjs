@@ -1,6 +1,10 @@
 /**
  * Ajustes sobre o que a Gefran publica, aplicados na origem pelo extrator.
- * A chave é o título do produto no site da Gefran. Campos aceitos:
+ *
+ * A chave é o título do produto no site da Gefran, ou
+ * "<subcategoria>/<título>" quando o mesmo título existe em mais de uma
+ * sublinha — é o caso do "CT", kit de limpeza no Melt e transdutor de força
+ * na outra. A chave com subcategoria tem precedência. Campos aceitos:
  *
  *   title        rótulo do produto quando o original está em outro idioma
  *   code         código exibido no selo do card (use "" para não exibir)
@@ -407,9 +411,104 @@ const sensoresDePosicao = {
   "CIR-D": { subTitle: "Condicionador de sinal com isolamento galvânico" },
 };
 
+/* --------------------------- sensores de pressão ------------------------ */
+
+/** Texto oficial do KS, irmão do KH já publicado em português. */
+const visaoGeralKh =
+  "<p>Os transmissores KH são baseados em um elemento de película sensível " +
+  "depositado no diafragma de aço inoxidável.</p>\n" +
+  "<p>Graças aos componentes eletrônicos mais modernos SMD e à construção " +
+  "compacta toda em aço inoxidável, estes produtos são extremamente robustos " +
+  "e confiáveis, com certificação SIL2 fornecida como padrão.</p>\n" +
+  "<p>Os transmissores KH são adequados para todas as aplicações industriais, " +
+  "especialmente na área hidráulica (prensas, bombas, power packs, fluid " +
+  "power, etc.) em condições hostis, geralmente com alto nível de choque, " +
+  "vibração e picos de pressão e temperatura, como é típico do ambiente de " +
+  "máquinas móveis.</p>";
+
+const sensoresDePressao = {
+  // Subtítulos publicados em inglês e, no KS-I, em italiano.
+  "KS-I": { subTitle: "Tamanho compacto - Saída digital IO-Link" },
+  ILI: { subTitle: "IMPACT sem fluido - Saída digital IO-Link - SIL2 - PLd" },
+  ILK: { subTitle: "NAK sódio-potássio - Saída digital IO-Link - SIL2" },
+  ILM: { subTitle: "Preenchido com mercúrio - Saída digital IO-Link - SIL2" },
+  ILW: { subTitle: "Óleo diatérmico - Saída digital IO-Link - SIL2 - PLd" },
+  "K7 SIL2": { subTitle: "NAK sódio-potássio - Saída de tensão - SIL2" },
+  "KE SIL2": { subTitle: "NAK sódio-potássio - Saída 4...20 mA - SIL2" },
+  "M7 SIL2": { subTitle: "Preenchido com mercúrio - Saída de tensão - SIL2" },
+  "WE SIL2": { subTitle: "Preenchido com óleo diatérmico - Saída 4...20 mA" },
+  HIE: { subTitle: "IMPACT sem fluido - HART - SIL2 - PLd" },
+
+  // Subtítulos longos demais para a faixa de título; as certificações e as
+  // faixas que saem daqui continuam nas especificações.
+  HIX: { subTitle: "IMPACT sem fluido - HART - ATEX - SIL2 - PLd" },
+  HMJ: { subTitle: "Transdutor Melt com HART, Exd, IECEx e ATEX" },
+  HWJ: { subTitle: "Transdutor Melt com HART, Exd, IECEx e ATEX" },
+  "CSP-H": { subTitle: "Transdutor de alta temperatura com saída HART" },
+  KMC: { subTitle: "Transdutores ultracompactos com CANopen e J1939" },
+  "KM RAIL": { subTitle: "Transdutor ultracompacto para aplicações ferroviárias" },
+  TPHADA: { subTitle: "Saída Volt ou mA com autozero digital, pressão alta" },
+  W7: { subTitle: "Óleo diatérmico FDA - Monitoramento de pressão (1/8 DIN)" },
+
+  // "controlo" e "rotura" são grafias de Portugal.
+  W0: { subTitle: "Conjunto de controle de pressão (1/4 DIN)" },
+  M0: { subTitle: "Conjunto de controle de pressão (1/4 DIN)" },
+  GRD: { subTitle: "Discos de ruptura" },
+  "melt-alta-temperatura/CT": { subTitle: "Kit de limpeza do furo de montagem" },
+  // O subtítulo original repete o código ("KF – Kit de perfuração KF").
+  KF: { subTitle: "Kit de perfuração" },
+  "Cabos de extensão": {
+    title: "Cabos de extensão",
+    code: "",
+    subTitle: "6 e 8 pinos",
+  },
+
+  KH: {
+    subTitle: "Saídas Volt ou mA para hidráulica móvel, SIL2",
+    overview: visaoGeralKh,
+    mainFeatures:
+      "<p>Faixas: de 4 a 1.000 bar</p>\n" +
+      "<p>Sinal de saída nominal: 0...10 Vcc (3 fios) / 4...20 mA (2 fios)</p>\n" +
+      "<p>0,5...4,5 V ratiométrico</p>\n" +
+      "<p>Tamanho compacto</p>",
+  },
+  KHC: {
+    subTitle: "Saída digital CANopen para hidráulica móvel",
+    overview:
+      "<p>Os transmissores de pressão KHC são baseados em um elemento de " +
+      "película sensível depositado no diafragma de aço inoxidável.</p>\n" +
+      "<p>Graças aos componentes eletrônicos mais modernos SMD e à construção " +
+      "compacta toda em aço inoxidável, estes produtos são extremamente " +
+      "robustos e confiáveis, especialmente indicados para aplicações de " +
+      "hidráulica móvel.</p>\n" +
+      "<p>A série KHC combina alta precisão com estabilidade térmica, " +
+      "resistência a condições ambientais extremas e saída digital CAN com os " +
+      "protocolos típicos da hidráulica móvel. Foi desenvolvida para garantir " +
+      "uma solução robusta e de alto desempenho em aplicações como máquinas " +
+      "agrícolas, máquinas de construção e equipamentos de movimentação de " +
+      "materiais.</p>\n" +
+      "<p>Além da medição de pressão, o sinal digital também traz os dados de " +
+      "temperatura do dispositivo.</p>\n" +
+      "<p>O instrumento é entregue pré-configurado e pronto para uso. Também " +
+      "são possíveis configurações personalizadas, especificadas no pedido ou " +
+      "programáveis pelo usuário.</p>",
+    mainFeatures:
+      "<p>Saída digital J1939 e CANopen</p>\n" +
+      "<p>Construção toda em aço inoxidável</p>\n" +
+      "<p>Faixas de pressão até 1.000 bar</p>",
+  },
+  TSA: {
+    mainFeatures:
+      "<p>Faixas: de 0...0,05 bar a 0...60 bar (0...1 a 0...1000 psi)</p>\n" +
+      "<p>Gama completa de saídas em tensão e corrente</p>\n" +
+      "<p>Grau de proteção: IP65/IP67</p>",
+  },
+};
+
 export const OVERRIDES = {
   ...controladoresEIndicadores,
   ...modulosDePotencia,
   ...relesDeEstadoSolido,
   ...sensoresDePosicao,
+  ...sensoresDePressao,
 };

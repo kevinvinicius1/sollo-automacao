@@ -1,0 +1,17 @@
+{
+  "code": "ME SIL2",
+  "name": "ME SIL2 – Preenchido com mercúrio - Saída 4...20 mA - SIL2",
+  "slug": "me-sil2-preenchido-com-mercurio-saida-4-20-ma-sil2",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/me-sil2-preenchido-com-mercurio-saida-4-20-ma-sil2-1.webp",
+    "/images/products/me-sil2-preenchido-com-mercurio-saida-4-20-ma-sil2-2.webp",
+    "/images/products/me-sil2-preenchido-com-mercurio-saida-4-20-ma-sil2-3.webp"
+  ],
+  "shortDescription": "A série ME da Gefran é composta por transmissores de pressão para uso em ambientes de alta temperatura. A principal característica dessa série é a capacidade de medir a temperatura do meio até 400 °C.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixas de pressão: 0-17 a 0-2000 bar / 0-250 a 0-30000 psi</li><li>Precisão:  ±0,25% FS (H);  ±0,5% FS (M)</li><li>Sistema preenchido com fluido para estabilidade de temperatura</li></ul>\n<h3>Visão geral</h3>\n<p>A série ME da Gefran é composta por transmissores de pressão para uso em ambientes de alta temperatura. A principal característica dessa série é a capacidade de medir a temperatura do meio até 400 °C. O princípio construtivo baseia-se na transmissão hidráulica da pressão. O sistema preenchido com fluido garante a estabilidade da temperatura. A grandeza física é transformada em uma medida elétrica por meio da tecnologia de extensômetro de película espessa. A versão com certificação SIL2 torna o produto adequado para uso em aplicações de segurança funcional, particularmente em plantas de processo para a produção de polímeros, onde esse é um requisito essencial.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 7
+}

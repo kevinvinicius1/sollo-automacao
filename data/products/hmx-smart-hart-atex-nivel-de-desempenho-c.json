@@ -1,0 +1,17 @@
+{
+  "code": "HMX",
+  "name": "HMX – Smart HART Atex - Nível de desempenho 'c'",
+  "slug": "hmx-smart-hart-atex-nivel-de-desempenho-c",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/hmx-smart-hart-atex-nivel-de-desempenho-c-1.webp",
+    "/images/products/hmx-smart-hart-atex-nivel-de-desempenho-c-2.webp",
+    "/images/products/hmx-smart-hart-atex-nivel-de-desempenho-c-3.webp"
+  ],
+  "shortDescription": "A série HMX de Gefran, são transmissores de pressão para uso em ambiente de alta temperatura e especificamente projetados para medição de pressão de polímeros em derretimento, disponíveis apenas para serem usados em instalações fixas em larga escala ou em equipamentos industriai…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixas de pressão: 0-17 a 0-2000 bar/0-250 a 0-30000 psi</li><li>Princípio de medição extensométrico com ponte de Wheatstone</li><li>Precisão: &lt; ±0,25% FS (H); &lt; ±0,5% FS (M)</li></ul>\n<h3>Visão geral</h3>\n<p>A série HMX de Gefran, são transmissores de pressão para uso em ambiente de alta temperatura e especificamente projetados para medição de pressão de polímeros em derretimento, disponíveis apenas para serem usados em instalações fixas em larga escala ou em equipamentos industriais estacionárias em larga escala, tipicamente extrusoras, ou para equipamentos B2B laboratorial para fins de P&amp;D de acordo com a Diretiva Europeia 2011/65/EU (ver nota informativa RoHS II ).</p>\n<p>A série HMX de Gefran são transmissores de pressão com protocolo de comunicação HART para uso em ambiente de alta temperatura com presença atmosférica potencialmente explosiva.</p>\n<p>A principal característica desta série é a capacidade de ler temperatura de fluidos até 400°C.</p>\n<p>O princípio construtivo baseia-se na transmissão hidráulica da pressão.</p>\n<p>O sistema preenchimento de fluidos garante a estabilidade da temperatura.</p>\n<p>A medida física é transformada em medida elétrica por meio de tecnologia de medidor de tensão.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 11
+}

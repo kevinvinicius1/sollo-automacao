@@ -1,0 +1,17 @@
+{
+  "code": "HWJ",
+  "name": "HWJ – Transdutor Melt com HART, Exd, IECEx e ATEX",
+  "slug": "hwj-transdutor-melt-com-hart-exd-iecex-e-atex",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/hwj-transdutor-melt-com-hart-exd-iecex-e-atex-1.webp",
+    "/images/products/hwj-transdutor-melt-com-hart-exd-iecex-e-atex-2.webp",
+    "/images/products/hwj-transdutor-melt-com-hart-exd-iecex-e-atex-3.webp"
+  ],
+  "shortDescription": "Os sensores Melt da série HWJ da Gefran são transmissores de pressão com protocolo de comunicação HART, projetados para uso em ambientes de alta temperatura com a presença de uma atmosfera potencialmente explosiva. A principal característica é que eles podem ler a pressão do flu…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Saída digital: Protocolo Hart</li><li>Proteção à prova de chamas tipo Exd</li><li>IECEx, ATEX, NEPSIEx</li></ul>\n<h3>Visão geral</h3>\n<p>Os sensores Melt da série HWJ da Gefran são transmissores de pressão com protocolo de comunicação HART, projetados para uso em ambientes de alta temperatura com a presença de uma atmosfera potencialmente explosiva. A principal característica é que eles podem ler a pressão do fluido em temperaturas de até 315 °C.</p>\n<p>O princípio de construção é baseado na transmissão hidráulica de pressão; a transferência de tensão mecânica ocorre por meio de um fluido de transmissão incompressível. A tecnologia de extensômetros permite que a grandeza física pressão seja transduzida em um sinal elétrico.</p>\n<p>Os transmissores são projetados e fabricados de acordo com a Diretiva ATEX 2014/34/UE, normas do esquema IECEx, com os seguintes modos e características de proteção:</p>\n<ul>\n<li>Grupo II, categoria 2G, 2D (EPL Gb/Db)</li>\n<li>Tipo de proteção contra gases: Ex db IIC T6/T5 Gb</li>\n<li>Tipo de proteção contra poeira: Ex tb IIIC T85°C/T100°C Db</li>\n<li>Temperatura ambiente: -20°C / +60°C (T6) e -20°C / +85°C (T5)</li>\n</ul>",
+  "downloads": [],
+  "videos": [],
+  "order": 2
+}

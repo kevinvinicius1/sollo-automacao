@@ -1,0 +1,17 @@
+{
+  "code": "W3",
+  "name": "W3 – Saída mV/V",
+  "slug": "w3-saida-mv-v",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/w3-saida-mv-v-1.webp",
+    "/images/products/w3-saida-mv-v-2.webp",
+    "/images/products/w3-saida-mv-v-3.webp"
+  ],
+  "shortDescription": "A série W3 da Gefran é formada por transdutores para o uso em um ambiente de temperatura elevada. A característica principal da série é a capacidade de efetuar a leitura da temperatura na membrana, até 315°C.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>A configuração com haste rígida permite uma instalação fácil e rápida W30 W30 Principais características</li><li>Faixas de pressão: 0-35 a 0-1000 bar / 0-500 a 0-15000 psi</li><li>Princípio de medição extensométrico com ponte de Wheatstone</li></ul>\n<h3>Visão geral</h3>\n<p>A série W3 da Gefran é formada por transdutores para o uso em um ambiente de temperatura elevada.</p>\n<p>A característica principal da série é a capacidade de efetuar a leitura da temperatura na membrana, até 315°C.<br>\nO princípio de construção está baseado na transmissão hidráulica da pressão.</p>\n<p>O sistema enchido com fluido garante a estabilidade da temperatura. A medida física é transformada em uma medida elétrica por meio da tecnologia strain gauge.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 45
+}

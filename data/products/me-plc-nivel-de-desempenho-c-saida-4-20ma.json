@@ -1,0 +1,17 @@
+{
+  "code": "ME PLc",
+  "name": "ME PLc – Nível de desempenho 'c' - Saída 4...20mA",
+  "slug": "me-plc-nivel-de-desempenho-c-saida-4-20ma",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/me-plc-nivel-de-desempenho-c-saida-4-20ma-1.webp",
+    "/images/products/me-plc-nivel-de-desempenho-c-saida-4-20ma-2.webp",
+    "/images/products/me-plc-nivel-de-desempenho-c-saida-4-20ma-3.webp"
+  ],
+  "shortDescription": "A série ME Pl’c’ da Gefran é composta por transmissores de pressão para utilização em ambientes com altas temperaturas. Foi especificamente concebida para a medição de pressão de fusão e está disponível apenas para ser utilizada em instalações fixas de grande dimensão, em ferram…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Nível de desempenho “c”</li><li>Faixas de pressão: de 0-17 a 0-2.000 bar / de 0-250 a 0-30.000 psi</li><li>Precisão: &lt; ±0,25 % da escala total (H); &lt; ±0,5 % da escala total (M)</li></ul>\n<h3>Visão geral</h3>\n<p>A série ME Pl’c’ da Gefran é composta por transmissores de pressão para utilização em ambientes com altas temperaturas. Foi especificamente concebida para a medição de pressão de fusão e está disponível apenas para ser utilizada em instalações fixas de grande dimensão, em ferramentas industriais fixas de grandes dimensões, normalmente extrusoras, ou para equipamentos B2B de laboratório para fins de investigação e desenvolvimento, de acordo com a Diretiva 2011/65/UE europeia consultar a nota informativa sobre a RoHS II.</p>\n<p>A série ME de nível de desempenho “C” é formada por sensores de pressão para o uso em aplicações para altas temperaturas, onde as temperaturas de processo podem atingir 400°C (°F), como os polímeros fabricados em altas temperaturas.</p>\n<p>A série K utiliza os princípios e a construção padrão de pressão para alta temperatura com fluido de enchimento de tecnologia extensiométrica strain gauge.</p>\n<p>Um líquido praticamente incomprimível (mercúrio) é utilizado para a transmissão de pressão.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 31
+}

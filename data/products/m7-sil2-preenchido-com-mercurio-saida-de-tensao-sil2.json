@@ -1,0 +1,17 @@
+{
+  "code": "M7 SIL2",
+  "name": "M7 SIL2 – Preenchido com mercúrio - Saída de tensão - SIL2",
+  "slug": "m7-sil2-preenchido-com-mercurio-saida-de-tensao-sil2",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/m7-sil2-preenchido-com-mercurio-saida-de-tensao-sil2-1.webp",
+    "/images/products/m7-sil2-preenchido-com-mercurio-saida-de-tensao-sil2-2.webp",
+    "/images/products/m7-sil2-preenchido-com-mercurio-saida-de-tensao-sil2-3.webp"
+  ],
+  "shortDescription": "A série M7 da Gefran é composta por transmissores de pressão destinados ao uso em ambientes de alta temperatura. A principal característica desta série é a capacidade de medir a temperatura do meio até 400 °C.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixas de pressão: 0-17 a 0-2000 bar / 0-250 a 0-30000 psi</li><li>Precisão:  ±0,25% FS (H);  ±0,5% FS (M)</li><li>Sistema preenchido com fluido para garantir a estabilidade da temperatura</li></ul>\n<h3>Visão geral</h3>\n<p>A série M7 da Gefran é composta por transmissores de pressão destinados ao uso em ambientes de alta temperatura.</p>\n<p>A principal característica desta série é a capacidade de medir a temperatura do meio até 400 °C. O princípio construtivo baseia-se na transmissão hidráulica da pressão. O sistema preenchido com fluido garante a estabilidade da temperatura. A medida física é transformada em medida elétrica por meio da tecnologia de extensômetro de película espessa. A versão com certificação SIL2 torna o produto adequado para uso em aplicações de segurança funcional, particularmente em plantas de processo para a produção de polímeros, onde esse é um requisito essencial.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 16
+}

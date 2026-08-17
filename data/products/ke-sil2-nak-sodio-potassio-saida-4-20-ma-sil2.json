@@ -1,0 +1,17 @@
+{
+  "code": "KE SIL2",
+  "name": "KE SIL2 – NAK sódio-potássio - Saída 4...20 mA - SIL2",
+  "slug": "ke-sil2-nak-sodio-potassio-saida-4-20-ma-sil2",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/ke-sil2-nak-sodio-potassio-saida-4-20-ma-sil2-1.webp",
+    "/images/products/ke-sil2-nak-sodio-potassio-saida-4-20-ma-sil2-2.webp",
+    "/images/products/ke-sil2-nak-sodio-potassio-saida-4-20-ma-sil2-3.webp"
+  ],
+  "shortDescription": "A Série KE destina-se ao uso em aplicações de alta temperatura, nas quais as temperaturas do processo podem atingir 538 °C (1.000 °F), como no caso de polímeros de alta temperatura. A Série K utiliza princípios e construção padrão de pressão de fusão, mas emprega um NAK (sódio-p…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixas de pressão: 0-35 a 0-1000 bar / 0-500 a 0-15000 psi</li><li>Precisão: &lt; ±0,25% FS (H); &lt; ±0,5% FS (M)\nO sistema de transmissão hidráulica do sinal de pressão garante estabilidade à temperatura de operação (NaK). Líquido em conformidade com a Diretiva RoHS.</li></ul>\n<h3>Visão geral</h3>\n<p>A Série KE destina-se ao uso em aplicações de alta temperatura, nas quais as temperaturas do processo podem atingir 538 °C (1.000 °F), como no caso de polímeros de alta temperatura. A Série K utiliza princípios e construção padrão de pressão de fusão, mas emprega um NAK (sódio-potássio) quase incompressível para a transmissão de pressão. A tecnologia extensométrica de filme espesso da série KE permite transformar a grandeza física “pressão” em um sinal elétrico, neste caso de 4 a 20 mA. A versão com certificação SIL2 torna o produto adequado para uso em aplicações de Segurança Funcional, particularmente em plantas de processo para a produção de polímeros, onde esse é um requisito essencial.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 5
+}

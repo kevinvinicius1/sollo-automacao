@@ -1,0 +1,17 @@
+{
+  "code": "HWX",
+  "name": "HWX – Smart HART Atex - Nível de desempenho 'c'",
+  "slug": "hwx-smart-hart-atex-nivel-de-desempenho-c",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/hwx-smart-hart-atex-nivel-de-desempenho-c-1.webp",
+    "/images/products/hwx-smart-hart-atex-nivel-de-desempenho-c-2.webp",
+    "/images/products/hwx-smart-hart-atex-nivel-de-desempenho-c-3.webp"
+  ],
+  "shortDescription": "A série HWX da Gefran é composta por transmissores de pressão com protocolo de comunicação HART para uso em ambientes de alta temperatura com presença de atmosfera explosiva. A principal característica desta série é a capacidade de medir a temperatura do meio até 315 °C.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixas de pressão: de 0-35 a 0-1000 bar / de 0-500 a 0-15000 psi</li><li>Precisão: &lt; ±0,25% FS (H); &lt; ±0,5% FS (M)\nSistema preenchido com fluido para garantir a estabilidade da temperatura</li></ul>\n<h3>Visão geral</h3>\n<p>A série HWX da Gefran é composta por transmissores de pressão com protocolo de comunicação HART para uso em ambientes de alta temperatura com presença de atmosfera explosiva.</p>\n<p>A principal característica desta série é a capacidade de medir a temperatura do meio até 315 °C.</p>\n<p>O princípio de construção baseia-se na transmissão hidráulica da pressão.</p>\n<p>O sistema preenchido com fluido garante a estabilidade da temperatura.</p>\n<p>A medida física é transformada em uma medida elétrica por meio da tecnologia de extensômetros.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 14
+}

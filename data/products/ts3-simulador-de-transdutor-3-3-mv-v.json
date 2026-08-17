@@ -1,0 +1,15 @@
+{
+  "code": "TS3",
+  "name": "TS3 – Simulador de transdutor 3,3 mV/V",
+  "slug": "ts3-simulador-de-transdutor-3-3-mv-v",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/ts3-simulador-de-transdutor-3-3-mv-v-1.webp"
+  ],
+  "shortDescription": "O TS3 simula a saída de um transdutor de pressão para altas temperaturas mV/V da Gefran (série M3 ou W3) em vários níveis de pressão. O TS3 simula qualquer transdutor baseado em extensômetro na versão de 6 pinos (TS36) ou de 8 pinos (TS38).",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Precisão superior a ±0,25% FS (±0,05 mV/V)</li><li>Preço acessível</li><li>Leve e fácil de usar</li></ul>\n<h3>Visão geral</h3>\n<p>O TS3 simula a saída de um transdutor de pressão para altas temperaturas mV/V da Gefran (série M3 ou W3) em vários níveis de pressão.</p>\n<p>O TS3 simula qualquer transdutor baseado em extensômetro na versão de 6 pinos (TS36) ou de 8 pinos (TS38).</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 53
+}

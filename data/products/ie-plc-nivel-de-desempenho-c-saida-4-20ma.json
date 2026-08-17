@@ -1,0 +1,17 @@
+{
+  "code": "IE PLc",
+  "name": "IE PLc – Nível de desempenho 'c' - Saída 4...20mA",
+  "slug": "ie-plc-nivel-de-desempenho-c-saida-4-20ma",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/ie-plc-nivel-de-desempenho-c-saida-4-20ma-1.webp",
+    "/images/products/ie-plc-nivel-de-desempenho-c-saida-4-20ma-2.webp",
+    "/images/products/ie-plc-nivel-de-desempenho-c-saida-4-20ma-3.webp"
+  ],
+  "shortDescription": "A série “IMPACT” da Gefran é formada por transmissores de pressão, sem fluido de transmissão, para o uso em um ambiente de alta temperatura (350°C). A pressão média é diretamente transferida para o elemento sensível de silicone, por meio de uma membrana densa.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Nível de desempenho ‘c’ - Saída 4...20 mA</li><li>Conformidade com o Nível de Desempenho “C”</li><li>Faixas de pressão: 0-10 a 0-1000 bar / 0-150 a 0-15000 psi</li><li>Precisão: &lt; ±0,25% FS (H); &lt; ±0,5% FS (M)</li></ul>\n<h3>Visão geral</h3>\n<p>A série “IMPACT” da Gefran é formada por transmissores de pressão, sem fluido de transmissão, para o uso em um ambiente de alta temperatura (350°C).</p>\n<p>A pressão média é diretamente transferida para o elemento sensível de silicone, por meio de uma membrana densa.</p>\n<p>O esforço é transmitido por meio de uma estrutura de silicone micro-trabalhada (MEMS). O princípio operacional é piezorresistivo.</p>\n<p>A microestrutura inclui a membrana de medição e os piezorresistores.</p>\n<p>A deflexão mínima exigida pelo elemento sensível torna possível o uso em componentes mecânicos bastante robustos.</p>\n<p>A membrana de contato do processo pode ser até 15 vezes mais densa que a membrana usada nos sensores tradicionais de pressão para alta temperatura.</p>\n<p>Aplicação:</p>\n<ul>\n<li>Devido à ausência absoluta de fluido de enchimento, a série I é a escolha certa, sem mercúrio, para aplicação no setor alimentício e clínico.</li>\n<li>Resistência superior ao desgaste: adequado para polímeros de enchimento</li>\n<li>Alta resistência para suportar a pressão dinâmica</li>\n<li>Alta robustez em relação ao processo: partidas a frio, instalação múltipla</li>\n<li>Baixa interferência térmica para o sinal de Zero e Span: &lt; 1%FS (20°C-350°C)</li>\n</ul>",
+  "downloads": [],
+  "videos": [],
+  "order": 27
+}

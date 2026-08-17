@@ -1,0 +1,17 @@
+{
+  "code": "KN",
+  "name": "KN – Saída de tensão",
+  "slug": "kn-saida-de-tensao",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/kn-saida-de-tensao-1.webp",
+    "/images/products/kn-saida-de-tensao-2.webp",
+    "/images/products/kn-saida-de-tensao-3.webp"
+  ],
+  "shortDescription": "A série KN destina-se ao uso em aplicações para alta temperatura, onde as temperaturas de processo podem atingir 538°C (1000°F), como os polímeros fabricados em altas temperaturas. A série K utiliza os princípios e a construção padrão de pressão para alta temperatura; porém util…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>NAK - Sódio-Potássio - Saída de tensão</li><li>Faixas de pressão: 0-35 a 0-1000 bar / 0-500 a 0-150.000 psi</li><li>Precisão: &lt; ±0,25% FS (H); &lt; ±0,5% FS (M)\nO sistema de transmissão hidráulica do sinal de pressão garante estabilidade à temperatura de operação (NaK). Líquido em conformidade com a Diretiva RoHS. O NaK é definido como uma substância segura (GRAS).</li></ul>\n<h3>Visão geral</h3>\n<p>A série KN destina-se ao uso em aplicações para alta temperatura, onde as temperaturas de processo podem atingir 538°C (1000°F), como os polímeros fabricados em altas temperaturas.</p>\n<p>A série K utiliza os princípios e a construção padrão de pressão para alta temperatura; porém utiliza uma mistura NaK (sódio-potássio), praticamente incomprimível para a transmissão de pressão.</p>\n<p>A tecnologia sensível ao esforço da série K é ligada por extensômetro strain gauge.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 36
+}

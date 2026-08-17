@@ -66,6 +66,16 @@ const BANNERS = [
       { file: "gra-sensor-rotativo-de-volta-unica-por-efeito-hall-com-eixo-1.webp", height: 300 },
     ],
   },
+  {
+    // Os sensores Melt têm capilar e ficam muito largos; entram baixos, ao
+    // lado de um transdutor industrial e do visor de alarme.
+    slug: "sensores-de-pressao-melt",
+    itens: [
+      { file: "hmj-transdutor-melt-com-hart-exd-iecex-e-atex-1.webp", height: 150 },
+      { file: "kx-saida-ma-a-prova-de-explosao-peso-atex-sil2-pac-eac-1.webp", height: 240 },
+      { file: "tdp-1001-visor-dos-limites-de-alarme-plug-in-local-1.webp", height: 300 },
+    ],
+  },
 ];
 
 async function recortar({ file, height }) {

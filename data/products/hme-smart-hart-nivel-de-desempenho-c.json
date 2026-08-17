@@ -1,0 +1,17 @@
+{
+  "code": "HME",
+  "name": "HME – Smart HART - Nível de desempenho 'c'",
+  "slug": "hme-smart-hart-nivel-de-desempenho-c",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/hme-smart-hart-nivel-de-desempenho-c-1.webp",
+    "/images/products/hme-smart-hart-nivel-de-desempenho-c-2.webp",
+    "/images/products/hme-smart-hart-nivel-de-desempenho-c-3.webp"
+  ],
+  "shortDescription": "A série HME da Gefran é composta por transmissores de pressão para uso em ambientes de alta temperatura, projetados especificamente para medição de pressão de material fundido e disponíveis apenas para uso em instalações fixas de grande escala ou em equipamentos industriais esta…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixas de pressão: de 0-17 a 0-2000 bar / de 0-250 a 0-30000 psi</li><li>Precisão:  ±0,25% FS (H);  ±0,5% FS (M)</li><li>Sistema preenchido com fluido para estabilidade de temperatura</li></ul>\n<h3>Visão geral</h3>\n<p>A série HME da Gefran é composta por transmissores de pressão para uso em ambientes de alta temperatura, projetados especificamente para medição de pressão de material fundido e disponíveis apenas para uso em instalações fixas de grande escala ou em equipamentos industriais estacionários de grande porte, tipicamente extrusoras, ou para equipamentos de laboratório B2B para fins de P&amp;D, de acordo com a Diretiva Europeia 2011/65/UE.</p>\n<p>A série HME da Gefran é composta por transmissores de pressão com protocolo de comunicação HART para uso em ambientes de alta temperatura.</p>\n<p>A principal característica dessa série é a capacidade de medir a temperatura do meio até 400 °C.</p>\n<p>O princípio construtivo baseia-se na transmissão hidráulica da pressão.</p>\n<p>O sistema preenchido com fluido garante a estabilidade da temperatura.</p>\n<p>A medida física é transformada em uma medida elétrica por meio da tecnologia de extensômetros.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 20
+}

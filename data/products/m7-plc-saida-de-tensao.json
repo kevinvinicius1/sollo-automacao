@@ -1,0 +1,17 @@
+{
+  "code": "M7 PLc",
+  "name": "M7 PLc – Saída de tensão",
+  "slug": "m7-plc-saida-de-tensao",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/m7-plc-saida-de-tensao-1.webp",
+    "/images/products/m7-plc-saida-de-tensao-2.webp",
+    "/images/products/m7-plc-saida-de-tensao-3.webp"
+  ],
+  "shortDescription": "A série M7 Pl’c’ da Gefran é composta por transmissores de pressão para utilização em ambientes com altas temperaturas. Foi especificamente concebida para a medição de pressão de fusão e está disponível apenas para ser utilizada em instalações fixas de grande dimensão, em ferram…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Nível de desempenho PL'c'</li><li>Faixas de pressão: de 0-17 a 0-2000 bar / de 0-250 a 0-30000 psi</li><li>Precisão: &lt; ±0,25% FSO (H); &lt; ±0,5% FSO (M)</li></ul>\n<h3>Visão geral</h3>\n<p>A série M7 Pl’c’ da Gefran é composta por transmissores de pressão para utilização em ambientes com altas temperaturas. Foi especificamente concebida para a medição de pressão de fusão e está disponível apenas para ser utilizada em instalações fixas de grande dimensão, em ferramentas industriais fixas de grandes dimensões, normalmente extrusoras, ou para equipamentos B2B de laboratório para fins de investigação e desenvolvimento, de acordo com a Diretiva 2011/65/UE europeia (consultar a nota informativa sobre a RoHS II).</p>\n<p>A série M7 de nível de desempenho “C” é formada por sensores de pressão para o uso em aplicações para alta temperatura, onde as temperaturas de processo podem atingir 400°C (°F), como os polímeros fabricados em altas temperaturas.</p>\n<p>A série K utiliza os princípios e a construção padrão de pressão para alta temperatura; a tecnologia sensível ao esforço é de um extensômetro strain gauge.</p>\n<p>Um líquido praticamente incomprimível (mercúrio) é utilizado para a transmissão de pressão.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 42
+}

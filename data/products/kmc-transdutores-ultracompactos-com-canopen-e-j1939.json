@@ -1,0 +1,17 @@
+{
+  "code": "KMC",
+  "name": "KMC – Transdutores ultracompactos com CANopen e J1939",
+  "slug": "kmc-transdutores-ultracompactos-com-canopen-e-j1939",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "industrial",
+  "images": [
+    "/images/products/kmc-transdutores-ultracompactos-com-canopen-e-j1939-1.webp",
+    "/images/products/kmc-transdutores-ultracompactos-com-canopen-e-j1939-2.webp",
+    "/images/products/kmc-transdutores-ultracompactos-com-canopen-e-j1939-3.webp"
+  ],
+  "shortDescription": "Os transmissores de pressão KMC são baseados em um elemento sensor de filme espesso em um diafragma de aço inoxidável. Graças à mais recente tecnologia SMD e à construção compacta em aço inoxidável, estes produtos são extremamente robustos e confiáveis, especialmente adequados p…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Projetado para hidráulica móvel</li><li>Saídas digitais: CAN Open, CAN Open Safety e J1939</li><li>SIL2/PLd, E1</li></ul>\n<h3>Visão geral</h3>\n<p>Os transmissores de pressão KMC são baseados em um elemento sensor de filme espesso em um diafragma de aço inoxidável.</p>\n<p>Graças à mais recente tecnologia SMD e à construção compacta em aço inoxidável, estes produtos são extremamente robustos e confiáveis, especialmente adequados para aplicações de hidráulica móvel.</p>\n<p>Em particular, a série KMC combina alta precisão com estabilidade de temperatura, resistência a condições ambientais extremas e saída digital CAN com protocolos típicos de hidráulica móvel.</p>\n<p>Desenvolvido para garantir uma solução robusta e de alto desempenho para aplicações como máquinas agrícolas, máquinas de construção e equipamentos de movimentação de materiais.</p>\n<p>O sinal digital, além da medição da pressão, também contém os dados relativos à temperatura do aparelho.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 8
+}

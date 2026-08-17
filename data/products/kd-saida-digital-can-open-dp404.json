@@ -1,0 +1,17 @@
+{
+  "code": "KD",
+  "name": "KD – Saída digital CAN OPEN DP404",
+  "slug": "kd-saida-digital-can-open-dp404",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/kd-saida-digital-can-open-dp404-1.webp",
+    "/images/products/kd-saida-digital-can-open-dp404-2.webp",
+    "/images/products/kd-saida-digital-can-open-dp404-3.webp"
+  ],
+  "shortDescription": "A série KD é formada por sensores de pressão para o uso em aplicações para alta temperatura, onde as temperaturas de processo podem atingir 538°C (1000°F), como os polímeros fabricados em altas temperaturas. A série K utiliza os princípios e a construção padrão de pressão para a…",
+  "specsHtml": "<h3>Visão geral</h3>\n<p>A série KD é formada por sensores de pressão para o uso em aplicações para alta temperatura, onde as temperaturas de processo podem atingir 538°C (1000°F), como os polímeros fabricados em altas temperaturas.</p>\n<p>A série K utiliza os princípios e a construção padrão de pressão para alta temperatura com fluido de enchimento de tecnologia extensiométrica strain gauge.</p>\n<p>Uma mistura de sódio-potássio (ou seja, NaK), praticamente incomprimível é utilizada para a transmissão de pressão. A FDA reconhece a NaK como uma substância segura (GRAS).</p>\n<p>Aplicação:</p>\n<ul>\n<li>Conforme aprovação da FDA, a série K é adequada para aplicação sem mercúrio, no setor alimentício e clínico</li>\n<li>Processamento de polímeros especiais, tecnopolímeros (538°C /1000°F)</li>\n</ul>",
+  "downloads": [],
+  "videos": [],
+  "order": 47
+}

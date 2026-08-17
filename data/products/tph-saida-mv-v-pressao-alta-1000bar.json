@@ -1,0 +1,17 @@
+{
+  "code": "TPH",
+  "name": "TPH – Saída mV/V Pressão alta > 1000bar",
+  "slug": "tph-saida-mv-v-pressao-alta-1000bar",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "industrial",
+  "images": [
+    "/images/products/tph-saida-mv-v-pressao-alta-1000bar-1.webp",
+    "/images/products/tph-saida-mv-v-pressao-alta-1000bar-2.webp",
+    "/images/products/tph-saida-mv-v-pressao-alta-1000bar-3.webp"
+  ],
+  "shortDescription": "Os transdutores da série TPH para alta pressão são baseados na tecnologia de extensômetros colados em aço inoxidável. O diafragma de medição com estrutura monolítica torna o transmissor altamente eficiente, confiável e seguro – fatores extremamente importantes em aplicações de a…",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixas: de 0...1000 a 0...5000 bar</li><li>Precisão: ± 0,1% FSO (típica)</li><li>Proteção: IP65/IP67</li></ul>\n<h3>Visão geral</h3>\n<p>Os transdutores da série TPH para alta pressão são baseados na tecnologia de extensômetros colados em aço inoxidável.</p>\n<p>O diafragma de medição com estrutura monolítica torna o transmissor altamente eficiente, confiável e seguro – fatores extremamente importantes em aplicações de alta pressão.</p>\n<p>Toda a estrutura mecânica, com orifícios de ventilação, foi projetada para garantir a segurança e torna o transdutor adequado para medir tanto a pressão estática quanto a dinâmica, mesmo em condições adversas.</p>\n<p>O TPH é particularmente adequado para aplicações em circuitos hidráulicos de alta e altíssima pressão, como (por exemplo) em bancadas de teste ou em máquinas de corte a jato de água. Componentes de última geração e usinagem de alta precisão tornam o TPH o produto ideal para todos os requisitos acima, onde é necessário um transdutor não amplificado com saída em mV/V.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 4
+}

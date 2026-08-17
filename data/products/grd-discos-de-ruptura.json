@@ -1,0 +1,15 @@
+{
+  "code": "GRD",
+  "name": "GRD – Discos de ruptura",
+  "slug": "grd-discos-de-ruptura",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/grd-discos-de-ruptura-1.webp"
+  ],
+  "shortDescription": "Os discos de ruptura, também conhecidos como plugues de ruptura ou soft plugs, são utilizados para aliviar a pressão de emergência de uma extrusora. Eles são desenhados para efetuar, instantaneamente, a ruptura em uma pressão específica.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>Faixa de pressão de 2.500 psi (170 bar) a 12.000 psi (827 bar)</li><li>Classificação térmica de até 750 °F (400 °C)</li><li>Duas opções de comprimento</li></ul>\n<h3>Visão geral</h3>\n<p>Os discos de ruptura, também conhecidos como plugues de ruptura ou soft plugs, são utilizados para aliviar a pressão de emergência de uma extrusora.<br>\nEles são desenhados para efetuar, instantaneamente, a ruptura em uma pressão específica.<br>\nIsso oferece alívio confiável em aplicações onde um rápido acúmulo de pressão pode acontecer, protegendo assim a equipe e o equipamento.<br>\nPara uma vida útil máxima, a classificação de pressão recomendada é de &gt;=1,4 vezes a pressão normal de operação.<br>\nNão exceda a especificação de pressão elevada.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 54
+}

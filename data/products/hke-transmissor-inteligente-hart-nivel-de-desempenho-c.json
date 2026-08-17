@@ -1,0 +1,17 @@
+{
+  "code": "HKE",
+  "name": "HKE – Transmissor inteligente (HART) - Nível de desempenho ‘c’",
+  "slug": "hke-transmissor-inteligente-hart-nivel-de-desempenho-c",
+  "category": "sensores-de-pressao-melt",
+  "subcategory": "melt-alta-temperatura",
+  "images": [
+    "/images/products/hke-transmissor-inteligente-hart-nivel-de-desempenho-c-1.webp",
+    "/images/products/hke-transmissor-inteligente-hart-nivel-de-desempenho-c-2.webp",
+    "/images/products/hke-transmissor-inteligente-hart-nivel-de-desempenho-c-3.webp"
+  ],
+  "shortDescription": "A série HKE da Gefran é composta por transmissores de pressão com protocolo de comunicação HART para uso em ambientes de alta temperatura. A principal característica desta série é a capacidade de medir a temperatura do fluido até 538 °C.",
+  "specsHtml": "<h3>Características principais</h3>\n<ul><li>faixas de pressão de: 0-35 a 0-1000 bar / 0-500 a 0-15000 psi</li><li>precisão:  ±0,25% FS (h);  ±0,5% FS (m)</li><li>o sistema de transmissão hidráulica do sinal de pressão garante estabilidade à temperatura de trabalho (nak).</li></ul>\n<h3>Visão geral</h3>\n<p>A série HKE da Gefran é composta por transmissores de pressão com protocolo de comunicação HART para uso em ambientes de alta temperatura.</p>\n<p>A principal característica desta série é a capacidade de medir a temperatura do fluido até 538 °C.</p>\n<p>O princípio de construção baseia-se na transmissão hidráulica da pressão.</p>\n<p>O sistema preenchido com fluido garante a estabilidade da temperatura.</p>\n<p>A medida física é transformada em uma medida elétrica por meio da tecnologia de extensômetros.</p>",
+  "downloads": [],
+  "videos": [],
+  "order": 24
+}
