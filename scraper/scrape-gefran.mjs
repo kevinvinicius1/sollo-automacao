@@ -62,15 +62,22 @@ const LINHAS = [
 const SKIP_TITLES = new Set(["GF_eXpress"]);
 
 /**
- * A Gefran deixou dois trechos sem traduzir no site pt-BR. O conteúdo do
- * site é em pt-BR, então substituímos na origem.
+ * Ajustes sobre o que a Gefran publica, aplicados na origem:
+ *
+ * - tradução dos trechos que ficaram em inglês no site pt-BR;
+ * - encurtamento dos subtítulos longos. Alguns passam de 100 caracteres e
+ *   estouram a faixa de título da página de produto, dimensionada para ~60.
+ *   Sai do nome só o que é detalhe de interface ou de mostrador, que segue
+ *   no resumo e nas especificações; o subtítulo é a base do nome e do slug.
  */
 const OVERRIDES = {
-  "3850T": {
-    subTitle:
-      "Controlador, programador e registrador de até 16 loops PID, " +
-      "interface gráfica sensível ao toque de 7”",
-  },
+  "3850T": { subTitle: "Controlador e registrador de até 16 loops PID" },
+  "2850T": { subTitle: "Programador e registrador de até 8 loops PID" },
+  "40TB": { subTitle: "Indicador/Unidade de alarme de temperatura e pressão" },
+  "40B48": { subTitle: "Indicador/Unidade de alarme de força, pressão e posição" },
+  "40B96": { subTitle: "Indicador/Unidade de alarme de força, pressão e posição" },
+  "40A48-96": { subTitle: "Indicador/Unidade de alarme de tensão e corrente" },
+  "4A48-96": { subTitle: "Indicador/Unidade de alarme de tensão e corrente" },
   "4T96": { subTitle: "Indicador" },
   "400-401": {
     mainFeatures:

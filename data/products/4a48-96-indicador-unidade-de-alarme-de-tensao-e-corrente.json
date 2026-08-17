@@ -1,11 +1,11 @@
 {
   "code": "4A48-96",
-  "name": "4A48-96 – Indicador/Unidade de alarme para entradas de tensão e corrente",
-  "slug": "4a48-96-indicador-unidade-de-alarme-para-entradas-de-tensao-e-corrente",
+  "name": "4A48-96 – Indicador/Unidade de alarme de tensão e corrente",
+  "slug": "4a48-96-indicador-unidade-de-alarme-de-tensao-e-corrente",
   "category": "controladores-e-indicadores",
   "subcategory": "indicadores-e-unidades-de-alarme",
   "images": [
-    "/images/products/4a48-96-indicador-unidade-de-alarme-para-entradas-de-tensao-e-corrente-1.webp"
+    "/images/products/4a48-96-indicador-unidade-de-alarme-de-tensao-e-corrente-1.webp"
   ],
   "shortDescription": "Indicador microprocessado disponível nos formatos 48x48mm (1/16 DIN) e 96x48mm (1/8 DIN) fabricado em tecnologia de montagem sobre superfície (SMT). Os instrumentos tem frontal em membrana de Lexan (que lhe assegura proteção classe IP65) com 3 teclas, display de 3 dígitos para o…",
   "specsHtml": "<h3>Características principais</h3>\n<ul><li>Tensão CA, corrente CA com entrada direta nos terminais do instrumento</li><li>Protegido por um código pessoal</li><li>Configurável por conexão serial</li></ul>\n<h3>Visão geral</h3>\n<p>Indicador microprocessado disponível nos formatos 48x48mm (1/16 DIN) e 96x48mm (1/8 DIN) fabricado em tecnologia de montagem sobre superfície (SMT).</p>\n<p>Os instrumentos tem frontal em membrana de Lexan (que lhe assegura proteção classe IP65) com 3 teclas, display de 3 dígitos para o formato 48x48mm ou display de 3 / 4 dígitos para o formato 96x48mm.</p>\n<p>A seção de entrada de sinal permite a visualização do valor senoidal efetivo corresponde aos seguintes sinais:</p>\n<ul>\n<li>Tensão AC: 0 a 2, 0 a 20, 0 a 200 e 0 a 500Vac</li>\n<li>Corrente AC: 0 a 20, 0 a 50, 0 a 200mAac; 0 a 1, 0 a 5Aac</li>\n</ul>\n<p>A seleção é feita usando-se as teclas do frontal e os terminais de entrada adequados. Não é necessário shunt ou adaptador externo. A programação do instrumento é facilitada agrupando-se os parâmetros em blocos de função e por um menu simplificado de entrada de dados.</p>\n<p>A configuração pode ser ainda mais simplificada usando-se um kit de programação para.</p>\n<p>PC composto de um cabo de conexão e um programa orientado por menus que roda debaixo de Windows.</p>\n<p>Pode ser usado um código de proteção pessoal por software (proteção por senha) para restringir os níveis de edição e exibição dos parâmetros de configuração.</p>",

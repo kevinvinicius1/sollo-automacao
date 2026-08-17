@@ -71,12 +71,15 @@ export default async function ProdutoPage({ params }: Props) {
       });
     }
   }
-  crumbs.push({ label: product.name });
+  // O código identifica o produto sem estourar a linha; nomes da Gefran
+  // passam de 60 caracteres e fariam a trilha quebrar, empurrando o
+  // "Voltar" para baixo. Sem código cadastrado, cai no nome.
+  crumbs.push({ label: product.code || product.name });
 
+  // Todo produto com código já traz o código no início do nome, então
+  // repeti-lo aqui duplicava o trecho na mensagem ("1850 – 1850 – …").
   const whatsappCta = whatsappLink(
-    product.code
-      ? `Olá! Gostaria de um orçamento do produto ${product.code} – ${product.name}`
-      : `Olá! Gostaria de um orçamento do produto ${product.name}`
+    `Olá! Gostaria de um orçamento do produto ${product.name}`
   );
 
   const embeds = product.videos
