@@ -163,15 +163,6 @@ export default async function ProdutoPage({ params }: Props) {
               <WhatsAppIcon className="h-6 w-6" />
               Solicitar orçamento pelo WhatsApp
             </a>
-            <p className="mt-3 text-sm text-slate-500">
-              Atendimento comercial: {siteConfig.phone} ·{" "}
-              <a
-                href={`mailto:${siteConfig.email}`}
-                className="text-brand-500 underline"
-              >
-                {siteConfig.email}
-              </a>
-            </p>
           </div>
         </div>
 
