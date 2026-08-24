@@ -8,8 +8,25 @@ import { isWipCategory, siteConfig, whatsappLink } from "../../site.config";
 
 export default async function HomePage() {
   const categories = await getCategories();
-  const heroSlides = categories
-    .filter((cat) => cat.heroImage && !isWipCategory(cat.slug))
+
+  /*
+   * O carrossel alterna os dois fabricantes a cada slide — Gefran, Fluir,
+   * Gefran, Fluir —, cada um na ordem em que suas linhas aparecem na vitrine
+   * logo abaixo. Sem isso o carrossel mostraria as quatro linhas Gefran em
+   * sequência e só depois as quatro pneumáticas, dando a impressão de dois
+   * catálogos separados.
+   */
+  const visiveis = categories.filter(
+    (cat) => cat.heroImage && !isWipCategory(cat.slug)
+  );
+  const gefran = visiveis.filter((cat) => cat.brand === "Gefran");
+  const fluir = visiveis.filter((cat) => cat.brand !== "Gefran");
+  const heroSlides = Array.from(
+    { length: Math.max(gefran.length, fluir.length) },
+    (_, i) => [gefran[i], fluir[i]]
+  )
+    .flat()
+    .filter((cat) => cat !== undefined)
     .map((cat) => ({ name: cat.name, image: cat.heroImage! }));
 
   return (
