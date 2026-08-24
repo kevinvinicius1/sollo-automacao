@@ -28,17 +28,28 @@ const PRODUCTS = path.join(ROOT, "public", "images", "products");
 const CATEGORIAS = path.join(ROOT, "public", "images", "categorias");
 const MARCAS = path.join(ROOT, "scripts", "marcas");
 
-const WIDTH = 1080;
-const HEIGHT = 400;
+/**
+ * Todas as medidas abaixo estão no sistema de 1080×400 — a proporção 27:10 em
+ * que o banner é diagramado — e `px()` converte para o pixel do arquivo. O
+ * banner é exibido a 1104 CSS px de largura, então em tela retina o navegador
+ * pede o dobro disso: gravar em 1× deixava a imagem visivelmente mole em
+ * metade dos aparelhos. As fotos de origem (a maioria com 1200px de lado)
+ * aguentam 2× sem ampliação.
+ */
+const ESCALA = 2;
+const px = (n) => Math.round(n * ESCALA);
+
+const WIDTH = px(1080);
+const HEIGHT = px(400);
 const BACKGROUND = { r: 238, g: 242, b: 246 };
-const MARGIN = 30;
+const MARGIN = px(30);
 /**
  * Vão mínimo entre peças. Vale por banner (`vaoMin`) porque foto de peça na
  * diagonal — os cilindros — tem quadro largo e cantos vazios: sem deixar os
  * quadros se sobreporem, as peças precisariam encolher e a fila ficaria
  * pequena no meio de um banner vazio.
  */
-const VAO_MIN = 20;
+const VAO_MIN = 20; // em unidades de 1x, como as alturas dos itens
 /**
  * Faixa vertical em que a fila pode entrar: começa abaixo do logotipo e para
  * antes da borda inferior. As peças são alinhadas pela base — não
@@ -46,15 +57,15 @@ const VAO_MIN = 20;
  * faixa: linhas de peças alongadas (sensores Melt, magnetostritivos) rendem
  * alturas baixas e, com base fixa, deixariam um vazio grande em cima.
  */
-const FAIXA_TOPO = 58;
-const FAIXA_BASE = 362;
+const FAIXA_TOPO = px(58);
+const FAIXA_BASE = px(362);
 
 /** Larguras diferentes porque o logotipo da Fluir tem símbolo além do texto. */
 const LOGOTIPOS = {
-  Gefran: { file: "gefran.svg", width: 128 },
-  "Fluir Automação": { file: "fluir.png", width: 100 },
+  Gefran: { file: "gefran.svg", width: px(128) },
+  "Fluir Automação": { file: "fluir.png", width: px(100) },
 };
-const MARCA_TOP = 26;
+const MARCA_TOP = px(26);
 
 /**
  * Um banner por linha. A seleção privilegia os modelos de maior saída e a
@@ -73,11 +84,14 @@ const BANNERS = [
     ],
   },
   {
+    // Entra o curinga GPC no lugar do GFX4: a única foto de produto do GFX4
+    // publicada pela Gefran tem 354×340 (as outras duas do produto são logos
+    // de protocolo), pequena demais para o banner em 2×.
     slug: "reles-e-modulos-de-potencia",
     marca: "Gefran",
     itens: [
       { file: "gtf-controlador-de-potencia-monofasico-ate-250a-1.webp", height: 270 },
-      { file: "gfx4-controlador-de-potencia-4-circuitos-pid-ate-80-kw-1.webp", height: 235 },
+      { file: "gpc-controlador-de-potencia-avancado-ate-600-a-1.webp", height: 235 },
       { file: "grz-h-rele-de-estado-solido-trifasico-10a-ate-75a-1.webp", height: 260 },
       { file: "gq-rele-de-estado-solido-monofasico-ate-90a-1.webp", height: 245 },
     ],
@@ -162,16 +176,19 @@ const ALTURA_MAX = FAIXA_BASE - FAIXA_TOPO;
  * para pixels transparentes e não cortaria nada. Daí as duas passagens.
  */
 async function recortar({ file, height }) {
-  const alvo = Math.min(height, ALTURA_MAX);
+  const alvo = Math.min(px(height), ALTURA_MAX);
   const opaca = await sharp(path.join(PRODUCTS, file))
     .flatten({ background: "#ffffff" })
     .toBuffer();
-  const buf = await sharp(opaca)
+  const recorte = await sharp(opaca)
     .trim({ background: "#ffffff", threshold: 12 })
+    .toBuffer();
+  const nativa = await sharp(recorte).metadata();
+  const buf = await sharp(recorte)
     .resize({ height: alvo, withoutEnlargement: false })
     .toBuffer();
   const { width } = await sharp(buf).metadata();
-  return { buf, width, height: alvo };
+  return { buf, width, height: alvo, file, ampliacao: alvo / nativa.height };
 }
 
 async function logotipo(marca) {
@@ -189,13 +206,13 @@ async function montar({ slug, marca, itens, vaoMin = VAO_MIN }) {
   let pecas = [];
   for (const item of itens) pecas.push(await recortar(item));
 
-  const util = WIDTH - MARGIN * 2 - vaoMin * (pecas.length - 1);
+  const util = WIDTH - MARGIN * 2 - px(vaoMin) * (pecas.length - 1);
   const larguraCrua = pecas.reduce((s, p) => s + p.width, 0);
   if (larguraCrua > util) {
     const escala = util / larguraCrua;
     pecas = [];
     for (const item of itens) {
-      pecas.push(await recortar({ ...item, height: Math.round(Math.min(item.height, ALTURA_MAX) * escala) }));
+      pecas.push(await recortar({ ...item, height: Math.min(item.height, ALTURA_MAX / ESCALA) * escala }));
     }
   }
 
@@ -233,6 +250,14 @@ async function montar({ slug, marca, itens, vaoMin = VAO_MIN }) {
     `${path.relative(ROOT, dest)} — ${marca}, ${pecas.length} peças` +
       ` (altura máx. ${Math.max(...pecas.map((p) => p.height))}px, vão ${Math.round(vao)}px)`
   );
+
+  // O banner é gravado em 2x justamente para não ficar mole em tela retina —
+  // não adianta se a foto de origem for pequena e tiver que ser esticada.
+  for (const p of pecas.filter((p) => p.ampliacao > 1.05)) {
+    console.log(
+      `   aviso: ${p.file} ampliada ${p.ampliacao.toFixed(2)}x — procurar foto maior`
+    );
+  }
 }
 
 async function main() {
