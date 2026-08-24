@@ -38,9 +38,13 @@ export default async function HomePage() {
       <section className="bg-brand-800 text-white">
         <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 md:py-12">
           <h1 className="max-w-3xl text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
-            Cilindros, válvulas e preparação de ar para a sua indústria
+            Manutenção industrial é com a {siteConfig.name}
           </h1>
           <div className="mt-4 h-1 w-14 bg-accent-500" aria-hidden="true" />
+          <p className="mt-5 max-w-2xl leading-relaxed text-brand-100">
+            Distribuidor exclusivo Gefran no Brasil. Linha pneumática completa:
+            cilindros, válvulas, preparação de ar e conexões.
+          </p>
           <div className="mt-8 aspect-[27/10] overflow-hidden rounded bg-white">
             <HomeCarousel slides={heroSlides} />
           </div>

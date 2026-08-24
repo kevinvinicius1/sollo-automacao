@@ -105,10 +105,10 @@
     ]
   },
   {
-    "name": "Cilindros",
+    "name": "Cilindros Pneumáticos",
     "slug": "cilindros-pneumaticos",
     "brand": "Fluir Automação",
-    "image": "/images/products/fct-cilindro-tirantado-iso-1.webp",
+    "image": "/images/products/fce-cilindro-perfil-europa-iso-1.webp",
     "heroImage": "/images/categorias/topo-cilindros-pneumaticos.webp",
     "order": 5,
     "subcategories": [
@@ -133,7 +133,7 @@
     "name": "Válvulas",
     "slug": "valvulas",
     "brand": "Fluir Automação",
-    "image": "/images/products/valvulas-botao-2-2-1.webp",
+    "image": "/images/products/capa-valvulas-linha-zf.webp",
     "heroImage": "/images/categorias/topo-valvulas.webp",
     "order": 6,
     "subcategories": [
@@ -183,7 +183,7 @@
     "name": "Preparação de Ar",
     "slug": "preparacao-do-ar",
     "brand": "Fluir Automação",
-    "image": "/images/products/conjunto-lubrefil-16-bar-1.webp",
+    "image": "/images/products/conjunto-lubrefil-intermediaria-1.webp",
     "heroImage": "/images/categorias/topo-preparacao-do-ar.webp",
     "order": 7,
     "subcategories": [
@@ -235,7 +235,7 @@
     ]
   },
   {
-    "name": "Conexões, Silenciadores e Tubos",
+    "name": "Conexões | Tubos",
     "slug": "conexoes",
     "brand": "Fluir Automação",
     "image": "/images/products/tubos-e-espirais-1.webp",
