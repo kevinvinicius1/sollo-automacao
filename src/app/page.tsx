@@ -41,9 +41,15 @@ export default async function HomePage() {
             Manutenção industrial é com a {siteConfig.name}
           </h1>
           <div className="mt-4 h-1 w-14 bg-accent-500" aria-hidden="true" />
+          {/* As duas frases são assuntos distintos — a relação com a Gefran e
+              o que a linha pneumática cobre —, então cada uma abre uma linha
+              em vez de correrem emendadas. */}
           <p className="mt-5 max-w-2xl leading-relaxed text-brand-100">
-            Distribuidor exclusivo Gefran no Brasil. Linha pneumática completa:
-            cilindros, válvulas, preparação de ar e conexões.
+            <span className="block">Distribuidor exclusivo Gefran no Brasil.</span>
+            <span className="block">
+              Linha pneumática completa: cilindros, válvulas, preparação de ar e
+              conexões.
+            </span>
           </p>
           <div className="mt-8 aspect-[27/10] overflow-hidden rounded bg-white">
             <HomeCarousel slides={heroSlides} />
