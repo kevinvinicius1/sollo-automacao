@@ -48,12 +48,11 @@ export default function HomeCarousel({
   if (slides.length === 0) return null;
 
   return (
-    <div
-      className="relative h-full"
-      aria-roledescription="carousel"
-      aria-label="Linhas de produtos"
-    >
-      <div ref={emblaRef} className="h-full overflow-hidden">
+    <div aria-roledescription="carousel" aria-label="Linhas de produtos">
+      <div
+        ref={emblaRef}
+        className="aspect-[27/10] overflow-hidden rounded bg-white"
+      >
         <div className="flex h-full">
           {slides.map((slide, i) => (
             <div
@@ -76,7 +75,10 @@ export default function HomeCarousel({
         </div>
       </div>
 
-      <div className="absolute bottom-4 left-1/2 flex -translate-x-1/2 gap-2.5">
+      {/* Os marcadores ficam fora da imagem: o banner é uma faixa 27:10 com
+          peça de ponta a ponta e, no celular, ele tem só uns 130px de altura —
+          por dentro os marcadores caíam em cima dos produtos. */}
+      <div className="mt-4 flex justify-center gap-2.5">
         {slides.map((slide, i) => (
           <button
             key={slide.image}
@@ -87,7 +89,7 @@ export default function HomeCarousel({
             className={`h-2.5 w-2.5 rounded-full transition-colors ${
               i === selected
                 ? "bg-accent-500"
-                : "bg-slate-400 hover:bg-slate-500"
+                : "bg-brand-400 hover:bg-brand-300"
             }`}
           />
         ))}

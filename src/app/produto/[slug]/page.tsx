@@ -117,7 +117,7 @@ export default async function ProdutoPage({ params }: Props) {
                   ? `/produtos/${category.slug}/${subcategory.slug}/`
                   : "/produtos/"
               }
-              className="inline-flex items-center gap-1.5 text-sm font-semibold text-brand-200 hover:text-white"
+              className="inline-flex items-center gap-1.5 rounded bg-accent-500 px-3 py-1.5 text-sm font-semibold text-white transition-colors hover:bg-accent-600"
             >
               <ArrowLeft className="h-4 w-4" aria-hidden="true" />
               Voltar

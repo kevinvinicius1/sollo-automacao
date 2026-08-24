@@ -29,12 +29,16 @@ export default function PageTitleBar({
   /** Id do título (para `aria-labelledby` da seção que o contém). */
   id?: string;
 }) {
+  /*
+   * Botão sólido, e não texto: em cima da faixa azul o "Voltar" ficava do
+   * mesmo tamanho e quase da mesma cor da trilha ao lado, e sumia.
+   */
   const voltar = backHref && (
     <Link
       href={backHref}
-      className="inline-flex items-center gap-1.5 text-sm font-semibold text-brand-200 hover:text-white"
+      className="inline-flex items-center gap-1.5 rounded bg-accent-500 px-3 py-1.5 text-sm font-semibold text-white transition-colors hover:bg-accent-600"
     >
-      <ArrowLeft className="h-4 w-4 text-accent-300" aria-hidden="true" />
+      <ArrowLeft className="h-4 w-4" aria-hidden="true" />
       Voltar
     </Link>
   );
@@ -42,8 +46,10 @@ export default function PageTitleBar({
   return (
     <section className="border-b-4 border-accent-500 bg-brand-800 text-white">
       <div className="mx-auto max-w-6xl px-4 py-5 sm:px-6 sm:py-6">
+        {/* gap-y maior que o gap-x: no celular a trilha ocupa a linha inteira
+            e o botão desce, e com folga de 4px ele colava nela. */}
         {crumbs && (
-          <div className="mb-4 flex flex-wrap items-center justify-between gap-x-6 gap-y-1">
+          <div className="mb-4 flex flex-wrap items-center justify-between gap-x-6 gap-y-3">
             <Breadcrumb items={crumbs} tone="dark" />
             {voltar}
           </div>

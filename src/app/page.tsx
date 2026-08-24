@@ -51,7 +51,7 @@ export default async function HomePage() {
               conexões.
             </span>
           </p>
-          <div className="mt-8 aspect-[27/10] overflow-hidden rounded bg-white">
+          <div className="mt-8">
             <HomeCarousel slides={heroSlides} />
           </div>
         </div>
