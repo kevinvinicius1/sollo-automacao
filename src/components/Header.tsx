@@ -77,8 +77,10 @@ export default function Header({ searchItems }: { searchItems: SearchItem[] }) {
 
         {/* Só a partir de lg: entre md e lg não sobra largura ao lado do menu
             (logo + busca + menu já ocupam a faixa). No mobile a frase entra
-            no fim do menu hambúrguer. */}
-        <p className="hidden shrink-0 items-center gap-2 text-sm font-medium text-white lg:flex">
+            no fim do menu hambúrguer. O ml-8 afasta a frase dos itens do
+            menu, deixando-a mais solta no canto direito (pedido do cliente:
+            estava "colada" nos botões). */}
+        <p className="ml-8 hidden shrink-0 items-center gap-2 text-sm font-medium text-white lg:flex">
           <Truck className="h-5 w-5" aria-hidden="true" />
           Enviamos para todo o Brasil!
         </p>
