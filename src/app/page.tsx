@@ -56,12 +56,13 @@ export default async function HomePage() {
             </span>
           </p>
           <a
-            href={whatsappLink("Olá! Gostaria de saber mais sobre os produtos.")}
+            href={whatsappLink("Olá! Gostaria de entrar em contato.")}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-5 inline-flex items-center rounded bg-accent-500 px-6 py-3 font-semibold text-white transition-colors hover:bg-accent-600"
+            className="mt-5 inline-flex items-center gap-2 rounded bg-accent-500 px-6 py-3 font-semibold text-white transition-colors hover:bg-accent-600"
           >
-            Descubra mais
+            <WhatsAppIcon className="h-5 w-5" />
+            Entre em Contato
           </a>
         </div>
       </section>

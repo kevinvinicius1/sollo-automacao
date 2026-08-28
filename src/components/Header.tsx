@@ -1,6 +1,6 @@
 "use client";
 
-import { Menu, X } from "lucide-react";
+import { Menu, Truck, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -75,6 +75,14 @@ export default function Header({ searchItems }: { searchItems: SearchItem[] }) {
           </ul>
         </nav>
 
+        {/* Só a partir de lg: entre md e lg não sobra largura ao lado do menu
+            (logo + busca + menu já ocupam a faixa). No mobile a frase entra
+            no fim do menu hambúrguer. */}
+        <p className="hidden shrink-0 items-center gap-2 text-sm font-medium text-white lg:flex">
+          <Truck className="h-5 w-5" aria-hidden="true" />
+          Enviamos para todo o Brasil!
+        </p>
+
         <button
           type="button"
           onClick={() => setMenuOpen((v) => !v)}
@@ -123,6 +131,10 @@ export default function Header({ searchItems }: { searchItems: SearchItem[] }) {
               ))}
             </ul>
           </nav>
+          <p className="mt-3 flex items-center gap-2 border-t border-brand-600 px-3 pt-3 text-sm font-medium text-white">
+            <Truck className="h-5 w-5" aria-hidden="true" />
+            Enviamos para todo o Brasil!
+          </p>
         </div>
       )}
     </header>
