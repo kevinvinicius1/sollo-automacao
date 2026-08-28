@@ -31,11 +31,10 @@ export default async function HomePage() {
 
   return (
     <>
-      {/* Hero: título sobre o carrossel, exibido na proporção original dos
-          banners (27:10) para não haver corte nem distorção da imagem. A
-          faixa segue direto na vitrine de linhas, fechada pelo filete bordô
-          da PageTitleBar. */}
-      <section className="bg-brand-800 text-white">
+      {/* Hero: faixa azul só com o texto, fechada pelo filete bordô como a
+          PageTitleBar; o carrossel fica fora dela, sobre o fundo claro da
+          página — mesma apresentação do banner de topo da página de linha. */}
+      <section className="border-b-4 border-accent-500 bg-brand-800 text-white">
         <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 md:py-12">
           <h1 className="max-w-3xl text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
             Manutenção industrial é com a {siteConfig.name}
@@ -51,11 +50,14 @@ export default async function HomePage() {
               conexões.
             </span>
           </p>
-          <div className="mt-8">
-            <HomeCarousel slides={heroSlides} />
-          </div>
         </div>
       </section>
+
+      {/* Carrossel na proporção original dos banners (27:10), sem corte nem
+          distorção, no mesmo contêiner do banner da página de linha. */}
+      <div className="mx-auto max-w-6xl px-4 pt-8 pb-6 sm:px-6">
+        <HomeCarousel slides={heroSlides} />
+      </div>
 
       {/* Vitrine de linhas de produto */}
       <section aria-labelledby="linhas-heading">
