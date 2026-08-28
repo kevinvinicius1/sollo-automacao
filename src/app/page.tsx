@@ -31,59 +31,64 @@ export default async function HomePage() {
 
   return (
     <>
-      {/* Hero: faixa azul só com o texto, fechada pelo filete bordô como a
-          PageTitleBar; o carrossel fica fora dela, sobre o fundo claro da
-          página — mesma apresentação do banner de topo da página de linha.
+      {/* Hero: faixa azul com texto e carrossel, seguindo direto na vitrine
+          de linhas (fechada pelo filete bordô da PageTitleBar). O botão fica
+          numa coluna à direita, centralizado na altura do bloco de texto —
+          na prática, na altura das frases do subtítulo (pedido do cliente).
           A faixa é compacta de propósito: o carrossel precisa aparecer na
           primeira dobra, sem rolagem. */}
-      <section className="border-b-4 border-accent-500 bg-brand-800 text-white">
+      <section className="bg-brand-800 text-white">
         <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6">
-          <h1 className="max-w-3xl text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
-            Automação industrial é com a Sollo
-          </h1>
-          <div className="mt-3 h-1 w-14 bg-accent-500" aria-hidden="true" />
-          {/* As duas frases são assuntos distintos — a relação com a Gefran e
-              o que a linha pneumática cobre —, então cada uma abre uma linha
-              em vez de correrem emendadas. */}
-          <p className="mt-3 max-w-2xl leading-relaxed text-brand-100">
-            <span className="block">
-              Distribuidor exclusivo <strong className="font-bold text-white">GEFRAN</strong> no
-              Brasil.
-            </span>
-            <span className="block">
-              Linha pneumática: cilindros, válvulas, conexões e preparação de
-              ar.
-            </span>
-          </p>
-          <a
-            href={whatsappLink("Olá! Gostaria de entrar em contato.")}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-5 inline-flex items-center gap-2 rounded bg-accent-500 px-6 py-3 font-semibold text-white transition-colors hover:bg-accent-600"
-          >
-            <WhatsAppIcon className="h-5 w-5" />
-            Entre em Contato
-          </a>
+          <div className="flex flex-col gap-5 md:flex-row md:items-center md:justify-between md:gap-10">
+            <div>
+              <h1 className="max-w-3xl text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
+                Automação industrial é com a Sollo
+              </h1>
+              <div className="mt-3 h-1 w-14 bg-accent-500" aria-hidden="true" />
+              {/* As duas frases são assuntos distintos — a relação com a
+                  Gefran e o que a linha pneumática cobre —, então cada uma
+                  abre uma linha em vez de correrem emendadas. */}
+              <p className="mt-3 max-w-2xl leading-relaxed text-brand-100">
+                <span className="block">
+                  Distribuidor exclusivo <strong className="font-bold text-white">GEFRAN</strong> no
+                  Brasil.
+                </span>
+                <span className="block">
+                  Linha pneumática: cilindros, válvulas, conexões e preparação
+                  de ar.
+                </span>
+              </p>
+            </div>
+            <a
+              href={whatsappLink("Olá! Gostaria de entrar em contato.")}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex shrink-0 items-center gap-2 self-start rounded bg-accent-500 px-6 py-3 font-semibold text-white transition-colors hover:bg-accent-600 md:self-center"
+            >
+              <WhatsAppIcon className="h-5 w-5" />
+              Entre em Contato
+            </a>
+          </div>
+
+          {/* Carrossel na proporção original dos banners (27:10), sem corte
+              nem distorção. A largura é limitada pela altura da janela
+              (proporção 27:10 => altura disponível × 2.7) para o banner
+              inteiro caber na primeira dobra em monitor baixo; 22rem ≈
+              header + texto do hero + respiros + marcadores. Em janela alta
+              o max(66%) nem chega a agir e o carrossel fica na largura cheia
+              do contêiner. */}
+          <div className="mt-6">
+            <div
+              className="mx-auto"
+              style={{
+                width: "min(100%, max(66%, calc((100svh - 22rem) * 2.7)))",
+              }}
+            >
+              <HomeCarousel slides={heroSlides} />
+            </div>
+          </div>
         </div>
       </section>
-
-      {/* Carrossel na proporção original dos banners (27:10), sem corte nem
-          distorção, no mesmo contêiner do banner da página de linha. A
-          largura é limitada pela altura da janela (proporção 27:10 => altura
-          disponível × 2.7) para o banner inteiro caber na primeira dobra em
-          monitor baixo; 26rem ≈ header + faixa do hero + respiros + marcadores.
-          Em janela alta o max(66%) nem chega a agir e o carrossel fica na
-          largura cheia do contêiner. */}
-      <div className="mx-auto max-w-6xl px-4 pt-5 pb-6 sm:px-6">
-        <div
-          className="mx-auto"
-          style={{
-            width: "min(100%, max(66%, calc((100svh - 26rem) * 2.7)))",
-          }}
-        >
-          <HomeCarousel slides={heroSlides} />
-        </div>
-      </div>
 
       {/* Vitrine de linhas de produto */}
       <section aria-labelledby="linhas-heading">
