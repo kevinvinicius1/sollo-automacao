@@ -33,17 +33,19 @@ export default async function HomePage() {
     <>
       {/* Hero: faixa azul só com o texto, fechada pelo filete bordô como a
           PageTitleBar; o carrossel fica fora dela, sobre o fundo claro da
-          página — mesma apresentação do banner de topo da página de linha. */}
+          página — mesma apresentação do banner de topo da página de linha.
+          A faixa é compacta de propósito: o carrossel precisa aparecer na
+          primeira dobra, sem rolagem. */}
       <section className="border-b-4 border-accent-500 bg-brand-800 text-white">
-        <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 md:py-12">
+        <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6">
           <h1 className="max-w-3xl text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
             Automação industrial é com a Sollo
           </h1>
-          <div className="mt-4 h-1 w-14 bg-accent-500" aria-hidden="true" />
+          <div className="mt-3 h-1 w-14 bg-accent-500" aria-hidden="true" />
           {/* As duas frases são assuntos distintos — a relação com a Gefran e
               o que a linha pneumática cobre —, então cada uma abre uma linha
               em vez de correrem emendadas. */}
-          <p className="mt-5 max-w-2xl leading-relaxed text-brand-100">
+          <p className="mt-3 max-w-2xl leading-relaxed text-brand-100">
             <span className="block">
               Distribuidor exclusivo <strong className="font-bold text-white">GEFRAN</strong> no
               Brasil.
@@ -57,7 +59,7 @@ export default async function HomePage() {
             href={whatsappLink("Olá! Gostaria de saber mais sobre os produtos.")}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-8 inline-flex items-center rounded bg-accent-500 px-6 py-3 font-semibold text-white transition-colors hover:bg-accent-600"
+            className="mt-5 inline-flex items-center rounded bg-accent-500 px-6 py-3 font-semibold text-white transition-colors hover:bg-accent-600"
           >
             Descubra mais
           </a>
@@ -65,9 +67,21 @@ export default async function HomePage() {
       </section>
 
       {/* Carrossel na proporção original dos banners (27:10), sem corte nem
-          distorção, no mesmo contêiner do banner da página de linha. */}
-      <div className="mx-auto max-w-6xl px-4 pt-8 pb-6 sm:px-6">
-        <HomeCarousel slides={heroSlides} />
+          distorção, no mesmo contêiner do banner da página de linha. A
+          largura é limitada pela altura da janela (proporção 27:10 => altura
+          disponível × 2.7) para o banner inteiro caber na primeira dobra em
+          monitor baixo; 26rem ≈ header + faixa do hero + respiros + marcadores.
+          Em janela alta o max(66%) nem chega a agir e o carrossel fica na
+          largura cheia do contêiner. */}
+      <div className="mx-auto max-w-6xl px-4 pt-5 pb-6 sm:px-6">
+        <div
+          className="mx-auto"
+          style={{
+            width: "min(100%, max(66%, calc((100svh - 26rem) * 2.7)))",
+          }}
+        >
+          <HomeCarousel slides={heroSlides} />
+        </div>
       </div>
 
       {/* Vitrine de linhas de produto */}
