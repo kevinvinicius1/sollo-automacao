@@ -157,10 +157,10 @@ export default async function ProdutoPage({ params }: Props) {
               href={whatsappCta}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-8 inline-flex w-full items-center justify-center gap-3 rounded bg-accent-500 px-6 py-4 text-lg font-semibold text-white transition-colors hover:bg-accent-600 sm:w-auto"
+              className="mt-8 inline-flex w-full items-center justify-center gap-3 rounded bg-brand-700 px-6 py-4 text-lg font-semibold text-white transition-colors hover:bg-brand-600 sm:w-auto"
             >
               <WhatsAppIcon className="h-6 w-6" />
-              Solicitar orçamento pelo WhatsApp
+              Saiba mais
             </a>
           </div>
         </div>

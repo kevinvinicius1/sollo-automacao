@@ -37,19 +37,30 @@ export default async function HomePage() {
       <section className="border-b-4 border-accent-500 bg-brand-800 text-white">
         <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 md:py-12">
           <h1 className="max-w-3xl text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
-            Manutenção industrial é com a {siteConfig.name}
+            Automação industrial é com a Sollo
           </h1>
           <div className="mt-4 h-1 w-14 bg-accent-500" aria-hidden="true" />
           {/* As duas frases são assuntos distintos — a relação com a Gefran e
               o que a linha pneumática cobre —, então cada uma abre uma linha
               em vez de correrem emendadas. */}
           <p className="mt-5 max-w-2xl leading-relaxed text-brand-100">
-            <span className="block">Distribuidor exclusivo Gefran no Brasil.</span>
             <span className="block">
-              Linha pneumática completa: cilindros, válvulas, preparação de ar e
-              conexões.
+              Distribuidor exclusivo <strong className="font-bold text-white">GEFRAN</strong> no
+              Brasil.
+            </span>
+            <span className="block">
+              Linha pneumática: cilindros, válvulas, conexões e preparação de
+              ar.
             </span>
           </p>
+          <a
+            href={whatsappLink("Olá! Gostaria de saber mais sobre os produtos.")}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-8 inline-flex items-center rounded bg-accent-500 px-6 py-3 font-semibold text-white transition-colors hover:bg-accent-600"
+          >
+            Descubra mais
+          </a>
         </div>
       </section>
 
@@ -77,69 +88,29 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* Como pedir orçamento — sequência real do fluxo de compra */}
-      <section aria-labelledby="como-comprar-heading">
+      {/* Institucional */}
+      <section aria-labelledby="sobre-heading">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
-          <div className="grid gap-10 md:grid-cols-2">
-            <div>
-              <h2
-                id="como-comprar-heading"
-                className="text-2xl font-bold tracking-tight text-brand-700 sm:text-3xl"
-              >
-                Sobre a {siteConfig.name}
-              </h2>
-              <div className="mt-3 h-1 w-14 bg-accent-500" aria-hidden="true" />
-              {/* PLACEHOLDER: substituir pelo texto institucional definitivo do cliente */}
-              <p className="mt-4 leading-relaxed text-slate-600">
-                A {siteConfig.name} fornece componentes pneumáticos para
-                manutenção industrial e fabricantes de máquinas. Atendemos
-                desde a reposição de um item avulso até o fornecimento
-                recorrente para linhas de produção.
-              </p>
-              <p className="mt-3 leading-relaxed text-slate-600">
-                A equipe comercial apoia a especificação: se você tem o código
-                do item, o desenho da aplicação ou só o problema a resolver,
-                retornamos com a opção adequada, preço e prazo.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-lg font-bold text-brand-700">
-                Como pedir um orçamento
-              </h3>
-              <ol className="mt-4 space-y-4">
-                {[
-                  {
-                    title: "Encontre o item no catálogo",
-                    text: "Use a busca por nome ou código de série, ou navegue pelas linhas.",
-                  },
-                  {
-                    title: "Envie o código pelo WhatsApp",
-                    text: "O botão de orçamento em cada produto já preenche a mensagem com o código.",
-                  },
-                  {
-                    title: "Receba preço e prazo",
-                    text: "A equipe comercial retorna com condições de fornecimento.",
-                  },
-                ].map((step, i) => (
-                  <li key={step.title} className="flex gap-4">
-                    <span
-                      className="flex h-8 w-8 shrink-0 items-center justify-center rounded bg-brand-700 text-sm font-bold text-white"
-                      aria-hidden="true"
-                    >
-                      {i + 1}
-                    </span>
-                    <div>
-                      <h4 className="font-semibold text-slate-900">
-                        {step.title}
-                      </h4>
-                      <p className="mt-0.5 text-sm leading-relaxed text-slate-600">
-                        {step.text}
-                      </p>
-                    </div>
-                  </li>
-                ))}
-              </ol>
-            </div>
+          <div className="max-w-3xl">
+            <h2
+              id="sobre-heading"
+              className="text-2xl font-bold tracking-tight text-brand-700 sm:text-3xl"
+            >
+              Conheça a Sollo
+            </h2>
+            <div className="mt-3 h-1 w-14 bg-accent-500" aria-hidden="true" />
+            {/* PLACEHOLDER: substituir pelo texto institucional definitivo do cliente */}
+            <p className="mt-4 leading-relaxed text-slate-600">
+              A {siteConfig.name} fornece componentes pneumáticos para
+              manutenção industrial e fabricantes de máquinas. Atendemos desde
+              a reposição de um item avulso até o fornecimento recorrente para
+              linhas de produção.
+            </p>
+            <p className="mt-3 leading-relaxed text-slate-600">
+              A equipe comercial apoia a especificação: se você tem o código
+              do item, o desenho da aplicação ou só o problema a resolver,
+              retornamos com a opção adequada, preço e prazo.
+            </p>
           </div>
         </div>
       </section>
