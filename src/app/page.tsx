@@ -1,10 +1,9 @@
-import { Mail } from "lucide-react";
 import CategoryCard from "@/components/CategoryCard";
 import HomeCarousel from "@/components/HomeCarousel";
 import PageTitleBar from "@/components/PageTitleBar";
 import WhatsAppIcon from "@/components/WhatsAppIcon";
 import { getCategories } from "@/lib/catalog";
-import { isWipCategory, siteConfig, whatsappLink } from "../../site.config";
+import { isWipCategory, whatsappLink } from "../../site.config";
 
 export default async function HomePage() {
   const categories = await getCategories();
@@ -108,6 +107,53 @@ export default async function HomePage() {
         </div>
       </section>
 
+      {/* Como pedir um orçamento — faixa azul que separa a vitrine do texto institucional */}
+      <section
+        aria-labelledby="como-comprar-heading"
+        className="bg-brand-700 text-white"
+      >
+        <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
+          <h2
+            id="como-comprar-heading"
+            className="text-2xl font-bold tracking-tight sm:text-3xl"
+          >
+            Como pedir um orçamento
+          </h2>
+          <div className="mt-3 h-1 w-14 bg-accent-300" aria-hidden="true" />
+          <ol className="mt-8 grid gap-8 md:grid-cols-3">
+            {[
+              {
+                title: "Encontre o item no catálogo",
+                text: "Use a busca por nome ou código, ou navegue pelas linhas de produtos.",
+              },
+              {
+                title: "Envie o código pelo WhatsApp",
+                text: "O botão em cada produto já abre a conversa com o código preenchido.",
+              },
+              {
+                title: "Receba preço e prazo",
+                text: "A equipe comercial retorna com as condições de fornecimento.",
+              },
+            ].map((step, i) => (
+              <li key={step.title} className="flex gap-4">
+                <span
+                  className="flex h-9 w-9 shrink-0 items-center justify-center rounded bg-accent-500 text-base font-bold text-white"
+                  aria-hidden="true"
+                >
+                  {i + 1}
+                </span>
+                <div>
+                  <h3 className="font-semibold text-white">{step.title}</h3>
+                  <p className="mt-1 text-sm leading-relaxed text-brand-100">
+                    {step.text}
+                  </p>
+                </div>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </section>
+
       {/* Institucional */}
       <section aria-labelledby="sobre-heading">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
@@ -150,42 +196,6 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* CTA orçamento */}
-      <section
-        aria-labelledby="orcamento-heading"
-        className="bg-brand-700 text-white"
-      >
-        <div className="mx-auto max-w-6xl px-4 py-14 text-center sm:px-6">
-          <h2
-            id="orcamento-heading"
-            className="text-2xl font-bold tracking-tight sm:text-3xl"
-          >
-            Precisa cotar uma lista de itens?
-          </h2>
-          <p className="mx-auto mt-3 max-w-xl text-brand-100">
-            Envie os códigos e as quantidades. Retornamos com preço, prazo e
-            condições de fornecimento.
-          </p>
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
-            <a
-              href={whatsappLink("Olá! Gostaria de cotar uma lista de itens.")}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded bg-accent-500 px-6 py-3 font-semibold text-white transition-colors hover:bg-accent-600"
-            >
-              <WhatsAppIcon className="h-5 w-5" />
-              WhatsApp: {siteConfig.whatsappPhone}
-            </a>
-            <a
-              href={`mailto:${siteConfig.email}`}
-              className="inline-flex items-center gap-2 font-medium text-brand-100 underline decoration-accent-300 underline-offset-4 transition-colors hover:text-white"
-            >
-              <Mail className="h-4 w-4" aria-hidden="true" />
-              {siteConfig.email}
-            </a>
-          </div>
-        </div>
-      </section>
     </>
   );
 }
