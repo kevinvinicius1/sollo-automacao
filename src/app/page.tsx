@@ -116,20 +116,35 @@ export default async function HomePage() {
               id="sobre-heading"
               className="text-2xl font-bold tracking-tight text-brand-700 sm:text-3xl"
             >
-              Conheça a Sollo
+              Conheça nossa empresa
             </h2>
             <div className="mt-3 h-1 w-14 bg-accent-500" aria-hidden="true" />
-            {/* PLACEHOLDER: substituir pelo texto institucional definitivo do cliente */}
+            <p className="mt-4 text-lg font-semibold text-brand-700">
+              Distribuidor Autorizado <strong className="font-bold">GEFRAN</strong>
+            </p>
             <p className="mt-4 leading-relaxed text-slate-600">
-              A {siteConfig.name} fornece componentes pneumáticos para
-              manutenção industrial e fabricantes de máquinas. Atendemos desde
-              a reposição de um item avulso até o fornecimento recorrente para
-              linhas de produção.
+              Em 2015, a{" "}
+              <strong className="font-semibold text-slate-800">
+                Sollo Automação Industrial Ltda.
+              </strong>{" "}
+              iniciou sua trajetória como distribuidora de produtos para
+              automação industrial, atendendo clientes em diversas regiões do
+              Brasil. Ao longo dos anos, nosso compromisso com o trabalho e a
+              excelência impulsionou nosso crescimento contínuo.
             </p>
             <p className="mt-3 leading-relaxed text-slate-600">
-              A equipe comercial apoia a especificação: se você tem o código
-              do item, o desenho da aplicação ou só o problema a resolver,
-              retornamos com a opção adequada, preço e prazo.
+              Com a confiança de nossos clientes, conquistamos novos parceiros
+              e mercados, ampliando nossa linha de produtos com qualidade e
+              preços competitivos.
+            </p>
+            <p className="mt-3 leading-relaxed text-slate-600">
+              Nosso diferencial está em um atendimento próximo, ágil e
+              transparente, buscando entender a necessidade de cada cliente e
+              indicar produtos adequados para sua aplicação.
+            </p>
+            <p className="mt-3 leading-relaxed text-slate-600">
+              Estamos prontos para atender sua empresa e encontrar a melhor
+              solução para sua aplicação.
             </p>
           </div>
         </div>
