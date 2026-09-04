@@ -186,11 +186,11 @@ export default async function HomePage() {
             <p className="mt-3 leading-relaxed text-slate-600">
               Nosso diferencial está em um atendimento próximo, ágil e
               transparente, buscando entender a necessidade de cada cliente e
-              indicar produtos adequados para sua aplicação.
+              oferecer produtos adequados.
             </p>
             <p className="mt-3 leading-relaxed text-slate-600">
               Estamos prontos para atender sua empresa e encontrar a melhor
-              solução para sua aplicação.
+              solução para sua necessidade.
             </p>
           </div>
         </div>
