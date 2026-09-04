@@ -77,28 +77,22 @@ export default function Footer() {
             <div className="mt-2 h-0.5 w-8 bg-accent-300" aria-hidden="true" />
             <ul className="mt-3 space-y-2 text-sm">
               <li>
-                <a
-                  href={`tel:+55${siteConfig.whatsappPhone.replace(/\D/g, "")}`}
-                  className="inline-flex items-center gap-2 hover:text-white hover:underline"
-                >
+                <span className="inline-flex items-center gap-2">
                   <Phone
                     className="h-4 w-4 shrink-0 text-accent-300"
                     aria-hidden="true"
                   />
                   Telefone: {siteConfig.whatsappPhone}
-                </a>
+                </span>
               </li>
               <li>
-                <a
-                  href={`tel:+55${siteConfig.phone.replace(/\D/g, "")}`}
-                  className="inline-flex items-center gap-2 hover:text-white hover:underline"
-                >
+                <span className="inline-flex items-center gap-2">
                   <Phone
                     className="h-4 w-4 shrink-0 text-accent-300"
                     aria-hidden="true"
                   />
                   Telefone: {siteConfig.phone}
-                </a>
+                </span>
               </li>
               <li>
                 <a
