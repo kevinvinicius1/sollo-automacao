@@ -1,6 +1,7 @@
 import { ArrowRight, Image as ImageIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import BrandBadge from "@/components/BrandBadge";
 import type { Product } from "@/lib/catalog";
 
 /** Placeholder cinza com ícone quando o produto não tem imagens. */
@@ -21,13 +22,21 @@ export type ProductCardData = Pick<
   "code" | "name" | "slug" | "shortDescription" | "images"
 >;
 
-export default function ProductCard({ product }: { product: ProductCardData }) {
+export default function ProductCard({
+  product,
+  brand,
+}: {
+  product: ProductCardData;
+  /** Fabricante da linha do produto: a Gefran ganha etiqueta com o logotipo. */
+  brand?: string;
+}) {
   return (
     <Link
       href={`/produto/${product.slug}/`}
       className="group flex flex-col overflow-hidden rounded border border-slate-200 bg-white shadow-sm transition-colors hover:border-accent-300"
     >
       <div className="relative aspect-square w-full overflow-hidden bg-white">
+        <BrandBadge brand={brand} size="sm" />
         {product.images.length > 0 ? (
           <Image
             src={product.images[0]}

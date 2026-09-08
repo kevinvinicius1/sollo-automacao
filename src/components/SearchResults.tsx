@@ -8,7 +8,9 @@ import ProductCard, { type ProductCardData } from "./ProductCard";
 import { buildSearchIndex, searchProducts } from "@/lib/search";
 
 /** Resultados da página /busca (client-side: o site é 100% estático). */
-export default function SearchResults({ items }: { items: ProductCardData[] }) {
+type Item = ProductCardData & { brand?: string };
+
+export default function SearchResults({ items }: { items: Item[] }) {
   const router = useRouter();
   const searchParams = useSearchParams();
   const query = (searchParams.get("q") ?? "").trim();
@@ -74,7 +76,7 @@ export default function SearchResults({ items }: { items: ProductCardData[] }) {
           </p>
           <div className="mt-6 grid grid-cols-2 gap-4 sm:gap-5 md:grid-cols-3 lg:grid-cols-4">
             {results.map((p) => (
-              <ProductCard key={p.slug} product={p} />
+              <ProductCard key={p.slug} product={p} brand={p.brand} />
             ))}
           </div>
         </>

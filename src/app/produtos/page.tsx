@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { displayName } from "@/components/BrandBadge";
 import CategoryCard from "@/components/CategoryCard";
 import PageTitleBar from "@/components/PageTitleBar";
 import { getCategories } from "@/lib/catalog";
@@ -28,10 +29,11 @@ export default async function ProdutosPage() {
           {categories.map((cat) => (
             <CategoryCard
               key={cat.slug}
-              name={cat.name}
+              name={displayName(cat.name, cat.brand)}
               href={`/produtos/${cat.slug}/`}
               image={cat.image}
               wip={isWipCategory(cat.slug)}
+              brand={cat.brand}
             />
           ))}
         </div>

@@ -1,3 +1,4 @@
+import { displayName } from "@/components/BrandBadge";
 import CategoryCard from "@/components/CategoryCard";
 import HomeCarousel from "@/components/HomeCarousel";
 import PageTitleBar from "@/components/PageTitleBar";
@@ -97,15 +98,11 @@ export default async function HomePage() {
             {categories.map((cat) => (
               <CategoryCard
                 key={cat.slug}
-                name={cat.brand === "Gefran" ? cat.name.replace(/\s*-\s*GEFRAN$/, "") : cat.name}
+                name={displayName(cat.name, cat.brand)}
                 href={`/produtos/${cat.slug}/`}
                 image={cat.image}
                 wip={isWipCategory(cat.slug)}
-                brandBadge={
-                  cat.brand === "Gefran"
-                    ? { src: "/images/brand/gefran.svg", alt: "Gefran" }
-                    : undefined
-                }
+                brand={cat.brand}
               />
             ))}
           </div>

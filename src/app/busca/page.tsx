@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import Breadcrumb from "@/components/Breadcrumb";
 import SearchResults from "@/components/SearchResults";
-import { getProducts } from "@/lib/catalog";
+import { getCategories, getProducts } from "@/lib/catalog";
 
 export const metadata: Metadata = {
   title: "Busca",
@@ -12,7 +12,11 @@ export const metadata: Metadata = {
 
 export default async function BuscaPage() {
   // Lista leve: só os campos que o card e o índice de busca usam
+  const brandOf = new Map(
+    (await getCategories()).map((c) => [c.slug, c.brand] as const)
+  );
   const items = (await getProducts()).map((p) => ({
+    brand: brandOf.get(p.category),
     code: p.code,
     name: p.name,
     slug: p.slug,

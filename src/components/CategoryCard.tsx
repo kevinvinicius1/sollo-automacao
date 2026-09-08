@@ -1,6 +1,7 @@
 import { ArrowRight, Wrench } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import BrandBadge from "@/components/BrandBadge";
 import PhotoReveal from "@/components/PhotoReveal";
 
 /** Card usado para categorias e subcategorias. */
@@ -10,7 +11,7 @@ export default function CategoryCard({
   image,
   description,
   wip = false,
-  brandBadge,
+  brand,
 }: {
   name: string;
   href: string;
@@ -18,12 +19,8 @@ export default function CategoryCard({
   description?: string;
   /** Linha em prévia: badge "Trabalho em andamento" no lugar do CTA. */
   wip?: boolean;
-  /**
-   * Etiqueta com o logotipo do fabricante no canto da foto, no lugar do
-   * sufixo no nome. Sempre visível: no celular não há hover e a etiqueta
-   * é informação, não enfeite.
-   */
-  brandBadge?: { src: string; alt: string };
+  /** Fabricante da linha: a Gefran ganha etiqueta com o logotipo na foto. */
+  brand?: string;
 }) {
   return (
     <Link
@@ -36,11 +33,7 @@ export default function CategoryCard({
             Trabalho em andamento
           </span>
         )}
-        {brandBadge && !wip && (
-          <span className="absolute left-2 top-2 z-20 flex h-7 items-center rounded border border-slate-200 bg-white px-2">
-            <Image src={brandBadge.src} alt={brandBadge.alt} width={64} height={8} unoptimized />
-          </span>
-        )}
+        {!wip && <BrandBadge brand={brand} />}
         {image && <PhotoReveal />}
         {image ? (
           <Image
