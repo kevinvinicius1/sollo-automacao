@@ -20,7 +20,7 @@
     ]
   },
   {
-    "name": "Módulos de Potência | Relés - GEFRAN",
+    "name": "Relés de Estado Sólido | Módulos de Potência - GEFRAN",
     "slug": "reles-e-modulos-de-potencia",
     "brand": "Gefran",
     "image": "/images/products/gpc-controlador-de-potencia-avancado-ate-600-a-1.webp",
@@ -40,7 +40,7 @@
     ]
   },
   {
-    "name": "Transdutores de Posição - GEFRAN",
+    "name": "Transdutores de Posição | Células de Carga - GEFRAN",
     "slug": "transdutores-de-posicao",
     "brand": "Gefran",
     "image": "/images/products/rk-5-magnetostritivo-haste-flange-saida-analogica-1.webp",
@@ -85,7 +85,7 @@
     ]
   },
   {
-    "name": "Sensores de Pressão | Melt - GEFRAN",
+    "name": "Sensores de Pressão | Sensores Melt - GEFRAN",
     "slug": "sensores-de-pressao-melt",
     "brand": "Gefran",
     "image": "/images/products/km-transdutores-de-pressao-ultracompactos-1.webp",
@@ -110,7 +110,7 @@
     "brand": "Fluir Automação",
     "image": "/images/products/fce-cilindro-perfil-europa-iso-1.webp",
     "heroImage": "/images/categorias/topo-cilindros-pneumaticos.webp",
-    "order": 5,
+    "order": 6,
     "subcategories": [
       {
         "name": "Cilindros Pneumáticos",
@@ -135,7 +135,7 @@
     "brand": "Fluir Automação",
     "image": "/images/products/capa-valvulas-linha-zf.webp",
     "heroImage": "/images/categorias/topo-valvulas.webp",
-    "order": 6,
+    "order": 5,
     "subcategories": [
       {
         "name": "Válvulas Linha Econômica",

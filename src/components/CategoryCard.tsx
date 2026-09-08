@@ -60,8 +60,12 @@ export default function CategoryCard({
         )}
       </div>
       <div className="flex flex-1 flex-col gap-1 p-4">
-        <h2 className="text-lg font-bold text-brand-700 group-hover:text-brand-500">
-          {name}
+        {/* 16px: é o corpo em que "Controladores | Indicadores" cabe numa linha
+            de 227px e "Transdutores de Posição |" cabe na primeira. O espaço
+            insecável antes do separador impede que o "|" caia sozinho no
+            início da linha seguinte. */}
+        <h2 className="text-base font-bold text-brand-700 group-hover:text-brand-500">
+          {name.replace(/ \| /g, "\u00a0| ")}
         </h2>
         {description && (
           <p className="line-clamp-2 text-base text-slate-500">{description}</p>
