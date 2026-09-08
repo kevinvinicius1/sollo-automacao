@@ -3,7 +3,7 @@
     "name": "Controladores | Indicadores - GEFRAN",
     "slug": "controladores-e-indicadores",
     "brand": "Gefran",
-    "image": "/images/products/1850-controlador-pid-de-circuito-duplo-1-4-din-1.webp",
+    "image": "/images/products/600-controlador-pid-1-16-din-1.webp",
     "heroImage": "/images/categorias/topo-controladores-e-indicadores.webp",
     "order": 1,
     "subcategories": [
@@ -23,7 +23,7 @@
     "name": "Relés de Estado Sólido | Módulos de Potência - GEFRAN",
     "slug": "reles-e-modulos-de-potencia",
     "brand": "Gefran",
-    "image": "/images/products/gpc-controlador-de-potencia-avancado-ate-600-a-1.webp",
+    "image": "/images/products/grc-controlador-de-potencia-compacto-de-1-a-3-fases-1.webp",
     "heroImage": "/images/categorias/topo-reles-e-modulos-de-potencia.webp",
     "order": 2,
     "subcategories": [
@@ -43,7 +43,7 @@
     "name": "Transdutores de Posição | Células de Carga - GEFRAN",
     "slug": "transdutores-de-posicao",
     "brand": "Gefran",
-    "image": "/images/products/rk-5-magnetostritivo-haste-flange-saida-analogica-1.webp",
+    "image": "/images/products/lt-potenciometro-com-haste-1.webp",
     "heroImage": "/images/categorias/topo-transdutores-de-posicao.webp",
     "order": 3,
     "subcategories": [
@@ -88,7 +88,7 @@
     "name": "Sensores de Pressão | Sensores Melt - GEFRAN",
     "slug": "sensores-de-pressao-melt",
     "brand": "Gefran",
-    "image": "/images/products/km-transdutores-de-pressao-ultracompactos-1.webp",
+    "image": "/images/products/tk-saida-volt-ou-ma-de-uso-geral-1.webp",
     "heroImage": "/images/categorias/topo-sensores-de-pressao-melt.webp",
     "order": 4,
     "subcategories": [
@@ -238,7 +238,7 @@
     "name": "Conexões | Tubos",
     "slug": "conexoes",
     "brand": "Fluir Automação",
-    "image": "/images/products/tubos-e-espirais-1.webp",
+    "image": "/images/products/capa-conexoes.webp",
     "heroImage": "/images/categorias/topo-conexoes.webp",
     "order": 8,
     "subcategories": [
