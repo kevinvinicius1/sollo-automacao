@@ -97,10 +97,15 @@ export default async function HomePage() {
             {categories.map((cat) => (
               <CategoryCard
                 key={cat.slug}
-                name={cat.name}
+                name={cat.brand === "Gefran" ? cat.name.replace(/\s*-\s*GEFRAN$/, "") : cat.name}
                 href={`/produtos/${cat.slug}/`}
                 image={cat.image}
                 wip={isWipCategory(cat.slug)}
+                brandBadge={
+                  cat.brand === "Gefran"
+                    ? { src: "/images/brand/gefran.svg", alt: "Gefran" }
+                    : undefined
+                }
               />
             ))}
           </div>
