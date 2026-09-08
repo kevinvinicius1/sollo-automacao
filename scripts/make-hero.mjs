@@ -97,28 +97,28 @@ const BANNERS = [
     ],
   },
   {
-    // Uma peça por família: magnetostritivo, força, cabo e angular. Só o
-    // magnetostritivo é alongado — dois na mesma fila achatariam o banner.
+    // Seleção do cliente (set/2026): LT, SH e GRA da lista principal e o
+    // curinga GSF no lugar do segundo potenciômetro — dois potenciômetros
+    // alongados lado a lado deixavam a fila baixa e o banner vazio.
     slug: "transdutores-de-posicao",
     marca: "Gefran",
     itens: [
-      { file: "wpa-a-magnetostritivo-avancado-perfil-de-aluminio-saida-analogica-1.webp", height: 165 },
-      { file: "dlc-celula-de-carga-de-diafragma-sem-amplificador-1.webp", height: 210 },
-      { file: "gsh-s-1-8-8-3-m-sensor-a-cabo-para-posicao-linear-1.webp", height: 250 },
+      { file: "lt-potenciometro-com-haste-1.webp", height: 170 },
+      { file: "sh-celula-de-carga-de-perfil-padrao-1.webp", height: 210 },
+      { file: "gsf-transdutor-de-posicao-a-cabo-potenciometro-a-cabo-1.webp", height: 260 },
       { file: "gra-sensor-rotativo-de-volta-unica-por-efeito-hall-com-eixo-1.webp", height: 285 },
     ],
   },
   {
-    // O Melt entra pelo CSP-H: é o transdutor de alta temperatura de capilar
-    // mais curto da sublinha — os demais passam de 2,7:1 e sozinhos comeriam
-    // a largura da fila. O visor fecha a fila porque os transdutores
-    // industriais têm todos a mesma silhueta de cilindro de inox.
+    // Seleção do cliente (set/2026): KS, TK e HME da lista principal e o
+    // curinga TDP-1001 fechando a fila. Só um Melt: com dois, o capilar de
+    // cada um come a largura e os industriais encolhem.
     slug: "sensores-de-pressao-melt",
     marca: "Gefran",
     itens: [
-      { file: "csp-h-transdutor-de-alta-temperatura-com-saida-hart-1.webp", height: 200 },
-      { file: "kx-saida-ma-a-prova-de-explosao-peso-atex-sil2-pac-eac-1.webp", height: 245 },
       { file: "ks-saidas-volt-ou-ma-sil2-de-tamanho-compacto-1.webp", height: 235 },
+      { file: "tk-saida-volt-ou-ma-de-uso-geral-1.webp", height: 245 },
+      { file: "hme-smart-hart-nivel-de-desempenho-c-1.webp", height: 200 },
       { file: "tdp-1001-visor-dos-limites-de-alarme-plug-in-local-1.webp", height: 290 },
     ],
   },
@@ -144,26 +144,47 @@ const BANNERS = [
     ],
   },
   {
+    // Seleção do cliente (set/2026), quatro da lista principal. O Trio
+    // Odontológico entra na foto de copos transparentes, como ele pediu.
     slug: "preparacao-do-ar",
     marca: "Fluir Automação",
     itens: [
       { file: "conjunto-lubrefil-intermediaria-1.webp", height: 285 },
-      { file: "filtro-regulador-16-bar-1.webp", height: 300 },
+      { file: "trio-odontologico-2-3.webp", height: 270 },
       { file: "regulador-pressao-30-preparacao-especial-1.webp", height: 285 },
-      { file: "purgador-eletronico-com-filtro-y-acoplado-2-1.webp", height: 295 },
+      { file: "purgador-eletronico-timer-2-1.webp", height: 260 },
     ],
   },
   {
-    // Conexão avulsa é peça pequena e sozinha não sustenta o banner: entram
-    // junto o espiral, o silenciador e a pistola, que dão escala à fila e
-    // cobrem os três itens do nome da linha.
+    // Conexão avulsa é peça pequena e sozinha não sustenta o banner. A pedido
+    // do cliente (set/2026) esta linha é um mosaico: as 16 peças da lista
+    // dele em duas fileiras, no estilo das fotos de conjunto de conexões —
+    // fileira de cima com as instantâneas de plástico, a de baixo com as de
+    // latão e inox e os silenciadores.
     slug: "conexoes",
     marca: "Fluir Automação",
-    itens: [
-      { file: "tubos-e-espirais-1.webp", height: 200 },
-      { file: "pat-distribuidor-multiplo-2x2-1.webp", height: 210 },
-      { file: "bsl-silenciador-bronze-conico-1.webp", height: 195 },
-      { file: "pistola-de-ar-para-limpeza-1.webp", height: 230 },
+    vaoMin: 12,
+    fileiras: [
+      [
+        { file: "valvulas-fechamento-manual-1.webp", height: 125 },
+        { file: "nse-g-regulador-de-fluxo-bsp-1.webp", height: 130 },
+        { file: "nsf-regulador-de-fluxo-em-linha-1.webp", height: 125 },
+        { file: "ph-g-banjo-1.webp", height: 120 },
+        { file: "pt-g-tee-macho-central-1.webp", height: 130 },
+        { file: "conexoes-instantanea-bspp-1.webp", height: 125 },
+        { file: "pza-cruzeta-1.webp", height: 130 },
+        { file: "put-tee-uniao-copia-1.webp", height: 125 },
+      ],
+      [
+        { file: "sp-03-luva-femea-1.webp", height: 105 },
+        { file: "sp-06-cotovelo-femea-x-femea-1.webp", height: 115 },
+        { file: "sp-09-tee-femea-1.webp", height: 115 },
+        { file: "sp-12-cruzeta-femea-1.webp", height: 125 },
+        { file: "ss-pl-cotovelo-macho-inox-1.webp", height: 120 },
+        { file: "ss-pc-conector-macho-inox-1.webp", height: 120 },
+        { file: "pse-silenciador-conico-1.webp", height: 130 },
+        { file: "besl-silenciador-com-controle-de-fluxo-1.webp", height: 135 },
+      ],
     ],
   },
 ];
@@ -176,7 +197,7 @@ const ALTURA_MAX = FAIXA_BASE - FAIXA_TOPO;
  * para pixels transparentes e não cortaria nada. Daí as duas passagens.
  */
 async function recortar({ file, height }) {
-  const alvo = Math.min(px(height), ALTURA_MAX);
+  const alvo = Math.round(Math.min(px(height), ALTURA_MAX));
   const opaca = await sharp(path.join(PRODUCTS, file))
     .flatten({ background: "#ffffff" })
     .toBuffer();
@@ -202,9 +223,15 @@ async function logotipo(marca) {
   return { input: buf, left: MARGIN, top: MARCA_TOP, height: meta.height };
 }
 
-async function montar({ slug, marca, itens, vaoMin = VAO_MIN }) {
+/**
+ * Recorta uma fileira e, se ela não couber na largura, encolhe todas as peças
+ * na mesma proporção. `alturaMax` é o teto de cada peça — a faixa inteira no
+ * banner de uma fileira, a fatia da fileira no mosaico.
+ */
+async function ajustarFileira(itens, vaoMin, alturaMax) {
+  const teto = alturaMax / ESCALA;
   let pecas = [];
-  for (const item of itens) pecas.push(await recortar(item));
+  for (const item of itens) pecas.push(await recortar({ ...item, height: Math.min(item.height, teto) }));
 
   const util = WIDTH - MARGIN * 2 - px(vaoMin) * (pecas.length - 1);
   const larguraCrua = pecas.reduce((s, p) => s + p.width, 0);
@@ -212,27 +239,65 @@ async function montar({ slug, marca, itens, vaoMin = VAO_MIN }) {
     const escala = util / larguraCrua;
     pecas = [];
     for (const item of itens) {
-      pecas.push(await recortar({ ...item, height: Math.min(item.height, ALTURA_MAX / ESCALA) * escala }));
+      pecas.push(await recortar({ ...item, height: Math.min(item.height, teto) * escala }));
     }
   }
 
   const larguraTotal = pecas.reduce((s, p) => s + p.width, 0);
   const vao = (WIDTH - MARGIN * 2 - larguraTotal) / (pecas.length - 1);
+  return { pecas, vao };
+}
 
-  const alturaMaior = Math.max(...pecas.map((p) => p.height));
-  const baseline = FAIXA_BASE - (ALTURA_MAX - alturaMaior) / 2;
+const VAO_FILEIRAS = px(22);
 
-  let x = MARGIN;
-  const camadas = pecas.map((p) => {
-    const layer = {
-      input: p.buf,
-      left: Math.round(x),
-      top: Math.round(baseline - p.height),
-      blend: "multiply",
-    };
-    x += p.width + vao;
-    return layer;
-  });
+async function montar({ slug, marca, itens, fileiras, vaoMin = VAO_MIN }) {
+  const camadas = [];
+  let pecas;
+  let vao;
+
+  if (fileiras) {
+    // Mosaico: as fileiras dividem a faixa em fatias iguais e cada peça fica
+    // centralizada na vertical dentro da sua fatia — peça pequena alinhada
+    // pela base, como no banner de uma fileira, parece pendurada no vazio.
+    const fatia = (ALTURA_MAX - VAO_FILEIRAS * (fileiras.length - 1)) / fileiras.length;
+    const ajustadas = [];
+    for (const fileira of fileiras) ajustadas.push(await ajustarFileira(fileira, vaoMin, fatia));
+    pecas = ajustadas.flatMap((a) => a.pecas);
+    vao = Math.min(...ajustadas.map((a) => a.vao));
+
+    const alturas = ajustadas.map((a) => Math.max(...a.pecas.map((p) => p.height)));
+    const alturaBloco = alturas.reduce((s, h) => s + h, 0) + VAO_FILEIRAS * (fileiras.length - 1);
+    let y = FAIXA_TOPO + (ALTURA_MAX - alturaBloco) / 2;
+    ajustadas.forEach((a, i) => {
+      let x = MARGIN;
+      for (const p of a.pecas) {
+        camadas.push({
+          input: p.buf,
+          left: Math.round(x),
+          top: Math.round(y + (alturas[i] - p.height) / 2),
+          blend: "multiply",
+        });
+        x += p.width + a.vao;
+      }
+      y += alturas[i] + VAO_FILEIRAS;
+    });
+  } else {
+    ({ pecas, vao } = await ajustarFileira(itens, vaoMin, ALTURA_MAX));
+
+    const alturaMaior = Math.max(...pecas.map((p) => p.height));
+    const baseline = FAIXA_BASE - (ALTURA_MAX - alturaMaior) / 2;
+
+    let x = MARGIN;
+    for (const p of pecas) {
+      camadas.push({
+        input: p.buf,
+        left: Math.round(x),
+        top: Math.round(baseline - p.height),
+        blend: "multiply",
+      });
+      x += p.width + vao;
+    }
+  }
 
   const marcaLayer = await logotipo(marca);
   camadas.push(marcaLayer);
