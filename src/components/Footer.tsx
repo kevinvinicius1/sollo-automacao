@@ -82,7 +82,7 @@ export default function Footer() {
                     className="h-4 w-4 shrink-0 text-accent-300"
                     aria-hidden="true"
                   />
-                  Telefone: {siteConfig.whatsappPhone}
+                  Telefone: {siteConfig.phone}
                 </span>
               </li>
               <li>
@@ -91,7 +91,7 @@ export default function Footer() {
                     className="h-4 w-4 shrink-0 text-accent-300"
                     aria-hidden="true"
                   />
-                  Telefone: {siteConfig.phone}
+                  Telefone: {siteConfig.whatsappPhone}
                 </span>
               </li>
               <li>
