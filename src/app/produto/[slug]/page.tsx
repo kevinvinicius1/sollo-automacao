@@ -39,6 +39,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+/**
+ * Lista de "Características principais" do specsHtml (produtos Gefran).
+ * O resumo em prosa ficava sempre cortado ao lado da galeria; os tópicos
+ * cabem no espaço e dizem mais. Devolve os itens sem as tags <li>.
+ */
+function mainFeatures(specsHtml: string): string[] {
+  const block = specsHtml.match(
+    /<h3>Características principais<\/h3>\s*<ul>([\s\S]*?)<\/ul>/
+  );
+  if (!block) return [];
+  return [...block[1].matchAll(/<li>([\s\S]*?)<\/li>/g)].map((m) => m[1]);
+}
+
 /** Extrai o ID de um vídeo do YouTube a partir das formas comuns de URL. */
 function youtubeEmbedUrl(url: string): string | null {
   const match = url.match(
@@ -80,6 +93,8 @@ export default async function ProdutoPage({ params }: Props) {
   const whatsappCta = whatsappLink(
     `Olá! Gostaria de um orçamento do produto ${product.name}`
   );
+
+  const features = mainFeatures(product.specsHtml);
 
   const embeds = product.videos
     .map(youtubeEmbedUrl)
@@ -149,9 +164,28 @@ export default async function ProdutoPage({ params }: Props) {
           <ProductGallery images={product.images} name={product.name} />
 
           <div>
-            <p className="leading-relaxed text-slate-600">
-              {product.shortDescription}
-            </p>
+            {features.length > 0 ? (
+              <>
+                <h2 className="text-sm font-bold uppercase tracking-wider text-brand-700">
+                  Características principais
+                </h2>
+                <ul className="mt-3 space-y-2 text-slate-600">
+                  {features.map((item) => (
+                    <li key={item} className="flex gap-3 leading-relaxed">
+                      <span
+                        className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent-500"
+                        aria-hidden="true"
+                      />
+                      <span dangerouslySetInnerHTML={{ __html: item }} />
+                    </li>
+                  ))}
+                </ul>
+              </>
+            ) : (
+              <p className="leading-relaxed text-slate-600">
+                {product.shortDescription}
+              </p>
+            )}
 
             <a
               href={whatsappCta}
