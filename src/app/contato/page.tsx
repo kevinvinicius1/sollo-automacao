@@ -9,6 +9,35 @@ export const metadata: Metadata = {
   description: `Fale com a ${siteConfig.name}: solicite orçamentos de produtos pneumáticos pelo WhatsApp, telefone ou e-mail.`,
 };
 
+const QUOTE_MESSAGE = "Olá! Gostaria de solicitar um orçamento.";
+
+/** Card de telefone: os dois números atendem também pelo WhatsApp. */
+function PhoneCard({ number, label }: { number: string; label: string }) {
+  return (
+    <a
+      href={whatsappLink(QUOTE_MESSAGE, number)}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group rounded border border-slate-200 bg-white p-6 shadow-sm transition-colors hover:border-accent-300"
+    >
+      <div className="flex gap-2">
+        <div className="flex h-11 w-11 items-center justify-center rounded bg-brand-50 text-brand-700">
+          <Phone className="h-6 w-6" aria-hidden="true" />
+        </div>
+        <div className="flex h-11 w-11 items-center justify-center rounded bg-brand-50 text-brand-700">
+          <WhatsAppIcon className="h-6 w-6" />
+        </div>
+      </div>
+      <h2 className="mt-4 font-bold text-brand-700">Telefone</h2>
+      <p className="mt-1 text-sm text-slate-600">{label}</p>
+      <span className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-accent-600 group-hover:underline">
+        Iniciar conversa
+        <ArrowRight className="h-4 w-4" aria-hidden="true" />
+      </span>
+    </a>
+  );
+}
+
 export default function ContatoPage() {
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
@@ -23,37 +52,8 @@ export default function ContatoPage() {
       </p>
 
       <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-        <div className="rounded border border-slate-200 bg-white p-6 shadow-sm">
-          <div className="flex h-11 w-11 items-center justify-center rounded bg-brand-50 text-brand-700">
-            <Phone className="h-6 w-6" aria-hidden="true" />
-          </div>
-          <h2 className="mt-4 font-bold text-brand-700">Telefone</h2>
-          <p className="mt-1 text-sm text-slate-600">{siteConfig.phone}</p>
-        </div>
-
-        <a
-          href={whatsappLink("Olá! Gostaria de solicitar um orçamento.")}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="group rounded border border-slate-200 bg-white p-6 shadow-sm transition-colors hover:border-accent-300"
-        >
-          <div className="flex gap-2">
-            <div className="flex h-11 w-11 items-center justify-center rounded bg-brand-50 text-brand-700">
-              <Phone className="h-6 w-6" aria-hidden="true" />
-            </div>
-            <div className="flex h-11 w-11 items-center justify-center rounded bg-brand-50 text-brand-700">
-              <WhatsAppIcon className="h-6 w-6" />
-            </div>
-          </div>
-          <h2 className="mt-4 font-bold text-brand-700">Telefone</h2>
-          <p className="mt-1 text-sm text-slate-600">
-            {siteConfig.whatsappPhone}
-          </p>
-          <span className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-accent-600 group-hover:underline">
-            Iniciar conversa
-            <ArrowRight className="h-4 w-4" aria-hidden="true" />
-          </span>
-        </a>
+        <PhoneCard number={siteConfig.phoneWhatsapp} label={siteConfig.phone} />
+        <PhoneCard number={siteConfig.whatsapp} label={siteConfig.whatsappPhone} />
 
         <a
           href={`mailto:${siteConfig.email}`}
@@ -99,7 +99,7 @@ export default function ContatoPage() {
           condições e prazos.
         </p>
         <a
-          href={whatsappLink("Olá! Gostaria de solicitar um orçamento.")}
+          href={whatsappLink(QUOTE_MESSAGE)}
           target="_blank"
           rel="noopener noreferrer"
           className="mt-6 inline-flex items-center gap-2 rounded bg-accent-500 px-6 py-3 font-semibold text-white transition-colors hover:bg-accent-600"

@@ -35,6 +35,13 @@ export const subcategorySchema = z.object({
   slug: z.string(),
   /** Imagem de capa (caminho público) — opcional até o scraper preencher */
   image: z.string().optional(),
+  /**
+   * Bloco em que a sublinha aparece na página da linha. Quando alguma
+   * sublinha tem `group`, a página agrupa os cards sob esses títulos, na
+   * ordem em que os grupos aparecem; sublinha sem `group` fica em bloco
+   * sem título, no fim.
+   */
+  group: z.string().optional(),
 });
 
 export const categorySchema = z.object({

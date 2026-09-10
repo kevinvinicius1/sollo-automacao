@@ -16,7 +16,9 @@ export const siteConfig = {
   whatsapp: "553433065001",
   /** Número do WhatsApp para exibição. */
   whatsappPhone: "(34) 3306-5001",
-  /** Telefone fixo. */
+  /** Segundo número, também com WhatsApp. Somente dígitos, com DDI. */
+  phoneWhatsapp: "553433065000",
+  /** Segundo número para exibição. */
   phone: "(34) 3306-5000",
   email: "sollo@solloautomacao.com",
   address: "Rua Aurora, 95 — Nossa Sra. das Graças, Uberlândia/MG, CEP 38402-168",
@@ -31,9 +33,12 @@ export const siteConfig = {
   },
 } as const;
 
-/** Monta link wa.me com mensagem pré-preenchida. */
-export function whatsappLink(message?: string): string {
-  const base = `https://wa.me/${siteConfig.whatsapp}`;
+/** Monta link wa.me com mensagem pré-preenchida (número principal por padrão). */
+export function whatsappLink(
+  message?: string,
+  number: string = siteConfig.whatsapp,
+): string {
+  const base = `https://wa.me/${number}`;
   return message ? `${base}?text=${encodeURIComponent(message)}` : base;
 }
 
