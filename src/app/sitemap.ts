@@ -25,7 +25,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // Subcategorias de linhas em prévia não têm página
     ...(isWipCategory(c.slug)
       ? []
-      : c.subcategories.map((s) => ({
+      : [...(c.groups ?? []), ...c.subcategories].map((s) => ({
           url: `${base}/produtos/${c.slug}/${s.slug}/`,
           changeFrequency: "weekly" as const,
           priority: 0.7,

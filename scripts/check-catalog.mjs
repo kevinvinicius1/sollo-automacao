@@ -29,11 +29,25 @@ const subPairs = new Set();
 for (const cat of categories) {
   if (catSlugs.has(cat.slug)) errors.push(`categoria duplicada: ${cat.slug}`);
   catSlugs.add(cat.slug);
+  // Grupos e sublinhas dividem a mesma rota, então os slugs não podem colidir
   const subSlugs = new Set();
+  const groupSlugs = new Set();
+  for (const g of cat.groups ?? []) {
+    if (groupSlugs.has(g.slug))
+      errors.push(`grupo duplicado em ${cat.slug}: ${g.slug}`);
+    groupSlugs.add(g.slug);
+    subSlugs.add(g.slug);
+    if (g.image && !(await exists(path.join(ROOT, "public", g.image))))
+      errors.push(`imagem do grupo ${g.slug} não existe: ${g.image}`);
+  }
   for (const sub of cat.subcategories) {
     if (subSlugs.has(sub.slug))
       errors.push(`subcategoria duplicada em ${cat.slug}: ${sub.slug}`);
     subSlugs.add(sub.slug);
+    if (groupSlugs.size > 0 && !groupSlugs.has(sub.group))
+      errors.push(
+        `sublinha ${cat.slug}/${sub.slug}: grupo "${sub.group}" não existe na linha`
+      );
     subPairs.add(`${cat.slug}/${sub.slug}`);
     if (sub.image && !(await exists(path.join(ROOT, "public", sub.image))))
       errors.push(`imagem da subcategoria ${sub.slug} não existe: ${sub.image}`);

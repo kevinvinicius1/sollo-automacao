@@ -4,34 +4,10 @@ import { notFound } from "next/navigation";
 import CategoryCard from "@/components/CategoryCard";
 import PageTitleBar from "@/components/PageTitleBar";
 import ProductCard from "@/components/ProductCard";
-import {
-  getCategories,
-  getCategoryBySlug,
-  getProducts,
-  type Subcategory,
-} from "@/lib/catalog";
+import { getCategories, getCategoryBySlug, getProducts } from "@/lib/catalog";
 import { isWipCategory, whatsappLink } from "../../../../site.config";
 
 type Props = { params: Promise<{ categoria: string }> };
-
-/**
- * Agrupa as sublinhas pelo campo `group`, na ordem em que os grupos aparecem.
- * Linha sem nenhum `group` vira um único bloco sem título.
- */
-function groupSubcategories(subs: Subcategory[]) {
-  const groups = new Map<string | undefined, Subcategory[]>();
-  for (const sub of subs) {
-    const list = groups.get(sub.group) ?? [];
-    list.push(sub);
-    groups.set(sub.group, list);
-  }
-  const named = [...groups].filter(([title]) => title !== undefined);
-  const rest = groups.get(undefined);
-  return [
-    ...named.map(([title, list]) => ({ title, subs: list })),
-    ...(rest ? [{ title: undefined, subs: rest }] : []),
-  ];
-}
 
 export async function generateStaticParams() {
   const categories = await getCategories();
@@ -97,26 +73,15 @@ export default async function CategoriaPage({ params }: Props) {
             </p>
           </div>
         ) : hasSubcategories ? (
-          <div className="space-y-10">
-            {groupSubcategories(category.subcategories).map(({ title, subs }) => (
-              <section key={title ?? ""}>
-                {title && (
-                  <h2 className="mb-5 border-l-4 border-accent-500 pl-3 text-xl font-bold text-brand-700">
-                    {title}
-                  </h2>
-                )}
-                <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-                  {subs.map((sub) => (
-                    <CategoryCard
-                      key={sub.slug}
-                      name={sub.name}
-                      href={`/produtos/${category.slug}/${sub.slug}/`}
-                      image={sub.image}
-                      brand={category.brand}
-                    />
-                  ))}
-                </div>
-              </section>
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {(category.groups ?? category.subcategories).map((item) => (
+              <CategoryCard
+                key={item.slug}
+                name={item.name}
+                href={`/produtos/${category.slug}/${item.slug}/`}
+                image={item.image}
+                brand={category.brand}
+              />
             ))}
           </div>
         ) : products.length > 0 ? (

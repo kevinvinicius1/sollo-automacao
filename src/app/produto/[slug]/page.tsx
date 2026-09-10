@@ -11,6 +11,7 @@ import {
   getCategoryBySlug,
   getProductBySlug,
   getProducts,
+  getGroupOfSubcategory,
 } from "@/lib/catalog";
 import { siteConfig, whatsappLink } from "../../../../site.config";
 
@@ -77,6 +78,13 @@ export default async function ProdutoPage({ params }: Props) {
   if (category) {
     crumbs.push({ label: category.name, href: `/produtos/${category.slug}/` });
     if (subcategory) {
+      const group = getGroupOfSubcategory(category, subcategory);
+      if (group) {
+        crumbs.push({
+          label: group.name,
+          href: `/produtos/${category.slug}/${group.slug}/`,
+        });
+      }
       crumbs.push({
         label: subcategory.name,
         href: `/produtos/${category.slug}/${subcategory.slug}/`,

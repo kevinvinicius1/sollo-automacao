@@ -35,13 +35,19 @@ export const subcategorySchema = z.object({
   slug: z.string(),
   /** Imagem de capa (caminho público) — opcional até o scraper preencher */
   image: z.string().optional(),
-  /**
-   * Bloco em que a sublinha aparece na página da linha. Quando alguma
-   * sublinha tem `group`, a página agrupa os cards sob esses títulos, na
-   * ordem em que os grupos aparecem; sublinha sem `group` fica em bloco
-   * sem título, no fim.
-   */
+  /** Slug do grupo (`groups` da linha) a que a sublinha pertence. */
   group: z.string().optional(),
+});
+
+/**
+ * Nível intermediário entre a linha e as sublinhas. Linha com `groups`
+ * mostra os cards dos grupos em vez das sublinhas; a página do grupo
+ * (`/produtos/<linha>/<grupo>/`) lista os produtos de todas as sublinhas dele.
+ */
+export const groupSchema = z.object({
+  name: z.string(),
+  slug: z.string(),
+  image: z.string().optional(),
 });
 
 export const categorySchema = z.object({
@@ -53,11 +59,31 @@ export const categorySchema = z.object({
   /** Banner de topo da página da linha (também roda no carrossel da home) */
   heroImage: z.string().optional(),
   order: z.number(),
+  groups: z.array(groupSchema).optional(),
   subcategories: z.array(subcategorySchema),
 });
 
 export type Category = z.infer<typeof categorySchema>;
 export type Subcategory = z.infer<typeof subcategorySchema>;
+export type Group = z.infer<typeof groupSchema>;
+
+/** Grupo de uma linha pelo slug. */
+export function getGroup(category: Category, slug: string): Group | undefined {
+  return category.groups?.find((g) => g.slug === slug);
+}
+
+/** Grupo a que uma sublinha pertence, se a linha tiver grupos. */
+export function getGroupOfSubcategory(
+  category: Category,
+  subcategory: Subcategory
+): Group | undefined {
+  return subcategory.group ? getGroup(category, subcategory.group) : undefined;
+}
+
+/** Sublinhas de um grupo, na ordem da linha. */
+export function subcategoriesOfGroup(category: Category, group: Group): Subcategory[] {
+  return category.subcategories.filter((s) => s.group === group.slug);
+}
 
 const DATA_DIR = path.join(process.cwd(), "data");
 
