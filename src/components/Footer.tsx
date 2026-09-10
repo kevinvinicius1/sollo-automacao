@@ -72,7 +72,7 @@ export default function Footer() {
             </ul>
           </nav>
 
-          <address className="max-w-[19rem] not-italic">
+          <address className="max-w-[18.25rem] not-italic">
             <p className="text-sm font-semibold uppercase tracking-wider text-white">
               Contato
             </p>
