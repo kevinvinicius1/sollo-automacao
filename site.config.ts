@@ -4,9 +4,6 @@
  */
 export const siteConfig = {
   name: "Sollo Automação Industrial",
-  /** Razão social e CNPJ (rodapé). */
-  legalName: "Sollo Automacao Industrial LTDA",
-  cnpj: "22.651.099/0001-24",
   /** Horário de funcionamento (rodapé), em duas linhas. */
   hours: ["De segunda a sexta-feira,", "das 08:00 às 18:00"],
   tagline: "Automação pneumática industrial",

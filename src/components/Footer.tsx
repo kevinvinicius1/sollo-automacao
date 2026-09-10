@@ -143,8 +143,8 @@ export default function Footer() {
 
         <div className="border-t border-brand-800">
           <p className="mx-auto max-w-6xl px-4 py-3 text-xs text-brand-300 sm:px-6">
-            © {new Date().getFullYear()} {siteConfig.legalName} · CNPJ{" "}
-            {siteConfig.cnpj}. Todos os direitos reservados.
+            © {new Date().getFullYear()} {siteConfig.name}. Todos os direitos
+            reservados.
           </p>
         </div>
       </div>
