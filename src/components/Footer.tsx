@@ -25,10 +25,12 @@ function InstagramIcon({ className }: { className?: string }) {
 }
 
 export default function Footer() {
+  // O CEP não pode quebrar no hífen ("38402-" / "168")
+  const [addressStreet, addressCep] = siteConfig.address.split(/, (?=CEP )/);
   return (
     <footer className="bg-brand-900 text-brand-100 md:flex">
       <div className="min-w-0 flex-1">
-        <div className="mx-auto grid max-w-6xl items-start gap-8 px-4 py-8 sm:px-6 md:grid-cols-2 lg:grid-cols-[auto_1fr_1fr_auto]">
+        <div className="mx-auto grid max-w-6xl items-start gap-x-10 gap-y-8 px-4 py-8 sm:px-6 md:grid-cols-2 xl:grid-cols-[auto_auto_auto_auto] xl:justify-between">
           <div className="self-center">
             <Image
               src="/images/brand/logo-dark.png"
@@ -70,7 +72,7 @@ export default function Footer() {
             </ul>
           </nav>
 
-          <address className="not-italic">
+          <address className="max-w-[19rem] not-italic">
             <p className="text-sm font-semibold uppercase tracking-wider text-white">
               Contato
             </p>
@@ -111,7 +113,10 @@ export default function Footer() {
                   className="mt-0.5 h-4 w-4 shrink-0 text-accent-300"
                   aria-hidden="true"
                 />
-                {siteConfig.address}
+                <span>
+                  {addressStreet},{" "}
+                  <span className="whitespace-nowrap">{addressCep}</span>
+                </span>
               </li>
             </ul>
           </address>
