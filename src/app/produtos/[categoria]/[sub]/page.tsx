@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
+import CategoryCard from "@/components/CategoryCard";
 import PageTitleBar from "@/components/PageTitleBar";
 import ProductCard from "@/components/ProductCard";
 import {
@@ -21,8 +21,8 @@ type Props = { params: Promise<{ categoria: string; sub: string }> };
 /**
  * A rota atende tanto a sublinha (`/produtos/<linha>/<sublinha>/`) quanto o
  * grupo (`/produtos/<linha>/<grupo>/`), quando a linha tem `groups`. A
- * página do grupo lista os produtos de todas as sublinhas dele, com um
- * título por sublinha quando há mais de uma.
+ * página do grupo mostra os cards das sublinhas dele (como a página da
+ * linha); grupo com uma única sublinha vai direto à listagem de produtos.
  */
 export async function generateStaticParams() {
   const categories = await getCategories();
@@ -133,22 +133,16 @@ export default async function SubcategoriaPage({ params }: Props) {
         ) : sections.length === 1 ? (
           <ProductGrid products={sections[0].products} category={category} />
         ) : (
-          <div className="space-y-12">
-            {sections
-              .filter((s) => s.products.length > 0)
-              .map(({ subcategory, products }) => (
-                <section key={subcategory.slug}>
-                  <h2 className="mb-5 border-l-4 border-accent-500 pl-3 text-xl font-bold text-brand-700">
-                    <Link
-                      href={`/produtos/${category.slug}/${subcategory.slug}/`}
-                      className="hover:underline"
-                    >
-                      {subcategory.name}
-                    </Link>
-                  </h2>
-                  <ProductGrid products={products} category={category} />
-                </section>
-              ))}
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {sections.map(({ subcategory }) => (
+              <CategoryCard
+                key={subcategory.slug}
+                name={subcategory.name}
+                href={`/produtos/${category.slug}/${subcategory.slug}/`}
+                image={subcategory.image}
+                brand={category.brand}
+              />
+            ))}
           </div>
         )}
       </div>
