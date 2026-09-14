@@ -314,21 +314,8 @@ function parseProductContent(rendered, featuredUrl) {
     downloads.push({ url: abs, label: pdfLabel($(el).text()) });
   });
 
-  /* vídeos YouTube */
+  /* vídeos: catálogo sem vídeos — campo mantido vazio */
   const videos = [];
-  const pushVideo = (id) => {
-    if (!id) return;
-    const url = `https://www.youtube.com/watch?v=${id}`;
-    if (!videos.includes(url)) videos.push(url);
-  };
-  $("[data-video_id]").each((_, el) => {
-    if (($(el).attr("data-provider") || "youtube") === "youtube")
-      pushVideo($(el).attr("data-video_id"));
-  });
-  for (const m of rendered.matchAll(
-    /youtube\.com\\?\/embed\\?\/([\w-]{6,15})/g
-  ))
-    pushVideo(m[1]);
 
   return { images: imgs, shortDescription, specsHtml, downloads, videos };
 }
